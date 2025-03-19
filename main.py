@@ -27,7 +27,7 @@ def parse_and_clone_apps(local_filename):
     with open(local_filename, 'r') as file:
         data = json.load(file)
 
-    apps = list(data.get("apps", []).items())[:10]
+    apps = list(data.get("apps", []).items())
     total_apps = len(apps)
     for index, (app_name, app) in enumerate(apps, start=1):
         print(f"Processing {index}/{total_apps}: {app_name}")
