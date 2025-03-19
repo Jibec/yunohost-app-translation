@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/bloat/ADMIN.md:1 src/chatonsinfos/ADMIN.md:10 src/influxdb_v2/ADMIN.md:1
+#: src/mollysocket/ADMIN.md:2 src/mollysocket/POST_UPGRADE.md:6
+msgid "The app install dir is `__INSTALL_DIR__`"
+msgstr ""
+
+#. type: Plain text
+#: src/mollysocket/ADMIN.md:3
+msgid "Your push service is running at https://__DOMAIN__"
+msgstr ""
+
+#. type: Plain text
+#: src/mollysocket/DESCRIPTION.md:1
+msgid ""
+"MollySocket allows getting signal notifications via UnifiedPush. It works "
+"like a linked device, which doesn't have an encryption key, connected to the "
+"Signal server. Everytime it receives an encrypted event, it notifies your "
+"mobile via UnifiedPush."
+msgstr ""
+
+#. type: Plain text
+#: src/mollysocket/POST_UPGRADE.md:2
+msgid "Check that the service is running with: systemctl status mollysocket"
+msgstr ""
+
+#. type: Plain text
+#: src/mollysocket/POST_UPGRADE.md:4
+msgid "The app url is <https://__DOMAIN____PATH__>"
+msgstr ""
+
+#. type: Plain text
+#: src/mollysocket/POST_UPGRADE.md:7
+msgid "The app id is `__ID__`"
+msgstr ""

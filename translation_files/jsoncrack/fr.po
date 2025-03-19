@@ -1,0 +1,35 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/jsoncrack/DESCRIPTION.md:9
+msgid ""
+"JSON Crack is a tool for visualizing JSON, YAML, CSV, XML, and TOML data in "
+"interactive graphs, making files easier to explore, format, and validate. It "
+"includes the following features: - Visualizer: Instantly convert JSON, YAML, "
+"CSV, XML, and TOML into interactive graphs or trees in dark or light mode.  "
+"- Convert: Seamlessly transform data formats, like JSON to CSV or XML to "
+"JSON, for easy sharing.  - Format & Validate: Beautify and validate JSON, "
+"YAML, and CSV for clear and accurate data.  - Code Generation: Generate "
+"TypeScript interfaces, Golang structs, and JSON Schema.  - JSON Schema: "
+"Create JSON Schema, mock data, and validate various data formats.  - "
+"Advanced Tools: Decode JWT, randomize data, and run jq or JSON path "
+"queries.  - Export Image: Download your visualization as PNG, JPEG, or SVG.  "
+"- Privacy: All data processing is performed client-side; nothing is stored "
+"on the server."
+msgstr ""

@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/code-server/ADMIN.md:6 src/grist/DESCRIPTION.md:13
+#: src/opensearch/DESCRIPTION.md:8 src/retroarch/ADMIN.md:9 src/ums/ADMIN.md:11
+#: src/wallabag2/ADMIN.md:2
+msgid "### Limitations"
+msgstr ""
+
+#. type: Plain text
+#: src/retroarch/ADMIN.md:2
+msgid "### Use Shared ROMs library"
+msgstr ""
+
+#. type: Plain text
+#: src/retroarch/ADMIN.md:4
+msgid ""
+"Although you can upload a ROM at runtime, retroarch may have access to the "
+"ROMs you already have on your server:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/retroarch/ADMIN.md:7
+msgid ""
+"Games are located in `/opt/yunohost/retroarch/assets/cores`. A symbolic link "
+"is created to this folder in `/home/yunohost.multimedia/share/Games`, so "
+"that you can place your games from here"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/retroarch/ADMIN.md:7
+msgid ""
+"cores have to be indexed to work : script `/opt/yunohost/retroarch/indexer."
+"sh` run every 5 minutes to index all games in `opt/yunohost/retroarch/assets/"
+"cores`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/retroarch/ADMIN.md:12
+msgid ""
+"Cannot save game, in fact, cannot write at all... so configuration is lost "
+"each time you start again"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/retroarch/ADMIN.md:12
+msgid "No user management"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/retroarch/ADMIN.md:12
+msgid ""
+"Some core are listed but not implemented : they do not work, the issue is "
+"from the upstream app."
+msgstr ""
+
+#. type: Plain text
+#: src/retroarch/DESCRIPTION.md:4
+msgid ""
+"RetroArch is a frontend for emulators, game engines and media players.  It "
+"enables you to run classic games on a wide range of computers and consoles "
+"through its slick graphical interface. Settings are also unified so "
+"configuration is done once and for all.  In addition to this, you are able "
+"to run original game discs (CDs) from RetroArch.  RetroArch has advanced "
+"features like shaders, netplay, rewinding, next-frame response times, "
+"runahead, machine translation, blind accessibility features, and more!"
+msgstr ""

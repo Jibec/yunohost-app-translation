@@ -1,0 +1,49 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/webtrees/DESCRIPTION.md:2
+msgid ""
+"Webtrees allows you to view and edit your genealogy on your website. It has "
+"full editing capabilities, full privacy functions, and supports imedia such "
+"as photos and document images. As an online program, it fosters extended "
+"family participation and good ancestral recording habits, as it simplifies "
+"the process of collaborating with others working on your family lines. Your "
+"latest information is always on your web site and available for others to "
+"see, defined by viewing rules you set."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/webtrees/DESCRIPTION.md:5
+msgid ""
+"It works from standard GEDCOM files, and is therefore compatible with every "
+"major desktop application."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/webtrees/DESCRIPTION.md:5
+msgid ""
+"It aims to to be efficient and effective by using the right combination of "
+"third-party tools, design techniques and open standards."
+msgstr ""
+
+#. type: Plain text
+#: src/webtrees/DESCRIPTION.md:6
+#, no-wrap
+msgid "**Note:** Its better to upgrade from the Webtrees admin panel when new version arrives.\n"
+msgstr ""

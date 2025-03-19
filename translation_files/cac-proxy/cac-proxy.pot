@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/cac-proxy/ADMIN.md:1
+msgid ""
+"It works only if you define it as public upon installation otherwise the "
+"yunohost SSO will interfere"
+msgstr ""
+
+#. type: Plain text
+#: src/cac-proxy/DESCRIPTION.md:3
+msgid ""
+"Cookie Aware Cors Proxy is an http proxy letting the browser itself manages "
+"cookies and redirects.  Most other cores proxy directly respond to "
+"redirects, and doesn't send cookies, thus breaking the flow."
+msgstr ""
+
+#. type: Plain text
+#: src/cac-proxy/DESCRIPTION.md:5
+msgid ""
+"With Cookie Aware Cors Proxy, you can call a website not supporting CORS "
+"from your own web application, and get the html result."
+msgstr ""
+
+#. type: Plain text
+#: src/cac-proxy/DESCRIPTION.md:9
+msgid ""
+"### Features - Translates cookies and redirect locations from the target "
+"website to have the browser continue to call the proxy and not directly the "
+"website - Extensive and dynamic support for log and debug information - Two "
+"engines: a lightweight and one based on chrome to support websites running "
+"javascript"
+msgstr ""

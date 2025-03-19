@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/cyberchef/ADMIN.md:2 src/encryptor-decryptor/ADMIN.md:2
+msgid "# Disclaimer"
+msgstr ""
+
+#. type: Plain text
+#: src/cyberchef/ADMIN.md:3
+msgid ""
+"This webapp does not store nor transmit your data. But if the data treated "
+"is particularly sensitive, you may want to download the webapp from upstream "
+"repository and run it locally, in incognito/private browsing mode with no "
+"extensions (to avoid rogue browser extensions)."
+msgstr ""
+
+#. type: Plain text
+#: src/cyberchef/DESCRIPTION.md:1
+msgid ""
+"A simple, intuitive web app for analysing and decoding data without having "
+"to deal with complex tools or programming languages. CyberChef encourages "
+"both technical and non-technical people to explore data formats, encryption "
+"and compression: encode, decode, format data, parse data, encrypt, decrypt, "
+"compress data, extract data, perform arithmetic functions against data, "
+"etc.. There are around 300 operations in CyberChef allowing you to carry out "
+"simple and complex tasks easily."
+msgstr ""

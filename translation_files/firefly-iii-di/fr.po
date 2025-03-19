@@ -1,0 +1,45 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/firefly-iii-di/DESCRIPTION.md:3
+msgid ""
+"Firefly III Data Importer is the nr. 1 tool to import data into [Firefly III]"
+"(https://www.firefly-iii.org/). This tools helps you import transactions "
+"from files or bank APIs into your Firefly-III server. Please follow the "
+"documentation at https://docs.firefly-iii.org/data-importer/."
+msgstr ""
+
+#. type: Plain text
+#: src/firefly-iii-di/DESCRIPTION.md:5
+msgid "If your Firefly-III server is installed as a YunoHost app, please note:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/firefly-iii-di/DESCRIPTION.md:7
+msgid ""
+"It should be accessible to all visitors (using its internal user management "
+"instead of YunoHosts') for the Data Importer to communicate with it."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/firefly-iii-di/DESCRIPTION.md:8
+msgid ""
+"When configuring the Data Importer, use the public Firefly-III domain and "
+"path, not *localhost*, even if both services are on the same machine."
+msgstr ""

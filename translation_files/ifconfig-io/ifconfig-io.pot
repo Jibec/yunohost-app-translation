@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/ifconfig-io/DESCRIPTION.md:2
+msgid ""
+"Inspired by ifconfig.me, but designed for pure speed. A single server can do "
+"18,000 requests per seconds while only consuming 50megs of ram."
+msgstr ""
+
+#. type: Plain text
+#: src/ifconfig-io/DESCRIPTION.md:4
+msgid ""
+"I used the gin framework as it does several things to ensure that there are "
+"no memory allocations on each request, keeping the GC happy and preventing "
+"unnessary allocations."
+msgstr ""
+
+#. type: Plain text
+#: src/ifconfig-io/DESCRIPTION.md:5
+msgid ""
+"Tested to handle 15,000 requests persecond on modest hardware with an "
+"average response time of 130ms."
+msgstr ""

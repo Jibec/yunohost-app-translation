@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:35 src/monitorix/ADMIN.md:2
+msgid "### Remove"
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:4
+msgid ""
+"Due of the \"backup core only\" feature (`BACKUP_CORE_ONLY`), the data "
+"directory in `/home/yunohost.app/monitorix` **is not removed**. It must be "
+"manually deleted to purge user data from the app."
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:6
+msgid "### More sensor"
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:8
+msgid ""
+"If you want to see the temperature of some sensor you can install the `lm-"
+"sensor` package. For disk temperature you can install the `hddtemp` package."
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:10
+msgid "### Custom config"
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:12
+msgid ""
+"If you want customize the monitorix config for more local preferences, you "
+"can add a file in `/etc/monitorix/conf.d/`. This config file will override "
+"the original config settings in `/etc/monitorix/monitorix.conf`."
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:14
+msgid ""
+"You will have a full complete documentation for monitorix config here : "
+"https://www.monitorix.org/documentation.html"
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:16
+msgid "For example you can extend the basic config by this :"
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:23
+#, no-wrap
+msgid ""
+"```xml\n"
+"<graph_enable>\n"
+"        disk            = y\n"
+"        lmsens          = y\n"
+"        gensens         = y\n"
+"</graph_enable>\n"
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:45
+#, no-wrap
+msgid ""
+"# LMSENS graph\n"
+"# -----------------------------------------------------------------------------\n"
+"<lmsens>\n"
+"        <list>\n"
+"                core0   = temp1\n"
+"                core1   =\n"
+"                mb0     =\n"
+"                cpu0    =\n"
+"                fan0    =\n"
+"                fan1    =\n"
+"                fan2    =\n"
+"                volt0   =\n"
+"                volt1   =\n"
+"                volt2   =\n"
+"                volt3   =\n"
+"                volt4   =\n"
+"                volt5   =\n"
+"                volt6   =\n"
+"                volt7   =\n"
+"        </list>\n"
+"</lmsns>\n"
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:78
+#, no-wrap
+msgid ""
+"# GENSENS graph\n"
+"# -----------------------------------------------------------------------------\n"
+"<gensens>\n"
+"        <list>\n"
+"                0 = cpu_temp\n"
+"                1 = cpu0_freq, cpu1_freq, cpu2_freq, cpu3_freq\n"
+"        </list>\n"
+"        <desc>\n"
+"                cpu_temp = /sys/class/thermal/thermal_zone0/temp\n"
+"                cpu0_freq = /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq\n"
+"                cpu1_freq = /sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_cur_freq\n"
+"                cpu2_freq = /sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_cur_freq\n"
+"                cpu3_freq = /sys/devices/system/cpu/cpu3/cpufreq/cpuinfo_cur_freq\n"
+"        </desc>\n"
+"        <unit>\n"
+"                cpu_temp = 1000\n"
+"                cpu0_freq = 0.001\n"
+"                cpu1_freq = 0.001\n"
+"                cpu2_freq = 0.001\n"
+"                cpu3_freq = 0.001\n"
+"        </unit>\n"
+"        <map>\n"
+"                cpu_temp = CPU Temperature\n"
+"                cpu0_freq = CPU 0 Frequency\n"
+"                cpu1_freq = CPU 1 Frequency\n"
+"                cpu2_freq = CPU 2 Frequency\n"
+"                cpu3_freq = CPU 3 Frequency\n"
+"        </map>\n"
+"        <alerts>\n"
+"            cpu_temp = 300, 65, /etc/monitorix/monitorix_alerts_scripts/cpu_temp.sh\n"
+"        </alerts>\n"
+"</gensens>\n"
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:97
+#, no-wrap
+msgid ""
+"# DISK graph\n"
+"# -----------------------------------------------------------------------------\n"
+"<disk>\n"
+"        <list>\n"
+"                0 = /dev/sda\n"
+"        </list>\n"
+"        <alerts>\n"
+"                realloc_enabled = y\n"
+"                realloc_timeintvl = 0\n"
+"                realloc_threshold = 1\n"
+"                realloc_script = /etc/monitorix/monitorix_alerts_scripts/disk_realloc.sh\n"
+"                pendsect_enabled = y\n"
+"                pendsect_timeintvl = 0\n"
+"                pendsect_threshold = 1\n"
+"                pendsect_script = /etc/monitorix/monitorix_alerts_scripts/disk_pendsect.sh\n"
+"        </alerts>\n"
+"</disk>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/ADMIN.md:99
+msgid "In this config :"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/monitorix/ADMIN.md:102
+msgid "We get the lmsensor sensor data."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/monitorix/ADMIN.md:102
+msgid ""
+"We get some sensors data which are not accessible with lmsensor (with "
+"gensens)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/monitorix/ADMIN.md:102
+msgid ""
+"We check the disk health and send an email if any error happens. For that, "
+"you need to make some script. An example is available in `/usr/share/doc/"
+"monitorix/monitorix-alert.sh`."
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/DESCRIPTION.md:2
+msgid ""
+"Monitorix is a free, open source, lightweight system monitoring tool "
+"designed to monitor as many services and system resources as possible."
+msgstr ""
+
+#. type: Plain text
+#: src/monitorix/DESCRIPTION.md:3
+msgid ""
+"It has been created to be used under production Linux/UNIX servers, but due "
+"to its simplicity and small size can be used on embedded devices as well."
+msgstr ""

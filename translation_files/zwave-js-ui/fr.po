@@ -1,0 +1,40 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/zwave-js-ui/DESCRIPTION.md:2
+#, no-wrap
+msgid "**Zwave-JS-UI**, also known under previous name ZWaveJS2MQTT, is a replacement for Openzwave. It exposes Z-Wave devices to an MQTT broker in a fully configurable manner.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/zwave-js-ui/DESCRIPTION.md:6
+msgid ""
+"To work correctly, this app require to install either - [Domoticz package]"
+"(https://github.com/YunoHost-Apps/domoticz_ynh) with **mqtt broker "
+"Mosquitto** - [Home-Assistant package](https://github.com/YunoHost-Apps/"
+"homeassistant_ynh)"
+msgstr ""
+
+#. type: Plain text
+#: src/zwave-js-ui/DESCRIPTION.md:9
+msgid ""
+"For now, although the package is fully functional (install, remove, backup, "
+"restore...), it is not integrated with domoticz and mosquitto package, this "
+"means that all settings needs to be done manually from inside the app."
+msgstr ""

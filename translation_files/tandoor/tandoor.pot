@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/tandoor/DESCRIPTION.md:4
+msgid ""
+"This application is meant for people with a collection of recipes they want "
+"to share with family and friends or simply store them in a nicely organized "
+"way. A basic permission system exists but this application is not meant to "
+"be run as a public page."
+msgstr ""
+
+#. type: Plain text
+#: src/tandoor/DESCRIPTION.md:6
+msgid "### Core Features"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:12
+msgid "🥗 **Manage your recipes** - Manage your ever growing recipe collection"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:12
+msgid "📆 **Plan** - multiple meals for each day"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:12
+msgid "🛒 **Shopping lists** - via the meal plan or straight from recipes"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:12
+msgid "📚 **Cookbooks** - collect recipes into books"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:12
+msgid "👪 **Share and collaborate** on recipes with friends and family"
+msgstr ""
+
+#. type: Plain text
+#: src/tandoor/DESCRIPTION.md:14
+msgid "### Made by and for power users"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:22
+msgid ""
+"🔍 Powerful & customizable **search** with fulltext support and "
+"[TrigramSimilarity](https://docs.djangoproject.com/en/3.0/ref/contrib/"
+"postgres/search/#trigram-similarity)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:22
+msgid ""
+"🏷️ Create and search for **tags**, assign them in batch to all files matching "
+"certain filters"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:22
+msgid "↔️ Quickly merge and rename ingredients, tags and units"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:22
+msgid ""
+"📥️ **Import recipes** from thousands of websites supporting [ld+json or "
+"microdata](https://schema.org/Recipe)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:22
+msgid "➗ Support for **fractions** or decimals"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:22
+msgid "🎨 Customize your interface with **themes**"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:22
+msgid "📦 **Sync** files with Dropbox and Nextcloud"
+msgstr ""
+
+#. type: Plain text
+#: src/tandoor/DESCRIPTION.md:24
+msgid "### All the must haves"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:28
+msgid "📱Optimized for use on **mobile** devices"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:28
+msgid "🌍 localized in many languages thanks to the awesome community"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:28
+msgid ""
+"📥️ **Import your collection** from many other [recipe managers](https://docs."
+"tandoor.dev/features/import_export/)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/tandoor/DESCRIPTION.md:28
+msgid ""
+"➕ Many more like recipe scaling, image compression, printing views and "
+"supermarkets"
+msgstr ""

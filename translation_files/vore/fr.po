@@ -1,0 +1,47 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/vore/DESCRIPTION.md:2
+msgid "A simple, multi-tenant feed reader"
+msgstr ""
+
+#. type: Plain text
+#: src/vore/DESCRIPTION.md:4
+msgid "### Client:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/vore/DESCRIPTION.md:8
+msgid "rss and atom support"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/vore/DESCRIPTION.md:8
+msgid "minimal, simple, reliable, fast"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/vore/DESCRIPTION.md:8
+msgid "refresh your feeds automatically"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/vore/DESCRIPTION.md:8
+msgid "display a chronological list of feed items"
+msgstr ""

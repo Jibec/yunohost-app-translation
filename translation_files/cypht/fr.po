@@ -1,0 +1,36 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/cypht/DESCRIPTION.md:2
+msgid ""
+"All your e-mail, from all your accounts, in one place. Cypht is not your "
+"father's webmail. Unless you are one of my daughters, in which case it is "
+"your father's webmail. Cypht is like a news reader, but for e-mail. Cypht "
+"does not replace your existing accounts - it combines them into one. And "
+"it's also a news reader."
+msgstr ""
+
+#. type: Plain text
+#: src/cypht/DESCRIPTION.md:3
+msgid ""
+"Cypht is an application built entirely of plugins, or as we call them, "
+"module sets (which is obviously way cooler sounding than plugins), that are "
+"executed by the framework. Modules provide a flexible way to add new "
+"features or customize the program without hacking the code."
+msgstr ""

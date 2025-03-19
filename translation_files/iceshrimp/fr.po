@@ -1,0 +1,87 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/iceshrimp/ADMIN.md:2
+msgid "## Customising assets and locale"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/iceshrimp/ADMIN.md:9
+msgid ""
+"To add custom CSS for all users, edit `__INSTALL_DIR__/custom/assets/"
+"instance.css`."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/iceshrimp/ADMIN.md:9
+msgid ""
+"To add static assets (such as images for the splash screen), place them in "
+"the `__INSTALL_DIR__/custom/assets/` directory. They'll then be available on "
+"<https://__DOMAIN__/static-assets/filename.ext>."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/iceshrimp/ADMIN.md:9
+msgid ""
+"To add custom locales, place them in the `__INSTALL_DIR__/custom/locales/` "
+"directory. If you name your custom locale the same as an existing locale, it "
+"will overwrite it. If you give it a unique name, it will be added to the "
+"list. Also make sure that the first part of the filename matches the locale "
+"you're basing it on. (Example: en-FOO.yml)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/iceshrimp/ADMIN.md:9
+msgid ""
+"To add custom error images, place them in the `__INSTALL_DIR__/custom/assets/"
+"badges` directory, replacing the files already there."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/iceshrimp/ADMIN.md:9
+msgid ""
+"To add custom sounds, place only mp3 files in the `__INSTALL_DIR__/custom/"
+"assets/sounds` directory."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/iceshrimp/ADMIN.md:9
+msgid "To update custom assets without rebuilding, just run `yarn run gulp`."
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/iceshrimp/ADMIN.md:9
+msgid ""
+"If a `gulp not found` error is received, run `yarn global add gulp-cli` then "
+"`yarn install` in `__INSTALL_DIR__` and try `yarn run gulp` again."
+msgstr ""
+
+#. type: Plain text
+#: src/iceshrimp/DESCRIPTION.md:2
+msgid ""
+"Iceshrimp is a decentralized and federated social networking service, "
+"implementing the ActivityPub standard."
+msgstr ""
+
+#. type: Plain text
+#: src/iceshrimp/DESCRIPTION.md:3
+msgid ""
+"It was forked from Calckey Firefish (itself a fork of Misskey) in mid-2023, "
+"to focus on stability, performance and usability instead of new features."
+msgstr ""

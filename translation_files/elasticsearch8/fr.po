@@ -1,0 +1,39 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/elasticsearch7/ADMIN.md:5 src/elasticsearch8/ADMIN.md:5
+#, no-wrap
+msgid ""
+"### Limitations\n"
+" - **Not totally free**: Licensed under SSPL, see for more information: <https://en.wikipedia.org/wiki/Server_Side_Public_License>\n"
+" - Currently the security is disabled\n"
+" - Therefore, the package is configured to remain not public for now (i.e. not accessible through the web, the apps depending on it should be installed on the same server)\n"
+" - Not scalable for now\n"
+msgstr ""
+
+#. type: Plain text
+#: src/elasticsearch7/DESCRIPTION.md:2 src/elasticsearch8/DESCRIPTION.md:2
+msgid ""
+"Elasticsearch is the distributed, RESTful search and analytics engine at the "
+"heart of the [Elastic Stack](https://www.elastic.co/products). You can use "
+"Elasticsearch to store, search, and manage data for logs, metrics, search "
+"backend, application monitoring, Endpoint security.  To learn more about "
+"Elasticsearch’s features and capabilities, see the [product page](https://"
+"www.elastic.co/products/elasticsearch)."
+msgstr ""

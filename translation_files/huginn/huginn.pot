@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/huginn/DESCRIPTION.md:1
+msgid ""
+"Huginn is a system for building agents that perform automated tasks for you "
+"online. They can read the web, watch for events, and take actions on your "
+"behalf. Huginn's Agents create and consume events, propagating them along a "
+"directed graph. Think of it as a hackable version of IFTTT or Zapier on your "
+"own server. You always know who has your data. You do."
+msgstr ""

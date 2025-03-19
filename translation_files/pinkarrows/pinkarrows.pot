@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/marl/DESCRIPTION.md:3 src/pinkarrows/DESCRIPTION.md:3
+msgid ""
+"It runs in-browser and does not store any user data on the server (apart "
+"from the access log as per your YNH configuration)."
+msgstr ""
+
+#. type: Plain text
+#: src/pinkarrows/DESCRIPTION.md:2
+msgid ""
+"Lightweight and intuitive app that enables annotating images or screen "
+"captures with text and drawings."
+msgstr ""

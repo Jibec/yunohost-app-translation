@@ -1,0 +1,42 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/bicbucstriim/ADMIN.md:2 src/mautrix_telegram/ADMIN.md:26
+msgid "## Troubleshooting"
+msgstr ""
+
+#. type: Plain text
+#: src/bicbucstriim/ADMIN.md:4
+msgid ""
+"If you encounter problems, use the installation test to check your "
+"environment.  Invoke this test by navigating to <https://__DOMAIN____PATH__/"
+"installcheck.php>. This test checks for problems that users experienced in "
+"the past."
+msgstr ""
+
+#. type: Plain text
+#: src/bicbucstriim/DESCRIPTION.md:1
+msgid ""
+"BicBucStriim is a simple PHP application that runs in the Apache/PHP "
+"environment provided by the NAS (or any other server). It assumes that you "
+"manage your e-book collection with Calibre. The application reads the "
+"[Calibre](https://calibre-ebook.com/) data and publishes it in HTML form. To "
+"access the e-book catalog you simply point your ebook reader to your NAS, "
+"select one of your e-books and download it."
+msgstr ""

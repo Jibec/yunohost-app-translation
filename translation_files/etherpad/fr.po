@@ -1,0 +1,42 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/etherpad/ADMIN.md:2
+msgid ""
+"You can access Etherpad's admin panel at `__DOMAIN____PATH__admin`. The "
+"configuration file for Etherpad is at the path `__INSTALL_DIR__/settings."
+"json`."
+msgstr ""
+
+#. type: Plain text
+#: src/etherpad/ADMIN.md:3
+#, no-wrap
+msgid "*Skin Builder* (accessible at this address `__DOMAIN____PATH__/pad/p/test#skinvariantsbuilder`) allows you to customize the skin of your pad. It will give you a parameter to copy into your configuration file `__INSTALL_DIR__/settings.json`.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/etherpad/DESCRIPTION.md:3
+msgid ""
+"Etherpad is a real-time collaborative editor scalable to thousands of "
+"simultaneous real time users. It provides full data export capabilities, and "
+"runs on your server, under your control.  This version of Etherpad is "
+"installed without plugins and uses Rustydb as database.  If you want to "
+"install Etherpad with plugins and MySQL database: https://github.com/"
+"YunoHost-Apps/etherpad_mypads_ynh"
+msgstr ""

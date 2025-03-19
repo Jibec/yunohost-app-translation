@@ -1,0 +1,48 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/convos/ADMIN.md:2
+msgid ""
+"To invite people on your Convos instance, create an invitation link using "
+"[the Users page](https://__DOMAIN__/settings/users)."
+msgstr ""
+
+#. type: Plain text
+#: src/convos/ADMIN.md:4
+msgid ""
+"To recover an account whose password has been forgotten, use this command "
+"line:"
+msgstr ""
+
+#. type: Plain text
+#: src/convos/ADMIN.md:7
+msgid ""
+"```bash sudo -u convos ./script/convos recover <user_email> --secret "
+"__CONVOS_LOCAL_SECRET__ ```"
+msgstr ""
+
+#. type: Plain text
+#: src/convos/DESCRIPTION.md:3
+msgid ""
+"Convos is an IRC client that runs in your browser and brings the IRC "
+"experience into the 21st century.  It features a persistent bouncer on the "
+"server side that will keep you online even after you close your browser "
+"window.  Want to use Convos on your phone? No problem! Convos is fully "
+"responsive and fits any screen."
+msgstr ""

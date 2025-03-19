@@ -1,0 +1,30 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/vpnclient/DESCRIPTION.md:7
+msgid ""
+"Install a VPN connection on your self-hosted server.  * Useful for hosting "
+"your server behind a filtered (and/or non-neutral) internet access.  * "
+"Useful to have static IP addresses (IPv6 and IPv4).  * Useful to easily move "
+"your server anywhere.  * Strong firewalling (internet access and self-hosted "
+"services only available through the VPN, not leaking to your commercial "
+"ISP)  * Combine with the [Hotspot app](https://github.com/YunoHost-Apps/"
+"hotspot_ynh) to broadcast VPN-protected WiFi to other laptops without any "
+"further technical configuration needed."
+msgstr ""

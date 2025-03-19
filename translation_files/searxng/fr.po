@@ -1,0 +1,53 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/searxng/ADMIN.md:2
+msgid "The app install dir is `__INSTALL_DIR__`."
+msgstr ""
+
+#. type: Plain text
+#: src/searxng/ADMIN.md:4
+msgid ""
+"You can set your custom settings in `__INSTALL_DIR__/settings.yml`. That "
+"file overwrite the default settings thanks to `use_default_settings: true`"
+msgstr ""
+
+#. type: Plain text
+#: src/searxng/ADMIN.md:6
+msgid ""
+"The default settings are available at `__INSTALL_DIR__/searxng-src/searx/"
+"settings.yml`. It is recommended to not edit this file directly and to make "
+"changes only in the file mentioned above."
+msgstr ""
+
+#. type: Plain text
+#: src/searxng/ADMIN.md:7
+msgid ""
+"Please note that this application is a rolling-release (i.e. each commit is "
+"a release) and thus is updated very regularly. People not updating "
+"frequently may encounter some bugs or disruptions due to the very nature of "
+"this software."
+msgstr ""
+
+#. type: Plain text
+#: src/searxng/DESCRIPTION.md:1
+msgid ""
+"SearxXNG is a free internet metasearch engine which aggregates results from "
+"more than 70 search services. Users are neither tracked nor profiled."
+msgstr ""

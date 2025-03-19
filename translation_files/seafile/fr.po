@@ -1,0 +1,103 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/seafile/ADMIN.md:2
+msgid "### Multi-users support"
+msgstr ""
+
+#. type: Plain text
+#: src/seafile/ADMIN.md:4
+msgid "This app support LDAP and the SSO authentification."
+msgstr ""
+
+#. type: Plain text
+#: src/seafile/ADMIN.md:12
+msgid ""
+"If you have Seafile installed before 7.x and you have more than one domain "
+"for users in Yunohost or Seafile app is installed on a different domain, you "
+"need to migrate your accounts.  You can use the provided action at https://"
+"domain.tld/yunohost/admin/#/apps/seafile/actions. You can also use this "
+"following command to migrate all of your accounts: ``` yunohost app action "
+"run seafile migrate_user_email_to_mail_email ``` See [issue#44](https://"
+"github.com/YunoHost-Apps/seafile_ynh/issues/44)  for more information."
+msgstr ""
+
+#. type: Plain text
+#: src/seafile/ADMIN.md:14
+msgid "### Backup"
+msgstr ""
+
+#. type: Plain text
+#: src/seafile/ADMIN.md:16
+msgid ""
+"This app use now the core-only feature of the backup. To keep the integrity "
+"of the data and to have a better guarantee of the restoration is recommended "
+"to proceed like this:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/seafile/ADMIN.md:18
+msgid "Stop seafile service with theses following command:"
+msgstr ""
+
+#. type: Plain text
+#: src/seafile/ADMIN.md:20
+msgid "`systemctl stop seafile.service seahub.service`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/seafile/ADMIN.md:22
+msgid "Launch the backup of seafile with this following command:"
+msgstr ""
+
+#. type: Plain text
+#: src/seafile/ADMIN.md:24
+msgid "`yunohost backup create --app seafile`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/seafile/ADMIN.md:27
+msgid ""
+"Do a backup of your data with your specific strategy (could be with rsync, "
+"borg backup or just cp). The data is stored in `/home/yunohost.app/seafile`."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/seafile/ADMIN.md:27
+msgid "Restart the seafile service with theses command:"
+msgstr ""
+
+#. type: Plain text
+#: src/seafile/ADMIN.md:28
+msgid "`systemctl start seafile.service seahub.service`"
+msgstr ""
+
+#. type: Plain text
+#: src/seafile/DESCRIPTION.md:2
+msgid "Seafile is an open Source Cloud Storage application."
+msgstr ""
+
+#. type: Plain text
+#: src/seafile/DESCRIPTION.md:3
+msgid ""
+"It's a Enterprise file sync and share platform with high reliability and "
+"performance. It's a file hosting platform with high reliability and "
+"performance. Put files on your own server. Sync and share files across "
+"different devices, or access all the files as a virtual disk."
+msgstr ""

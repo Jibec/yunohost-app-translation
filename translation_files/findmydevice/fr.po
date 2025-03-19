@@ -1,0 +1,42 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/findmydevice/ADMIN.md:2
+msgid ""
+"If the info below is empty, you don't need to fill the registration token. "
+"Leave the field blank in the android app."
+msgstr ""
+
+#. type: Plain text
+#: src/findmydevice/ADMIN.md:4
+msgid "The TOKEN to register in the android app is: __TOKEN__"
+msgstr ""
+
+#. type: Plain text
+#: src/findmydevice/ADMIN.md:5
+msgid "(you can change that value in the webadmin app config view)"
+msgstr ""
+
+#. type: Plain text
+#: src/findmydevice/DESCRIPTION.md:2
+msgid ""
+"The FMD app can register an account on FMD Server. The app can then upload "
+"its location at regular intervals.  You can also push commands to the FMD "
+"app on your device from FMD Server, e.g. to make your device ring."
+msgstr ""

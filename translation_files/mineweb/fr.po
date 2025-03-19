@@ -1,0 +1,33 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/mineweb/DESCRIPTION.md:2
+msgid ""
+"MineWeb is a CMS (i.e. a content management system), in simpler terms, a "
+"completely customizable and intuitive site, which will adapt perfectly to "
+"your Minecraft servers!"
+msgstr ""
+
+#. type: Plain text
+#: src/mineweb/DESCRIPTION.md:3
+msgid ""
+"You can keep your players up to date with news, have them buy items from the "
+"store... You can customize the CMS with all kinds of themes or plugins! "
+"These are available on the market or can be developed by yourself."
+msgstr ""

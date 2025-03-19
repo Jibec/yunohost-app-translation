@@ -1,0 +1,41 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/zerobin/DESCRIPTION.md:2
+msgid ""
+"PrivateBin is a minimalist, open source online pastebin where the server has "
+"zero knowledge of pasted data."
+msgstr ""
+
+#. type: Plain text
+#: src/zerobin/DESCRIPTION.md:4
+msgid ""
+"Data is encrypted/decrypted in the browser using 256bit AES in Galois "
+"Counter mode."
+msgstr ""
+
+#. type: Plain text
+#: src/zerobin/DESCRIPTION.md:5
+msgid ""
+"This is a fork of ZeroBin, originally developed by Sébastien Sauvage. It was "
+"refactored to allow easier and cleaner extensions and has now much more "
+"features than the original. It is however still fully compatible to the "
+"original ZeroBin 0.19 data storage scheme. Therefore such installations can "
+"be upgraded to this fork without loosing any data."
+msgstr ""

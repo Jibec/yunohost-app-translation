@@ -1,0 +1,35 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/rspamd/DESCRIPTION.md:2
+msgid ""
+"Rspamd is an advanced spam filtering system that allows evaluation of "
+"messages by a number of rules including regular expressions, statistical "
+"analysis and custom services such as URL black lists. Each message is "
+"analysed by Rspamd and given a spam score."
+msgstr ""
+
+#. type: Plain text
+#: src/rspamd/DESCRIPTION.md:3
+msgid ""
+"According to this spam score and the user’s settings, Rspamd recommends an "
+"action for the MTA to apply to the message, for example, to pass, reject or "
+"add a header. Rspamd is designed to process hundreds of messages per second "
+"simultaneously, and provides a number of useful features."
+msgstr ""

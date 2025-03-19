@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/backdrop/ADMIN.md:2
+msgid ""
+"Backdrop CMS includes an update utility to handle any necessary changes to "
+"the database schema or configuration.  Run `update.php` by navigating to "
+"`http://__DOMAIN__/core/update.php` [See instructions](https://backdropcms."
+"org/upgrade)"
+msgstr ""
+
+#. type: Plain text
+#: src/backdrop/DESCRIPTION.md:1
+msgid ""
+"Backdrop is a full-featured content management system that allows non-"
+"technical users to manage a wide variety of content. It can be used to "
+"create all kinds of websites including blogs, image galleries, social "
+"networks, intranets, and more."
+msgstr ""

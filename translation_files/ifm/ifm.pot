@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/ifm/ADMIN.md:1
+msgid ""
+"The IFM is usually locked to it's own directory (`__DATA_DIR__`), so you are "
+"not able to go above. You can change that by setting `env[IFM_ROOT_DIR] = "
+"__DATA_DIR__` in the PHP config `/etc/php/8.2/fpm/pool.d/ifm.conf` L.434 "
+"with the help of this [documentation](https://github.com/misterunknown/ifm/"
+"wiki/Configuration)."
+msgstr ""
+
+#. type: Plain text
+#: src/ifm/DESCRIPTION.md:2
+msgid ""
+"The IFM is a web-based filemanager, which comes as a single file solution "
+"using HTML5, CSS3, JavaScript and PHP."
+msgstr ""
+
+#. type: Plain text
+#: src/ifm/DESCRIPTION.md:4
+msgid "### features"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/ifm/DESCRIPTION.md:12
+msgid "create/edit files and directories"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/ifm/DESCRIPTION.md:12
+msgid "copy/move files and directories"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/ifm/DESCRIPTION.md:12
+msgid "download files and directories"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/ifm/DESCRIPTION.md:12
+msgid "upload files directly, remotely via URL or per drag & drop"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/ifm/DESCRIPTION.md:12
+msgid "extract archives (tar, tgz, tar.gz, tar.bz2, zip)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/ifm/DESCRIPTION.md:12
+msgid "change permissions"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/ifm/DESCRIPTION.md:12
+msgid "image preview"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/ifm/DESCRIPTION.md:12
+msgid "simple authentication (LDAP via `ldap_bind` possible)"
+msgstr ""

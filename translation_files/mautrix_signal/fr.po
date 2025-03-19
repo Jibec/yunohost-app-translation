@@ -1,0 +1,330 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/archivist/ADMIN.md:7 src/audiobookshelf/ADMIN.md:2
+#: src/dendrite/ADMIN.md:8 src/domoticz/ADMIN.md:100 src/kresus/ADMIN.md:2
+#: src/mailman3/DESCRIPTION.md:5 src/mautrix_facebook/ADMIN.md:55
+#: src/mautrix_signal/ADMIN.md:76 src/nullboard/ADMIN.md:2
+#: src/pihole/ADMIN.md:6
+msgid "## Limitations"
+msgstr ""
+
+#. type: Plain text
+#: src/dokuwiki/DESCRIPTION.md:4 src/grafana/DESCRIPTION.md:4
+#: src/mattermost/DESCRIPTION.md:10 src/mautrix_facebook/ADMIN.md:40
+#: src/mautrix_signal/ADMIN.md:61 src/minidlna/DESCRIPTION.md:6
+msgid "## YunoHost specific features"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:2 src/mautrix_signal/ADMIN.md:2
+msgid "## List of known public services"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:6 src/mautrix_signal/ADMIN.md:6
+msgid "## Bridging usage"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:20 src/mautrix_signal/ADMIN.md:16
+msgid ""
+"First your Matrix user or Synapse Server has to be authorized in the "
+"Configuration of the bridge (see below)"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mautrix_facebook/ADMIN.md:20 src/mautrix_signal/ADMIN.md:16
+msgid ""
+"If the Bot does bot accept, see the [troubleshooting page](https://docs.mau."
+"fi/bridges/general/troubleshooting.html)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:20 src/mautrix_signal/ADMIN.md:24
+msgid ""
+"By defaults, only conversations with very recent messages will be bridged"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:20 src/mautrix_signal/ADMIN.md:24
+msgid "Accept invitations to the bridged chat rooms"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:22 src/mautrix_signal/ADMIN.md:32
+msgid "### Double puppeting"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:33 src/mautrix_signal/ADMIN.md:45
+#: src/mautrix_telegram/ADMIN.md:2
+msgid "## Configuration of the bridge"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:42 src/mautrix_signal/ADMIN.md:63
+msgid "### Multi-user support"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:48 src/mautrix_signal/ADMIN.md:69
+msgid ""
+"Bot users are not related to Yunohost users. Any Matrix account or Synapse "
+"server autorized in the configuration of the bridge can invite/use the bot."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:48 src/mautrix_signal/ADMIN.md:69
+msgid "See <https://github.com/YunoHost-Apps/synapse_ynh#multi-users-support>"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:50 src/mautrix_signal/ADMIN.md:71
+msgid "### Multi-instance support"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:53 src/mautrix_signal/ADMIN.md:74
+msgid ""
+"Several bridge instances could be installed for each Matrix-Synapse instance "
+"to benefit from it. But one bridge can be used by users from several Matrix-"
+"Synapse instances."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:57 src/mautrix_signal/ADMIN.md:78
+msgid "It looks like media are not bridged."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:4
+msgid ""
+"Ask on one of the following rooms: `#mautrix_yunohost:matrix.fdn.fr` or "
+"`#signal:maunium.net`"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:8
+#, no-wrap
+msgid "**Note that several Signal and Matrix users can be bridged, each Signal account has its own bot administration room. If they are in a same Signal group, only one matrix room will be created.**\n"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:10
+msgid "### Bridge a Signal user and a Matrix user"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:16
+msgid ""
+"Then, invite the bot (default @signalbot:yoursynapse.domain) in this new "
+"Mautrix-Signal bot administration room."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:16
+#, no-wrap
+msgid ""
+"* Send ``!signal help`` to the bot in the created room to know how to control the bot.\n"
+"See also [upstream wiki Authentication page](https://docs.mau.fi/bridges/go/signal/authentication.html)\n"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:18
+msgid "#### Linking the Bridge as a secondary device"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:24
+msgid "Type ``!signal link``"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:24
+msgid "Open Signal App of your primary device"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:24
+msgid ""
+"Open Settings => Linked Devices => + => Capture the QR code with the camera"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:26
+msgid "#### Registering the Bridge as a primary device"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:30
+msgid ""
+"Type ``!signal register <phone>``, where ``<phone>`` is your phone number in "
+"the international format with no space, e.g. ``!signal register "
+"+33612345678``"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:30
+msgid ""
+"Answer in the bot room with the verification code that you reveived in SMS."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:30
+msgid "Set a profile name with ``!signal set-profile-name <name>``"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:35
+msgid "Log in with ``login-matrix <access token>``"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:35
+msgid ""
+"After logging in, the default Matrix puppet of your Signal account should "
+"leave rooms and your account should join all rooms the puppet was in "
+"automatically."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:37
+msgid ""
+"### Relaybot: Bridge a group for several Matrix and several Signal users to "
+"chat together"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:43
+msgid "Create a room on the signal side"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:43
+msgid ""
+"Your bridged users will be invited on the Matrix side once they are invited "
+"on the Signal side"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:43
+msgid "You can invite more people over on the Matrix side"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:43
+#, no-wrap
+msgid ""
+"* Have one of the bridged users (who has the right permission) type `!signal set-relay` on the Matrix side. Their signal account will relay messages from other Matrix users\n"
+"It is not yet possible to bridge to an existing signal room, or create a new signal room from the Matrix side.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:50
+msgid ""
+"The bridge is [roughly configured at installation](https://github.com/"
+"YunoHost-Apps/mautrix_signal_ynh/blob/master/conf/config.yaml), e.g. allowed "
+"admin and user of the bot. Finer configuration can be done by modifying the "
+"following configuration file with SSH: ```/opt/yunohost/mautrix_signal/"
+"config.yaml``` and then restarting the mautrix_signal service."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:52 src/mautrix_telegram/ADMIN.md:16
+msgid "## Documentation"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:59
+msgid ""
+"Official \"Mautrix-Signal\" documentation: <https://docs.mau.fi/bridges/go/"
+"signal/index.html>"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:59 src/mautrix_telegram/ADMIN.md:24
+msgid ""
+"Matrix room (Matrix Bridges in Yunohost): #mautrix_yunohost:matrix.fdn.fr"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:59
+#, no-wrap
+msgid ""
+"* Matrix room (upstream app): #signal:maunium.net\n"
+"In case you need to upload your logs somewhere, be aware that they contain your contacts' and your phone numbers. Strip them out with\n"
+"```| sed -r 's/[0-9]{10,}/📞/g'```\n"
+"* YunoHost documentation: If more specific documentation is needed, feel free to contribute.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:69
+msgid ""
+"The Signal bot is a local Matrix-Synapse user, but accessible through "
+"federation (synapse public or private)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:69
+msgid ""
+"Several Signal and Matrix users can be bridged with one bridge, each user "
+"has its own bot administration room."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:69
+msgid ""
+"If several bot users are in a same Signal group, only one Matrix room will "
+"be created by the bridge."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:74
+msgid ""
+"Multi-instance installation should work. Several bridge instances could be "
+"installed for one Matrix-Synapse instance so that one Matrix user can bridge "
+"several Signal accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:78
+msgid ""
+"Signal chats are not grouped in a Matrix community (as opposed to the "
+"Mautrix-WhatsApp or Mautrix-Facebook bridges)"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/DESCRIPTION.md:3
+msgid ""
+"A puppeting bridge between Matrix and Signal packaged as a YunoHost service. "
+"Messages, notifications (and sometimes media) are bridged between a Signal "
+"user and a Matrix user.  Currently the Matrix user can NOT invite other "
+"Matrix user in a bridged Signal room, so only someone with a Signal account "
+"can participate to Signal group conversations."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/DESCRIPTION.md:4
+msgid ""
+"The [\"Mautrix-Signal\"](https://docs.mau.fi/bridges/go/signal/index.html) "
+"bridge consists in a Synapse App Service and relies on postgresql (mysql "
+"also possible). Therefore, [Synapse for YunoHost](https://github.com/"
+"YunoHost-Apps/synapse_ynh) should be installed beforehand."
+msgstr ""

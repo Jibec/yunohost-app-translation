@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/zeroui/DESCRIPTION.md:2
+msgid ""
+"ZeroTier Controller Web UI is a web user interface for a self-hosted "
+"ZeroTier network controller."
+msgstr ""
+
+#. type: Plain text
+#: src/zeroui/DESCRIPTION.md:4
+msgid ""
+"This project is highly inspired by [ztncui](https://github.com/key-networks/"
+"ztncui) and was developed to address the current limitations of applying the "
+"self-hosted [network controllers](https://github.com/zerotier/ZeroTierOne/"
+"tree/master/controller). Some [ztncui](https://github.com/key-networks/"
+"ztncui) problems cannot be fixed because of the core architecture of the "
+"project. ZeroUI tries to solve them and implements the following features:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/zeroui/DESCRIPTION.md:8
+msgid ""
+"Full React-powered lightweight [SPA](https://en.wikipedia.org/wiki/Single-"
+"page_application) that brings a better user experience, and ZeroUI is mobile-"
+"friendly."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/zeroui/DESCRIPTION.md:8
+msgid ""
+"ZeroUI has ZeroTier Central compatible API. That means you could use CLI "
+"tools and custom applications made only for ZeroTier Central to manage your "
+"networks."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/zeroui/DESCRIPTION.md:8
+msgid ""
+"ZeroUI implements controller-specific workarounds that address some existing "
+"[issues](https://github.com/zerotier/ZeroTierOne/issues/859). ZTNCUI [does "
+"not](https://github.com/key-networks/ztncui/issues/63)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/zeroui/DESCRIPTION.md:8
+msgid ""
+"ZeroUI is more feature complete. ZeroUI has almost all network-controller-"
+"supported features, for example, rule editor. The development process hasn't "
+"stopped, so you will enjoy new features and bug fixes shortly."
+msgstr ""

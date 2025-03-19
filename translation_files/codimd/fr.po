@@ -1,0 +1,41 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/codimd/ADMIN.md:1
+msgid ""
+"You can configure CodiMD by editing this file `__INSTALL_DIR__/config.json` "
+"using the [documentation](https://hackmd.io/c/codimd-documentation/"
+"%2Fs%2Fcodimd-configuration)"
+msgstr ""
+
+#. type: Plain text
+#: src/codimd/DESCRIPTION.md:2
+msgid ""
+"CodiMD is the free software version of HackMD, developed and opened source "
+"by the HackMD team with reduced features (without book mode), you can use "
+"CodiMD for your community and own all your data. [(See the origin of the "
+"name CodiMD.)](https://github.com/hackmdio/codimd/issues/720)"
+msgstr ""
+
+#. type: Plain text
+#: src/codimd/DESCRIPTION.md:3
+msgid ""
+"CodiMD is perfect for open communities, while HackMD emphasizes on "
+"permission and access controls for commercial use cases."
+msgstr ""

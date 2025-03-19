@@ -1,0 +1,465 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/gitea/ADMIN.md:83 src/synapse/ADMIN.md:101
+msgid "## Backup"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:2
+msgid "## Web client"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:4
+msgid ""
+"The most well-known Matrix web client is Element, which is available in the "
+"YunoHost app catalog: <https://github.com/YunoHost-Apps/element_ynh>."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:6
+msgid "### Important Security Note"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:8
+msgid ""
+"We do not recommend running Element from the same domain name as your Matrix "
+"homeserver (synapse).  The reason is the risk of XSS (cross-site-scripting) "
+"vulnerabilities that could occur if someone caused Element to load and "
+"render malicious user generated content from a Matrix API which then had "
+"trusted access to Element (or other apps) due to sharing the same domain."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:10
+msgid ""
+"We have put some coarse mitigations into place to try to protect against "
+"this situation, but it's still not a good practice to do it in the first "
+"place. See https://github.com/vector-im/element-web/issues/1977 for more "
+"details."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:12
+msgid "## Admin UI"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:14
+msgid ""
+"You may be interested in the synapse-admin app, which provides an "
+"administration interface for synapse: <https://github.com/YunoHost-Apps/"
+"synapse-admin_ynh>."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:16
+msgid "Then, to log in the API with your admin credentials (cf next section)"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:18
+msgid "### Set user as admin"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:28
+#, no-wrap
+msgid ""
+"Currently, the client interface doesn't allow to grant admin rights.\n"
+"So you can follow this process to set the user as admin:\n"
+"1. Login with any client as a standards user (like Element). This will create the user in synapse.\n"
+"2. You have theses 2 solution:\n"
+"    - On the Yunohost Webadmin, go on: Applications > Synapse > Main Settings > On the \"Add admin user\" section you can select the user to set as admin.\n"
+"    - You can run this following script:\n"
+"```bash\n"
+"/opt/yunohost/matrix-__APP__/set_admin_user.sh '@<user_to_be_admin>:<domain.tld>'\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:30
+msgid "## Access by federation"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:32
+msgid ""
+"If your server name is identical to the domain on which synapse is "
+"installed, and the default port 8448 is used, your server is normally "
+"already accessible by the federation."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:34
+msgid ""
+"If not, you can add the following line in the dns configuration but you "
+"normally don't need it as a `.well-known` file is edited during the install "
+"to declare your server name and port to the federation."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:43
+#, no-wrap
+msgid ""
+"```\n"
+"_matrix._tcp.<server_name.tld> <ttl> IN SRV 10 0 <port> <domain-or-subdomain-of-synapse.tld>\n"
+"```\n"
+"for example\n"
+"```\n"
+"_matrix._tcp.example.com. 3600    IN      SRV     10 0 <synapse_port> synapse.example.com.\n"
+"```\n"
+"You need to replace `<synapse_port>` by the real port. This port can be obtained by the command: `yunohost app setting <synapse_instance_name> port_synapse_tls`\n"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:45
+msgid ""
+"For more details, see : https://github.com/element-hq/synapse/blob/master/"
+"docs/federate.md"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:47
+msgid "If it is not automatically done, you need to open this in your ISP box."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:49
+msgid ""
+"You also need a valid TLS certificate for the domain used by synapse. To do "
+"that you can refer to the documentation here : https://yunohost.org/#/"
+"certificate_en"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:51
+msgid ""
+"https://federationtester.matrix.org/ can be used to easily debug federation "
+"issues"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:53
+msgid "## Turnserver"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:60
+msgid ""
+"For Voip and video conferencing a turnserver is also installed (and "
+"configured). The turnserver listens on two UDP and TCP ports. You can get "
+"them with these commands: ```bash yunohost app setting synapse "
+"port_turnserver_tls yunohost app setting synapse port_turnserver_alt_tls ``` "
+"The turnserver will also choose a port dynamically when a new call starts. "
+"The range is between 49153 - 49193."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:62
+msgid ""
+"For some security reason the ports range (49153 - 49193) isn't automatically "
+"open by default. If you want to use the synapse server for voip or "
+"conferencing you will need to open this port range manually. To do this just "
+"run this command:"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:66
+msgid "```bash yunohost firewall allow Both 49153:49193 ```"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:68
+msgid ""
+"You might also need to open these ports (if it is not automatically done) on "
+"your ISP box."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:70
+msgid ""
+"To prevent the situation when the server is behind a NAT, the public IP is "
+"written in the turnserver config. By this the turnserver can send its real "
+"public IP to the client. For more information see [the coturn example config "
+"file](https://github.com/coturn/coturn/blob/master/examples/etc/turnserver."
+"conf#L102-L120).So if your IP changes, you could run the script `/opt/"
+"yunohost/matrix-<synapse_instance_name>/Coturn_config_rotate.sh` to update "
+"your config."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:72
+msgid ""
+"If you have a dynamic IP address, you also might need to update this config "
+"automatically. To do that just edit a file named `/etc/cron.d/"
+"coturn_config_rotate` and add the following content (just adapt the "
+"`<synapse_instance_name>` which could be `synapse` or maybe `synapse__2`)."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:76
+msgid ""
+"``` */15 * * * * root bash /opt/yunohost/matrix-<synapse_instance_name>/"
+"Coturn_config_rotate.sh; ```"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:78
+msgid "## OpenVPN"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:82
+msgid ""
+"If your server is behind a VPN, you may want `synapse-coturn` ti "
+"automatically restart when the VPN restarts. To do this, create a file named "
+"`/usr/local/bin/openvpn_up_script.sh` with this content: ```bash #!/bin/bash"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:89
+#, no-wrap
+msgid ""
+"(\n"
+"    sleep 5\n"
+"    sudo systemctl restart synapse-coturn.service\n"
+") &\n"
+"exit 0\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:94
+#, no-wrap
+msgid ""
+"Add this line in you sudo config file `/etc/sudoers`\n"
+"```\n"
+"openvpn    ALL=(ALL) NOPASSWD: /bin/systemctl restart synapse-coturn.service\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:99
+msgid ""
+"And add this line in your OpenVPN config file ``` ipchange /usr/local/bin/"
+"openvpn_up_script.sh ```"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:103
+msgid ""
+"Before any major maintenance action, it is recommended to backup the app."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:105
+msgid ""
+"To ensure the integrity of the data, it is recommended to explictly stop the "
+"server during the backup:"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:110
+msgid ""
+"- Stop synapse service with theses following command: ```bash systemctl stop "
+"synapse.service ```"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:115
+msgid ""
+"- Launch the backup of synapse with this following command: ```bash yunohost "
+"backup create --app synapse ```"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/synapse/ADMIN.md:121
+msgid ""
+"Do a backup of your data with your specific strategy (could be with rsync, "
+"borg backup or just cp). The data is generally stored in `/home/yunohost.app/"
+"synapse`."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:121
+msgid ""
+"- Restart the synapse service with these command: ```bash systemctl start "
+"synapse.service ```"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:123
+msgid "## Changing the server URL"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:125
+#, no-wrap
+msgid "**All documentation of this section is not warranted. A bad use of command could break the app and all the data. So use these commands at your own risk.**\n"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:127
+msgid ""
+"Synapse give the possibility to change the domain of the instance. Note that "
+"this will only change the domain on which the synapse server will run. "
+"**This won't change the domain name of the account which is an other thing.**"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:129
+msgid ""
+"The advantage of this is that you can put the app on a specific domain "
+"without impacting the domain name of the accounts. For instance you can have "
+"the synapse app on `matrix.yolo.net` and the user account will be something "
+"like that `@michu:yolo.net`. Note that it's the main difference between the "
+"domain of the app (which is `matrix.yolo.net`) and the \"server name\" which "
+"is `yolo.net`."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:134
+#, no-wrap
+msgid ""
+"**Note that this change will have some important implications:**\n"
+"- **This will break the connection from all previous connected clients. So all client connected before this change won't be able to communicate with the server until users will do a logout and login (which can also be problematic for e2e keys).** [There are a workaround which are described below](#avoid-the-need-to-reconnect-all-client-after-change-url-operation).\n"
+"- In some case the client configuration will need to be updated. By example on element we can configure a default matrix server, this settings by example will need to be updated to the new domain to work correctly.\n"
+"- In case of the \"server name\" domain are not on the same server than the synapse domain, you will need to update the `.well-known` or your DNS.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:136
+msgid ""
+"To do the change url of synapse you can do it by this following command or "
+"with the webadmin."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:140
+msgid "```bash sudo yunohost app change-url synapse ```"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:142
+msgid "### Avoid the need to reconnect all client after change-url operation"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:144
+msgid ""
+"If you did change the url of synapse and you don't wan't to reconnect all "
+"client, this workaround should solve the issue."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:146
+msgid ""
+"The idea is to setup again a minimal configuration on the previous domain so "
+"the client configurated with the previous domain will still work correctly."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:148
+msgid "#### Nginx config"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:153
+msgid ""
+"Retrive the server port with this command: ```bash yunohost app setting "
+"synapse port_synapse ```"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:161
+#, no-wrap
+msgid ""
+"Edit the file `/etc/nginx/conf.d/<previous-domain.tld>.d/synapse.conf` and add this text:\n"
+"```\n"
+"location /_matrix/ {\n"
+"        proxy_pass http://localhost:<server_port_retrived_before>;\n"
+"        proxy_set_header X-Forwarded-For $remote_addr;\n"
+"        proxy_set_header X-Forwarded-Proto $scheme;\n"
+"        proxy_set_header Host $host;\n"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:165
+#, no-wrap
+msgid ""
+"        client_max_body_size 200M;\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:170
+msgid "Then reload nginx config: ```bash systemctl reload nginx.service ```"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:172
+msgid "#### Add permanent rule on SSOWAT"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/synapse/ADMIN.md:175
+msgid "Edit the file `/etc/ssowat/conf.json.persistent`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/synapse/ADMIN.md:175
+msgid ""
+"Add `\"<previous-domain.tld>/_matrix\"` into the list in: `permissions` > "
+"`custom_skipped` > `uris`"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:177
+msgid "Now the configured client before the change-url should work again."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:179
+msgid "## Removing the app"
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/ADMIN.md:180
+msgid ""
+"The YunoHost policy is to not remove the data when removing an app (stored "
+"in `/home/yunohost.app/synapse`). Use the `--purge` flag during the removal "
+"of the app to remove those, or just manually delete the folder after the app "
+"is deleted."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/DESCRIPTION.md:2
+msgid "Instant messaging server matrix network."
+msgstr ""
+
+#. type: Plain text
+#: src/synapse/DESCRIPTION.md:3
+msgid ""
+"Yunohost chatroom with matrix : [https://matrix.to/#/#yunohost:matrix.org]"
+"(https://matrix.to/#/#yunohost:matrix.org)"
+msgstr ""

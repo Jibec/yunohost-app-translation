@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/etherpad_mypads/ADMIN.md:3
+msgid ""
+"You can access two different admin panels, for Etherpad by accessing "
+"`__DOMAIN____PATH__admin` and for MyPads by `__DOMAIN____PATH__/mypads/?/"
+"admin`.  You can also find a configuration file for Etherpad at this path "
+"`__INSTALL_DIR__/settings.json`."
+msgstr ""
+
+#. type: Plain text
+#: src/etherpad_mypads/ADMIN.md:4
+#, no-wrap
+msgid "*Skin Builder* (accessible at this address `https://__DOMAIN____PATH__/pad/p/test#skinvariantsbuilder`) allows you to customize the skin of your pad. It will give you a parameter to copy into your configuration file `__INSTALL_DIR__/settings.json`.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/etherpad_mypads/DESCRIPTION.md:2
+msgid ""
+"Etherpad is a real-time collaborative editor scalable to thousands of "
+"simultaneous real time users. It provides full data export capabilities, and "
+"runs on your server, under your control."
+msgstr ""
+
+#. type: Plain text
+#: src/etherpad_mypads/DESCRIPTION.md:4
+msgid "This version of Etherpad is preconfigured with a collection of plugins:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_mypads](https://www.npmjs.com/package/ep_mypads) - *Groups and private "
+"pads for etherpad*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_align](https://www.npmjs.com/package/ep_align) - *Add Left/Center/Right/"
+"Justify alignment*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_author_hover](https://www.npmjs.com/package/ep_author_hover) - *Display "
+"author names when hovereing text*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_comments_page](https://www.npmjs.com/package/ep_comments_page) - *Add "
+"comments on sidebar and link it to the text.*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_countable](https://www.npmjs.com/package/ep_countable) - *Add "
+"paragraphs, words and characters count*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_delete_empty_pads](https://www.npmjs.com/package/ep_delete_empty_pads) - "
+"*Delete pads which were never edited*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_font_color](https://www.npmjs.com/package/ep_font_color) - *Be able to "
+"change font color*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_font_size](https://www.npmjs.com/package/ep_font_size) - *Be able to "
+"change font size*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_headings2](https://www.npmjs.com/package/ep_headings2) - *Be able to set "
+"text as headers*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_markdown](https://www.npmjs.com/package/ep_markdown) - *Edit and export "
+"as Markdown*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_spellcheck](https://www.npmjs.com/package/ep_spellcheck) - *Add spell "
+"checking*"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/etherpad_mypads/DESCRIPTION.md:16
+msgid ""
+"[ep_subscript_and_superscript](https://www.npmjs.com/package/"
+"ep_subscript_and_superscript) - *Support for subscript and superscript*"
+msgstr ""

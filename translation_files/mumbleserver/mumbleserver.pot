@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/mumbleserver/ADMIN.md:2
+msgid "## Setup"
+msgstr ""
+
+#. type: Plain text
+#: src/mumbleserver/ADMIN.md:4
+msgid ""
+"This package installs the Debian package and configures it with given "
+"settings. Password and other usefull information will be sent by email after "
+"installation."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/mumbleserver/ADMIN.md:6
+msgid ""
+"[Add the admin](http://wiki.mumble.info/wiki/"
+"Murmurguide#Connecting_to_Murmur_Server)"
+msgstr ""
+
+#. type: Plain text
+#: src/mumbleserver/ADMIN.md:11
+msgid ""
+"## Config If you need to change password of the server/superuser 1- edit "
+"`__INSTALL_DIR__/mumble-server.ini` 2- remove (or change) the password for "
+"serverpassword= 3- restart mumbleserver"
+msgstr ""
+
+#. type: Plain text
+#: src/mumbleserver/DESCRIPTION.md:1
+msgid ""
+"Mumble is a free, open source, low latency, high quality voice chat "
+"application. Mumble was the first VoIP application to establish true low "
+"latency voice communication over a decade ago. But low latency and gaming "
+"are not the only use cases it shines in."
+msgstr ""

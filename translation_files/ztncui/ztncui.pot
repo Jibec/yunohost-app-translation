@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/ztncui/ADMIN.md:1
+msgid ""
+"Multiple users can use the app, you have to add them manually in `/opt/key-"
+"networks/ztncui/src/etc/passwd`, see ztncui's documentation."
+msgstr ""
+
+#. type: Plain text
+#: src/ztncui/DESCRIPTION.md:3
+msgid ""
+"ztncui is a web user interface for a standalone ZeroTier network "
+"controller.  It allows you to take control of your own ZeroTier network "
+"without relying on the publisher's cloud-based controller."
+msgstr ""

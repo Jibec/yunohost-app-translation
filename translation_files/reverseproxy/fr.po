@@ -1,0 +1,100 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/reverseproxy/ADMIN.md:2
+msgid "### Backend web path"
+msgstr ""
+
+#. type: Plain text
+#: src/reverseproxy/ADMIN.md:4
+msgid ""
+"The request is transmitted as-is to the backend server. This usually means "
+"that the backend service shoudl be aware of the web path used to access the "
+"service. For example, if using the application is installed to `__DOMAIN__/"
+"proxy`, your backend application should produce absolute links starting with "
+"`__DOMAIN__/proxy/` too."
+msgstr ""
+
+#. type: Plain text
+#: src/reverseproxy/ADMIN.md:6
+msgid ""
+"To support relative URLs from the backend, accessing the application via "
+"`http(s)://__DOMAIN__/proxy` will permanent redirect (302) to `http(s)://"
+"__DOMAIN__/proxy/` (trailing slash). Otherwise, a relative link like `<link "
+"rel=\"stylesheet\" href=\"style.css\">` would try to load `http(s)://"
+"__DOMAIN__/style.css` which would fail."
+msgstr ""
+
+#. type: Plain text
+#: src/reverseproxy/ADMIN.md:8
+msgid ""
+"It is possible that your backend service does not support setting up a "
+"\"base URL\" (custom web path). In that case, you will have to install the "
+"application on a dedicated (sub)domain."
+msgstr ""
+
+#. type: Plain text
+#: src/reverseproxy/ADMIN.md:10
+msgid "### Plaintext localhost backend"
+msgstr ""
+
+#. type: Plain text
+#: src/reverseproxy/ADMIN.md:11
+msgid ""
+"Plaintext HTTP backend is only allowed on localhost. For now, only 127.X.X.X "
+"is allowed. 10.X.X.X should also be supported."
+msgstr ""
+
+#. type: Plain text
+#: src/reverseproxy/DESCRIPTION.md:2
+msgid ""
+"This application allows to configure a HTTP(S) reverse proxy to serve "
+"another web service, as well as an (optional) static assets directory to "
+"serve directly from nginx. The application appears as a tile in the SSOWat "
+"panel, unless configured otherwise after install. The access to the "
+"application can be made public."
+msgstr ""
+
+#. type: Plain text
+#: src/reverseproxy/DESCRIPTION.md:4
+msgid "The supported backends are:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/reverseproxy/DESCRIPTION.md:8
+msgid "plaintext HTTP to localhost (127.x.x.x)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/reverseproxy/DESCRIPTION.md:8
+msgid "HTTPS to any destination"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/reverseproxy/DESCRIPTION.md:8
+msgid "socket file on local disk"
+msgstr ""
+
+#. type: Plain text
+#: src/reverseproxy/DESCRIPTION.md:9
+msgid ""
+"Please be aware that SSOWat sends user credentials in plaintext to the "
+"backend, so do not use this application to reverse-proxy a service you don't "
+"trust (for example to mirror a site hosted by someone else)."
+msgstr ""

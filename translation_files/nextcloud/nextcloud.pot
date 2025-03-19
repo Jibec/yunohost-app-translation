@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/nextcloud/ADMIN.md:2
+msgid "### Manually running Nextcloud commands"
+msgstr ""
+
+#. type: Plain text
+#: src/nextcloud/ADMIN.md:4
+msgid "You can run Nextcloud commands from the command line using:"
+msgstr ""
+
+#. type: Plain text
+#: src/nextcloud/ADMIN.md:8
+msgid ""
+"``` sudo -u __APP__ php__PHP_VERSION__ --define apc.enable_cli=1 "
+"__INSTALL_DIR__/occ ...  ```"
+msgstr ""
+
+#. type: Plain text
+#: src/nextcloud/ADMIN.md:9
+msgid ""
+"Alternatively, you may open a 'Nextcloud shell' with `sudo yunohost app "
+"shell __APP__`, then run `php occ ...`"
+msgstr ""
+
+#. type: Plain text
+#: src/nextcloud/DESCRIPTION.md:2
+msgid ""
+"Nextcloud lets you access and synchronize data, files, contacts and "
+"calendars between different devices (PCs or mobiles), or share them with "
+"other people (with or without accounts), and also offers advanced "
+"communication and collaborative working features. Nextcloud features its own "
+"application mechanism (see also [Nextcloud's app store](https://apps."
+"nextcloud.com/)) for specific functionalities."
+msgstr ""
+
+#. type: Plain text
+#: src/nextcloud/DESCRIPTION.md:4
+msgid ""
+"In the context of YunoHost, Nextcloud integrates with the SSO/User Portal "
+"(YunoHost accounts are automatically connected to Nextcloud)."
+msgstr ""
+
+#. type: Plain text
+#: src/nextcloud/DESCRIPTION.md:6
+msgid ""
+"The `/.well-known` address will be automatically configured for CalDAV and "
+"CardDAV synchronization if no other service such as Baïkal is already using "
+"it."
+msgstr ""
+
+#. type: Plain text
+#: src/nextcloud/DESCRIPTION.md:7
+msgid ""
+"The YunoHost catalog has two collaborative office suites, [OnlyOffice]"
+"(https://github.com/YunoHost-Apps/onlyoffice_ynh) and [Collabora](https://"
+"github.com/YunoHost-Apps/collabora_ynh), which can be integrated with "
+"Nextcloud."
+msgstr ""
+
+#. type: Plain text
+#: src/nextcloud/POST_UPGRADE.md:1
+msgid ""
+"Note that if you've installed any third-party Nextcloud applications, they "
+"have probably been disabled. If so, you'll need to manually enable them "
+"again."
+msgstr ""

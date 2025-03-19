@@ -1,0 +1,248 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/galene/ADMIN.md:2
+msgid "### Accessing groups"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:5
+#, no-wrap
+msgid ""
+"*Galène* meeting rooms are called \"groups\". Any group is accessible at `https://__DOMAIN__/group/GroupName`, by typing its name in the home page search field, or by selecting it in the public list (if the group is configured as publicly visible, see below).\n"
+"During install a group is created with YunoHost LDAP authentication, accessible at `https://__DOMAIN__/group/YunoHost_Users`.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:7
+msgid "#### Creating and configuring groups"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:10
+msgid ""
+"Groups are defined by JSON files located in the folder `__DATA_DIR__/"
+"groups`. Each group is represented by a `GroupName.json` file.  To create a "
+"new group, you need to create a `GroupNameExample.json` file and restart "
+"Galène service (you can also make subfolder groups, and the groups will be "
+"accessible with `https://__DOMAIN__/group/subfolder/GroupName/`). Various "
+"configuration options are available (see https://github.com/YunoHost-Apps/"
+"galene_ynh/wiki/Configuration-file)."
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:12
+#, no-wrap
+msgid "*NB: Spaces are supported in group file names.*\n"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:14
+msgid ""
+"When Galène is removed, the data directory (`__DATA_DIR__`) is preserved. If "
+"you want to remove it along with Galène app, use the `--purge` option: `sudo "
+"yunohost app remove galene --purge`."
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:16
+msgid "#### Hashed passwords"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:18
+msgid ""
+"If you don’t wish to store cleartext passwords on the server, you may "
+"generate hashed passwords with the galene-password-generator utility:"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:20
+msgid "`./__INSTALL_DIR__/galenectl hash-password -password \"your_password\"`"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:34
+#, no-wrap
+msgid ""
+"A user entry with a hashed password looks like this:\n"
+"``` \n"
+"{\n"
+"    \"username\": \"jch\",\n"
+"    \"password\": {\n"
+"        \"type\": \"pbkdf2\",\n"
+"        \"hash\": \"sha-256\",\n"
+"        \"key\": \"f591c35604e6aef572851d9c3543c812566b032b6dc083c81edd15cc24449913\",\n"
+"        \"salt\": \"92bff2ace56fe38f\",\n"
+"        \"iterations\": 4096\n"
+"    }\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:36
+msgid "### Configuring your TURN server"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:40
+msgid ""
+"#### Using *Galène*'s internal TURN server Galène comes with a built-in TURN "
+"server that should work out-of-the-box.  - If your server is behind NAT, "
+"allow incoming traffic to TCP/UDP port `1194` (or whatever is configured "
+"with the `-turn` option in `/etc/systemd/system/galene.service`)"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:44
+msgid ""
+"#### Using your own TURN server - Install [coturn_ynh](https://github.com/"
+"YunoHost-Apps/coturn_ynh).  - Add `/opt/yunohost/galene/data/ice-servers."
+"json` with these lines and change `turn.example.org` and `secret`"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:58
+#, no-wrap
+msgid ""
+"```\n"
+"    [\n"
+"        {\n"
+"            \"urls\": [\n"
+"                \"turn:turn.example.org:5349\",\n"
+"                \"turn:turn.example.org:5349?transport=tcp\"\n"
+"            ],\n"
+"            \"username\": \"galene\",\n"
+"            \"credential\": \"secret\"\n"
+"        }\n"
+"    ]\n"
+"```\n"
+"- set `/etc/systemd/system/galene.service` `-turn` option to `-turn auto` (or `-turn \"\"` to disable the built-in TURN server).\n"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:60
+msgid ""
+"To check if the TURN server is up and running, type `/relay-test` in the "
+"chat box. If the TURN server is properly configured, you should see a "
+"message saying that the relay test has been successful."
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:62
+msgid "### Server Statistics page"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:64
+msgid ""
+"Statistics are available under `/opt/yunohost/galene/stats.json`, with a "
+"human-readable version at `domain.ltd/stats.html`. This is only available to "
+"the server administrator (the admin/password is set in the `config.json` "
+"file: `/opt/yunohost/galene/data/config.json`)."
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:66
+msgid "### How do I record my lecture?"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:68
+msgid ""
+"Make sure allow-recording is set in your group configuration. Log-in as an "
+"operator, then say `/record` before you start your lecture. Don't forget to "
+"say `/unrecord` at the end. You will find your recordings under `https://"
+"__DOMAIN__/recordings/groupname/`. The video recordings are stored in "
+"`__DATA_DIR__/recordings` folder."
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:70
+msgid "### Command-line client for Galene file transfer"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/ADMIN.md:71
+msgid "https://github.com/jech/galene-file-transfer/blob/master/README"
+msgstr ""
+
+#. type: Plain text
+#: src/galene/DESCRIPTION.md:2
+msgid ""
+"Galène is a videoconference server (an “SFU”) that is easy to deploy and "
+"that requires moderate server resources. It was originally designed for "
+"lectures and conferences (where a single speaker streams audio and video to "
+"hundreds or thousands of users), but later evolved to be useful for student "
+"practicals (where users are divided into many small groups), and meetings "
+"(where a dozen users interact with each other)."
+msgstr ""
+
+#. type: Plain text
+#: src/galene/DESCRIPTION.md:4
+msgid "### Client features:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/galene/DESCRIPTION.md:13
+msgid "multiparty audio and video"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/galene/DESCRIPTION.md:13
+msgid "text chat"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/galene/DESCRIPTION.md:13
+msgid "reasonably good support for mobile (Android and iPhone/iPad)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/galene/DESCRIPTION.md:13
+msgid ""
+"screen and window sharing, including sharing multiple windows simultaneously "
+"(not on mobile)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/galene/DESCRIPTION.md:13
+msgid "streaming video and audio from disk"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/galene/DESCRIPTION.md:13
+msgid "activity detection"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/galene/DESCRIPTION.md:13
+msgid "LDAP support"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/galene/DESCRIPTION.md:13
+msgid "invite user"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/galene/DESCRIPTION.md:13
+msgid "Command-line client for Galene file transfer"
+msgstr ""

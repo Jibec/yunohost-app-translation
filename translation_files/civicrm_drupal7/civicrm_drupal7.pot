@@ -1,0 +1,29 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/civicrm_drupal/DESCRIPTION.md:2 src/civicrm_drupal7/DESCRIPTION.md:2
+msgid ""
+"Open source constituent relationship management (CRM) for non-profits, NGOs "
+"and advocacy organizations."
+msgstr ""
+
+#. type: Plain text
+#: src/civicrm_drupal/DESCRIPTION.md:3 src/civicrm_drupal7/DESCRIPTION.md:3
+msgid "The LDAP module is not installed by default, but can be installed."
+msgstr ""

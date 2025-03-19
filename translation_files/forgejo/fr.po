@@ -1,0 +1,272 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/2fauth/DESCRIPTION.md:5 src/agorakit/DESCRIPTION.md:4
+#: src/ampache/DESCRIPTION.md:4 src/audiobookshelf/DESCRIPTION.md:4
+#: src/bazarr/DESCRIPTION.md:4 src/blogotext/DESCRIPTION.md:4
+#: src/bookstack/DESCRIPTION.md:4 src/borg/DESCRIPTION.md:6
+#: src/castopod/DESCRIPTION.md:6 src/chatgpt-web/DESCRIPTION.md:4
+#: src/chitchatter/DESCRIPTION.md:4 src/cinny/DESCRIPTION.md:4
+#: src/coin/DESCRIPTION.md:4 src/collabora/DESCRIPTION.md:4
+#: src/commento/DESCRIPTION.md:4 src/commet/DESCRIPTION.md:4
+#: src/concrete5/DESCRIPTION.md:4 src/converse/DESCRIPTION.md:5
+#: src/deluge/DESCRIPTION.md:4 src/dendrite/DESCRIPTION.md:4
+#: src/dex/DESCRIPTION.md:5 src/directorylister/DESCRIPTION.md:4
+#: src/docsify/DESCRIPTION.md:4 src/documize/DESCRIPTION.md:4
+#: src/dont-code/DESCRIPTION.md:7 src/dumbbudget/DESCRIPTION.md:4
+#: src/dumbdo/DESCRIPTION.md:4 src/dumbdrop/DESCRIPTION.md:4
+#: src/dumbpad/DESCRIPTION.md:4 src/dumbwhois/DESCRIPTION.md:4
+#: src/ergo/DESCRIPTION.md:4 src/faceprivacy/DESCRIPTION.md:4
+#: src/feber/DESCRIPTION.md:4 src/fider/DESCRIPTION.md:4
+#: src/forgejo/DESCRIPTION.md:6 src/galette/DESCRIPTION.md:4
+#: src/garage/DESCRIPTION.md:6 src/gemserv/DESCRIPTION.md:4
+#: src/getsimple/DESCRIPTION.md:4 src/gitlist/DESCRIPTION.md:4
+#: src/gogs/DESCRIPTION.md:4 src/gossa/DESCRIPTION.md:4
+#: src/grist/DESCRIPTION.md:4 src/h5ai/DESCRIPTION.md:4
+#: src/headscale/DESCRIPTION.md:33 src/hedgedoc/DESCRIPTION.md:5
+#: src/homarr/DESCRIPTION.md:5 src/homeassistant/DESCRIPTION.md:4
+#: src/hydrogen/DESCRIPTION.md:4 src/immich/DESCRIPTION.md:4
+#: src/isso/DESCRIPTION.md:5 src/kanboard/DESCRIPTION.md:4
+#: src/kavita/DESCRIPTION.md:4 src/kiwix/DESCRIPTION.md:4
+#: src/komga/DESCRIPTION.md:4 src/librarian/DESCRIPTION.md:4
+#: src/libremdb/DESCRIPTION.md:4 src/librespeed/DESCRIPTION.md:4
+#: src/librex/DESCRIPTION.md:4 src/matrix-appservice-irc/DESCRIPTION.md:7
+#: src/mattermost/DESCRIPTION.md:16 src/mediatracker/DESCRIPTION.md:4
+#: src/minchat/DESCRIPTION.md:4 src/mostlymatter/DESCRIPTION.md:7
+#: src/mstream/DESCRIPTION.md:4 src/my_webdav/DESCRIPTION.md:4
+#: src/mytinytodo/DESCRIPTION.md:4 src/navidrome/DESCRIPTION.md:5
+#: src/nitter/DESCRIPTION.md:5 src/nodered/DESCRIPTION.md:6
+#: src/omeka-s/DESCRIPTION.md:4 src/opencloud/DESCRIPTION.md:4
+#: src/openproject/DESCRIPTION.md:4 src/opensearch/DESCRIPTION.md:4
+#: src/outline/DESCRIPTION.md:4 src/pairdrop/DESCRIPTION.md:4
+#: src/paperless-ngx/DESCRIPTION.md:4 src/pgweb/DESCRIPTION.md:4
+#: src/phanpy/DESCRIPTION.md:15 src/photoprism/DESCRIPTION.md:4
+#: src/phplicensewatcher/DESCRIPTION.md:4 src/planka/DESCRIPTION.md:4
+#: src/plateau/DESCRIPTION.md:4 src/pmwiki/DESCRIPTION.md:4
+#: src/pytition/DESCRIPTION.md:4 src/redlib/DESCRIPTION.md:4
+#: src/restic/DESCRIPTION.md:4 src/rocketchat/DESCRIPTION.md:4
+#: src/samba/DESCRIPTION.md:4 src/screego/DESCRIPTION.md:4
+#: src/scrutiny/DESCRIPTION.md:6 src/shaarli/DESCRIPTION.md:4
+#: src/shiori/DESCRIPTION.md:4 src/ssbroom/DESCRIPTION.md:8
+#: src/statpingng/DESCRIPTION.md:4 src/stirling-pdf/DESCRIPTION.md:4
+#: src/tableaunoir/DESCRIPTION.md:4 src/technitium-dns/DESCRIPTION.md:4
+#: src/teddit/DESCRIPTION.md:4 src/timemachine/DESCRIPTION.md:4
+#: src/tinyfilemanager/DESCRIPTION.md:6 src/tldraw/DESCRIPTION.md:4
+#: src/tooljet/DESCRIPTION.md:4 src/traccar/DESCRIPTION.md:4
+#: src/traggo/DESCRIPTION.md:4 src/transfersh/DESCRIPTION.md:5
+#: src/ttrss/DESCRIPTION.md:4 src/tube/DESCRIPTION.md:4
+#: src/turtl/DESCRIPTION.md:4 src/umami/DESCRIPTION.md:4
+#: src/uptime-kuma/DESCRIPTION.md:4 src/vikunja/DESCRIPTION.md:4
+#: src/watchyourlan/DESCRIPTION.md:4 src/whoogle/DESCRIPTION.md:4
+#: src/yourls/DESCRIPTION.md:5 src/zusam/DESCRIPTION.md:5
+#: src/zwiicms/DESCRIPTION.md:4
+msgid "### Features"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:2
+msgid "## Additional informations"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:6
+msgid ""
+"### User synchronization In order to allow access to Forgejo admin section, "
+"YunoHost users are automaticaly synchronized with Forgejo's.  You can use "
+"«Forgejo (admin)» permission to manage which user is considered as forgejo "
+"admin."
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:8
+msgid ""
+"The «forgejo (api)» permission must be set to «Visitors» group to allow user "
+"synchronization via an API call."
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:10
+#, no-wrap
+msgid "**Known issue** : when a user is added to a group (e.g. the one with «Forgejo (admin)» permission), the synchronization is not triggered by YunoHost. You have to update a user (without any modification) to trigger it. (https://github.com/YunoHost/issues/issues/2213)\n"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:12
+msgid "### Notes on SSH usage"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:14
+msgid ""
+"If you want to use Forgejo with SSH and be able to pull/push with your SSH "
+"key, your SSH daemon must be properly configured to use private/public keys. "
+"Here is a sample configuration `/etc/ssh/sshd_config` that works with "
+"Forgejo:"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:20
+msgid ""
+"```bash PubkeyAuthentication yes ChallengeResponseAuthentication no "
+"PasswordAuthentication no ```"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:22
+msgid "You must also add your public key to your Forgejo profile."
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:24 src/gitea/ADMIN.md:24
+msgid ""
+"When using SSH on any port other than 22, you need to add these lines to "
+"your SSH configuration `~/.ssh/config`:"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:29 src/gogs/ADMIN.md:21
+#, no-wrap
+msgid ""
+"```bash\n"
+"Host domain.tld\n"
+"    port 2222 # change this with the port you use\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:31
+msgid "### Private Mode"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:33 src/gogs/ADMIN.md:24
+msgid ""
+"Actually it's possible to access to the Git repositories by the `git` "
+"command over HTTP also in private mode installation. It's important to know "
+"that in this mode the repository could be ALSO getted if you don't set the "
+"repository as private in the repos settings."
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:35 src/monitorix/ADMIN.md:2
+msgid "### Remove"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:38
+msgid ""
+"To remove the data directory in `/home/yunohost.app/forgejo`, use the `--"
+"purge` option: `sudo yunohost remove forgejo --purge`."
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:45
+msgid ""
+"### Uploaded files size By default, NGINX is configured with a maximum value "
+"for uploading files at 200 MB. It's possible to change this value on `/etc/"
+"nginx/conf.d/my.domain.tld.d/forgejo.conf`.  ``` client_max_body_size 200M; "
+"``` Don't forget to restart Forgejo `sudo systemctl restart forgejo.service`."
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:47
+msgid ""
+"> These settings are restored to the default configuration when updating "
+"Forgejo. Remember to restore your configuration after all updates."
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:49
+msgid "### Git command access with HTTPS"
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/ADMIN.md:51
+msgid ""
+"If you want to use the Git command (like `git clone`, `git pull`, `git "
+"push`), you need to set this app as **public**."
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/DESCRIPTION.md:2
+msgid ""
+"Forgejo is a self-hosted lightweight software forge. Easy to install and low "
+"maintenance, it just does the job."
+msgstr ""
+
+#. type: Plain text
+#: src/forgejo/DESCRIPTION.md:4
+msgid ""
+"Brought to you by an inclusive community under the umbrella of Codeberg e."
+"V., a democratic non-profit organization, Forgejo can be trusted to be "
+"exclusively Free Software. It focuses on security, scaling, federation and "
+"privacy."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forgejo/DESCRIPTION.md:16 src/gogs/DESCRIPTION.md:12
+msgid "User dashboard, user profile and activity timeline."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forgejo/DESCRIPTION.md:16
+msgid "User, organization and repository management."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forgejo/DESCRIPTION.md:16 src/gogs/DESCRIPTION.md:12
+msgid ""
+"Repository and organization webhooks, including Slack, Discord and Dingtalk."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forgejo/DESCRIPTION.md:16 src/gogs/DESCRIPTION.md:12
+msgid "Repository Git hooks, deploy keys and Git LFS."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forgejo/DESCRIPTION.md:16 src/gogs/DESCRIPTION.md:12
+msgid ""
+"Repository issues, pull requests, wiki, protected branches and collaboration."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forgejo/DESCRIPTION.md:16 src/gogs/DESCRIPTION.md:12
+msgid "Migrate and mirror repositories with wiki from other code hosts."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forgejo/DESCRIPTION.md:16 src/gogs/DESCRIPTION.md:12
+msgid "Web editor for quick editing repository files and wiki."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forgejo/DESCRIPTION.md:16 src/gogs/DESCRIPTION.md:12
+msgid "Jupyter Notebook and PDF rendering."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forgejo/DESCRIPTION.md:16 src/gogs/DESCRIPTION.md:12
+msgid "Authentication via SMTP, LDAP."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forgejo/DESCRIPTION.md:16
+msgid "Customize HTML templates, static files and many others."
+msgstr ""

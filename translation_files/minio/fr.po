@@ -1,0 +1,79 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/minio/ADMIN.md:2
+msgid "## How to create a YunoHost app using MinIO"
+msgstr ""
+
+#. type: Plain text
+#: src/minio/ADMIN.md:5
+msgid ""
+"During the install process, MinIO will install both the MinIO server and "
+"MinIO client.  If your app needs to use an Amazon S3 storage, I recommend to "
+"use the MinIO client to create and setup buckets as per your app's "
+"requirements. You can have a look at outline_ynh app for reference."
+msgstr ""
+
+#. type: Plain text
+#: src/minio/ADMIN.md:7
+msgid "### First step: retrieve MinIO credentials"
+msgstr ""
+
+#. type: Plain text
+#: src/minio/ADMIN.md:17
+msgid ""
+"``` #================================================= # SETUP MINIO "
+"CREDENTIALS #================================================= "
+"minio_domain=$(ynh_app_setting_get --app=\"minio\" --key=domain)  "
+"minio_admin=$(ynh_app_setting_get --app=\"minio\" --key=admin)  "
+"minio_password=$(ynh_app_setting_get --app=\"minio\" --key=password)  "
+"mc_path=$(ynh_app_setting_get --app=\"minio\" --key=mc_path)  ```"
+msgstr ""
+
+#. type: Plain text
+#: src/minio/ADMIN.md:19
+msgid "### Second step: create and setup your bucket"
+msgstr ""
+
+#. type: Plain text
+#: src/minio/ADMIN.md:25
+msgid ""
+"``` #================================================= # SETUP MINIO BUCKET "
+"#================================================= ynh_script_progression --"
+"message=\"Setting up MinIO bucket for YOURAPP...\" --weight=1"
+msgstr ""
+
+#. type: Plain text
+#: src/minio/ADMIN.md:30
+#, no-wrap
+msgid ""
+"pushd \"$mc_path\"\n"
+"\tynh_exec_warn_less sudo -u minio ./mc mb minio/NAME_OF_YOUR_BUCKET --region \"NAME_OF_YOUR_REGION\"\n"
+"\tynh_exec_warn_less sudo -u minio ./mc policy set NEEDED_POLICY minio/NAME_OF_YOUR_BUCKET\n"
+"popd\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: src/minio/DESCRIPTION.md:1
+msgid ""
+"MinIO is a High Performance Object Storage. It is API compatible with Amazon "
+"S3 cloud storage service. Use MinIO to build high performance infrastructure "
+"for machine learning, analytics and application data workloads."
+msgstr ""

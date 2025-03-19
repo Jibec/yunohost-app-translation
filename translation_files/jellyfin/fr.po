@@ -1,0 +1,68 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Bullet: '* '
+#: src/jellyfin/ADMIN.md:4
+msgid "The app relies on YunoHost's LDAP server for users to log in:"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/jellyfin/ADMIN.md:4
+msgid "Standard users need the `main` permission;"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/jellyfin/ADMIN.md:4
+msgid ""
+"Users with the `admin` permission will have access to the administration "
+"panel."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/jellyfin/ADMIN.md:6
+msgid "The app can access YunoHost's multimedia directories:"
+msgstr ""
+
+#. type: Plain text
+#: src/jellyfin/ADMIN.md:8
+#, no-wrap
+msgid "  Choose one of the folders in `/home/yunohost.multimedia/share` upon configuration of your libraries.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/jellyfin/ADMIN.md:10
+msgid ""
+"Starting version 10.7.5~ynh2, you can ask for the discovery ports (1900 and "
+"7359) to be opened."
+msgstr ""
+
+#. type: Plain text
+#: src/jellyfin/ADMIN.md:12
+#, no-wrap
+msgid ""
+"  They ease the setting up of your media center between clients and server.\n"
+"  * If you are upgrading to this version and above, set `discovery: '1'` in `/etc/yunohost/apps/jellyfin/settings.yml` if you want the upgrade to open them for you.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/jellyfin/DESCRIPTION.md:1
+msgid ""
+"Jellyfin enables you to collect, manage, and stream your media. Run the "
+"Jellyfin server on your system and gain access to the leading free-software "
+"entertainment system, bells and whistles included."
+msgstr ""

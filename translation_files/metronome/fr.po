@@ -1,0 +1,70 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/metronome/DESCRIPTION.md:2
+msgid ""
+"Metronome is a light-weight [XMPP](https://en.wikipedia.org/wiki/XMPP) "
+"instant-messaging server written in Lua and based on Prosody. It's aimed to "
+"provide advanced features while maintaining a modest resource usage. More "
+"details on [the official website](https://archon.im/metronome-im/)."
+msgstr ""
+
+#. type: Plain text
+#: src/metronome/DESCRIPTION.md:4
+msgid "To use Metronome / XMPP, you will also need a client, for example:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/metronome/DESCRIPTION.md:11
+msgid "[Movim](https://movim.eu) - Web - available as a YunoHost app"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/metronome/DESCRIPTION.md:11
+msgid ""
+"[ConverseJS](https://conversejs.org) - Web - available as a YunoHost app"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/metronome/DESCRIPTION.md:11
+msgid "[Gajim](https://gajim.org/) - Linux, Windows"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/metronome/DESCRIPTION.md:11
+msgid "[Dino](https://dino.im) - Linux"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/metronome/DESCRIPTION.md:11
+msgid "[Thunderbird](https://www.thunderbird.net/fr/) - Linux, Windows, MacOS"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/metronome/DESCRIPTION.md:11
+msgid "[Conversations](https://conversations.im/) - Android"
+msgstr ""
+
+#. type: Plain text
+#: src/metronome/DESCRIPTION.md:12
+msgid ""
+"You will be able to connect using `your_yunohost_username@domain.tld` + your "
+"password (i.e. your credentials are the same as for email, but for instant "
+"messaging)"
+msgstr ""

@@ -1,0 +1,55 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/wanderer/DESCRIPTION.md:2
+msgid ""
+"Wanderer is a self-hosted trail database. You can upload your recorded "
+"tracks or create new ones and add various metadata to build an easily "
+"searchable catalogue."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/wanderer/DESCRIPTION.md:8
+msgid "Manage your trails"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/wanderer/DESCRIPTION.md:8
+msgid "Plan new routes"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/wanderer/DESCRIPTION.md:8
+msgid "Extensive map integration and visualization"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/wanderer/DESCRIPTION.md:8
+msgid "Share trails with other people and explore theirs"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/wanderer/DESCRIPTION.md:8
+msgid "Advanced filter and search functionality"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/wanderer/DESCRIPTION.md:8
+msgid "Create custom lists to organize your trails further"
+msgstr ""

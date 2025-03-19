@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/2fauth/DESCRIPTION.md:5 src/agorakit/DESCRIPTION.md:4
+#: src/ampache/DESCRIPTION.md:4 src/audiobookshelf/DESCRIPTION.md:4
+#: src/bazarr/DESCRIPTION.md:4 src/blogotext/DESCRIPTION.md:4
+#: src/bookstack/DESCRIPTION.md:4 src/borg/DESCRIPTION.md:6
+#: src/castopod/DESCRIPTION.md:6 src/chatgpt-web/DESCRIPTION.md:4
+#: src/chitchatter/DESCRIPTION.md:4 src/cinny/DESCRIPTION.md:4
+#: src/coin/DESCRIPTION.md:4 src/collabora/DESCRIPTION.md:4
+#: src/commento/DESCRIPTION.md:4 src/commet/DESCRIPTION.md:4
+#: src/concrete5/DESCRIPTION.md:4 src/converse/DESCRIPTION.md:5
+#: src/deluge/DESCRIPTION.md:4 src/dendrite/DESCRIPTION.md:4
+#: src/dex/DESCRIPTION.md:5 src/directorylister/DESCRIPTION.md:4
+#: src/docsify/DESCRIPTION.md:4 src/documize/DESCRIPTION.md:4
+#: src/dont-code/DESCRIPTION.md:7 src/dumbbudget/DESCRIPTION.md:4
+#: src/dumbdo/DESCRIPTION.md:4 src/dumbdrop/DESCRIPTION.md:4
+#: src/dumbpad/DESCRIPTION.md:4 src/dumbwhois/DESCRIPTION.md:4
+#: src/ergo/DESCRIPTION.md:4 src/faceprivacy/DESCRIPTION.md:4
+#: src/feber/DESCRIPTION.md:4 src/fider/DESCRIPTION.md:4
+#: src/forgejo/DESCRIPTION.md:6 src/galette/DESCRIPTION.md:4
+#: src/garage/DESCRIPTION.md:6 src/gemserv/DESCRIPTION.md:4
+#: src/getsimple/DESCRIPTION.md:4 src/gitlist/DESCRIPTION.md:4
+#: src/gogs/DESCRIPTION.md:4 src/gossa/DESCRIPTION.md:4
+#: src/grist/DESCRIPTION.md:4 src/h5ai/DESCRIPTION.md:4
+#: src/headscale/DESCRIPTION.md:33 src/hedgedoc/DESCRIPTION.md:5
+#: src/homarr/DESCRIPTION.md:5 src/homeassistant/DESCRIPTION.md:4
+#: src/hydrogen/DESCRIPTION.md:4 src/immich/DESCRIPTION.md:4
+#: src/isso/DESCRIPTION.md:5 src/kanboard/DESCRIPTION.md:4
+#: src/kavita/DESCRIPTION.md:4 src/kiwix/DESCRIPTION.md:4
+#: src/komga/DESCRIPTION.md:4 src/librarian/DESCRIPTION.md:4
+#: src/libremdb/DESCRIPTION.md:4 src/librespeed/DESCRIPTION.md:4
+#: src/librex/DESCRIPTION.md:4 src/matrix-appservice-irc/DESCRIPTION.md:7
+#: src/mattermost/DESCRIPTION.md:16 src/mediatracker/DESCRIPTION.md:4
+#: src/minchat/DESCRIPTION.md:4 src/mostlymatter/DESCRIPTION.md:7
+#: src/mstream/DESCRIPTION.md:4 src/my_webdav/DESCRIPTION.md:4
+#: src/mytinytodo/DESCRIPTION.md:4 src/navidrome/DESCRIPTION.md:5
+#: src/nitter/DESCRIPTION.md:5 src/nodered/DESCRIPTION.md:6
+#: src/omeka-s/DESCRIPTION.md:4 src/opencloud/DESCRIPTION.md:4
+#: src/openproject/DESCRIPTION.md:4 src/opensearch/DESCRIPTION.md:4
+#: src/outline/DESCRIPTION.md:4 src/pairdrop/DESCRIPTION.md:4
+#: src/paperless-ngx/DESCRIPTION.md:4 src/pgweb/DESCRIPTION.md:4
+#: src/phanpy/DESCRIPTION.md:15 src/photoprism/DESCRIPTION.md:4
+#: src/phplicensewatcher/DESCRIPTION.md:4 src/planka/DESCRIPTION.md:4
+#: src/plateau/DESCRIPTION.md:4 src/pmwiki/DESCRIPTION.md:4
+#: src/pytition/DESCRIPTION.md:4 src/redlib/DESCRIPTION.md:4
+#: src/restic/DESCRIPTION.md:4 src/rocketchat/DESCRIPTION.md:4
+#: src/samba/DESCRIPTION.md:4 src/screego/DESCRIPTION.md:4
+#: src/scrutiny/DESCRIPTION.md:6 src/shaarli/DESCRIPTION.md:4
+#: src/shiori/DESCRIPTION.md:4 src/ssbroom/DESCRIPTION.md:8
+#: src/statpingng/DESCRIPTION.md:4 src/stirling-pdf/DESCRIPTION.md:4
+#: src/tableaunoir/DESCRIPTION.md:4 src/technitium-dns/DESCRIPTION.md:4
+#: src/teddit/DESCRIPTION.md:4 src/timemachine/DESCRIPTION.md:4
+#: src/tinyfilemanager/DESCRIPTION.md:6 src/tldraw/DESCRIPTION.md:4
+#: src/tooljet/DESCRIPTION.md:4 src/traccar/DESCRIPTION.md:4
+#: src/traggo/DESCRIPTION.md:4 src/transfersh/DESCRIPTION.md:5
+#: src/ttrss/DESCRIPTION.md:4 src/tube/DESCRIPTION.md:4
+#: src/turtl/DESCRIPTION.md:4 src/umami/DESCRIPTION.md:4
+#: src/uptime-kuma/DESCRIPTION.md:4 src/vikunja/DESCRIPTION.md:4
+#: src/watchyourlan/DESCRIPTION.md:4 src/whoogle/DESCRIPTION.md:4
+#: src/yourls/DESCRIPTION.md:5 src/zusam/DESCRIPTION.md:5
+#: src/zwiicms/DESCRIPTION.md:4
+msgid "### Features"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/dumbbudget/DESCRIPTION.md:15 src/dumbpad/DESCRIPTION.md:11
+msgid "Responsive design"
+msgstr ""
+
+#. type: Plain text
+#: src/dumbpad/DESCRIPTION.md:2
+msgid ""
+"A stupid simple, no auth (unless you want it!), modern notepad application "
+"with auto-save functionality and dark mode support."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/dumbpad/DESCRIPTION.md:11
+msgid "Simple, clean interface"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/dumbpad/DESCRIPTION.md:11
+msgid "Auto-saving"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/dumbpad/DESCRIPTION.md:11
+msgid "Dark mode support"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/dumbpad/DESCRIPTION.md:11
+msgid "Optional PIN protection (4-10 digits)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/dumbpad/DESCRIPTION.md:11
+msgid "File-based storage"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/dumbpad/DESCRIPTION.md:11
+msgid "Data persistence across updates"
+msgstr ""

@@ -1,0 +1,142 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/cheky/DESCRIPTION.md:2 src/crabfit/DESCRIPTION.md:6
+#: src/dendrite/ADMIN.md:4 src/influxdb_v2/DESCRIPTION.md:4
+#: src/netdata/ADMIN.md:57 src/olivetin/DESCRIPTION.md:16
+msgid "## Features"
+msgstr ""
+
+#. type: Plain text
+#: src/olivetin/ADMIN.md:2
+msgid ""
+"Now you can customize Olivetin's configuration file at `__INSTALL_DIR__/"
+"config.yaml`."
+msgstr ""
+
+#. type: Plain text
+#: src/olivetin/ADMIN.md:4
+msgid ""
+"Olivetin is added as sudoers for selected commands. You can see and edit the "
+"sudoers file located at `/etc/sudoers.d/__APP__`."
+msgstr ""
+
+#. type: Plain text
+#: src/olivetin/DESCRIPTION.md:2
+msgid ""
+"OliveTin gives safe and simple access to predefined shell commands from a "
+"web interface."
+msgstr ""
+
+#. type: Plain text
+#: src/olivetin/DESCRIPTION.md:5
+msgid ""
+"## Use cases ### Safely give access to commands, for less technical people"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:9
+msgid "Give your family a button to `systemctl restart jellyfin`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:9
+msgid ""
+"Give junior admins a simple web form with dropdowns, to start your custom "
+"script like `backupScript.sh --folder {{ customerName }}`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:9
+msgid ""
+"Enable SSH access to the server for the next 20 mins `firewall-cmd --add-"
+"service ssh --timeout 20m`"
+msgstr ""
+
+#. type: Plain text
+#: src/olivetin/DESCRIPTION.md:11
+msgid "### Simplify complex commands, make them accessible and repeatable"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:14
+msgid ""
+"Expose complex commands on touchscreen tablets stuck on walls around your "
+"house. `wake-on-lan aa:bb:cc:11:22:33`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:14
+msgid "Run long running on your servers from your cell phone. `apt upgrade -y`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:24
+msgid "Responsive, touch-friendly UI - great for tablets and mobile"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:24
+msgid ""
+"Super simple config in YAML - because if it’s not YAML now-a-days, it’s not "
+"\"cloud native\" :-)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:24
+msgid "Dark mode - for those of you that roll that way."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:24
+msgid ""
+"Accessible - passes all the accessibility checks in Firefox, and issues with "
+"accessibility are taken seriously."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:24
+msgid ""
+"Container - available for quickly testing and getting it up and running, "
+"great for the selfhosted community."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:24
+msgid ""
+"Integrate with anything - OliveTin just runs Linux shell commands, so "
+"theoretially you could integrate with a bunch of stuff just by using curl, "
+"ping, etc. However, writing your own shell scripts is a reat way to extend "
+"OliveTin."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:24
+msgid ""
+"Lightweight on resources - uses only a few MB of RAM and barely any CPU. "
+"Written in Go, with a web interface written as a modern, responsive, Single "
+"Page App that uses the REST/gRPC API."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/olivetin/DESCRIPTION.md:24
+msgid ""
+"Good amount of unit tests and style checks - helps potential contributors be "
+"consistent, and helps with maintainability."
+msgstr ""

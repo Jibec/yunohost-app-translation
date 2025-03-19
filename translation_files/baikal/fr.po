@@ -1,0 +1,30 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/baikal/DESCRIPTION.md:1
+msgid ""
+"Baïkal is a lightweight CalDAV+CardDAV server. It offers an extensive web "
+"interface with easy management of users, address books and calendars. It is "
+"fast and simple to install and only needs a basic PHP capable server. The "
+"data are stored in a MySQL database. Baïkal allows to seamlessly access your "
+"contacts and calendars from every device. It is compatible with iOS, macOS, "
+"DAVx5 on Android, Mozilla Thunderbird and every other CalDAV and CardDAV "
+"capable application. Protect your privacy by hosting calendars and contacts "
+"yourself with Baïkal."
+msgstr ""

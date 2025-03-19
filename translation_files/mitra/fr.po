@@ -1,0 +1,49 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/forte/ADMIN.md:2 src/mitra/ADMIN.md:2 src/streams/ADMIN.md:2
+msgid "### Register a new domain and add it to YunoHost"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/mitra/ADMIN.md:3
+msgid ""
+"Your [Mitra](https://codeberg.org/silverpill/mitra) server requires a "
+"dedicated domain, so obtain one and add it using the YunoHost admin panel. "
+"**Domains -> Add domain**. As your server uses the full domain and is "
+"installed on the root, you can create a subdomain such as mywebsite.domain."
+"tld. Don't forget to update your DNS records if you manage them manually."
+msgstr ""
+
+#. type: Plain text
+#: src/mitra/DESCRIPTION.md:2
+msgid ""
+"[Mitra](https://codeberg.org/silverpill/mitra) is a micro-blogging social "
+"media server built on ActivityPub protocol. It is a part of the Fediverse "
+"and supports account migrations from one server to another (your identity "
+"can be detached from the server)."
+msgstr ""
+
+#. type: Plain text
+#: src/mitra/DESCRIPTION.md:3
+msgid ""
+"Your server will be compatible with **Mastodon**, **Pleroma**, **Pixelfed**, "
+"**Friendica**, **Hubzilla**, **(streams)**, **Peertube**, **Plume**, "
+"**WriteFreely** and many, many more."
+msgstr ""

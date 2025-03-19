@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:2 src/mastodon/ADMIN.md:2
+msgid "## Administrate with tooctl"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:6 src/mastodon/ADMIN.md:6
+msgid "## Update"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:16 src/mastodon/ADMIN.md:23
+msgid "## Backups"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:21 src/mastodon/ADMIN.md:28
+msgid "To check your space usage, on a command line run:"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:27 src/mastodon/ADMIN.md:38
+msgid ""
+"First dry-run to see how much space is freed up (without actually removing):"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:31 src/mastodon/ADMIN.md:44
+msgid "If all looks good commit the cleanup:"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:35 src/mastodon/ADMIN.md:85
+msgid "## Known Bugs"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:4
+msgid ""
+"`$ (cd /var/www/mastodon/live && sudo -u mastodon RAILS_ENV=production PATH=/"
+"opt/rbenv/versions/mastodon/bin bin/tootctl --help)`"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:9
+#, no-wrap
+msgid ""
+"**`screen` (or `tmux`) can be used to make sure your session is not interrupted in case of connection problems.**  \n"
+"See [tutorial](https://www.howtogeek.com/662422/how-to-use-linuxs-screen-command/) for more background information.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:14
+msgid "```bash screen sudo yunohost app upgrade mastodon ```"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:16
+msgid "Recover the screen session after disconnect:"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:21
+msgid "```bash screen -d screen -r ```"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:26
+msgid ""
+"First of all: Mastodon uses a local cache to save media (such as posted "
+"images, videos etc.). This cache can grow huge.  You could consider cleaning "
+"up your local cache first as otherwise your backup will be very big and you "
+"might run out of disk space:"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:32
+msgid ""
+"```bash sudo cd /var/www/mastodon/live && sudo -u mastodon "
+"RAILS_ENV=production PATH=/opt/rbenv/versions/mastodon/bin bin/tootctl media "
+"usage ```"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:36
+msgid ""
+"If your cache is too big to backup, you can run the following command to "
+"clean up Attachments (the first line).  Substitute X by the number of days "
+"you want to keep, e.g. 1 day.  All older images will be deleted but will be "
+"refetched from the original server if necessary."
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:42
+msgid ""
+"```bash sudo cd /var/www/mastodon/live && sudo -u mastodon "
+"RAILS_ENV=production PATH=/opt/rbenv/versions/mastodon/bin bin/tootctl media "
+"remove --days=X --dry-run` ```"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:48
+msgid ""
+"```bash sudo cd /var/www/mastodon/live && sudo -u mastodon "
+"RAILS_ENV=production PATH=/opt/rbenv/versions/mastodon/bin bin/tootctl media "
+"remove --days=X` ```"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:50
+msgid ""
+"Check [the official documentation](https://docs.joinmastodon.org/admin/"
+"tootctl/#media-remove) for more details."
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:52
+msgid "## Release disk space"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:54
+msgid "To liberate disk space, you can use the following commands:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/mastodon/ADMIN.md:58
+msgid ""
+"[tootctl media remove](https://docs.joinmastodon.org/admin/tootctl/#media-"
+"remove): removes locally cached copies of media from other servers"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/mastodon/ADMIN.md:58
+msgid ""
+"[tootctl media remove-orphans](https://docs.joinmastodon.org/admin/tootctl/"
+"#media-remove-orphans): scans for files that do not belong to existing media "
+"attachments, and remove them"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/mastodon/ADMIN.md:58
+msgid ""
+"[tootctl accounts cull](https://docs.joinmastodon.org/admin/tootctl/"
+"#accounts-cull): remove remote accounts that no longer exist"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:60
+msgid "As seen above, each of these commands must be structured as such:"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:64
+msgid ""
+"```bash sudo cd /var/www/mastodon/live && sudo -u mastodon "
+"RAILS_ENV=production PATH=/opt/rbenv/versions/mastodon/bin bin/tootctl "
+"command ```"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:66
+msgid "## Before your Mastodon instance deletion"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:69
+msgid ""
+"Before definitively uninstalling Mastodon, you have to run `tootctl self-"
+"destruct` to broadcast your users and instance deletion to the federation.  "
+"Otherwise your data will remain in federation cache for ever."
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:74
+msgid ""
+"⚠️ Make sure you know exactly what you are doing before running this "
+"command.  ⚠️ **This operation is NOT reversible, and it can take a long time."
+"** ⚠️ The server will be in a BROKEN STATE after this command finishes.  ⚠️ A "
+"running Sidekiq process is required, **so do not shut down the server until "
+"the queues are fully cleared**."
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:79
+msgid ""
+"```bash screen sudo cd /var/www/mastodon/live && sudo -u mastodon "
+"RAILS_ENV=production PATH=/opt/rbenv/versions/mastodon/bin bin/tootctl self-"
+"destruct --dry-run ```"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:81
+msgid ""
+"Remove the `--dry-run` part only when you're absolutely certain that you "
+"really want to delete your Mastodon instance."
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/ADMIN.md:83
+msgid ""
+"Check [the official documentation](https://docs.joinmastodon.org/admin/"
+"tootctl/#self-destruct) for more details."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/mastodon/ADMIN.md:86
+msgid ""
+"Log-out from YunoHost's portal doesn't log out from Mastodon. See <https://"
+"github.com/YunoHost/issues/issues/501>"
+msgstr ""
+
+#. type: Plain text
+#: src/mastodon/DESCRIPTION.md:2
+msgid ""
+"Mastodon is a free, open-source microblogging social network.  It is a "
+"decentralized alternative to commercial platforms like Twitter and avoids "
+"the risks of a single company monopolizing your communication for commercial "
+"purposes."
+msgstr ""

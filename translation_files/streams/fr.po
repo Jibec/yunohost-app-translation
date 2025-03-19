@@ -1,0 +1,104 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/forte/ADMIN.md:2 src/mitra/ADMIN.md:2 src/streams/ADMIN.md:2
+msgid "### Register a new domain and add it to YunoHost"
+msgstr ""
+
+#. type: Plain text
+#: src/forte/ADMIN.md:6 src/streams/ADMIN.md:6
+msgid "### Admin user rights, logs and failed database updates"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forte/ADMIN.md:8 src/streams/ADMIN.md:8
+msgid ""
+"**Admin account**: When installation is complete, you must visit your new "
+"website and create the first account using the **admin's email address** "
+"(the admin is the YunoHost user which was chosen at the beginning of the "
+"installation process). You will then be able to create your first channel "
+"and have access the **admin pages** for your website."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forte/ADMIN.md:10 src/streams/ADMIN.md:10
+msgid ""
+"**Failing to get admin rights**: If the admin cannot access the admin "
+"settings at `https://mywebsite.domain.tld/admin` or you want to grant admin "
+"rights to any other registered user on your website, then you have to "
+"**manually add 4096** to the ***account_roles*** under ***accounts*** for "
+"that user in the **database through software like phpMyAdmin**."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/forte/ADMIN.md:12 src/streams/ADMIN.md:12
+msgid ""
+"**Failed Database after Upgrade**: If the database upgrade fails after "
+"version upgrade, you can visit the dedicated page, `https://mywebsite.domain."
+"tld/admin/dbsync/`, and check the numbers of failed updates. These updates "
+"will have to be ran manually using software such as **phpMyAdmin**."
+msgstr ""
+
+#. type: Plain text
+#: src/forte/ADMIN.md:14 src/streams/ADMIN.md:14
+msgid "### Custom configuration"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/streams/ADMIN.md:4
+msgid ""
+"Your website based on the [streams repository](https://codeberg.org/streams/"
+"streams/) requires a dedicated domain, so obtain one and add it using the "
+"YunoHost admin panel. **Domains -> Add domain**. As your website uses the "
+"full domain and is installed on the root, you can create a subdomain such as "
+"mywebsite.domain.tld. Don't forget to update your DNS records if you manage "
+"them manually."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/streams/ADMIN.md:15
+msgid ""
+"**Additional settings in .htconfig.php**: If you need to add some additional "
+"lines in .htconfig.php (as described on the [Service Classes](https://"
+"codeberg.org/streams/streams/src/commit/"
+"c75afc9ab4b9ba19628008c14459756edf9c291a/doc/admin/en/Service_Classes.mc) or "
+"[PHPMailer](https://codeberg.org/streams/streams/src/commit/"
+"c75afc9ab4b9ba19628008c14459756edf9c291a/doc/admin/en/SMTP.mc) "
+"documentation), please add it in the `/home/yunohost.app/streams/extra_conf."
+"php` file (or `/home/yunohost.app/streams__X/extra_conf.php` if you "
+"installed more than one site). Do not touch .htconfig.php as your changes "
+"will be wiped when the YunoHost package is upgraded."
+msgstr ""
+
+#. type: Plain text
+#: src/streams/DESCRIPTION.md:2
+msgid ""
+"The [streams repository](https://codeberg.org/streams/streams/) lets you "
+"install fediverse-connected websites with powerful and innovative features "
+"such as decentralized/nomadic identity, permissions framework, and much more "
+"(see [FEATURES](doc/FEATURES.md))."
+msgstr ""
+
+#. type: Plain text
+#: src/streams/DESCRIPTION.md:3
+msgid ""
+"Your websites will be compatible with **Mastodon**, **Pleroma**, "
+"**Pixelfed**, **Friendica**, **Hubzilla**, **Funkwhale**, **Peertube**, "
+"**Plume**, **WriteFreely** and many, many more."
+msgstr ""

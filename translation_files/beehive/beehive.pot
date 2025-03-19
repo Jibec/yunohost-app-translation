@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/beehive/DESCRIPTION.md:2
+msgid ""
+"Beehive is an event and agent system, which allows you to create your own "
+"agents that perform automated tasks triggered by events and filters. It is "
+"modular, flexible and really easy to extend for anyone. It has modules (we "
+"call them Hives), so it can interface with, talk to, or retrieve information "
+"from Twitter, Tumblr, Email, IRC, Jabber, RSS, Jenkins, Hue - to name just a "
+"few."
+msgstr ""
+
+#. type: Plain text
+#: src/beehive/DESCRIPTION.md:4 src/glpi/DESCRIPTION.md:4
+#: src/invidious/DESCRIPTION.md:5 src/kiwiirc/DESCRIPTION.md:4
+#: src/moncycle/DESCRIPTION.md:4 src/psitransfer/DESCRIPTION.md:4
+#: src/slingcode/DESCRIPTION.md:4 src/thelounge/DESCRIPTION.md:4
+msgid "### Features:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/beehive/DESCRIPTION.md:10
+msgid "Re-post tweets on your Tumblr blog"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/beehive/DESCRIPTION.md:10
+msgid "Forward incoming chat messages to your email account"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/beehive/DESCRIPTION.md:10
+msgid ""
+"Turn on the heating system if the temperature drops below a certain value"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/beehive/DESCRIPTION.md:10
+msgid "Run your own IRC bot that lets you trigger builds on a Jenkins CI"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/beehive/DESCRIPTION.md:10
+msgid "Control your Hue lighting system"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/beehive/DESCRIPTION.md:10
+msgid "Notify you when a stock's price drops below a certain value"
+msgstr ""

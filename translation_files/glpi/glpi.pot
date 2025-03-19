@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/beehive/DESCRIPTION.md:4 src/glpi/DESCRIPTION.md:4
+#: src/invidious/DESCRIPTION.md:5 src/kiwiirc/DESCRIPTION.md:4
+#: src/moncycle/DESCRIPTION.md:4 src/psitransfer/DESCRIPTION.md:4
+#: src/slingcode/DESCRIPTION.md:4 src/thelounge/DESCRIPTION.md:4
+msgid "### Features:"
+msgstr ""
+
+#. type: Plain text
+#: src/glpi/DESCRIPTION.md:2
+msgid ""
+"GLPI stands for Gestionnaire Libre de Parc Informatique is a Free Asset and "
+"IT Management Software package, that provides ITIL Service Desk features, "
+"licenses tracking and software auditing."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glpi/DESCRIPTION.md:13
+msgid ""
+"Inventory of computers, peripherals, network printers and any associated "
+"components through an interface, with inventory tools such as: "
+"FusionInventory or OCS Inventory"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glpi/DESCRIPTION.md:13
+msgid "Data Center Infrastructure Management (DCIM)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glpi/DESCRIPTION.md:13
+msgid "Item lifecycle management"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glpi/DESCRIPTION.md:13
+msgid "Licenses management (ITIL compliant)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glpi/DESCRIPTION.md:13
+msgid ""
+"Management of warranty and financial information (purchase order, warranty "
+"and extension, damping)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glpi/DESCRIPTION.md:13
+msgid "Management of contracts, contacts, documents related to inventory items"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glpi/DESCRIPTION.md:13
+msgid "Incidents, requests, problems and changes management"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glpi/DESCRIPTION.md:13
+msgid "Knowledge base and Frequently-Asked Questions (FAQ)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glpi/DESCRIPTION.md:13
+msgid "Asset reservation"
+msgstr ""

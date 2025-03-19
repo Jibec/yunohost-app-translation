@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/kimai2/ADMIN.md:2
+msgid ""
+"As sqlite support ended on version 1.14, if you choosed an sqlite database "
+"during installation, Kimai2 upgrade is blocked to version 1.13."
+msgstr ""
+
+#. type: Plain text
+#: src/kimai2/ADMIN.md:4
+msgid "#### Multi-user support"
+msgstr ""
+
+#. type: Plain text
+#: src/kimai2/ADMIN.md:6
+msgid "Defaul Kimai2 roles are:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/kimai2/ADMIN.md:11
+msgid "ROLE_USER"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/kimai2/ADMIN.md:11
+msgid "ROLE_TEAMLEAD => Kimai2 (Teamlead) YunoHost permission"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/kimai2/ADMIN.md:11
+msgid "ROLE_ADMIN => Kimai2 (Admin) YunoHost permission"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/kimai2/ADMIN.md:11
+msgid "ROLE_SUPER_ADMIN => Kimai2 (Super_Admin) YunoHost permission"
+msgstr ""
+
+#. type: Plain text
+#: src/kimai2/ADMIN.md:12
+msgid ""
+"Those roles are directly managed using YunoHost permission system. User "
+"choosen during installation is granted the ROLE_SUPER_ADMIN"
+msgstr ""
+
+#. type: Plain text
+#: src/kimai2/DESCRIPTION.md:1
+msgid ""
+"Kimai v2 has nothing in common with its predecessor Kimai v1 besides the "
+"basic ideas of time-tracking and the current development team. It is based "
+"on a lot of great frameworks. Special thanks to Symfony v4, Doctrine, "
+"AdminThemeBundle (based on AdminLTE)."
+msgstr ""

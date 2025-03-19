@@ -1,0 +1,27 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/element/DESCRIPTION.md:1
+msgid ""
+"Element is a new type of messaging app. You choose where your messages are "
+"stored, putting you in control of your data. It gives you access to the "
+"Matrix open network, so you can talk to anyone. Element provides a new level "
+"of security, adding cross-signed device verification to default end-to-end "
+"encryption."
+msgstr ""

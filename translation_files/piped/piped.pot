@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/piped/DESCRIPTION.md:2
+msgid "# The Problem"
+msgstr ""
+
+#. type: Plain text
+#: src/piped/DESCRIPTION.md:4
+msgid ""
+"YouTube has an extremely invasive privacy policy which relies on using user "
+"data in unethical ways. You give them a lot of data - ranging from ideas, "
+"music taste, content, political opinions, and much more than you think."
+msgstr ""
+
+#. type: Plain text
+#: src/piped/DESCRIPTION.md:6
+msgid ""
+"By using Piped, you can freely watch and listen to content without the fear "
+"of prying eyes watching everything you are doing."
+msgstr ""
+
+#. type: Plain text
+#: src/piped/DESCRIPTION.md:8
+msgid "## Features:"
+msgstr ""
+
+#. type: Plain text
+#: src/piped/DESCRIPTION.md:10
+#, no-wrap
+msgid "**User Features**\n"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] No Ads"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] No Tracking"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Lightweight on server and client"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Infinite Scrolling"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Light/Dark themes"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Login"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Feeds"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Playlists"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid ""
+"[x] Integration with [SponsorBlock](https://github.com/ajayyy/SponsorBlock)"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Integration with [LBRY](https://lbry.com/) for streaming"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid ""
+"[x] Integration with [Return YouTube Dislike](https://returnyoutubedislike."
+"com/) via [RYD-Proxy](https://github.com/TeamPiped/RYD-Proxy)"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] 4K support"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] No connections to Google's servers"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Playing just audio"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] PWA support"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Locally saved Preferences"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid ""
+"[x] [Available in many languages](src/locales), thanks to [our translators]"
+"(https://hosted.weblate.org/projects/piped/frontend/)"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Embedded video support"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] No age restriction"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:31
+msgid "[x] Bypasses Geo restrictions if possible through a federated network"
+msgstr ""
+
+#. type: Plain text
+#: src/piped/DESCRIPTION.md:33
+#, no-wrap
+msgid "**Technical Features**\n"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:39
+msgid "[x] Multi-region load-balancing"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:39
+msgid ""
+"[x] Performant by design, designed to handle 1000s of users concurrently"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:39
+msgid "[x] Does not use official YouTube APIs"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:39
+msgid ""
+"[x] Uses [NewPipeExtractor](https://github.com/TeamNewPipe/NewPipeExtractor) "
+"to extract information"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:39
+msgid "[x] Public [JSON API](https://docs.piped.video/docs/api-documentation/)"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: src/piped/DESCRIPTION.md:39
+msgid ""
+"[x] Federated protocol on Matrix to let instances collaborate with each other"
+msgstr ""

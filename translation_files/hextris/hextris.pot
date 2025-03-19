@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/hextris/DESCRIPTION.md:7
+msgid ""
+"HEXTRIS is a fast paced puzzle game inspired by Tetris.  Blocks start on the "
+"edges of the screen, and fall towards the inner blue hexagon.  The objective "
+"of the game is to prevent the blocks from stacking outside the area of the "
+"grey hexagon.  To do this, you must rotate the hexagon to manage different "
+"stacks of blocks on each face.  Aim to connect 3 or more blocks of the same "
+"color: when 3 or more blocks of the same color touch each other, they are "
+"destroyed, and the blocks above them slide down! Destroying multiple series "
+"of blocks grants combos, whose durations are indicated by a quickly receding "
+"outline around the outer, grey hexagon.  You lose once blocks on a face of "
+"the hexagon stack outside of the outer hexagon!"
+msgstr ""

@@ -1,0 +1,51 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/code-server/ADMIN.md:6 src/grist/DESCRIPTION.md:13
+#: src/opensearch/DESCRIPTION.md:8 src/retroarch/ADMIN.md:9 src/ums/ADMIN.md:11
+#: src/wallabag2/ADMIN.md:2
+msgid "### Limitations"
+msgstr ""
+
+#. type: Plain text
+#: src/wallabag2/ADMIN.md:3
+msgid ""
+"Removing a YunoHost's user won't delete the related wallabag user, but only "
+"desactivate it. You need to manualy remove it from wallabag before. See: "
+"https://github.com/YunoHost-Apps/wallabag2_ynh/issues/39"
+msgstr ""
+
+#. type: Plain text
+#: src/wallabag2/DESCRIPTION.md:3
+msgid ""
+"Wallabag is a self hostable Read-It-Later application allowing you to not "
+"miss any content anymore. Click, save, read it when you can.  It provides a "
+"web interface, browser (Firefox/Chrome/Opera) add-ons, mobile apps (Android/"
+"iOS/Windows Phone) and even on e-reader (PocketBook/Kobo)."
+msgstr ""
+
+#. type: Plain text
+#: src/wallabag2/DESCRIPTION.md:4
+msgid ""
+"Upgrade from the YunoHost [Wallabag v1](https://github.com/YunoHost-Apps/"
+"wallabag_ynh) app requires a manual operation. That's why it's provided as a "
+"new package. For the migration process, please refer to the [Wallabag "
+"official documentation](https://doc.wallabag.org/en/user/import/wallabagv1."
+"html)."
+msgstr ""

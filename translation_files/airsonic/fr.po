@@ -1,0 +1,62 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/airsonic/DESCRIPTION.md:2
+msgid ""
+"Airsonic-Advanced is a more modern implementation of the Airsonic fork with "
+"several key performance and feature enhancements. It adds and supersedes "
+"several features in Airsonic."
+msgstr ""
+
+#. type: Plain text
+#: src/airsonic/DESCRIPTION.md:4
+msgid ""
+"Airsonic is a free, web-based media streamer, providing ubiquitous access to "
+"your music. Use it to share your music with friends, or to listen to your "
+"own music while at work. You can stream to multiple players simultaneously."
+msgstr ""
+
+#. type: Plain text
+#: src/airsonic/DESCRIPTION.md:6
+msgid ""
+"Airsonic is designed to handle very large music collections (hundreds of "
+"gigabytes). Although optimized for MP3 streaming, it works for any audio or "
+"video format that can stream over HTTP, for instance AAC and OGG. By using "
+"transcoder plug-ins, Airsonic supports on-the-fly conversion and streaming "
+"of virtually any audio format, including WMA, FLAC, APE, Musepack, WavPack "
+"and Shorten."
+msgstr ""
+
+#. type: Plain text
+#: src/airsonic/DESCRIPTION.md:8
+msgid ""
+"If you have constrained bandwidth, you may set an upper limit for the bit "
+"rate of the music streams. Airsonic will then automatically re sample the "
+"music to a suitable bit rate."
+msgstr ""
+
+#. type: Plain text
+#: src/airsonic/DESCRIPTION.md:9
+msgid ""
+"In addition to being a streaming media server, Airsonic works very well as a "
+"local jukebox. The intuitive web interface, as well as search and index "
+"facilities, are optimized for efficient browsing through large media "
+"libraries. Airsonic also comes with an integrated Podcast receiver, with "
+"many of the same features as you find in iTunes."
+msgstr ""

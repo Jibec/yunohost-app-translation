@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/2fauth/DESCRIPTION.md:5 src/agorakit/DESCRIPTION.md:4
+#: src/ampache/DESCRIPTION.md:4 src/audiobookshelf/DESCRIPTION.md:4
+#: src/bazarr/DESCRIPTION.md:4 src/blogotext/DESCRIPTION.md:4
+#: src/bookstack/DESCRIPTION.md:4 src/borg/DESCRIPTION.md:6
+#: src/castopod/DESCRIPTION.md:6 src/chatgpt-web/DESCRIPTION.md:4
+#: src/chitchatter/DESCRIPTION.md:4 src/cinny/DESCRIPTION.md:4
+#: src/coin/DESCRIPTION.md:4 src/collabora/DESCRIPTION.md:4
+#: src/commento/DESCRIPTION.md:4 src/commet/DESCRIPTION.md:4
+#: src/concrete5/DESCRIPTION.md:4 src/converse/DESCRIPTION.md:5
+#: src/deluge/DESCRIPTION.md:4 src/dendrite/DESCRIPTION.md:4
+#: src/dex/DESCRIPTION.md:5 src/directorylister/DESCRIPTION.md:4
+#: src/docsify/DESCRIPTION.md:4 src/documize/DESCRIPTION.md:4
+#: src/dont-code/DESCRIPTION.md:7 src/dumbbudget/DESCRIPTION.md:4
+#: src/dumbdo/DESCRIPTION.md:4 src/dumbdrop/DESCRIPTION.md:4
+#: src/dumbpad/DESCRIPTION.md:4 src/dumbwhois/DESCRIPTION.md:4
+#: src/ergo/DESCRIPTION.md:4 src/faceprivacy/DESCRIPTION.md:4
+#: src/feber/DESCRIPTION.md:4 src/fider/DESCRIPTION.md:4
+#: src/forgejo/DESCRIPTION.md:6 src/galette/DESCRIPTION.md:4
+#: src/garage/DESCRIPTION.md:6 src/gemserv/DESCRIPTION.md:4
+#: src/getsimple/DESCRIPTION.md:4 src/gitlist/DESCRIPTION.md:4
+#: src/gogs/DESCRIPTION.md:4 src/gossa/DESCRIPTION.md:4
+#: src/grist/DESCRIPTION.md:4 src/h5ai/DESCRIPTION.md:4
+#: src/headscale/DESCRIPTION.md:33 src/hedgedoc/DESCRIPTION.md:5
+#: src/homarr/DESCRIPTION.md:5 src/homeassistant/DESCRIPTION.md:4
+#: src/hydrogen/DESCRIPTION.md:4 src/immich/DESCRIPTION.md:4
+#: src/isso/DESCRIPTION.md:5 src/kanboard/DESCRIPTION.md:4
+#: src/kavita/DESCRIPTION.md:4 src/kiwix/DESCRIPTION.md:4
+#: src/komga/DESCRIPTION.md:4 src/librarian/DESCRIPTION.md:4
+#: src/libremdb/DESCRIPTION.md:4 src/librespeed/DESCRIPTION.md:4
+#: src/librex/DESCRIPTION.md:4 src/matrix-appservice-irc/DESCRIPTION.md:7
+#: src/mattermost/DESCRIPTION.md:16 src/mediatracker/DESCRIPTION.md:4
+#: src/minchat/DESCRIPTION.md:4 src/mostlymatter/DESCRIPTION.md:7
+#: src/mstream/DESCRIPTION.md:4 src/my_webdav/DESCRIPTION.md:4
+#: src/mytinytodo/DESCRIPTION.md:4 src/navidrome/DESCRIPTION.md:5
+#: src/nitter/DESCRIPTION.md:5 src/nodered/DESCRIPTION.md:6
+#: src/omeka-s/DESCRIPTION.md:4 src/opencloud/DESCRIPTION.md:4
+#: src/openproject/DESCRIPTION.md:4 src/opensearch/DESCRIPTION.md:4
+#: src/outline/DESCRIPTION.md:4 src/pairdrop/DESCRIPTION.md:4
+#: src/paperless-ngx/DESCRIPTION.md:4 src/pgweb/DESCRIPTION.md:4
+#: src/phanpy/DESCRIPTION.md:15 src/photoprism/DESCRIPTION.md:4
+#: src/phplicensewatcher/DESCRIPTION.md:4 src/planka/DESCRIPTION.md:4
+#: src/plateau/DESCRIPTION.md:4 src/pmwiki/DESCRIPTION.md:4
+#: src/pytition/DESCRIPTION.md:4 src/redlib/DESCRIPTION.md:4
+#: src/restic/DESCRIPTION.md:4 src/rocketchat/DESCRIPTION.md:4
+#: src/samba/DESCRIPTION.md:4 src/screego/DESCRIPTION.md:4
+#: src/scrutiny/DESCRIPTION.md:6 src/shaarli/DESCRIPTION.md:4
+#: src/shiori/DESCRIPTION.md:4 src/ssbroom/DESCRIPTION.md:8
+#: src/statpingng/DESCRIPTION.md:4 src/stirling-pdf/DESCRIPTION.md:4
+#: src/tableaunoir/DESCRIPTION.md:4 src/technitium-dns/DESCRIPTION.md:4
+#: src/teddit/DESCRIPTION.md:4 src/timemachine/DESCRIPTION.md:4
+#: src/tinyfilemanager/DESCRIPTION.md:6 src/tldraw/DESCRIPTION.md:4
+#: src/tooljet/DESCRIPTION.md:4 src/traccar/DESCRIPTION.md:4
+#: src/traggo/DESCRIPTION.md:4 src/transfersh/DESCRIPTION.md:5
+#: src/ttrss/DESCRIPTION.md:4 src/tube/DESCRIPTION.md:4
+#: src/turtl/DESCRIPTION.md:4 src/umami/DESCRIPTION.md:4
+#: src/uptime-kuma/DESCRIPTION.md:4 src/vikunja/DESCRIPTION.md:4
+#: src/watchyourlan/DESCRIPTION.md:4 src/whoogle/DESCRIPTION.md:4
+#: src/yourls/DESCRIPTION.md:5 src/zusam/DESCRIPTION.md:5
+#: src/zwiicms/DESCRIPTION.md:4
+msgid "### Features"
+msgstr ""
+
+#. type: Plain text
+#: src/rocketchat/ADMIN.md:2
+msgid "### E-mail Configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/rocketchat/ADMIN.md:4
+msgid ""
+"To enable E-mail for address verification, go to Rocket.Chat Administration "
+"panel under Settings -> E-mail -> SMTP and set as follow:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/rocketchat/ADMIN.md:9
+msgid "Protocole: `smtp`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/rocketchat/ADMIN.md:9
+msgid "Host: `localhost`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/rocketchat/ADMIN.md:9
+msgid "Port: `25`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/rocketchat/ADMIN.md:9
+msgid "From -mail: `rocketchat@domain.tld`"
+msgstr ""
+
+#. type: Plain text
+#: src/rocketchat/ADMIN.md:11
+msgid "### Mobile Apps"
+msgstr ""
+
+#. type: Plain text
+#: src/rocketchat/ADMIN.md:13
+msgid ""
+"In addition to the web interface, you can also download Rocket.Chat clients "
+"for:"
+msgstr ""
+
+#. type: Plain text
+#: src/rocketchat/ADMIN.md:14
+msgid ""
+"[![Rocket.Chat on Apple App Store](https://user-images.githubusercontent."
+"com/551004/29770691-a2082ff4-8bc6-11e7-89a6-964cd405ea8e.png)](https://"
+"itunes.apple.com/us/app/rocket-chat/id1148741252?mt=8) [![Rocket.Chat on "
+"Google Play](https://user-images.githubusercontent.com/551004/29770692-"
+"a20975c6-8bc6-11e7-8ab0-1cde275496e0.png)](https://play.google.com/store/"
+"apps/details?id=chat.rocket.android)  [![](https://user-images."
+"githubusercontent.com/551004/48210349-50649480-e35e-11e8-97d9-74a4331faf3a."
+"png)](https://f-droid.org/en/packages/chat.rocket.android)"
+msgstr ""
+
+#. type: Plain text
+#: src/rocketchat/DESCRIPTION.md:2
+msgid ""
+"Rocket.Chat is an open-source fully customizable communications platform "
+"developed in JavaScript for organizations with high standards of data "
+"protection."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/rocketchat/DESCRIPTION.md:9
+msgid "End to End Encryption"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/rocketchat/DESCRIPTION.md:9
+msgid "Multifactor Authentication"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/rocketchat/DESCRIPTION.md:9
+msgid "Customizable User Permission"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/rocketchat/DESCRIPTION.md:9
+msgid ""
+"Mobile Apps for [iOS](https://apps.apple.com/app/rocket-chat/id1148741252) "
+"and [Android](https://play.google.com/store/apps/details?id=chat.rocket."
+"android)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/rocketchat/DESCRIPTION.md:9
+msgid ""
+"Desktop Apps for [macOS](https://apps.apple.com/br/app/rocket-chat/"
+"id1086818840), [Linux](https://snapcraft.io/rocketchat-desktop) and [Windows]"
+"(https://releases.rocket.chat/desktop/latest/download)"
+msgstr ""

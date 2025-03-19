@@ -1,0 +1,139 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/silverbullet/DESCRIPTION.md:2
+msgid ""
+"SilverBullet aims to be your workshop for the mind: a creative space where "
+"you collect, create and expand your personal knowledge, while also letting "
+"you constantly evolve the tools you use to do so."
+msgstr ""
+
+#. type: Plain text
+#: src/silverbullet/DESCRIPTION.md:4
+msgid ""
+"While you can use SilverBullet as a simple note taking application that "
+"stores notes in plain markdown files on disk, it becomes truly powerful in "
+"the hands of more technical power users. By leveraging metadata annotations, "
+"its Objects infrastructure, Live Queries and Live Templates, SilverBullet "
+"becomes a powerful end-user programming tool, enabling you to quickly "
+"develop various types of ad-hoc knowledge applications."
+msgstr ""
+
+#. type: Plain text
+#: src/silverbullet/DESCRIPTION.md:6
+msgid "# Features"
+msgstr ""
+
+#. type: Plain text
+#: src/silverbullet/DESCRIPTION.md:8
+msgid "SilverBullet..."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid ""
+"Runs in any modern browser (including on mobile) as a PWA in two Client "
+"Modes (_online_ and _synced_ mode), where the _synced mode_ enables **100% "
+"offline operation**, keeping a copy of content in the browser, syncing back "
+"to the server when a network connection is available."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid ""
+"Provides an enjoyable markdown writing experience with a clean UI, rendering "
+"text using Live Preview, further **reducing visual noise** while still "
+"providing direct access to the underlying markdown syntax."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid ""
+"Supports wiki-style **page linking** using the `[[page link]]` syntax. "
+"Incoming links are indexed and appear as “Linked Mentions” at the bottom of "
+"the pages linked to thereby providing _bi-directional linking_."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid "Optimized for **keyboard-based operation**:"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid ""
+"Quickly navigate between pages using the **page switcher** (triggered with "
+"`Cmd-k` on Mac or `Ctrl-k` on Linux and Windows)."
+msgstr ""
+
+#. type: Bullet: '  - '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid ""
+"Run commands via their keyboard shortcuts or the **command palette** "
+"(triggered with `Cmd-/` or `Ctrl-/` on Linux and Windows)."
+msgstr ""
+
+#. type: Bullet: '  - '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid "Use Slash Commands to perform common text editing operations."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid ""
+"Provides a platform for [end-user programming](https://www.inkandswitch.com/"
+"end-user-programming/) through its support for Objects, Live Queries and "
+"Live Templates."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid "Robust extension mechanism using plugs."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid ""
+"**Self-hosted**: you own your data. All content is stored as plain files in "
+"a folder on disk. Back up, sync, edit, publish, script with any additional "
+"tools you like."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/silverbullet/DESCRIPTION.md:19
+msgid ""
+"SilverBullet is [open source, MIT licensed](https://github.com/"
+"silverbulletmd/silverbullet) software."
+msgstr ""
+
+#. type: Plain text
+#: src/silverbullet/POST_UPGRADE.md:2
+msgid ""
+"Silverbullet has been successfully upgraded. If you installed some [Plugs]"
+"(https://silverbullet.md/Plugs), you'd better update them to avoid "
+"incompatibility issues."
+msgstr ""
+
+#. type: Plain text
+#: src/silverbullet/POST_UPGRADE.md:5
+msgid ""
+"To do so, in Silverbullet, you may either: - open the Command Palette and "
+"run: `Plugs: Update`; - or go to the (PLUGS)[__DOMAIN__/PLUGS] page and hit "
+"the `Plugs: Update` button;"
+msgstr ""

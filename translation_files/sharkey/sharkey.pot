@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/firefish/ADMIN.md:2 src/sharkey/ADMIN.md:2
+msgid "### Important points to read before installing ⚠️"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/firefish/ADMIN.md:3 src/sharkey/ADMIN.md:3
+msgid ""
+"The first account created will be an admin user and will have all the admin "
+"rights. 👨‍💻"
+msgstr ""
+
+#. type: Plain text
+#: src/sharkey/DESCRIPTION.md:2
+msgid "## 🌎 A Sharkish microblogging platform 🦈🚀"
+msgstr ""
+
+#. type: Plain text
+#: src/sharkey/DESCRIPTION.md:3
+msgid ""
+"_Sharkey_ is an Misskey fork following upstream changes when possible, with "
+"added features!"
+msgstr ""

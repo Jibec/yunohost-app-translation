@@ -1,0 +1,196 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/adminer/ADMIN.md:2 src/adminerevo/ADMIN.md:2 src/aeneria/ADMIN.md:2
+#: src/alltube/ADMIN.md:2 src/archivist/ADMIN.md:2 src/blogotext/ADMIN.md:2
+#: src/collabora/ADMIN.md:2 src/dato/ADMIN.md:3 src/discourse/ADMIN.md:19
+#: src/domoticz/ADMIN.md:55 src/duniter/ADMIN.md:17 src/framaforms/ADMIN.md:2
+#: src/freshrss/ADMIN.md:2 src/gitlab-runner/ADMIN.md:2
+#: src/gotosocial/ADMIN.md:17 src/hedgedoc/ADMIN.md:2
+#: src/languagetool/ADMIN.md:2 src/lionwiki-t2t/ADMIN.md:2 src/lxd/ADMIN.md:2
+#: src/matterbridge/ADMIN.md:2 src/minetest/ADMIN.md:2 src/minidlna/ADMIN.md:2
+#: src/opentracker/ADMIN.md:2 src/peertube-search-index/ADMIN.md:2
+#: src/phpsysinfo/ADMIN.md:2 src/pihole/ADMIN.md:2
+#: src/question2answer/ADMIN.md:2 src/unattended_upgrades/ADMIN.md:2
+msgid "## Configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/archivist/ADMIN.md:7 src/audiobookshelf/ADMIN.md:2
+#: src/dendrite/ADMIN.md:8 src/domoticz/ADMIN.md:100 src/kresus/ADMIN.md:2
+#: src/mailman3/DESCRIPTION.md:5 src/mautrix_facebook/ADMIN.md:55
+#: src/mautrix_signal/ADMIN.md:76 src/nullboard/ADMIN.md:2
+#: src/pihole/ADMIN.md:6
+msgid "## Limitations"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:4
+msgid ""
+"Use the admin panel of your Pi-hole to configure this app. You may also need "
+"to follow the [post-install guide](https://docs.pi-hole.net/main/post-"
+"install/) to setup Pi-hole either as a *DNS server* or a *DHCP server*."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/pihole/ADMIN.md:8
+msgid "Activate DHCP with Pi-hole needs manual configuration of your router."
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:10
+msgid "## Using Pi-hole as your DHCP server"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:16
+msgid ""
+"> **Be careful, you should considering that playing with your DHCP may break "
+"your network.  > In case your server is down, you will lose your dns "
+"resolution and ip address.  > So, you will lose any internet connection and "
+"even the connection to your router.** > > **If you encounter this kind of "
+"problem, please see \"How to restore my network\" at the end of this "
+"document.**"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:18
+msgid "### How to configure Pi-hole"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:20
+msgid "There're two ways to configure Pi-hole to be used as your DHCP server."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/pihole/ADMIN.md:23
+msgid "Either you can choose to use it when you install the app."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/pihole/ADMIN.md:23
+msgid ""
+"Or you can activate the DHCP server afterwards in the \"Settings\" tab, \"Pi-"
+"hole DHCP Server\" part."
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:25
+msgid ""
+"In this second case, it can be better to set the ip of the server to a "
+"static address"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:27
+msgid "### How to configure my router"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:32
+msgid ""
+"Your personal router or ISP's router has a DHCP server enabled by default.  "
+"If you keep this DHCP, along with Pi-hole's one, you will have transparent "
+"conflicts between them.  The first DHCP to respond will distribute its own "
+"ip and settings.  So you have to turn off the DHCP of your router to let Pi-"
+"hole managed your network."
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:34
+msgid "#### Why should I use only the DHCP of Pi-hole ?"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:36
+msgid ""
+"By using the DHCP of Pi-hole, you allow Pi-hole to give at each of your "
+"client its dns configuration. This way every requests will be filtered by Pi-"
+"hole."
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:39
+msgid ""
+"Another use case of using Pi-hole's DHCP is if you have hairpinning problems "
+"(You can't connect to your server because its IP is your public IP, and your "
+"router doesn't allow that).  In this case, using Pi-hole's dns will allow "
+"you to connect to your server by its local address instead of its public one."
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:41
+msgid "### How to restore my network"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:45
+msgid ""
+"> Oh crap ! Your Pi-hole server is down, and you don't have a DHCP anymore.  "
+"Don't panic, We'll get through it. \\o/"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:48
+msgid ""
+"Use your favorite terminal on your desktop computer.  And first, get your "
+"main interface (usually `eth0`)."
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:52
+msgid "``` bash sudo ifconfig ```"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:54
+msgid "Then, set your ip as a static ip."
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:58
+msgid "``` bash sudo ifconfig eth0 192.168.1.100 ```"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:61
+msgid ""
+"Now, you can connect to your router and turn on its DHCP server to use it "
+"again.  You can now reset your ip and get a dynamic address."
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:65
+msgid "``` bash sudo ifconfig eth0 0.0.0.0 && sudo dhclient eth0 ```"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:66
+msgid ""
+"> Don't forget to turn off the DHCP of your router if your server is working "
+"again."
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/DESCRIPTION.md:1
+msgid ""
+"The Pi-hole® is a DNS sinkhole that protects your devices from unwanted "
+"content without installing any client-side software."
+msgstr ""

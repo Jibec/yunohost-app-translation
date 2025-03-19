@@ -1,0 +1,113 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/transmission/ADMIN.md:2
+msgid "## General tips"
+msgstr ""
+
+#. type: Plain text
+#: src/transmission/ADMIN.md:4
+msgid ""
+"Torrents are located in `__DATA_DIR__` and should be accessible from "
+"`https://__DOMAIN____PATH__/downloads`."
+msgstr ""
+
+#. type: Plain text
+#: src/transmission/ADMIN.md:6
+msgid ""
+"Alternatively, you can download the files using an SFTP client, the SCP "
+"command, or you configure another app such as Nextcloud to be able to browse "
+"these files."
+msgstr ""
+
+#. type: Plain text
+#: src/transmission/ADMIN.md:8
+msgid "## Alternative to the web ui"
+msgstr ""
+
+#. type: Plain text
+#: src/transmission/ADMIN.md:10
+msgid ""
+"You can use remote client on different platforms to manage your Transmission "
+"server:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/transmission/ADMIN.md:14
+msgid ""
+"Dekstop: Transmission-remote-GUI: <https://github.com/transmission-remote-"
+"gui/transgui>"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/transmission/ADMIN.md:14
+msgid "Mobile: Transdroid: <http://www.transdroid.org/>"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/transmission/ADMIN.md:14
+msgid "More clients here: <https://transmissionbt.com/resources/>"
+msgstr ""
+
+#. type: Plain text
+#: src/transmission/ADMIN.md:16
+msgid "You can use the following information to connect your server:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/transmission/ADMIN.md:22
+msgid "Remote host: Your domain or IP address (don't add folder)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/transmission/ADMIN.md:22
+msgid "Port: `443`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/transmission/ADMIN.md:22
+msgid "SSL: Enabled"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/transmission/ADMIN.md:22
+msgid "User: Your Yunohost Username"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/transmission/ADMIN.md:22
+msgid "Password: Password of the Yunohost User above"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/transmission/ADMIN.md:22
+msgid ""
+"RPC Path: `__PATH__/transmission/rpc` (replace any double slash with a "
+"single one)"
+msgstr ""
+
+#. type: Plain text
+#: src/transmission/DESCRIPTION.md:2
+msgid "Transmission is a fast, easy, and free BitTorrent client."
+msgstr ""
+
+#. type: Plain text
+#: src/transmission/DESCRIPTION.md:3
+msgid "This app integrates with YunoHost's multimedia directories"
+msgstr ""

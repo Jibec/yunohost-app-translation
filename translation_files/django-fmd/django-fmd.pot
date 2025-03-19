@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:2 src/django-for-runners/ADMIN.md:2
+#: src/django-fritzconnection/ADMIN.md:2 src/django_example/ADMIN.md:2
+#: src/pyinventory/ADMIN.md:2 src/weblate/ADMIN.md:9
+msgid "## Settings and upgrades"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:5
+msgid ""
+"Almost everything related to django-fmd's configuration is handled in a "
+"`\"../conf/settings.py\"` file.  You can edit the file `/opt/yunohost/django-"
+"fmd/local_settings.py` to enable or disable features."
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:7
+msgid "Test sending emails:"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:14
+msgid ""
+"```bash ssh admin@yourdomain.tld root@yunohost:~# cd /opt/yunohost/django-"
+"fmd/ root@yunohost:/opt/yunohost/django-fmd# source venv/bin/activate (venv) "
+"root@yunohost:/opt/yunohost/django-fmd# ./manage.py sendtestemail --admins "
+"```"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:17
+msgid ""
+"Background info: Error mails are send to all [settings.ADMINS](https://docs."
+"djangoproject.com/en/2.2/ref/settings/#std:setting-ADMINS). By default the "
+"YunoHost admin is inserted here.  To check current ADMINS run:"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:21
+msgid ""
+"```bash (venv) root@yunohost:/opt/yunohost/django-fmd# ./manage.py "
+"sendtestemail --admins ```"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:23
+msgid ""
+"If you prefere to send error emails to a extrnal email address, just do "
+"something like this:"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:27
+msgid ""
+"```bash echo \"ADMINS = (('Your Name', 'example@domain.tld'),)\" >> /opt/"
+"yunohost/django-fmd/local_settings.py ```"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:29
+msgid "To check the effective settings, run this:"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:33
+msgid ""
+"```bash (venv) root@yunohost:/opt/yunohost/django-fmd# ./manage.py "
+"diffsettings ```"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:36
+msgid "## Development CLI"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:38
+msgid "e.g.:"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:42 src/django-for-runners/ADMIN.md:36
+#: src/django-fritzconnection/ADMIN.md:36 src/django_example/ADMIN.md:36
+#: src/pyinventory/ADMIN.md:36
+msgid ""
+"[comment]: <> (✂✂✂ auto generated help start ✂✂✂)  ``` Usage: ./dev-cli.py "
+"[OPTIONS] COMMAND [ARGS]..."
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/ADMIN.md:66
+#, no-wrap
+msgid ""
+"╭─ Options ────────────────────────────────────────────────────────────────────────────────────────╮\n"
+"│ --help      Show this message and exit.                                                          │\n"
+"╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n"
+"╭─ Commands ───────────────────────────────────────────────────────────────────────────────────────╮\n"
+"│ check-code-style            Check code style by calling darker + flake8                          │\n"
+"│ coverage                    Run tests and show coverage report.                                  │\n"
+"│ diffsettings                Run \"diffsettings\" manage command against a \"local_test\" YunoHost    │\n"
+"│                             installation.                                                        │\n"
+"│ fix-code-style              Fix code style of all your_cool_package source code files via darker │\n"
+"│ install                     Run pip-sync and install 'django_fmd_ynh' via pip as editable.       │\n"
+"│ local-test                  Build a \"local_test\" YunoHost installation and start the Django dev. │\n"
+"│                             server against it.                                                   │\n"
+"│ mypy                        Run Mypy (configured in pyproject.toml)                              │\n"
+"│ pip-audit                   Run pip-audit check against current requirements files               │\n"
+"│ publish                     Build and upload this project to PyPi                                │\n"
+"│ test                        Compile YunoHost files and run Django unittests                      │\n"
+"│ tox                         Run tox                                                              │\n"
+"│ update                      Update \"requirements*.txt\" dependencies files                        │\n"
+"│ update-test-snapshot-files  Update all test snapshot files (by remove and recreate all snapshot  │\n"
+"│                             files)                                                               │\n"
+"│ version                     Print version and exit                                               │\n"
+"╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n"
+"```\n"
+"[comment]: <> (✂✂✂ auto generated help end ✂✂✂)\n"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/DESCRIPTION.md:3
+msgid ""
+"Find My Device Server implemented in Python using Django.  Usable for the "
+"Andorid App [**FindMyDevice**](https://gitlab.com/Nulide/findmydevice/) by "
+"[Nnulide](https://nulide.de/):"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/DESCRIPTION.md:5
+msgid ""
+"[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get "
+"FindMyDevice on F-Droid\" height=\"80\">](https://f-droid.org/packages/de."
+"nulide.findmydevice/)"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/DESCRIPTION.md:7
+msgid ""
+"[![pytest](https://github.com/YunoHost-Apps/django-fmd_ynh/actions/workflows/"
+"pytest.yml/badge.svg?branch=master)](https://github.com/YunoHost-Apps/django-"
+"fmd_ynh/actions/workflows/pytest.yml) [![YunoHost apps package linter]"
+"(https://github.com/YunoHost-Apps/django-fmd_ynh/actions/workflows/"
+"package_linter.yml/badge.svg)](https://github.com/YunoHost-Apps/django-"
+"fmd_ynh/actions/workflows/package_linter.yml) [![Coverage Status on codecov."
+"io](https://codecov.io/gh/YunoHost-Apps/django-fmd_ynh/branch/master/graph/"
+"badge.svg)](https://codecov.io/gh/YunoHost-Apps/django-fmd_ynh)"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/DESCRIPTION.md:11
+msgid ""
+"[![django-fmd @ PyPi](https://img.shields.io/pypi/v/django-fmd?label=django-"
+"fmd%20%40%20PyPi)](https://pypi.org/project/django-fmd/)  [![Python Versions]"
+"(https://img.shields.io/pypi/pyversions/django-fmd)](https://gitlab.com/"
+"jedie/django-find-my-device/-/blob/main/pyproject.toml)  [![License GPL V3+]"
+"(https://img.shields.io/pypi/l/django-fmd)](https://gitlab.com/jedie/django-"
+"find-my-device/-/blob/main/LICENSE)"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/DESCRIPTION.md:13 src/django-for-runners/DESCRIPTION.md:10
+#: src/django-fritzconnection/DESCRIPTION.md:10
+#: src/django_example/DESCRIPTION.md:10 src/pyinventory/DESCRIPTION.md:10
+msgid "Pull requests welcome ;)"
+msgstr ""
+
+#. type: Plain text
+#: src/django-fmd/DESCRIPTION.md:14 src/django-for-runners/DESCRIPTION.md:12
+#: src/django-fritzconnection/DESCRIPTION.md:11
+#: src/django_example/DESCRIPTION.md:11 src/pyinventory/DESCRIPTION.md:12
+msgid ""
+"This package for YunoHost used [django-yunohost-integration](https://github."
+"com/YunoHost-Apps/django_yunohost_integration)"
+msgstr ""

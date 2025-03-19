@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Bullet: '* '
+#: src/grav/ADMIN.md:13
+msgid ""
+"You can access the administration panel at `__DOMAIN____PATH__/admin`. Users "
+"created within YunoHost can log in, provided their were given the "
+"appropriate permissions:"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/grav/ADMIN.md:13
+msgid "To make users administrators, give them the `grav.admin` permission."
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/grav/ADMIN.md:13
+msgid ""
+"To allow users to log in, without extended rights, give them the `grav.user` "
+"permission."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/grav/ADMIN.md:13
+msgid ""
+"Grav offers an SSH or SFTP access, which can be enabled in its YunoHost "
+"admin configuration panel."
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/grav/ADMIN.md:13
+msgid ""
+"You can thus use its GPM command line binary.  Refer to is documentation, "
+"but bear in mind you need to call it by specifying the PHP version used by "
+"the app:"
+msgstr ""
+
+#. type: Bullet: '      1. '
+#: src/grav/ADMIN.md:13
+msgid "`cd __INSTALL_DIR__`"
+msgstr ""
+
+#. type: Bullet: '      2. '
+#: src/grav/ADMIN.md:13
+msgid ""
+"`sudo -u __APP__ php__PHPVERSION__ bin/grav ...` or `sudo -u __APP__ "
+"php__PHPVERSION__bin/gpm ...`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/grav/ADMIN.md:13
+msgid "You can install plugins through the admin panel, or through the GPM."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/grav/ADMIN.md:13
+msgid ""
+"If installing Grav at the root of a domain, bear in mind that paths starting "
+"by `/yunohost` are reserved."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/grav/ADMIN.md:13
+msgid "Grav's automated daily self-backups are disabled by default"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/grav/ADMIN.md:13
+msgid "Grav's self-backups are not backed up by YunoHost"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/grav/ADMIN.md:13
+msgid "Daily cache purge and clear are enabled by default"
+msgstr ""
+
+#. type: Plain text
+#: src/grav/DESCRIPTION.md:1
+msgid "Grav is a modern open source flat-file CMS."
+msgstr ""

@@ -1,0 +1,27 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/pico/DESCRIPTION.md:1
+msgid ""
+"Pico is a stupidly simple, blazing fast, flat file CMS. That’s definitely a "
+"mouthful, what does it even mean? In the most basic sense, it means that "
+"there is no administration backend or database to deal with. You simply "
+"create markdown files in the content folder and those files become your "
+"pages. There’s much more to Pico than that though."
+msgstr ""

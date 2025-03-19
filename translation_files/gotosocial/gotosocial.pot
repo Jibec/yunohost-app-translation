@@ -1,0 +1,461 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/adminer/ADMIN.md:2 src/adminerevo/ADMIN.md:2 src/aeneria/ADMIN.md:2
+#: src/alltube/ADMIN.md:2 src/archivist/ADMIN.md:2 src/blogotext/ADMIN.md:2
+#: src/collabora/ADMIN.md:2 src/dato/ADMIN.md:3 src/discourse/ADMIN.md:19
+#: src/domoticz/ADMIN.md:55 src/duniter/ADMIN.md:17 src/framaforms/ADMIN.md:2
+#: src/freshrss/ADMIN.md:2 src/gitlab-runner/ADMIN.md:2
+#: src/gotosocial/ADMIN.md:17 src/hedgedoc/ADMIN.md:2
+#: src/languagetool/ADMIN.md:2 src/lionwiki-t2t/ADMIN.md:2 src/lxd/ADMIN.md:2
+#: src/matterbridge/ADMIN.md:2 src/minetest/ADMIN.md:2 src/minidlna/ADMIN.md:2
+#: src/opentracker/ADMIN.md:2 src/peertube-search-index/ADMIN.md:2
+#: src/phpsysinfo/ADMIN.md:2 src/pihole/ADMIN.md:2
+#: src/question2answer/ADMIN.md:2 src/unattended_upgrades/ADMIN.md:2
+msgid "## Configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:2
+msgid "## Administration"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:6
+msgid ""
+"You can login with the email address and password you provided during "
+"installation to your-instance.com/**admin** to administrate your GoToSocial "
+"instance.  [The source code of this administration panel](https://github.com/"
+"superseriousbusiness/gotosocial-admin) is available on github.  [The GTS "
+"admin panel documentation](https://docs.gotosocial.org/en/latest/admin/"
+"settings/)."
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:8
+msgid ""
+"In this administration interface, you can configure the following things:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:15
+msgid "The name of your instance and its description"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:15
+msgid "Your contact e-mail address"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:15
+msgid "The referring user"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:15
+msgid ""
+"Blocked domains (not to federate with) or allowed domains (for the allowlist "
+"federation mode)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:15
+msgid "Custom emojis"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:15
+msgid "Moderation reports"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:20
+msgid ""
+"You can configure your instance using the config panel integrated in "
+"Yunohost, you will find it in the web admin interface of your Yunohost by "
+"following these steps: `Applications > GoToSocial > Config Panel`"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:22
+msgid ""
+"In this control panel you can configure the following things (non-exhaustive "
+"list):"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:50
+msgid "Account configuration :"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Are registrations open?"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Manual validation of registrations?"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Required reason for registration?"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Allow user custom CSS?"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Custom CSS max length?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:50
+msgid "Media configuration"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Maximum image size"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Maximum video size"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Minimum number of characters for media descriptions"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Maximum number of characters for media descriptions"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Number of days media can be cached"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:50
+msgid "Post configuration"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Maximum number of characters for a new post"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid ""
+"Maximum number of characters in a Content Warning / subject of a new post"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Maximum number of options for a poll"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Maximum number of characters for a poll option"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Maximum number of media that can be added to a post"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:50
+msgid "Instance config"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Federation mode to use for this instance (blocklist / allowlist)"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Landing page user"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Exposed API options"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:50
+msgid "SMTP config"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:50
+msgid "Cache settings"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:50
+msgid "Advanced settings"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "SameSite attribute"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:50
+msgid "Rate limit"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:52
+msgid ""
+"Note: **Do NOT edit** the `config.yaml` file by hand. Always use this config "
+"panel instead. Otherwise your changes will be deleted at each update!"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:54
+msgid "## Command line (CLI)"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:58
+msgid ""
+"To use the GoToSocial command line, you first need to place yourself in the "
+"folder of your instance: `cd /var/www/gotosocial/` or `cd /var/www/"
+"gotosocial__x/` (where `x` is the installation number of your instance, in "
+"the case of multi-installation).  Feel free to refer to the [GoToSocial "
+"command line documentation](https://docs.gotosocial.org/en/latest/admin/"
+"cli/)."
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:60
+msgid "## User creation"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:62
+msgid "To create a new user, proceed as follows:"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:66
+msgid ""
+"```bash ./gotosocial --config-path config.yaml admin account create --"
+"username some_username --email someuser@example.com --password "
+"'SomeLongAndComplicatedPassword' ```"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:68
+msgid "And to promote them as an administrator of your instance:"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:72
+msgid ""
+"```bash ./gotosocial --config-path config.yaml admin account promote --"
+"username some_username ```"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:74
+msgid "## OpenID Connect"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:77
+msgid ""
+"This package is not-working with the SSO (single-sign on) or LDAP "
+"integration.  However, it can be configured to use the OpenID Connect "
+"protocol and Dex (a program that links LDAP and OpenID Connect) to enable "
+"connection with your YunoHost users."
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:79
+msgid ""
+"You will have a **separate account from the rest of your Yunohost server**, "
+"potentially with a different username and password."
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:81
+msgid ""
+"You can read the [official GoToSocial documentation about OpenID Connect]"
+"(https://docs.gotosocial.org/en/latest/configuration/oidc/) in support if "
+"you want."
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:83
+msgid "To use OpenID Connect, the YunoHost admin must:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"Install the [Dex](https://apps.yunohost.org/app/dex) package (note that your "
+"server must compile it, which can be resource-intensive)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"Configure Dex properly during the installation (all entered information will "
+"be used in the next step, so keep it in a safe place)"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"Domain: as you wish (may be a sub-domain of your GTS instance, like \"dex."
+"gts.example.com\")"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"Path: only `/` if you wish to install it on a sub-domain of your instance, "
+"otherwise as you wish"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"Name of the app: \"GoToSocial\", \"GTS-test\", \"YNH-GoToSocial\" or "
+"anything that makes sense to you and does not contain a space (it will be "
+"used as \"client ID\" in the next step)"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid "OIDC secret: a long and random password of at least 30 characters"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"Callback URI: `gts.example.com/auth/callback` by replacing the `gts.example."
+"com` by the domain name of your GTS instance (without the `https://`!)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"Configure GTS using the config panel's OIDC form: `Applications > GoToSocial "
+"> Config Panel > OpenID Connect settings`"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid "Activate OpenID Connect: `true`"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid "Name of the OIDC IDP: \"Dex\" or any other name that makes sense"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"Skip the normal verification flow of tokens returned: keep on `false` "
+"( **never** change to `true` unless you know what you're doing!)"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"OIDC issuer URI: the domain name to which you assigned Dex in the previous "
+"step, with the final slash `/`, e.g. `https://dex.gts.example.com/` (this is "
+"**NOT** the URL of your GTS instance)"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"OIDC client ID: the app name defined at the Dex installation step (e.g. "
+"\"GoToSocial\", \"GTS-test\", \"YNH-GoToSocial\")"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid ""
+"OIDC client secret: the long password randomly generated during Dex's "
+"installation step"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/gotosocial/ADMIN.md:98
+msgid "Save, wait until GTS reboots and test!"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/DESCRIPTION.md:2
+msgid ""
+"GoToSocial is a fast [ActivityPub](https://activitypub.rocks/) social "
+"network server, written in Golang."
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/DESCRIPTION.md:4
+msgid ""
+"With GoToSocial, you can keep in touch with your friends, post, read, and "
+"share images and articles. All without being tracked or advertised to!"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/DESCRIPTION.md:6
+msgid ""
+"The official documentation is at [docs.gotosocial.org](https://docs."
+"gotosocial.org)."
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/DESCRIPTION.md:8
+msgid ""
+"Admins are **strongly encouraged to read the documentation** of this package "
+"after installing it. It is available in the webadmin under Applications > "
+"gotosocial (at the bottom) or [here on the package's repository](https://"
+"github.com/YunoHost-Apps/gotosocial_ynh/blob/master/doc/ADMIN.md)!"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/DESCRIPTION.md:9
+msgid ""
+"Please note that this package uses the [\"i'm so tired\" software license "
+"1.0](https://github.com/YunoHost-Apps/gotosocial_ynh/blob/master/LICENSE), "
+"please read it and accept it before proceeding with installation."
+msgstr ""

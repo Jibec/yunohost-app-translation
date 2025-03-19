@@ -1,0 +1,56 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/zerotier/ADMIN.md:2
+msgid "## Basic networking"
+msgstr ""
+
+#. type: Plain text
+#: src/zerotier/ADMIN.md:4
+msgid ""
+"You can get your node address, as well as list, join, and leave networks "
+"from the \"Networks\" configuration panel above."
+msgstr ""
+
+#. type: Plain text
+#: src/zerotier/ADMIN.md:6
+msgid "## Advanced configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/zerotier/ADMIN.md:8
+msgid ""
+"Open a terminal and use the `zerotier-cli` command. Refer to ZeroTier's "
+"documentation for more information."
+msgstr ""
+
+#. type: Plain text
+#: src/zerotier/ADMIN.md:10
+msgid ""
+"## Configuring your own network If you want to set a network up, use the "
+"[zeroui](https://apps.yunohost.org/app/zeroui) app."
+msgstr ""
+
+#. type: Plain text
+#: src/zerotier/DESCRIPTION.md:2
+msgid ""
+"Zerotier sets up Global Area Networks.  It is basically an alternative to "
+"OpenVPN, where the devices are not dependent on a main VPN server but are "
+"connected peer-to-peer."
+msgstr ""

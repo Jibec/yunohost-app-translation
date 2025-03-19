@@ -1,0 +1,30 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/glowingbear/DESCRIPTION.md:1
+msgid ""
+"Glowing Bear is a web frontend for the WeeChat IRC client and strives to be "
+"a modern interface. It relies on WeeChat to do all the heavy lifting and "
+"then provides some nice features on top of that, like embedding images, "
+"videos, and other content. The best part, however, is that you can use it "
+"from any modern internet device -- whether it's a computer, tablet, or smart "
+"phone -- and all your stuff is there, wherever you are. You don't have to "
+"deal with the messy technical details, and all you need to have installed is "
+"a browser or our app."
+msgstr ""

@@ -1,0 +1,64 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/gitlab/ADMIN.md:2 src/ums/ADMIN.md:2 src/wetty/ADMIN.md:2
+msgid "### Configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/wetty/ADMIN.md:6
+msgid ""
+"There is few configuration in Wetty: * Startup config (listen port, URL "
+"path, SSH host) is contained in the systemd service file * User interface "
+"configuration is done through the web GUI itself."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/wetty/ADMIN.md:9
+msgid "You need to manually log in."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/wetty/ADMIN.md:9
+msgid ""
+"You can log in as a specific user using `https://__DOMAIN__/wetty/ssh/"
+"<username>`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/wetty/ADMIN.md:11
+msgid ""
+"You can specify at install if Wetty should be visible by users not logged "
+"into YunoHost."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/wetty/ADMIN.md:12
+msgid "You can't use SSH key authentication."
+msgstr ""
+
+#. type: Plain text
+#: src/wetty/DESCRIPTION.md:1
+msgid ""
+"Terminal over HTTP and HTTPS. WeTTy is an alternative to ajaxterm and "
+"anyterm but much better than them because WeTTy uses xterm.js which is a "
+"full fledged implementation of terminal emulation written entirely in "
+"JavaScript. WeTTy uses websockets rather then Ajax and hence better response "
+"time."
+msgstr ""

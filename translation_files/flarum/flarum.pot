@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:2
+msgid "## Login"
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:5
+msgid ""
+"This app allows your YunoHost users to log in with a [dedicated LDAP "
+"extension](https://github.com/tituspijean/flarum-ext-auth-ldap). By default, "
+"the standard logging method is hidden.  To allow non-YunoHost users to log "
+"in, tune the LDAP extension setting in Flarum's admin panel."
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:7
+msgid "### Upgrading"
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:10
+msgid ""
+"Note that, for the moment, all third-party extensions are removed upon "
+"upgrading.  Their data and parameters remain in Flarum's database, they only "
+"require to be reinstalled."
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:12
+msgid "### Adding extensions"
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:14
+msgid ""
+"Flarum does not offer to install extensions from its admin panel yet, so you "
+"need to use the command line."
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:16
+msgid ""
+"Replace `vendor/extension` with the appropriate names. Read the extension "
+"documentation if it requires additional steps."
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:23
+msgid ""
+"```bash sudo su app=__ID__ cd /var/www/$app sudo -u $app php__PHPVERSION__ "
+"composer.phar require vendor/extension ```"
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:25
+msgid "#### Troubleshooting"
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:28
+msgid ""
+"##### `Timeout` errors Some users have reported a successful installation, "
+"but get a blank page due to a `timeout` on a PHP script that prepares the "
+"forum assests (`Minify.php`, notably)."
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:30
+msgid ""
+"In `/etc/php/__PHPVERSION__/fpm/pool.d/__ID__.conf`, you can increase the "
+"`max_execution_time` and `max_input_time` limits (both values are in seconds "
+"if nothing is specified)."
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:32
+msgid "Reload PHP-FPM with `sudo service php__PHPVERSION__-fpm reload`."
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:35
+msgid ""
+"##### Upload limit If you are facing an error while uploading large files "
+"into the forum, PHP may be limiting file upload."
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:37
+msgid ""
+"In `/etc/php/__PHPVERSION__/fpm/pool.d/__ID__.conf`, you can uncomment "
+"(remove `;` at the beginning of the line) and increase the values of "
+"`upload_max_filesize` and `post_max_size` (both values are in bytes)."
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/ADMIN.md:38
+msgid "Reload PHP-FPM with `sudo service php__PHP_VERSION__-fpm reload`."
+msgstr ""
+
+#. type: Plain text
+#: src/flarum/DESCRIPTION.md:1
+msgid ""
+"Flarum is a simple discussion platform for your website. It's fast and easy "
+"to use, with all the features you need to run a successful community."
+msgstr ""

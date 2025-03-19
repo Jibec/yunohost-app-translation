@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/armadietto/ADMIN.md:3
+msgid ""
+"### :warning: WARNING The Armadietto_ynh package is still under development, "
+"so you should expect some undocumented changes before it is labeled stable."
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/ADMIN.md:5
+msgid ""
+"### :information_source: Security considerations from [Armadietto](https://"
+"github.com/remotestorage/armadietto/) :"
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/ADMIN.md:21
+#, no-wrap
+msgid ""
+"> #### **Storage security**\n"
+">\n"
+"> In production, we recommend that you restrict access to the files managed by your armadietto server as much as possible. This is particularly true if you host your storage on a machine with other web applications; you need to protect your files in the event that one of those apps is exploited.\n"
+">\n"
+"> You should take these steps to keep your storage safe:\n"
+">\n"
+">    - Pick a unique Unix user to run your server process; no other process on the box should run as this user: sudo useradd armadietto --system --no-create-home\n"
+">\n"
+">    - Do not run other applications as root, or as any user that could access files owned by your armadietto user\n"
+">\n"
+">    - Make sure the directory path/to/storage cannot be read, written or executed by anyone but this user: sudo chmod 0700 /path/to/storage && sudo chown armadietto /path/to/storage\n"
+">\n"
+">    - Do not run armadietto as root; if you need to bind to port 80 or 443 use a reverse proxy like nginx, Apache2, caddy, lighttpd or enable bind capability: setcap 'cap_net_bind_service=+ep' `which armadietto`\n"
+">\n"
+">    - Ideally, run your storage inside a container or on a dedicated machine\n"
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/ADMIN.md:23
+msgid "<br />"
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/ADMIN.md:25
+msgid "### **Important Notes**"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/armadietto/ADMIN.md:29
+msgid ""
+"RemoteStorage requires a dedicated domain, so obtain one and add it using "
+"the YunoHost admin panel. **Domains -> Add domain**."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/armadietto/ADMIN.md:29
+msgid ""
+"As RemoteStorage uses the full domain and is installed on the root, you can "
+"create a subdomain such as remote.domain.tld."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/armadietto/ADMIN.md:29
+msgid "Don't forget to update your DNS if you manage them manually."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/armadietto/ADMIN.md:30
+msgid ""
+"RemoteStorage requires browser-approved SSL certificates. If you have "
+"certificates not issued by [Let's Encrypt](https://letsencrypt.org/), "
+"install them manually as usual."
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/DESCRIPTION.md:2
+msgid ""
+"[Armadietto](https://github.com/remotestorage/armadietto/) is a "
+"[remoteStorage](https://remotestorage.io) server written for Node.js."
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/DESCRIPTION.md:4
+msgid ""
+"Armadietto is maintained by the remoteStorage community, ([IRC](https://web."
+"libera.chat/#remotestorage), [forums](https://community.remotestorage.io/))."
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/DESCRIPTION.md:11
+msgid ""
+"> ### :warning: WARNING > Please do not consider `armadietto` production "
+"ready, this project is still > considered experimental.  As with any alpha-"
+"stage storage technology, you > MUST expect that it will eat your data and "
+"take precautions against this. You > SHOULD expect that its APIs and storage "
+"schemas will change before it is > labelled stable."
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/DESCRIPTION.md:13
+msgid "### Installation option"
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/DESCRIPTION.md:16
+msgid ""
+"User registration is not allowed out of the box.  This option can be enabled "
+"in the configuration panel."
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/DESCRIPTION.md:18
+msgid "### Application for remoteStorage"
+msgstr ""
+
+#. type: Plain text
+#: src/armadietto/DESCRIPTION.md:19
+msgid ""
+"[Here](https://remotestorage.io/apps/) is a non-exhaustive list of apps that "
+"have integrated remoteStorage as a storage/sync option."
+msgstr ""

@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/wireguard/ADMIN.md:2
+msgid ""
+"After installation, you need to `Apply Config` once in the UI before the VPN "
+"service can be started."
+msgstr ""
+
+#. type: Plain text
+#: src/wireguard/ADMIN.md:4
+msgid ""
+"If nothing comes out of the VPN, consider lowering the MTU in the global "
+"settings of the WireGuard webapp to 1400, for example."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/wireguard/ADMIN.md:9
+msgid "Do not manually alter the configuration files, use the web UI."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/wireguard/ADMIN.md:9
+msgid "Use YunoHost permissions panel to allow users to access the web UI."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/wireguard/ADMIN.md:9
+msgid ""
+"Only one network interface, *wg0*, can be managed with this app at the "
+"moment."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/wireguard/ADMIN.md:9
+msgid "`Status` page is not working for the time being."
+msgstr ""
+
+#. type: Plain text
+#: src/wireguard/DESCRIPTION.md:2
+msgid ""
+"WireGuard® is fast and modern VPN that utilizes state-of-the-art "
+"cryptography. It aims to be faster, simpler, leaner, and more useful than "
+"IPsec. It intends to be considerably more performant than OpenVPN. WireGuard "
+"is designed as a general purpose VPN."
+msgstr ""
+
+#. type: Plain text
+#: src/wireguard/DESCRIPTION.md:3
+msgid ""
+"This package includes an administration interface for WireGuard, which makes "
+"it more of a VPN server. Even though WireGuard can be peer-to-peer, this is "
+"not how this package configures it."
+msgstr ""

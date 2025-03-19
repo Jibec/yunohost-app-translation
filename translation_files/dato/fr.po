@@ -1,0 +1,163 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/adminer/ADMIN.md:2 src/adminerevo/ADMIN.md:2 src/aeneria/ADMIN.md:2
+#: src/alltube/ADMIN.md:2 src/archivist/ADMIN.md:2 src/blogotext/ADMIN.md:2
+#: src/collabora/ADMIN.md:2 src/dato/ADMIN.md:3 src/discourse/ADMIN.md:19
+#: src/domoticz/ADMIN.md:55 src/duniter/ADMIN.md:17 src/framaforms/ADMIN.md:2
+#: src/freshrss/ADMIN.md:2 src/gitlab-runner/ADMIN.md:2
+#: src/gotosocial/ADMIN.md:17 src/hedgedoc/ADMIN.md:2
+#: src/languagetool/ADMIN.md:2 src/lionwiki-t2t/ADMIN.md:2 src/lxd/ADMIN.md:2
+#: src/matterbridge/ADMIN.md:2 src/minetest/ADMIN.md:2 src/minidlna/ADMIN.md:2
+#: src/opentracker/ADMIN.md:2 src/peertube-search-index/ADMIN.md:2
+#: src/phpsysinfo/ADMIN.md:2 src/pihole/ADMIN.md:2
+#: src/question2answer/ADMIN.md:2 src/unattended_upgrades/ADMIN.md:2
+msgid "## Configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/dato/ADMIN.md:6
+msgid ""
+"To configure dato, you can edit the `config/public.js` file in the app "
+"directory that should be in `/opt/yunohost/APPID/` where `APPID` is `dato` "
+"if it's the first installed instance, `dato__2`, `dato__3`... for additional "
+"instances.  You can also make modifications in `config/private.js`, but be "
+"sure to know what you're doing when doing so."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/ADMIN.md:8
+msgid "## Autosynchronization"
+msgstr ""
+
+#. type: Plain text
+#: src/dato/ADMIN.md:12
+msgid ""
+"By default all data you create with dato is stored only in your browser. "
+"Users can manually enable per-database synchronization with any remote couch "
+"server, but this process is not obvious to users. Therefore dato provide an "
+"autosynchronization mechanism.  To enable it, you need to setup a couchdb "
+"server (you can do this using the [couchdb yunohost package](https://github."
+"com/YunoHost-Apps/couchdb_ynh)). You should do this before installing dato.  "
+"Then when installing dato, set the url to your couchdb server when prompted "
+"(you will also need to fill your couchdb admin password, and info about the "
+"dato admin user to create). Dato will automatically setup the dato "
+"administrator account in your couchdb server. You can then easily add users "
+"from the user interface, as specified below."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/ADMIN.md:14
+msgid ""
+"If you want to allow both a free usage of the app by anyone, and "
+"autosynchronization for some users, you can install the dato package "
+"multiple times with different setups."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/ADMIN.md:16
+msgid "## Adding users"
+msgstr ""
+
+#. type: Plain text
+#: src/dato/ADMIN.md:20
+msgid ""
+"If you setup autosynchronization, users will need an account to use the app. "
+"Dato doesn't support LDAP for the moment, so you will need to add users in "
+"it's own database.  To add a user to dato, just visit the `/users/` page (e."
+"g. https://dato.yourdomain.tld/users/), create a new user, then don't forget "
+"to click on \"roles\" under the user's name, and add the role `dato`.  If "
+"you want a user to have administration rights (= to have the power to add/"
+"remove users) you can give that user the `dato-admin` role."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/ADMIN.md:22
+msgid ""
+"Also, if you need, you can make use of the password reset feature to allow "
+"users to modify their passwords, you will just need to send them the "
+"generated password reset link."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/ADMIN.md:24
+msgid "## A note about dato"
+msgstr ""
+
+#. type: Plain text
+#: src/dato/ADMIN.md:27
+msgid ""
+"Please be aware that dato is a Progressive Web App. In a nutshell, this "
+"means that browsers cache the whole app, so it doesn't have to be requested "
+"to the server every time a user is visiting it.  This lowers solicitation of "
+"the server, and also allow users to use dato offline."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/ADMIN.md:29
+msgid ""
+"When the app is upgraded, the user's browser will automatically detect that "
+"there is a new version, and propose to reload the page to update. However, "
+"sometimes it seems a bit random how browsers notice the new version, so if "
+"you want to make sure you're using the latest version, click on the \"?\" "
+"button (top-right in the web interface), and choose \"credits\" to verify "
+"the version you're using.  You can also force reloading the app from the "
+"server opening \"about:serviceworkers\" in your browser and unregistering "
+"the worker for the domain in which you installed dato."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/DESCRIPTION.md:2
+msgid ""
+"Dato is an application that make it easy to generate and modify any type of "
+"database entries with a nice UI/UX."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/DESCRIPTION.md:4
+msgid ""
+"With it, you can create and handle any amount of databases, choose and setup "
+"what type of entries to put in them and customize yourself the UI that will "
+"let you edit databases entries."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/DESCRIPTION.md:6
+msgid ""
+"You can think of dato as an app that can replace: address book apps, todo "
+"list apps, table sheets to store lists of things... because it's flexible "
+"enough to do all these the way you want it to be done."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/DESCRIPTION.md:8
+msgid ""
+"The purpose of dato is not to propose a UI specific to some purpose, but "
+"something as customizable as possible, so that you can in a few minutes "
+"setup any kind of database. However, if you want a more specialized "
+"interface to improve the UX for your needs, you can create plugins to extend "
+"the default general functionalities."
+msgstr ""
+
+#. type: Plain text
+#: src/dato/DESCRIPTION.md:9
+msgid ""
+"Dato is a progressive webapp, which means that you can install it from the "
+"browser in computer and phones, and use it offline."
+msgstr ""

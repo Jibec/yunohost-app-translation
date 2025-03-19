@@ -1,0 +1,61 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Bullet: '* '
+#: src/funkwhale/ADMIN.md:2
+msgid ""
+"Installation requires a dedicated domain or subdomain. Installing in a "
+"subpath is not supported by the upstream project due to dependency "
+"requirements."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/funkwhale/ADMIN.md:6
+msgid "Admin"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/funkwhale/ADMIN.md:6
+msgid ""
+"The admin uses the login you provided at installation. The password is the "
+"same you use for YunoHost."
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/funkwhale/ADMIN.md:6
+msgid ""
+"The admin interface is accessible at the address: `__DOMAIN__/api/admin`"
+msgstr ""
+
+#. type: Plain text
+#: src/funkwhale/ADMIN.md:11
+msgid ""
+"To add a collection of music files to a library in your YunoHost "
+"installation of Funkwhale, create a symlink to your collection titled "
+"\"music\" in `__DATA_DIR__/data` ```console sudo ln -s /your/music/"
+"collection __DATA_DIR__/data/music ``` The files can then be added to your "
+"library from the *uploading* tab in a music library under the heading "
+"**Import music from your server**."
+msgstr ""
+
+#. type: Plain text
+#: src/funkwhale/DESCRIPTION.md:1
+msgid ""
+"Funkwhale is a community-driven project that lets you listen and share music "
+"and audio within a decentralized, open network."
+msgstr ""

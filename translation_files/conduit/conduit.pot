@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/conduit/ADMIN.md:2
+msgid "### Login to Conduit"
+msgstr ""
+
+#. type: Plain text
+#: src/conduit/ADMIN.md:4
+msgid ""
+"[Integration into the YunoHost user database is not ready, yet.](https://"
+"github.com/YunoHost-Apps/conduit_ynh/issues/12) You need to **enable "
+"registration** in the apps configuration tab and then use a client to "
+"register an account. Afterwards you can disable registration again if you do "
+"not want allow anybody to register."
+msgstr ""
+
+#. type: Plain text
+#: src/conduit/ADMIN.md:6
+msgid "Using the newly created account you should be able to login."
+msgstr ""
+
+#. type: Plain text
+#: src/conduit/ADMIN.md:8
+msgid "### Coturn configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/conduit/ADMIN.md:11
+msgid ""
+"To be able to take advantage of audio and video call functionalities, a "
+"Coturn server is often required. It is possible to [install a Coturn server "
+"in YunoHost (https://github.com/YunoHost-Apps/coturn-ynh/blob/master/README-"
+"en.md).  It is then necessary to fill in the information provided by the "
+"Coturn server in the file 'conduit.toml' such as:"
+msgstr ""
+
+#. type: Plain text
+#: src/conduit/ADMIN.md:20
+msgid ""
+"``` turn_uris = [\"turns:your.turn.url:5349?transport=udp\", \"turns:your."
+"turn.url:5349?transport=tcp\"] turn_username = \"<YOUR_USERNAME>\" "
+"turn_password = \"<YOUR_PASSWORD>\" ``` If your Coturn (not YunoHost's one) "
+"does not use TLS, you might need to change a little bit like: ``` turn_uris "
+"= [\"turn:your.turn.url:5349?transport=udp\", \"turn:your.turn.url:5349?"
+"transport=tcp\"] ``"
+msgstr ""
+
+#. type: Plain text
+#: src/conduit/DESCRIPTION.md:2
+msgid ""
+"Conduit is a lightweight open-source server implementation of the Matrix "
+"Specification with a focus on easy setup and low system requirements. That "
+"means you can make your own Conduit setup in just a few minutes.  Conduit "
+"keeps things simple, it's a single binary with an embedded database and can "
+"be much faster than other server implementations in some cases."
+msgstr ""

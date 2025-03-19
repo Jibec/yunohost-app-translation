@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/2fauth/DESCRIPTION.md:5 src/agorakit/DESCRIPTION.md:4
+#: src/ampache/DESCRIPTION.md:4 src/audiobookshelf/DESCRIPTION.md:4
+#: src/bazarr/DESCRIPTION.md:4 src/blogotext/DESCRIPTION.md:4
+#: src/bookstack/DESCRIPTION.md:4 src/borg/DESCRIPTION.md:6
+#: src/castopod/DESCRIPTION.md:6 src/chatgpt-web/DESCRIPTION.md:4
+#: src/chitchatter/DESCRIPTION.md:4 src/cinny/DESCRIPTION.md:4
+#: src/coin/DESCRIPTION.md:4 src/collabora/DESCRIPTION.md:4
+#: src/commento/DESCRIPTION.md:4 src/commet/DESCRIPTION.md:4
+#: src/concrete5/DESCRIPTION.md:4 src/converse/DESCRIPTION.md:5
+#: src/deluge/DESCRIPTION.md:4 src/dendrite/DESCRIPTION.md:4
+#: src/dex/DESCRIPTION.md:5 src/directorylister/DESCRIPTION.md:4
+#: src/docsify/DESCRIPTION.md:4 src/documize/DESCRIPTION.md:4
+#: src/dont-code/DESCRIPTION.md:7 src/dumbbudget/DESCRIPTION.md:4
+#: src/dumbdo/DESCRIPTION.md:4 src/dumbdrop/DESCRIPTION.md:4
+#: src/dumbpad/DESCRIPTION.md:4 src/dumbwhois/DESCRIPTION.md:4
+#: src/ergo/DESCRIPTION.md:4 src/faceprivacy/DESCRIPTION.md:4
+#: src/feber/DESCRIPTION.md:4 src/fider/DESCRIPTION.md:4
+#: src/forgejo/DESCRIPTION.md:6 src/galette/DESCRIPTION.md:4
+#: src/garage/DESCRIPTION.md:6 src/gemserv/DESCRIPTION.md:4
+#: src/getsimple/DESCRIPTION.md:4 src/gitlist/DESCRIPTION.md:4
+#: src/gogs/DESCRIPTION.md:4 src/gossa/DESCRIPTION.md:4
+#: src/grist/DESCRIPTION.md:4 src/h5ai/DESCRIPTION.md:4
+#: src/headscale/DESCRIPTION.md:33 src/hedgedoc/DESCRIPTION.md:5
+#: src/homarr/DESCRIPTION.md:5 src/homeassistant/DESCRIPTION.md:4
+#: src/hydrogen/DESCRIPTION.md:4 src/immich/DESCRIPTION.md:4
+#: src/isso/DESCRIPTION.md:5 src/kanboard/DESCRIPTION.md:4
+#: src/kavita/DESCRIPTION.md:4 src/kiwix/DESCRIPTION.md:4
+#: src/komga/DESCRIPTION.md:4 src/librarian/DESCRIPTION.md:4
+#: src/libremdb/DESCRIPTION.md:4 src/librespeed/DESCRIPTION.md:4
+#: src/librex/DESCRIPTION.md:4 src/matrix-appservice-irc/DESCRIPTION.md:7
+#: src/mattermost/DESCRIPTION.md:16 src/mediatracker/DESCRIPTION.md:4
+#: src/minchat/DESCRIPTION.md:4 src/mostlymatter/DESCRIPTION.md:7
+#: src/mstream/DESCRIPTION.md:4 src/my_webdav/DESCRIPTION.md:4
+#: src/mytinytodo/DESCRIPTION.md:4 src/navidrome/DESCRIPTION.md:5
+#: src/nitter/DESCRIPTION.md:5 src/nodered/DESCRIPTION.md:6
+#: src/omeka-s/DESCRIPTION.md:4 src/opencloud/DESCRIPTION.md:4
+#: src/openproject/DESCRIPTION.md:4 src/opensearch/DESCRIPTION.md:4
+#: src/outline/DESCRIPTION.md:4 src/pairdrop/DESCRIPTION.md:4
+#: src/paperless-ngx/DESCRIPTION.md:4 src/pgweb/DESCRIPTION.md:4
+#: src/phanpy/DESCRIPTION.md:15 src/photoprism/DESCRIPTION.md:4
+#: src/phplicensewatcher/DESCRIPTION.md:4 src/planka/DESCRIPTION.md:4
+#: src/plateau/DESCRIPTION.md:4 src/pmwiki/DESCRIPTION.md:4
+#: src/pytition/DESCRIPTION.md:4 src/redlib/DESCRIPTION.md:4
+#: src/restic/DESCRIPTION.md:4 src/rocketchat/DESCRIPTION.md:4
+#: src/samba/DESCRIPTION.md:4 src/screego/DESCRIPTION.md:4
+#: src/scrutiny/DESCRIPTION.md:6 src/shaarli/DESCRIPTION.md:4
+#: src/shiori/DESCRIPTION.md:4 src/ssbroom/DESCRIPTION.md:8
+#: src/statpingng/DESCRIPTION.md:4 src/stirling-pdf/DESCRIPTION.md:4
+#: src/tableaunoir/DESCRIPTION.md:4 src/technitium-dns/DESCRIPTION.md:4
+#: src/teddit/DESCRIPTION.md:4 src/timemachine/DESCRIPTION.md:4
+#: src/tinyfilemanager/DESCRIPTION.md:6 src/tldraw/DESCRIPTION.md:4
+#: src/tooljet/DESCRIPTION.md:4 src/traccar/DESCRIPTION.md:4
+#: src/traggo/DESCRIPTION.md:4 src/transfersh/DESCRIPTION.md:5
+#: src/ttrss/DESCRIPTION.md:4 src/tube/DESCRIPTION.md:4
+#: src/turtl/DESCRIPTION.md:4 src/umami/DESCRIPTION.md:4
+#: src/uptime-kuma/DESCRIPTION.md:4 src/vikunja/DESCRIPTION.md:4
+#: src/watchyourlan/DESCRIPTION.md:4 src/whoogle/DESCRIPTION.md:4
+#: src/yourls/DESCRIPTION.md:5 src/zusam/DESCRIPTION.md:5
+#: src/zwiicms/DESCRIPTION.md:4
+msgid "### Features"
+msgstr ""
+
+#. type: Plain text
+#: src/navidrome/ADMIN.md:2
+msgid "#### Where are stored your music files"
+msgstr ""
+
+#. type: Plain text
+#: src/navidrome/ADMIN.md:4
+msgid ""
+"Your music files are stored by default in your shared [multimedia folder]"
+"(https://github.com/YunoHost-Apps/yunohost.multimedia) `/home/yunohost."
+"multimedia/share/Music`. This folder is accessible from Nextcloud with "
+"*External Storages* enabled. This will allow you to easily upload your music "
+"files to the server."
+msgstr ""
+
+#. type: Plain text
+#: src/navidrome/ADMIN.md:6
+msgid ""
+"You can configure an alternative path to you music files by editing the path "
+"`MusicFolder = \"/home/yunohost.multimedia/share/Music\"` in this file `/var/"
+"lib/navidrome/navidrome.toml` using the [documentation](https://www."
+"navidrome.org/docs/usage/configuration-options/). Remember to restart "
+"Navidrome service if you change your configuration file."
+msgstr ""
+
+#. type: Plain text
+#: src/navidrome/ADMIN.md:8
+msgid "#### Accessing Navidrome"
+msgstr ""
+
+#. type: Plain text
+#: src/navidrome/ADMIN.md:10
+msgid ""
+"Navidrome uses its own password database and does not integrate with "
+"YunoHost LDAP, so there are two ways to access it:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/ADMIN.md:13
+msgid ""
+"When Navidrome is initially installed, before any users log in there is an "
+"option to create a Navidrome admin user by going directly to the access URL "
+"set for Navidrome in YunoHost. This admin account can create users who are "
+"able to log in via the same access URL."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/ADMIN.md:13
+msgid ""
+"The second method to access Navidrome is via YunoHost SSO, which is "
+"accomplished by logging in to YunoHost and then clicking on the Navidrome "
+"tile. With this method, the Navidrome password database is not populated "
+"with the YunoHost password which means future attempts to log in to "
+"Navidrome directly via the access URL will fail. This prevents alternative "
+"clients from logging in with the YunoHost user credentials, so in order to "
+"work around this issue, after logging in to Navidrome with SSO the user "
+"password can be manually set via the Navidrome interface. Any password will "
+"be accepted as the current password."
+msgstr ""
+
+#. type: Plain text
+#: src/navidrome/DESCRIPTION.md:3
+msgid ""
+"Navidrome a software that allows you to listen to your own digital music in "
+"the same way you would with services like Spotify, Apple Music and others. "
+"It also allows you to easily share your music and playlists with your "
+"friends and family.s Navidrome indexes all digital music stored in your hard "
+"drive and makes it available through a nice web player and also by using any "
+"Subsonic-API compatible mobile client. Your music becomes searchable and you "
+"can create playlists, rate and “favourite” your loved tracks, albums and "
+"artists"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/DESCRIPTION.md:14
+msgid "Handles very large music collections"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/DESCRIPTION.md:14
+msgid "Streams virtually any audio format available"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/DESCRIPTION.md:14
+msgid "Reads and uses all your beautifully curated metadata"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/DESCRIPTION.md:14
+msgid ""
+"Great support for compilations (Various Artists albums) and box sets (multi-"
+"disc albums)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/DESCRIPTION.md:14
+msgid ""
+"Multi-user, each user has their own play counts, playlists, favourites, "
+"etc..."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/DESCRIPTION.md:14
+msgid "Very low resource usage"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/DESCRIPTION.md:14
+msgid ""
+"Automatically monitors your library for changes, importing new files and "
+"reloading new metadata"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/DESCRIPTION.md:14
+msgid "Compatible with all Subsonic/Madsonic/Airsonic clients"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/navidrome/DESCRIPTION.md:14
+msgid ""
+"Transcoding on the fly. Can be set per user/player. Opus encoding is "
+"supported"
+msgstr ""

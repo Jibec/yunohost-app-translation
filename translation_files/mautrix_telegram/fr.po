@@ -1,0 +1,136 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/bicbucstriim/ADMIN.md:2 src/mautrix_telegram/ADMIN.md:26
+msgid "## Troubleshooting"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:33 src/mautrix_signal/ADMIN.md:45
+#: src/mautrix_telegram/ADMIN.md:2
+msgid "## Configuration of the bridge"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_signal/ADMIN.md:52 src/mautrix_telegram/ADMIN.md:16
+msgid "## Documentation"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_signal/ADMIN.md:59 src/mautrix_telegram/ADMIN.md:24
+msgid ""
+"Matrix room (Matrix Bridges in Yunohost): #mautrix_yunohost:matrix.fdn.fr"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_telegram/ADMIN.md:7
+msgid ""
+"The bridge is [roughly configured at installation](https://github.com/"
+"YunoHost-Apps/mautrix_telegram_ynh/blob/master/conf/config.yaml), e.g. "
+"allowed admin and user of the bot. Finer configuration can be done by "
+"modifying the following configuration file with SSH: ```/opt/yunohost/"
+"mautrix_telegram/config.yaml``` and then restarting the mautrix_telegram "
+"service."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_telegram/ADMIN.md:9
+msgid "#### End-to-bridge encryption"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_telegram/ADMIN.md:12
+msgid ""
+"The bridge can optionally encrypt messages between Matrix users and the "
+"bridge to hide messages from the homeserver. Using Postgres is strongly "
+"recommended when using end-to-bridge encryption.  If you want to enable it, "
+"look for the option ```bridge: encryption``` in the config file. If you only "
+"set ```allow: true```, the bridge won't enable encryption on its own, but "
+"will work in encrypted rooms. If you set ```default: true```, the bridge "
+"will automatically enable encryption in new portals."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_telegram/ADMIN.md:14
+msgid ""
+"There is also the possibility to set ```require: true``` to enforce "
+"encryption on any of the messages that you send (this will drop any "
+"unencrypted messages)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_telegram/ADMIN.md:24
+msgid ""
+"Official \"Mautrix-Telegram\" documentation: https://docs.mau.fi/bridges/"
+"python/telegram/index.html"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_telegram/ADMIN.md:24
+msgid ""
+"Matrix room (upstream app): #telegram:maunium.net In case you need to upload "
+"your logs somewhere, be aware that they contain your contacts' and your "
+"phone numbers. Strip them out with ``| sed -r 's/[0-9]{10,}/📞/g' ``"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_telegram/ADMIN.md:24
+msgid ""
+"\"Mautrix-Telegram\" bridge is based on the [telegram daemon](https://gitlab."
+"com/telegramd/telegramd) project."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_telegram/ADMIN.md:24
+msgid ""
+"YunoHost documentation: If more specific documentation is needed, feel free "
+"to contribute."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_telegram/ADMIN.md:34
+msgid "Check the spelling of the bot name!"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_telegram/ADMIN.md:34
+#, no-wrap
+msgid ""
+"* For slow servers it might be necessary to run ``systemctl edit mautrix_telegram.service`` (also for `coturn.service` and `coturn-synapse.service`) and insert\n"
+"```\n"
+"[Service]\n"
+"ExecStartPre=/bin/sleep 90\n"
+"```\n"
+"such that it is ensured that synapse is running before the bridge tries to connect.\n"
+"(If it worked after installation but broke after a restart this probably is it.)\n"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_telegram/DESCRIPTION.md:1
+msgid ""
+"A puppeting bridge between Matrix and Telegram packaged as a YunoHost "
+"service. Messages, notifications (and sometimes media) are bridged between a "
+"Telegram user and a Matrix user. Currently the Matrix user can NOT invite "
+"other Matrix user in a bridged Telegram room, so only someone with a "
+"Telegram account can participate to Telegram group conversations. The "
+"[\"Mautrix-Telegram\"](https://docs.mau.fi/bridges/python/telegram/index."
+"html) bridge is a Synapse App Service and relies on postgresql. Therefore, "
+"[Synapse for YunoHost](https://github.com/YunoHost-Apps/synapse_ynh) should "
+"be installed beforehand."
+msgstr ""

@@ -1,0 +1,94 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/mlmmj/ADMIN.md:2
+msgid ""
+"People that want to subscribe to the list can do so by sending an empty "
+"email to `__LOCAL_PART__+subscribe@__DOMAIN_PART__`."
+msgstr ""
+
+#. type: Plain text
+#: src/mlmmj/ADMIN.md:4
+msgid "This list can be configured via the YunoHost configuration panel."
+msgstr ""
+
+#. type: Plain text
+#: src/mlmmj/ADMIN.md:6
+msgid ""
+"However, not all settings are available in this interface. It is possible to "
+"tweak configurations in `__INSTALL_DIR__/list` and according to the "
+"documentation available [here](https://mlmmj.org/TUNABLES.html)"
+msgstr ""
+
+#. type: Plain text
+#: src/mlmmj/ADMIN.md:8
+msgid "You can also run the various `mlmmj` commands from the CLI, such as"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/mlmmj/ADMIN.md:12
+msgid ""
+"**List subscribers**: `sudo -u mlmmj -- __INSTALL_DIR__/app/bin/mlmmj-list -"
+"L __INSTALL_DIR__/list`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/mlmmj/ADMIN.md:12
+msgid ""
+"**Add a subscriber**: `sudo -u mlmmj -- __INSTALL_DIR__/app/bin/mlmmj-sub -L "
+"__INSTALL_DIR__/list -a sasha@domain.tld`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/mlmmj/ADMIN.md:12
+msgid ""
+"**Remove a subscriber**: `sudo -u mlmmj -- __INSTALL_DIR__/app/bin/mlmmj-"
+"unsub -L __INSTALL_DIR__/list -a sasha@domain.tld`"
+msgstr ""
+
+#. type: Plain text
+#: src/mlmmj/ADMIN.md:13
+msgid "More info about those commands can be obtained by adding the `-h` flag."
+msgstr ""
+
+#. type: Plain text
+#: src/mlmmj/DESCRIPTION.md:2
+msgid ""
+"MLMMJ is a mailing list manager notable for its low memory and CPU "
+"footprint, requiring no database. Designed to be file-managed, MLMMJ lacks a "
+"native graphical interface, though independent graphical interfaces do exist."
+msgstr ""
+
+#. type: Plain text
+#: src/mlmmj/DESCRIPTION.md:8
+msgid ""
+"In this YunoHost app, a configuration panel is provided in the webadmin (in "
+"the app's info page) and allows to configure settings such as: - "
+"Subscription and posting policy - Moderation options - Customization of "
+"email subjects and footers.  - Add or remove subscribers"
+msgstr ""
+
+#. type: Plain text
+#: src/mlmmj/DESCRIPTION.md:11
+msgid ""
+"However for now, the package lacks: - a web user interface to subscribe (for "
+"now people willing to subscribe should send an email to a special address, "
+"or ask admins to add them)  - a web interface to browse the list's archive "
+"(but theoretically doable in the future)"
+msgstr ""

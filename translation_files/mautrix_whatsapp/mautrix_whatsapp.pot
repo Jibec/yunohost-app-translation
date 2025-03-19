@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/mautrix_whatsapp/ADMIN.md:7
+msgid ""
+"## Configuration of the bridge The bridge is [roughly configured at "
+"installation](https://github.com/YunoHost-Apps/mautrix_whatsapp_ynh/blob/"
+"master/conf/config.yaml), e.g. allowed admin and user of the bot.  Finer "
+"configuration can be done by using the existing config panel in the Yunohost "
+"admin panel or by modifying the following configuration file with SSH: ```/"
+"opt/yunohost/mautrix_whatsapp/config.yaml``` and then restarting the "
+"mautrix_whatsapp service."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_whatsapp/ADMIN.md:9
+msgid "#### User permissions"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_whatsapp/ADMIN.md:13
+msgid ""
+"#### End-to-bridge encryption The bridge can optionally encrypt messages "
+"between Matrix users and the bridge to hide messages from the homeserver. "
+"Using Postgres is strongly recommended when using end-to-bridge encryption."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_whatsapp/ADMIN.md:16
+msgid ""
+"If you want to enable it, go to the config panel section `Privacy -> Portal "
+"Rooms & Encryption Settings`. If you enable `Allow Encryption between Matrix "
+"Client and Bridge Server?`, the bridge won't enable encryption on its own, "
+"but will work in encrypted rooms.  Alternatively two more options will "
+"appear, `Force-enable Encryption in all Portal Rooms the Bridge creates?` "
+"which will automatically enable encryption in new portals and `Require "
+"encryption?` which will enforce encryption on any of the messages that you "
+"send (this will make the bridge drop any future unencrypted messages)."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_whatsapp/ADMIN.md:17
+msgid ""
+"There is also the possibity to configure it in the bridge configuration YAML "
+"file in the section `bridge: encryption`."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_whatsapp/DESCRIPTION.md:6
+msgid ""
+"A puppeting bridge between Matrix and WhatsApp packaged as a YunoHost "
+"service.  Messages, media and notifications are bridged between a WhatsApp "
+"user and a matrix user.  With the RelayBot login option, the matrix user can "
+"invite other matrix user in a bridged WhatsApp room, such that even people "
+"without a WhatsApp account can participate to WhatsApp group conversations.  "
+"The [\"Mautrix-WhatsApp\"](https://docs.mau.fi/bridges/go/whatsapp/index."
+"html) bridge consists in a synapse app service and relies on postgresql "
+"(mysql also available).  Therefore, [Synapse for YunoHost](https://github."
+"com/YunoHost-Apps/synapse_ynh) should be installed beforehand."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_whatsapp/DESCRIPTION.md:7
+#, no-wrap
+msgid "** Attention: always backup and restore the Yunohost matrix_synapse et mautrix_whatsapp apps together!**\n"
+msgstr ""

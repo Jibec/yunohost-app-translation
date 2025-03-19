@@ -1,0 +1,74 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/archivist/ADMIN.md:7 src/audiobookshelf/ADMIN.md:2
+#: src/dendrite/ADMIN.md:8 src/domoticz/ADMIN.md:100 src/kresus/ADMIN.md:2
+#: src/mailman3/DESCRIPTION.md:5 src/mautrix_facebook/ADMIN.md:55
+#: src/mautrix_signal/ADMIN.md:76 src/nullboard/ADMIN.md:2
+#: src/pihole/ADMIN.md:6
+msgid "## Limitations"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/kresus/ADMIN.md:4
+msgid ""
+"By default, all users have access to the accounts. The admin needs to "
+"manually select the authorised user through YunoHost Administration Panel."
+msgstr ""
+
+#. type: Plain text
+#: src/kresus/ADMIN.md:6
+msgid "## Roadmap"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/kresus/ADMIN.md:8
+msgid "To be added:"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/kresus/ADMIN.md:8
+msgid ""
+"[ ] Add a user who will access the app (by default every one has access to "
+"the installed app)"
+msgstr ""
+
+#. type: Plain text
+#: src/kresus/DESCRIPTION.md:1
+msgid ""
+"Kresus is an open-source libre self-hosted personal finance manager. It "
+"allows you to safely track your banking history, check your overall balance "
+"and know exactly how you are spending money using categories!"
+msgstr ""
+
+#. type: Plain text
+#: src/kresus/POST_UPGRADE.md:2
+msgid ""
+"⚠️ Every YunoHost account will have access to this app when \"all_users\" is "
+"selected in the install questions. This may be an issue for Kresus as it is "
+"a personal tool. Please remember to edit the access rights in the YunoHost "
+"web administration panel or using command line interface."
+msgstr ""
+
+#. type: Plain text
+#: src/kresus/POST_UPGRADE.md:3
+msgid ""
+"The configuration file is stored in ` __INSTALL_DIR__/config.ini` and is "
+"regenerated on upgrade."
+msgstr ""

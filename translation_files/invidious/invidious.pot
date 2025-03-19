@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/beehive/DESCRIPTION.md:4 src/glpi/DESCRIPTION.md:4
+#: src/invidious/DESCRIPTION.md:5 src/kiwiirc/DESCRIPTION.md:4
+#: src/moncycle/DESCRIPTION.md:4 src/psitransfer/DESCRIPTION.md:4
+#: src/slingcode/DESCRIPTION.md:4 src/thelounge/DESCRIPTION.md:4
+msgid "### Features:"
+msgstr ""
+
+#. type: Plain text
+#: src/invidious/ADMIN.md:1
+msgid ""
+"You can configure Invidious by modifying the configuration file "
+"`__INSTALL_DIR__/config/config.yml` with the help of this [documentation]"
+"(https://docs.invidious.io/configuration/)."
+msgstr ""
+
+#. type: Plain text
+#: src/invidious/DESCRIPTION.md:3
+msgid ""
+"Invidious is an interface allowing access to Youtube videos without going "
+"through youtube.com In addition to constituting an advantage in terms of "
+"confidentiality (the data does not pass directly through the services of the "
+"giant)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/invidious/DESCRIPTION.md:9
+msgid "Audio only mode,"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/invidious/DESCRIPTION.md:9
+msgid "Dark mode,"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/invidious/DESCRIPTION.md:9
+msgid "Ability to display Reddit comments instead of YouTube comments,"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/invidious/DESCRIPTION.md:9
+msgid "Ability to subscribe to channels without creating a Google account"
+msgstr ""

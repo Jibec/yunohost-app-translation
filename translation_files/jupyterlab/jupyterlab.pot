@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/jupyterlab/ADMIN.md:2
+msgid "## Updating configuration files"
+msgstr ""
+
+#. type: Plain text
+#: src/jupyterlab/ADMIN.md:4
+msgid "Install the new version of the app with:"
+msgstr ""
+
+#. type: Plain text
+#: src/jupyterlab/ADMIN.md:8
+msgid ""
+"```bash sudo yunohost app install https://github.com/YunoHost-Apps/"
+"jupyterlab_ynh/tree/testing ```"
+msgstr ""
+
+#. type: Plain text
+#: src/jupyterlab/ADMIN.md:10
+msgid ""
+"Navigate to the installation path (`/opt/jupyterlab` by default), and run :"
+msgstr ""
+
+#. type: Plain text
+#: src/jupyterlab/ADMIN.md:14
+msgid "```bash pipenv shell ```"
+msgstr ""
+
+#. type: Plain text
+#: src/jupyterlab/ADMIN.md:16
+msgid ""
+"You are now in the virtual environment of jupyterlab. You can execute these "
+"two commands:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/jupyterlab/ADMIN.md:18
+msgid "To generate the `jupyterhub_config.py` file:"
+msgstr ""
+
+#. type: Plain text
+#: src/jupyterlab/ADMIN.md:22
+msgid "```bash jupyterhub --generate-config ```"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/jupyterlab/ADMIN.md:24
+msgid "To generate the `jupyter_notebook_config.py` file:"
+msgstr ""
+
+#. type: Plain text
+#: src/jupyterlab/ADMIN.md:29
+msgid ""
+"```bash jupyter notebook --generate-config cp $HOME/.jupyter/"
+"jupyter_notebook_config.py ./ ```"
+msgstr ""
+
+#. type: Plain text
+#: src/jupyterlab/ADMIN.md:30
+msgid "You can now update the old template files with the new one."
+msgstr ""
+
+#. type: Plain text
+#: src/jupyterlab/DESCRIPTION.md:1
+msgid ""
+"JupyterLab is the next-generation user interface for Project Jupyter "
+"offering all the familiar building blocks of the classic Jupyter Notebook "
+"(notebook, terminal, text editor, file browser, rich outputs, etc.) in a "
+"flexible and powerful user interface. JupyterLab will eventually replace the "
+"classic Jupyter Notebook."
+msgstr ""

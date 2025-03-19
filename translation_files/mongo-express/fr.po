@@ -1,0 +1,41 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/mongo-express/DESCRIPTION.md:3
+msgid ""
+"Mongo Express is a Web-based MongoDB admin interface written with Node.js, "
+"Express and Bootstrap3.  You can as well install a Mongo database - version "
+"4, 5 or 6 in your yunohost server if you want"
+msgstr ""
+
+#. type: Plain text
+#: src/mongo-express/DESCRIPTION.md:20
+msgid ""
+"### Features - Optionally installs Mongo server - Connect to multiple "
+"databases - View/add/delete databases - View/add/rename/delete collections - "
+"View/add/update/delete documents - Preview audio/video/image assets inline "
+"in collection view - Nested and/or large objects are collapsible for easy "
+"overview - Async on-demand loading of big document properties (>100KB "
+"default) to keep collection view fast - GridFS support - add/get/delete "
+"incredibly large files - Use BSON data types in documents - Mobile / "
+"Responsive - Bootstrap 3 works passably on small screens when you're in a "
+"bind - Connect and authenticate to individual databases - Authenticate as "
+"admin to view all databases - Database blacklist/whitelist - Custom CA and "
+"CA validation disabling - Supports replica sets"
+msgstr ""

@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/2fauth/DESCRIPTION.md:5 src/agorakit/DESCRIPTION.md:4
+#: src/ampache/DESCRIPTION.md:4 src/audiobookshelf/DESCRIPTION.md:4
+#: src/bazarr/DESCRIPTION.md:4 src/blogotext/DESCRIPTION.md:4
+#: src/bookstack/DESCRIPTION.md:4 src/borg/DESCRIPTION.md:6
+#: src/castopod/DESCRIPTION.md:6 src/chatgpt-web/DESCRIPTION.md:4
+#: src/chitchatter/DESCRIPTION.md:4 src/cinny/DESCRIPTION.md:4
+#: src/coin/DESCRIPTION.md:4 src/collabora/DESCRIPTION.md:4
+#: src/commento/DESCRIPTION.md:4 src/commet/DESCRIPTION.md:4
+#: src/concrete5/DESCRIPTION.md:4 src/converse/DESCRIPTION.md:5
+#: src/deluge/DESCRIPTION.md:4 src/dendrite/DESCRIPTION.md:4
+#: src/dex/DESCRIPTION.md:5 src/directorylister/DESCRIPTION.md:4
+#: src/docsify/DESCRIPTION.md:4 src/documize/DESCRIPTION.md:4
+#: src/dont-code/DESCRIPTION.md:7 src/dumbbudget/DESCRIPTION.md:4
+#: src/dumbdo/DESCRIPTION.md:4 src/dumbdrop/DESCRIPTION.md:4
+#: src/dumbpad/DESCRIPTION.md:4 src/dumbwhois/DESCRIPTION.md:4
+#: src/ergo/DESCRIPTION.md:4 src/faceprivacy/DESCRIPTION.md:4
+#: src/feber/DESCRIPTION.md:4 src/fider/DESCRIPTION.md:4
+#: src/forgejo/DESCRIPTION.md:6 src/galette/DESCRIPTION.md:4
+#: src/garage/DESCRIPTION.md:6 src/gemserv/DESCRIPTION.md:4
+#: src/getsimple/DESCRIPTION.md:4 src/gitlist/DESCRIPTION.md:4
+#: src/gogs/DESCRIPTION.md:4 src/gossa/DESCRIPTION.md:4
+#: src/grist/DESCRIPTION.md:4 src/h5ai/DESCRIPTION.md:4
+#: src/headscale/DESCRIPTION.md:33 src/hedgedoc/DESCRIPTION.md:5
+#: src/homarr/DESCRIPTION.md:5 src/homeassistant/DESCRIPTION.md:4
+#: src/hydrogen/DESCRIPTION.md:4 src/immich/DESCRIPTION.md:4
+#: src/isso/DESCRIPTION.md:5 src/kanboard/DESCRIPTION.md:4
+#: src/kavita/DESCRIPTION.md:4 src/kiwix/DESCRIPTION.md:4
+#: src/komga/DESCRIPTION.md:4 src/librarian/DESCRIPTION.md:4
+#: src/libremdb/DESCRIPTION.md:4 src/librespeed/DESCRIPTION.md:4
+#: src/librex/DESCRIPTION.md:4 src/matrix-appservice-irc/DESCRIPTION.md:7
+#: src/mattermost/DESCRIPTION.md:16 src/mediatracker/DESCRIPTION.md:4
+#: src/minchat/DESCRIPTION.md:4 src/mostlymatter/DESCRIPTION.md:7
+#: src/mstream/DESCRIPTION.md:4 src/my_webdav/DESCRIPTION.md:4
+#: src/mytinytodo/DESCRIPTION.md:4 src/navidrome/DESCRIPTION.md:5
+#: src/nitter/DESCRIPTION.md:5 src/nodered/DESCRIPTION.md:6
+#: src/omeka-s/DESCRIPTION.md:4 src/opencloud/DESCRIPTION.md:4
+#: src/openproject/DESCRIPTION.md:4 src/opensearch/DESCRIPTION.md:4
+#: src/outline/DESCRIPTION.md:4 src/pairdrop/DESCRIPTION.md:4
+#: src/paperless-ngx/DESCRIPTION.md:4 src/pgweb/DESCRIPTION.md:4
+#: src/phanpy/DESCRIPTION.md:15 src/photoprism/DESCRIPTION.md:4
+#: src/phplicensewatcher/DESCRIPTION.md:4 src/planka/DESCRIPTION.md:4
+#: src/plateau/DESCRIPTION.md:4 src/pmwiki/DESCRIPTION.md:4
+#: src/pytition/DESCRIPTION.md:4 src/redlib/DESCRIPTION.md:4
+#: src/restic/DESCRIPTION.md:4 src/rocketchat/DESCRIPTION.md:4
+#: src/samba/DESCRIPTION.md:4 src/screego/DESCRIPTION.md:4
+#: src/scrutiny/DESCRIPTION.md:6 src/shaarli/DESCRIPTION.md:4
+#: src/shiori/DESCRIPTION.md:4 src/ssbroom/DESCRIPTION.md:8
+#: src/statpingng/DESCRIPTION.md:4 src/stirling-pdf/DESCRIPTION.md:4
+#: src/tableaunoir/DESCRIPTION.md:4 src/technitium-dns/DESCRIPTION.md:4
+#: src/teddit/DESCRIPTION.md:4 src/timemachine/DESCRIPTION.md:4
+#: src/tinyfilemanager/DESCRIPTION.md:6 src/tldraw/DESCRIPTION.md:4
+#: src/tooljet/DESCRIPTION.md:4 src/traccar/DESCRIPTION.md:4
+#: src/traggo/DESCRIPTION.md:4 src/transfersh/DESCRIPTION.md:5
+#: src/ttrss/DESCRIPTION.md:4 src/tube/DESCRIPTION.md:4
+#: src/turtl/DESCRIPTION.md:4 src/umami/DESCRIPTION.md:4
+#: src/uptime-kuma/DESCRIPTION.md:4 src/vikunja/DESCRIPTION.md:4
+#: src/watchyourlan/DESCRIPTION.md:4 src/whoogle/DESCRIPTION.md:4
+#: src/yourls/DESCRIPTION.md:5 src/zusam/DESCRIPTION.md:5
+#: src/zwiicms/DESCRIPTION.md:4
+msgid "### Features"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:2
+msgid "## Reminder regarding the passphrase"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:4
+msgid ""
+"The passphrase is the only way to decrypt your backups. You should make sure "
+"to keep it safe in some place \"outside\" your server to cover the scenario "
+"where your server is destroyed for some reason."
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:6
+msgid "## Testing that backup work as expected"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:8
+msgid ""
+"At this step your backup should run at the scheduled time. Note that the "
+"first backup can take very long, as much data has to be copied through ssh. "
+"Following backups are incremental: only newly generated data since last "
+"backup will be copied."
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:10
+msgid ""
+"If you want to test correct Borg Apps setup before scheduled time, you can "
+"start a backup manually from the command line:"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:14
+msgid "```bash systemctl start borg ```"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:16
+msgid ""
+"Once the backup completes, you can check that a backup is listed in the "
+"webadmin > Applications > Borg > 'Last backups list'."
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:18
+msgid "## Manually running `borg` commands"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:20
+msgid ""
+"The config panel has a \"Last backup list\" that allow to have quick look at "
+"the recently created backup archives."
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:22
+msgid ""
+"However, you may want to manually inspect that the backups are indeed made "
+"regularly and contain the expected content."
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:24
+msgid ""
+"First, prepare the environment with the appropriate borg variables, etc:"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:32
+msgid ""
+"```bash app=borg PATH=\"/var/www/$app/venv/bin/:$PATH\" export "
+"BORG_PASSPHRASE=\"$(sudo yunohost app setting $app passphrase)\" export "
+"BORG_RSH=\"ssh -i /root/.ssh/id_${app}_ed25519 -oStrictHostKeyChecking=yes\" "
+"repository=\"$(sudo yunohost app setting $app repository)\" ```"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:34
+msgid "Then run for example:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/borg/ADMIN.md:39
+msgid "List archives: `borg list \"$repository\" | less`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/borg/ADMIN.md:39
+msgid ""
+"List files from a specific archive: `borg list \"$repository::ARCHIVE_NAME\" "
+"| less`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/borg/ADMIN.md:39
+msgid "View archive info: `borg info \"$repository::ARCHIVE_NAME\"`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/borg/ADMIN.md:39
+msgid ""
+"Verify data integrity: `borg check \"$repository::ARCHIVE_NAME\" --verify-"
+"data`"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:41
+msgid "## Restoring archives from Borg"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:43
+msgid ""
+"A borg \"archive\" can be exported to a `.tar` which can then be restored "
+"using the classic Yunohost backup restore workflow:"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:45
+#, no-wrap
+msgid "**NB: this command assumes that you prepared the environment just like in the previous section**\n"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:49
+msgid ""
+"```bash borg export-tar \"$repository::ARCHIVE_NAME\" /home/yunohost/"
+"archives/ARCHIVE_NAME.tar ```"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:53
+msgid ""
+"Then restore using the classic workflow: - from the command line: `yunohost "
+"backup restore ARCHIVE_NAME` - or in the webadmin > Backups"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:55
+msgid "### Restoring the \"source+config\" of the app, and its data separately"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:57
+msgid ""
+"For apps containing a large amount of data, restoring *everything* all at "
+"once is not practical because of the space and time it will take. Instead "
+"you may want to first restore the \"core\" (the source, configuration, etc) "
+"of the app, - and *then* the data."
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:59
+msgid ""
+"First, borg can export a .tar archive but ignore the path corresponding to "
+"the app's data. For example, to export a tar archive for Nextcloud, but "
+"without its data:"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:64
+msgid ""
+"```bash borg export-tar --exclude apps/nextcloud/backup/home/yunohost.app "
+"\"$repository::ARCHIVE_NAME\" /home/yunohost.backup/archives/ARCHIVE_NAME."
+"tar yunohost backup restore ARCHIVE_NAME ```"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:66
+msgid ""
+"Then extract Nextcloud's data directly into the right location, **without** "
+"going through the classic YunoHost backup restore process:"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/ADMIN.md:72
+msgid ""
+"```bash cd /home/yunohost.app/ borg extract \"$repository::ARCHIVE_NAME\" "
+"apps/nextcloud/backup/home/yunohost.app/ mv apps/nextcloud/backup/home/"
+"yunohost.app/nextcloud ./ rm -r apps ```"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/DESCRIPTION.md:2
+msgid ""
+"A [Borg](https://borgbackup.readthedocs.io/en/stable/index.html#what-is-"
+"borgbackup) integration to backup your YunoHost server to another remote "
+"server (e.g. one of your friends)."
+msgstr ""
+
+#. type: Plain text
+#: src/borg/DESCRIPTION.md:4
+msgid ""
+"This app is the \"client\" part, meant to be installed on the server to be "
+"backed up. It works in combination with the [borg server app](https://apps."
+"yunohost.org/app/borgserver) installed on a different machine running "
+"YunoHost, or another borg service reachable by SSH."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/borg/DESCRIPTION.md:13
+msgid ""
+"Backup on a remote machine, in combination with the [borg server app]"
+"(https://apps.yunohost.org/app/borgserver)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/borg/DESCRIPTION.md:13
+msgid ""
+"... or on a [commercial borg service](https://www.borgbackup.org/support/"
+"commercial.html)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/borg/DESCRIPTION.md:13
+msgid ""
+"Backups are encrypted (the remote server can't read the content) and "
+"deduplicated (optimize space)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/borg/DESCRIPTION.md:13
+msgid ""
+"Backups are run automatically, you can choose when and at which frequency"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/borg/DESCRIPTION.md:13
+msgid "You can choose what apps are backed up"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/borg/DESCRIPTION.md:13
+msgid ""
+"Receive email alerts if the backup fails (the [borg server app](https://apps."
+"yunohost.org/app/borgserver) also checks that new content arrives and send "
+"an email to your friend otherwise)"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/DESCRIPTION.md:15
+msgid "### Install procedure"
+msgstr ""
+
+#. type: Plain text
+#: src/borg/DESCRIPTION.md:16
+msgid ""
+"Maybe counter-intuitively, you should *first* install this app (`borg_ynh`) "
+"and *then* (`borgserver_ynh`) on the other machine. In fact, at the end of "
+"the install of `borg_ynh`, you will be provided with the info, in particular "
+"the SSH public key, to be used to setup `borgserver_ynh` on the other "
+"machine."
+msgstr ""

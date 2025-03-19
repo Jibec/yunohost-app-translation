@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/wireguard_client/ADMIN.md:1
+msgid "Use the app's configuration panel to configure VPN connections."
+msgstr ""
+
+#. type: Plain text
+#: src/wireguard_client/DESCRIPTION.md:3
+msgid ""
+"WireGuard® is fast and modern VPN that utilizes state-of-the-art "
+"cryptography.  It aims to be faster, simpler, leaner, and more useful than "
+"IPsec. It intends to be considerably more performant than OpenVPN. WireGuard "
+"is designed as a general purpose VPN."
+msgstr ""
+
+#. type: Plain text
+#: src/wireguard_client/DESCRIPTION.md:4
+msgid ""
+"This package only ships a YunoHost configuration panel to load WireGuard "
+"configuration files and create the VPNs."
+msgstr ""

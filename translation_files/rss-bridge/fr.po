@@ -1,0 +1,220 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/rss-bridge/ADMIN.md:2
+msgid "### Enabling/disabling bridges"
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/ADMIN.md:4
+msgid ""
+"As a matter of simplicity, YunoHost package enables all bridge by default."
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/ADMIN.md:7
+msgid ""
+"If you dont want all bridges enabled do like this in `__INSTALL_DIR__/config."
+"ini.php`: ```"
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/ADMIN.md:9
+msgid "[system]"
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/ADMIN.md:14
+msgid ""
+"; Only these 3 bridges are enabled enabled_bridges[] = CssSelectorBridge "
+"enabled_bridges[] = FeedMerge enabled_bridges[] = FeedReducerBridge"
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/ADMIN.md:16
+msgid ";enabled_bridges[] = * ```"
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/DESCRIPTION.md:2
+msgid ""
+"RSS-Bridge is a project capable of generating RSS and Atom feeds for "
+"websites that don't have one. It can be used on webservers or as a stand-"
+"alone application in CLI mode."
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/DESCRIPTION.md:4
+msgid ""
+"Important: RSS-Bridge is not a feed reader or feed aggregator, but a tool to "
+"generate feeds that are consumed by feed readers and feed aggregators. Find "
+"a list of feed aggregators on Wikipedia."
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/DESCRIPTION.md:6
+msgid "### Supported sites/pages (main)"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`FlickrExplore` : [Latest interesting images](http://www.flickr.com/explore) "
+"from Flickr"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid "`GoogleSearch` : Most recent results from Google Search"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid "`GooglePlus` : Most recent posts of user timeline"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid "`Twitter` : Return keyword/hashtag search or user timeline"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`Identi.ca` : Identica user timeline (Should be compatible with other Pump."
+"io instances)"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid "`YouTube` : YouTube user channel, playlist or search"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`Cryptome` : Returns the most recent documents from [Cryptome.org](http://"
+"cryptome.org/)"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`DansTonChat`: Most recent quotes from [danstonchat.com](http://danstonchat."
+"com/)"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`DuckDuckGo`: Most recent results from [DuckDuckGo.com](https://duckduckgo."
+"com/)"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid "`Instagram`: Most recent photos from an Instagram user"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`OpenClassrooms`: Lastest tutorials from [fr.openclassrooms.com](http://fr."
+"openclassrooms.com/)"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid "`Pinterest`: Most recent photos from user or search"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`ScmbBridge`: Newest stories from [secouchermoinsbete.fr](http://"
+"secouchermoinsbete.fr/)"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`Wikipedia`: highlighted articles from [Wikipedia](https://wikipedia.org/) "
+"in English, German, French or Esperanto"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`Bandcamp` : Returns last release from [bandcamp](https://bandcamp.com/) for "
+"a tag"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`ThePirateBay` : Returns the newest indexed torrents from [The Pirate Bay]"
+"(https://thepiratebay.se/) with keywords"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:24
+msgid ""
+"`Facebook` : Returns the latest posts on a page or profile on [Facebook]"
+"(https://facebook.com/)"
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/DESCRIPTION.md:26
+msgid "Plus [many other bridges](bridges/) to enable, thanks to the community"
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/DESCRIPTION.md:28
+msgid "### Output format"
+msgstr ""
+
+#. type: Plain text
+#: src/rss-bridge/DESCRIPTION.md:30
+msgid "Output format can take several forms:"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:36
+msgid "`Atom` : ATOM Feed, for use in RSS/Feed readers"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:36
+msgid "`Mrss` : MRSS Feed, for use in RSS/Feed readers"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:36
+msgid "`Json` : Json, for consumption by other applications."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:36
+msgid "`Html` : Simple html page."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/rss-bridge/DESCRIPTION.md:36
+msgid "`Plaintext` : raw text (php object, as returned by print_r)"
+msgstr ""

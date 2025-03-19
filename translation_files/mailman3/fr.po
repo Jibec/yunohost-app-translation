@@ -1,0 +1,141 @@
+# French translations for PACKAGE package
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: 2025-03-19 18:14+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: src/archivist/ADMIN.md:7 src/audiobookshelf/ADMIN.md:2
+#: src/dendrite/ADMIN.md:8 src/domoticz/ADMIN.md:100 src/kresus/ADMIN.md:2
+#: src/mailman3/DESCRIPTION.md:5 src/mautrix_facebook/ADMIN.md:55
+#: src/mautrix_signal/ADMIN.md:76 src/nullboard/ADMIN.md:2
+#: src/pihole/ADMIN.md:6
+msgid "## Limitations"
+msgstr ""
+
+#. type: Plain text
+#: src/mailman3/ADMIN.md:2
+msgid "## Mailman admin panels"
+msgstr ""
+
+#. type: Plain text
+#: src/mailman3/ADMIN.md:4
+msgid "Classical admin is available on the page: <https://__DOMAIN__/>"
+msgstr ""
+
+#. type: Plain text
+#: src/mailman3/ADMIN.md:6
+msgid "Django admin on: <https://__DOMAIN__/admin/>"
+msgstr ""
+
+#. type: Plain text
+#: src/mailman3/ADMIN.md:8
+msgid "## General Configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/mailman3/ADMIN.md:10
+msgid ""
+"Mailman 3 or \"The Mailman Suite\" is made up of 5 moving parts. See the "
+"following documentation for more:"
+msgstr ""
+
+#. type: Plain text
+#: src/mailman3/ADMIN.md:12
+msgid "> http://docs.mailman3.org/en/latest/index.html#the-mailman-suite"
+msgstr ""
+
+#. type: Plain text
+#: src/mailman3/ADMIN.md:14
+msgid ""
+"On your YunoHost, all the configuration files you need to worry about are in:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mailman3/ADMIN.md:17
+msgid "`/etc/mailman3/`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mailman3/ADMIN.md:17
+msgid "`/usr/share/mailman3-web/`"
+msgstr ""
+
+#. type: Plain text
+#: src/mailman3/ADMIN.md:19
+msgid "The services you need to manage can be checked with:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mailman3/ADMIN.md:22
+msgid "`systemctl status mailman3`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mailman3/ADMIN.md:22
+msgid "`systemctl status mailman3-web`"
+msgstr ""
+
+#. type: Plain text
+#: src/mailman3/ADMIN.md:24
+msgid ""
+"It is important to note that this package makes use of the [mailman3-full]"
+"(http://docs.mailman3.org/en/latest/prodsetup.html#distribution-packages) "
+"Debian package contained in the Debian Stretch backports repository. The "
+"default installation assumes the use of a SQLite3 database but the "
+"installation script overrides this and uses a PostgreSQL database instead."
+msgstr ""
+
+#. type: Plain text
+#: src/mailman3/ADMIN.md:25
+msgid ""
+"Finally, you also configure things through the Django web admin available at "
+"`/admin/`."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mailman3/DESCRIPTION.md:3
+msgid "Users can just sign up themselves to manage details"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mailman3/DESCRIPTION.md:3
+msgid "Users can use mailing lists without signing up?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mailman3/DESCRIPTION.md:8
+msgid ""
+"Migrating from Mailman 2.X is not officially supported, sorry. However, "
+"there is a manual and which details an experimental process. Please see [the "
+"documentation](https://docs.mailman3.org/en/latest/migration.html)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mailman3/DESCRIPTION.md:10
+msgid ""
+"Mailman3 must be configured to use a root domain (https://myyunohost.org and "
+"*not* https://myyunohost.org/mailman3)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mailman3/DESCRIPTION.md:12
+msgid "You must have a HTTPS certificate installed on the root domain."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mailman3/DESCRIPTION.md:13
+msgid "There may be only one installation per YunoHost."
+msgstr ""
