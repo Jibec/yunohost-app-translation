@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/diacamma/DESCRIPTION.md:2
+msgid "# Diacamma Introduction"
+msgstr ""
+
+#. type: Plain text
+#: src/diacamma/DESCRIPTION.md:4
+msgid ""
+"_Diacamma_ is a set of free and open source administrative and financial "
+"management software designed and developed for volunteers."
+msgstr ""
+
+#. type: Plain text
+#: src/diacamma/DESCRIPTION.md:6
+msgid "## Diacamma Asso"
+msgstr ""
+
+#. type: Plain text
+#: src/diacamma/DESCRIPTION.md:8
+#, no-wrap
+msgid "**Simply manage memberships to your association**\n"
+msgstr ""
+
+#. type: Plain text
+#: src/diacamma/DESCRIPTION.md:10
+msgid ""
+"_Diacamma Asso_ allows you to easily classify your current and past members."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/diacamma/DESCRIPTION.md:16
+msgid "Have a list of your members with all their contact information."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/diacamma/DESCRIPTION.md:16
+msgid "Manage their contributions by activities and categories."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/diacamma/DESCRIPTION.md:16
+msgid ""
+"Easily manage your association events (exams, internships, outings, ...)."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/diacamma/DESCRIPTION.md:16
+msgid "Manage the stock of your associative purchasing center."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/diacamma/DESCRIPTION.md:16
+msgid "Link an invoice to your dues and events."
+msgstr ""
+
+#. type: Plain text
+#: src/diacamma/DESCRIPTION.md:18
+msgid "## Diacamma Syndic"
+msgstr ""
+
+#. type: Plain text
+#: src/diacamma/DESCRIPTION.md:20
+#, no-wrap
+msgid "**Follow the situation of your condo**\n"
+msgstr ""
+
+#. type: Plain text
+#: src/diacamma/DESCRIPTION.md:22
+msgid ""
+"_Diacamma Syndic_ allows voluntary trustees to simply manage their co-"
+"ownership."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/diacamma/DESCRIPTION.md:27
+msgid ""
+"Keep an accounting in accordance with the French regulation of condominiums."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/diacamma/DESCRIPTION.md:27
+msgid "Follow the situation of each co-owner."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/diacamma/DESCRIPTION.md:27
+msgid "Create and send calls for funds."
+msgstr ""
+
+#. type: Bullet: ' * '
+#: src/diacamma/DESCRIPTION.md:27
+msgid ""
+"Break down the expenses of the co-ownership on each one according to its "
+"parts."
+msgstr ""

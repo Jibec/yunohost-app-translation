@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/code-server/ADMIN.md:6 src/grist/DESCRIPTION.md:13
+#: src/opensearch/DESCRIPTION.md:8 src/retroarch/ADMIN.md:9 src/ums/ADMIN.md:11
+#: src/wallabag2/ADMIN.md:2
+msgid "### Limitations"
+msgstr ""
+
+#. type: Plain text
+#: src/gitlab/ADMIN.md:2 src/ums/ADMIN.md:2 src/wetty/ADMIN.md:2
+msgid "### Configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/ums/ADMIN.md:4
+msgid ""
+"At first run, UMS will ask you to create an admin user. This can be disable "
+"later on in the settings"
+msgstr ""
+
+#. type: Plain text
+#: src/ums/ADMIN.md:6
+msgid ""
+"Once installed, UMS will create config file in `__DATA_DIR__/.config/UMS/`"
+msgstr ""
+
+#. type: Plain text
+#: src/ums/ADMIN.md:9
+msgid ""
+"All settings are pretty well documented directly in the files.  The default "
+"setting will use the shared multimedia directory by default (located into `/"
+"home/yunohost.multimedia/share`), you may change this setting in "
+"`__DATA_DIR__/.config/UMS/UMS.conf` with the setting \"folders\""
+msgstr ""
+
+#. type: Bullet: ' - '
+#: src/ums/ADMIN.md:13
+msgid "No User integration with Yunohost"
+msgstr ""
+
+#. type: Plain text
+#: src/ums/ADMIN.md:15
+msgid "### Other infos"
+msgstr ""
+
+#. type: Plain text
+#: src/ums/ADMIN.md:22
+msgid ""
+"If you can't find the server on a renderer, you may try the following "
+"trouble shooting : - Wait a little bit : the first start up will intialized "
+"the database and if you have a lot of media, this may take a while - Wait a "
+"little more : the server will broadcast an ALIVE message every 30 sec, so it "
+"may take this long for a renderer to find it - check if the service ums is "
+"running in the yunohost admin - check on which network interface the server "
+"is annoucing : You may find the network and address used in `__DATA_DIR__/."
+"config/UMS/debug.log` or `/var/log/ums/ums.log`. Search for a line like "
+"`Using address /192.168.0.54 found on network interface: name:enp0s3 "
+"(enp0s3)` The subnet to be used should be the same as your renderer (ie : if "
+"your TV is on 192.168.0.X and ums on 192.168.1.X, this will not work). You "
+"may check the network interface for you system with `ip address`"
+msgstr ""
+
+#. type: Plain text
+#: src/ums/ADMIN.md:23
+msgid ""
+"On small device (Raspberry for example), transco may be requiring too much "
+"power: try some alternate transcoder."
+msgstr ""
+
+#. type: Plain text
+#: src/ums/DESCRIPTION.md:2
+msgid ""
+"Universal Media Server is a DLNA-compliant UPnP Media Server. It is capable "
+"of sharing video, audio and images between most modern devices.  The program "
+"streams or transcodes many different media formats with little or no "
+"configuration. It is powered by FFmpeg, MediaInfo, OpenSubtitles, Crowdin, "
+"MEncoder, tsMuxeR, AviSynth, VLC and more, which combine to offer support "
+"for a wide range of media formats."
+msgstr ""

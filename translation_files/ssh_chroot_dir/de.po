@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/ssh_chroot_dir/DESCRIPTION.md:2
+msgid ""
+"This app provides a directory, accessible via ssh of sftp, to a new user."
+msgstr ""
+
+#. type: Plain text
+#: src/ssh_chroot_dir/DESCRIPTION.md:5
+msgid ""
+"A \"chroot jail\" limits the commands the user can use, so you can rest "
+"assured that they can't access your server's contents outside of the "
+"provided directory."
+msgstr ""
+
+#. type: Plain text
+#: src/ssh_chroot_dir/DESCRIPTION.md:6
+msgid "A data size quota is also set on the directory."
+msgstr ""

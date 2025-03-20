@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/adminer/ADMIN.md:2 src/adminerevo/ADMIN.md:2 src/aeneria/ADMIN.md:2
+#: src/alltube/ADMIN.md:2 src/archivist/ADMIN.md:2 src/blogotext/ADMIN.md:2
+#: src/collabora/ADMIN.md:2 src/dato/ADMIN.md:3 src/discourse/ADMIN.md:19
+#: src/domoticz/ADMIN.md:55 src/duniter/ADMIN.md:17 src/framaforms/ADMIN.md:2
+#: src/freshrss/ADMIN.md:2 src/gitlab-runner/ADMIN.md:2
+#: src/gotosocial/ADMIN.md:17 src/hedgedoc/ADMIN.md:2
+#: src/languagetool/ADMIN.md:2 src/lionwiki-t2t/ADMIN.md:2 src/lxd/ADMIN.md:2
+#: src/matterbridge/ADMIN.md:2 src/minetest/ADMIN.md:2 src/minidlna/ADMIN.md:2
+#: src/opentracker/ADMIN.md:2 src/peertube-search-index/ADMIN.md:2
+#: src/phpsysinfo/ADMIN.md:2 src/pihole/ADMIN.md:2
+#: src/question2answer/ADMIN.md:2 src/unattended_upgrades/ADMIN.md:2
+msgid "## Configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/question2answer/ADMIN.md:3
+msgid ""
+"This app can be configured via its admin panel, available at <https://"
+"mydomain/myquestion2answer/index.php/admin/>."
+msgstr ""
+
+#. type: Plain text
+#: src/question2answer/DESCRIPTION.md:1
+msgid ""
+"Question2Answer (Q2A) is a popular open source Q&A platform for PHP/MySQL."
+msgstr ""

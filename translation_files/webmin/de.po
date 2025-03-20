@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Bullet: '* '
+#: src/webmin/ADMIN.md:5
+msgid ""
+"This app has **root** access which can change core things in the system, "
+"thus **breaking the YunoHost**. Use it carefully and read the [documents]"
+"(https://doxfer.webmin.com/Webmin/Main_Page) two times before changing "
+"values."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/webmin/ADMIN.md:5
+msgid ""
+"Only **user** given permission at time of the installation can **access** "
+"the Webmin login interface"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/webmin/ADMIN.md:5
+msgid "To login to webmin, use root and root password"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/webmin/ADMIN.md:5
+msgid ""
+"Webmin will **update itself** when system updates are run. So no need to "
+"**run upgrade script** once installed."
+msgstr ""
+
+#. type: Plain text
+#: src/webmin/ADMIN.md:7
+msgid "### Fix username and password"
+msgstr ""
+
+#. type: Plain text
+#: src/webmin/ADMIN.md:11
+msgid ""
+"If you can't connect you can fix the password of the user running: ``` /usr/"
+"share/webmin/changepass.pl /etc/webmin root newpassword ```"
+msgstr ""
+
+#. type: Plain text
+#: src/webmin/DESCRIPTION.md:1
+msgid ""
+"Webmin is a web-based interface for system administration for Unix. Using "
+"any modern web browser, you can setup user accounts, Apache, DNS, file "
+"sharing and much more. Webmin removes the need to manually edit Unix "
+"configuration files like `/etc/passwd`, and lets you manage a system from "
+"the console or remotely."
+msgstr ""

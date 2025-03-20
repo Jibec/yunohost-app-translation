@@ -1,0 +1,296 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:2
+msgid "## Some Nomad Job examples"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:4
+msgid "### Busybox"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:6
+msgid "`lxc-create --name=busybox --template=busybox`"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:11
+#, no-wrap
+msgid ""
+"```\n"
+"job \"job-busybox\" {\n"
+"  datacenters = [\"dc1\"]\n"
+"  type        = \"service\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:15
+#, no-wrap
+msgid ""
+"  group \"group-busybox\" {\n"
+"    task \"task-busybox\" {\n"
+"      driver = \"lxc\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:21
+#, no-wrap
+msgid ""
+"      config {\n"
+"        log_level = \"info\"\n"
+"        verbosity = \"verbose\"\n"
+"        template  = \"/usr/share/lxc/templates/lxc-busybox\"\n"
+"      }\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:30 src/nomad/ADMIN.md:58 src/nomad/ADMIN.md:87
+#: src/nomad/ADMIN.md:116 src/nomad/ADMIN.md:145 src/nomad/ADMIN.md:173
+#, no-wrap
+msgid ""
+"      resources {\n"
+"        cpu    = 500\n"
+"        memory = 256\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:32
+msgid "### Debian"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:34
+msgid "`lxc-create --name=debian --template=debian`"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:39
+#, no-wrap
+msgid ""
+"```\n"
+"job \"job-debian\" {\n"
+"  datacenters = [\"dc1\"]\n"
+"  type        = \"service\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:43
+#, no-wrap
+msgid ""
+"  group \"group-debian\" {\n"
+"    task \"task-debian\" {\n"
+"      driver = \"lxc\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:49
+#, no-wrap
+msgid ""
+"      config {\n"
+"        log_level = \"info\"\n"
+"        verbosity = \"verbose\"\n"
+"        template  = \"/usr/share/lxc/templates/lxc-debian\"\n"
+"      }\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:60
+msgid "### Debian Stretch"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:62
+msgid "`lxc-create --name=stretch --template=debian -- --release=stretch`"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:67
+#, no-wrap
+msgid ""
+"```\n"
+"job \"job-stretch\" {\n"
+"  datacenters = [\"dc1\"]\n"
+"  type        = \"service\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:71
+#, no-wrap
+msgid ""
+"  group \"group-stretch\" {\n"
+"    task \"task-stretch\" {\n"
+"      driver = \"lxc\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:78
+#, no-wrap
+msgid ""
+"      config {\n"
+"        log_level = \"info\"\n"
+"        verbosity = \"verbose\"\n"
+"        template  = \"/usr/share/lxc/templates/lxc-debian\"\n"
+"        template_args = [\"--release=stretch\"]\n"
+"      }\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:89
+msgid "### Debian Buster"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:91
+msgid "`lxc-create --name=buster --template=debian -- --release=buster`"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:96
+#, no-wrap
+msgid ""
+"```\n"
+"job \"job-buster\" {\n"
+"  datacenters = [\"dc1\"]\n"
+"  type        = \"service\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:100
+#, no-wrap
+msgid ""
+"  group \"group-buster\" {\n"
+"    task \"task-buster\" {\n"
+"      driver = \"lxc\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:107
+#, no-wrap
+msgid ""
+"      config {\n"
+"        log_level = \"info\"\n"
+"        verbosity = \"verbose\"\n"
+"        template  = \"/usr/share/lxc/templates/lxc-debian\"\n"
+"        template_args = [\"--release=buster\"]\n"
+"      }\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:118
+msgid "### Debian Buster from images.linuxcontainers.org"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:120
+msgid ""
+"`lxc-create --name=download-buster --template=download -- --dist=debian --"
+"release=buster --arch=amd64 --keyserver=hkp://keyserver.ubuntu.com`"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:125
+#, no-wrap
+msgid ""
+"```\n"
+"job \"job-download-buster\" {\n"
+"  datacenters = [\"dc1\"]\n"
+"  type        = \"service\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:129
+#, no-wrap
+msgid ""
+"  group \"group-download-buster\" {\n"
+"    task \"task-download-buster\" {\n"
+"      driver = \"lxc\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:136
+#, no-wrap
+msgid ""
+"      config {\n"
+"        log_level = \"info\"\n"
+"        verbosity = \"verbose\"\n"
+"        template  = \"/usr/share/lxc/templates/lxc-download\"\n"
+"        template_args = [\"--dist=debian\",\"--release=buster\",\"--arch=amd64\",\"--keyserver=hkp://keyserver.ubuntu.com\"]\n"
+"      }\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:147
+msgid "### Debian Bullseye from images.linuxcontainers.org"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:149
+msgid ""
+"`lxc-create --name=download-bullseye --template=download -- --dist=debian --"
+"release=bullseye --arch=amd64 --keyserver=hkp://keyserver.ubuntu.com`"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:154
+#, no-wrap
+msgid ""
+"```\n"
+"job \"job-download-bullseye\" {\n"
+"  datacenters = [\"dc1\"]\n"
+"  type        = \"service\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:158
+#, no-wrap
+msgid ""
+"  group \"group-download-bullseye\" {\n"
+"    task \"task-download-bullseye\" {\n"
+"      driver = \"lxc\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/ADMIN.md:165
+#, no-wrap
+msgid ""
+"      config {\n"
+"        log_level = \"info\"\n"
+"        verbosity = \"verbose\"\n"
+"        template  = \"/usr/share/lxc/templates/lxc-download\"\n"
+"        template_args = [\"--dist=debian\",\"--release=bullseye\",\"--arch=amd64\",\"--keyserver=hkp://keyserver.ubuntu.com\"]\n"
+"      }\n"
+msgstr ""
+
+#. type: Plain text
+#: src/nomad/DESCRIPTION.md:1
+msgid ""
+"Nomad is a simple and flexible workload orchestrator to deploy and manage "
+"containers ([docker](https://www.nomadproject.io/docs/drivers/docker.html), "
+"[podman](https://www.nomadproject.io/docs/drivers/podman)), non-"
+"containerized applications ([executable](https://www.nomadproject.io/docs/"
+"drivers/exec.html), [Java](https://www.nomadproject.io/docs/drivers/java)), "
+"and virtual machines ([qemu](https://www.nomadproject.io/docs/drivers/qemu."
+"html)) across on-prem and clouds at scale."
+msgstr ""

@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/libreerp/ADMIN.md:3
+msgid "### To connect on your LibreERP"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/libreerp/ADMIN.md:5
+msgid "Go on <https://__DOMAIN__/web>"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/libreerp/ADMIN.md:5
+msgid ""
+"Login as \"admin\" with the master password you provided during installation"
+msgstr ""
+
+#. type: Plain text
+#: src/libreerp/DESCRIPTION.md:2
+msgid ""
+"LibreERP is a suite of web based open source business apps. LibreERP is a "
+"fork of Odoo Community Edition."
+msgstr ""
+
+#. type: Plain text
+#: src/libreerp/DESCRIPTION.md:4
+msgid ""
+"The main LibreERP Apps include an Open Source CRM, Website Builder, "
+"eCommerce, Project Management, Billing &amp; Accounting, Point of Sale, "
+"Human Resources, Marketing, Manufacturing, Purchase Management, ..."
+msgstr ""
+
+#. type: Plain text
+#: src/libreerp/DESCRIPTION.md:6
+msgid ""
+"LibreERP Apps can be used as stand-alone applications, but they also "
+"integrate seamlessly so you get a full-featured Open Source ERP when you "
+"install several Apps."
+msgstr ""
+
+#. type: Plain text
+#: src/libreerp/DESCRIPTION.md:10
+msgid ""
+"### About licences LibreERP 8.0 is under AGPL-3.0 Next version are under "
+"LGPL-3.0 LibreERP is forked from Odoo Community Edition. The name is change "
+"due to Odoo trademark policy."
+msgstr ""

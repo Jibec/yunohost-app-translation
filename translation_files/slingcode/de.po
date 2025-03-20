@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/beehive/DESCRIPTION.md:4 src/glpi/DESCRIPTION.md:4
+#: src/invidious/DESCRIPTION.md:5 src/kiwiirc/DESCRIPTION.md:4
+#: src/moncycle/DESCRIPTION.md:4 src/psitransfer/DESCRIPTION.md:4
+#: src/slingcode/DESCRIPTION.md:4 src/thelounge/DESCRIPTION.md:4
+msgid "### Features:"
+msgstr ""
+
+#. type: Plain text
+#: src/slingcode/DESCRIPTION.md:2
+msgid ""
+"Slingcode is a code editor contained in a single HTML file. Therefore, it "
+"has no server component, so all of your data is stored in your browser's "
+"cache. However, it is still possible to make web apps, run them, export "
+"them, and even share them using peer-to-peer."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/slingcode/DESCRIPTION.md:11
+msgid "You can make, run, and share web apps with it."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/slingcode/DESCRIPTION.md:11
+msgid "You don't need any complicated tools to use it, just a web browser."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/slingcode/DESCRIPTION.md:11
+msgid ""
+"You don't need a server, hosting, or an SSL certificate to run the web apps."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/slingcode/DESCRIPTION.md:11
+msgid ""
+"You can put Slingcode on a web site, run it from a USB stick, laptop, or "
+"phone, and it doesn't need an internet connection to work."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/slingcode/DESCRIPTION.md:11
+msgid ""
+"You can \"add to home screen\" in your phone's browser to easily access your "
+"library of programs on the go."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/slingcode/DESCRIPTION.md:11
+msgid "You can share apps peer-to-peer over WebTorrent."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/slingcode/DESCRIPTION.md:11
+msgid "It's private. You only share what you choose."
+msgstr ""

@@ -1,0 +1,30 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/ethercalc/DESCRIPTION.md:1
+msgid ""
+"EtherCalc is a collaborative spreadsheet that can be edited in real time. "
+"Each spreadsheet has its own URL. It has the basic functionalities: "
+"formatting, mathematical functions, graphics, adding comments, version "
+"history, export in HTML or in CSV. EtherCalc is a decentralized software: "
+"different instances allow the use of the service, they are made available by "
+"several organizations (for example the eponymous site or the FramaCalc "
+"service). This makes it possible to avoid concentrating all the data in the "
+"hands of the same actor. Instances can be personalized (limitation of the "
+"duration of hosting of the spreadsheet, modification of the design, etc.)."
+msgstr ""

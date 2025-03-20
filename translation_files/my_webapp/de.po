@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:2
+msgid ""
+"This app is simply a blank web app skeleton : you are expected to add you "
+"own content (HTML, CSS, PHP, ...) inside `__INSTALL_DIR__/www/`. One way to "
+"do so is by using SFTP."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:4
+msgid "### Login using SFTP"
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:6
+msgid ""
+"Once installed, go to the chosen URL to know the username, domain and port "
+"you will have to use for the SFTP access."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/my_webapp/ADMIN.md:11
+msgid "Host: `__DOMAIN__`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/my_webapp/ADMIN.md:11
+msgid "Username: `__ID__`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/my_webapp/ADMIN.md:11
+msgid "Password: password chosen during installation"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/my_webapp/ADMIN.md:11
+msgid "Port: 22 (unless you changed the SSH port)"
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:13
+msgid ""
+"To connect, you'll need an SFTP app such as [Filezilla](https://filezilla-"
+"project.org/) for Windows, Mac or Linux. You can also use your default file "
+"manager on [Mac](https://support.apple.com/guide/mac-help/connect-mac-shared-"
+"computers-servers-mchlp1140/mac) or Linux."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:15
+msgid "#### Forgot your SFTP password?"
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:18
+msgid ""
+"If you forgot your SFTP password, you can change it in YunoHost's webadmin "
+"interface in `Apps > My webapp > My Webapp configuration`.  You can also "
+"check there that SFTP is enabled."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:20
+msgid "### Login using the command line"
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:22
+msgid ""
+"Starting YunoHost v11.1.21, you can run `sudo yunohost app shell __APP__` in "
+"the command line interface to log in as your app user."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:24
+msgid "The `php` command will point to the PHP version installed for the app."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:26
+msgid "### Adding or editing files"
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:28
+msgid ""
+"Once logged in, under the Web directory you will see a `www` folder which "
+"contains the public files served by this app. You can put all the files of "
+"your custom Web application inside."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:30
+msgid "### 403 and 404 error handling"
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:32
+msgid ""
+"The web server configuration supports http error handling `403` and `404` "
+"(access denied and resource not found). Create an `error` folder at "
+"`__INSTALL_DIR__/www/error`, and put your `403.html` and `404.html` files in "
+"there."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:34
+msgid "### Customizing the nginx configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/ADMIN.md:35
+msgid ""
+"If you want to add tweak the nginx configuration for this app, it is "
+"recommended to edit `/etc/nginx/conf.d/__DOMAIN__.d/__ID__.d/WHATEVER_NAME."
+"conf` (ensure that the file has the `.conf` extension) and reload the nginx "
+"after making sure that the configuration is valid using `nginx -t`."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/DESCRIPTION.md:2
+msgid ""
+"This application allows you to easily install an \"empty\" web application, "
+"in which you deploy your own custom website in the form of \"static\" HTML/"
+"CSS/JS assets or PHP."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/DESCRIPTION.md:4
+msgid ""
+"Files can be uploaded [via SFTP](https://yunohost.org/en/filezilla) or any "
+"other method of your chosing."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/DESCRIPTION.md:6
+msgid ""
+"During installation, you can also chose to initialize a MySQL or PostgreSQL "
+"database, which will be backed up and restored just like the other files in "
+"your application. The connection details will be stored in the file "
+"`db_access.txt` located in the root directory of the app."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/DESCRIPTION.md:8
+msgid ""
+"PHP-FPM version can also be selected among (none), `7.4`, `8.0`, `8.1`, "
+"`8.2`, `8.3` and `8.4`."
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/DESCRIPTION.md:10
+#, no-wrap
+msgid "**Once installed, go to the chosen URL to know the user, domain and port you will have to use for the SFTP access.** The password is the one specified during the installation. Under the app directory, you will see a `www` folder which contains the public files served by this app. You can put all the files of your custom web application inside.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/my_webapp/DESCRIPTION.md:11
+msgid ""
+"You can also customize 404 errors - if you enable the option in the config "
+"panel. Simply create an `error` folder in the `www` root directory, "
+"containing your custom `html` files."
+msgstr ""
