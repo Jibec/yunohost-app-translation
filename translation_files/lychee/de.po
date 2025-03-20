@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/lychee/ADMIN.md:2
+msgid ""
+"To complete matomo configuration, you have to add the code snippet in lychee "
+"configuration (custom js) without the leading :"
+msgstr ""
+
+#. type: Plain text
+#: src/lychee/ADMIN.md:11
+msgid ""
+"``` <!-- Matomo --> <script> ``` or ending : ``` </script> <!-- End Matomo "
+"Code --> ```"
+msgstr ""
+
+#. type: Plain text
+#: src/lychee/DESCRIPTION.md:3
+msgid ""
+"Lychee is a free photo-management tool, which runs on your server or web-"
+"space.  Upload, manage and share photos like from a native application.  "
+"Lychee comes with everything you need and all your photos are stored "
+"securely."
+msgstr ""

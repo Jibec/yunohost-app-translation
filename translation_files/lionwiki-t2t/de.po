@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/adminer/ADMIN.md:2 src/adminerevo/ADMIN.md:2 src/aeneria/ADMIN.md:2
+#: src/alltube/ADMIN.md:2 src/archivist/ADMIN.md:2 src/blogotext/ADMIN.md:2
+#: src/collabora/ADMIN.md:2 src/dato/ADMIN.md:3 src/discourse/ADMIN.md:19
+#: src/domoticz/ADMIN.md:55 src/duniter/ADMIN.md:17 src/framaforms/ADMIN.md:2
+#: src/freshrss/ADMIN.md:2 src/gitlab-runner/ADMIN.md:2
+#: src/gotosocial/ADMIN.md:17 src/hedgedoc/ADMIN.md:2
+#: src/languagetool/ADMIN.md:2 src/lionwiki-t2t/ADMIN.md:2 src/lxd/ADMIN.md:2
+#: src/matterbridge/ADMIN.md:2 src/minetest/ADMIN.md:2 src/minidlna/ADMIN.md:2
+#: src/opentracker/ADMIN.md:2 src/peertube-search-index/ADMIN.md:2
+#: src/phpsysinfo/ADMIN.md:2 src/pihole/ADMIN.md:2
+#: src/question2answer/ADMIN.md:2 src/unattended_upgrades/ADMIN.md:2
+msgid "## Configuration"
+msgstr ""
+
+#. type: Plain text
+#: src/gitlab-runner/ADMIN.md:10 src/lionwiki-t2t/ADMIN.md:20
+#: src/mautrix_facebook/ADMIN.md:59 src/streama/ADMIN.md:8 src/strut/ADMIN.md:5
+msgid "## Additional information"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:4
+msgid ""
+"In the root folder of this app, there are two files: `config.php` and "
+"`config.t2t`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/lionwiki-t2t/ADMIN.md:6
+msgid ""
+"`config.php` is for changing password, the template used, default page. You "
+"can also define an administrator password which has some more rights (it's "
+"possible to lock some pages and modify them only with the administrator "
+"password, add some IP address to a blacklist)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/lionwiki-t2t/ADMIN.md:8
+msgid ""
+"`config.t2t` is for tweaking your wiki syntax. You can define more tags "
+"(using the txt2tags rules) for specific behaviors."
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:10
+msgid ""
+"The `pheditor.php` tool at the root of the site allows you to edit all the "
+"necessary configuration files. You can remove or rename it from its "
+"interface. The password is the same as the one defined during installation."
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:12
+msgid "#### Multi-users support"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:14
+msgid ""
+"This is only a single password for editing the wiki (it's not multi-user), "
+"and one other password for administration. Both are set to the same one "
+"defined in the lionwiki-t2t during the installation by YunoHost."
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:16
+msgid ""
+"You can set the wiki to private (only readable when you are connected to "
+"YunoHost SSO) or public (readable by the whole internet)."
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:18
+msgid "You can install multiple instance of this app."
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:22
+msgid ""
+"You must define a base color during the installation (in hexadecimal "
+"format). You can choose it using this online tool for example: https://www."
+"w3schools.com/colors/colors_picker.asp"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:24
+msgid ""
+"It will modify the `templates/minimaxing/minimaxing.less` file and compile "
+"it using the lessc command (from the node-less package)."
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:26
+msgid ""
+"After the installation, you can edit the base color found in `/var/www/"
+"lionwikit2t/templates/minimaxing/minimaxing.less` file."
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:28
+msgid "Search for:"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:33
+msgid "```css /* For YunoHost config */ @MainColor: #D17732; ```"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:35
+msgid ""
+"Go inside your installation folder (adapt it to your case, if it's the "
+"second instance you've installed, it will be named /var/www/lionwikit2t__2/):"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:39
+msgid "```bash cd /var/www/lionwikit2t ```"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:41
+msgid "Then compile it with:"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:45
+msgid ""
+"```bash lessc templates/minimaxing/minimaxing.less > templates/minimaxing/"
+"minimaxing.css ```"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:47
+msgid "If something goes wrong, you can go back to the original default file:"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/ADMIN.md:50
+msgid ""
+"```bash cp templates/minimaxing/minimaxing_org.css templates/minimaxing/"
+"minimaxing.css ```"
+msgstr ""
+
+#. type: Plain text
+#: src/lionwiki-t2t/DESCRIPTION.md:1
+msgid ""
+"LionWiki is a minimalist Wiki engine programmed in PHP. It is extensible, "
+"templatable, file based (it doesn't need database like MySQL) and requires "
+"just one file to function (30 kb). It is suitable for small websites, "
+"personal notebooks or journals. This version is using the lightweight markup "
+"language TXT2TAGS."
+msgstr ""

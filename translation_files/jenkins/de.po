@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/jenkins/ADMIN.md:1
+msgid "Use the admin panel of your Jenkins to configure this app."
+msgstr ""
+
+#. type: Plain text
+#: src/jenkins/DESCRIPTION.md:1
+msgid ""
+"The leading open source automation server, Jenkins provides hundreds of "
+"plugins to support building, deploying and automating any project."
+msgstr ""
+
+#. type: Plain text
+#: src/jenkins/POST_UPGRADE.md:3
+msgid ""
+"You can configure this app easily by using the experimental [config-panel "
+"feature](https://__DOMAIN__/yunohost/apps/__APP__/config-panel).  You can "
+"also find some specific actions for this app by using the experimental "
+"[action feature](https://__DOMAIN__/yunohost/apps/__APP__/actions)."
+msgstr ""
+
+#. type: Plain text
+#: src/jenkins/POST_UPGRADE.md:4
+msgid ""
+"If you're facing an issue or want to improve this app, please open a new "
+"issue in this [project](https://github.com/YunoHost-Apps/jenkins_ynh)."
+msgstr ""

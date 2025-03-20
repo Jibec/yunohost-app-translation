@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Bullet: '* '
+#: src/mopidy/ADMIN.md:14
+msgid "This installation is shipped with various extensions:"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"[MusicBox-Webclient](https://mopidy.com/ext/musicbox-webclient/) to control "
+"mopidy from your web browser"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"[local](https://mopidy.com/ext/local/) to make your private music collection "
+"on `/home/yunohost.multimedia/share/Music/` browseable and searchable"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"[YouTube](https://pypi.org/project/Mopidy-YouTube/) to play sound from "
+"YouTube"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"[YTMusic](https://music.youtube.com/) to access Google’s streaming music "
+"named [YouTube Music](https://music.youtube.com/)"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"[Podcast-iTunes](https://mopidy.com/ext/podcast-itunes/) to search and "
+"browse podcasts from the Apple iTunes Store."
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"[RadioNet](https://mopidy.com/ext/radionet/) to play radio channels from the "
+"[radio.net](https://www.radio.net/)."
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"[Podcast](https://mopidy.com/ext/podcast/) to browse RSS feeds of podcasts "
+"and stream the episodes."
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"[Soundcloud](https://pypi.org/project/Mopidy-SoundCloud/) to play music from "
+"the [SoundCloud](https://soundcloud.com/) service \\([authentication token]"
+"(https://pypi.org/project/Mopidy-SoundCloud/) needed\\)."
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"[MPD](https://mopidy.com/ext/mpd/) can be activated in order to use apps "
+"that control mopidy via this protocol. (This will open port 6600.)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"All streams are played on the servers local audio hardware. The web "
+"interface is only a kind of remote control. Threrefore it should not be used "
+"with VPS or other servers that have no real audio hardware"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"To rebuild the database of your local music collection enter `sudo mopidyctl "
+"local scan`."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mopidy/ADMIN.md:14
+msgid "To list current settings enter `sudo mopidyctl config`."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mopidy/ADMIN.md:14
+msgid ""
+"Edit the file `/opt/yunohost/mopidy/mopidy.conf` to adjust Mopidy's "
+"configuration."
+msgstr ""
+
+#. type: Plain text
+#: src/mopidy/DESCRIPTION.md:2
+msgid "Mopidy is an extensible music server written in Python."
+msgstr ""
+
+#. type: Plain text
+#: src/mopidy/DESCRIPTION.md:3
+msgid ""
+"Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music, "
+"and more. You edit the playlist from any phone, tablet, or computer using a "
+"variety of MPD and web clients."
+msgstr ""

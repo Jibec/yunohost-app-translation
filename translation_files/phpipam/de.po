@@ -1,0 +1,26 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/phpipam/DESCRIPTION.md:1
+msgid ""
+"phpIPAM is an open-source web IP address management application. Its goal is "
+"to provide light and simple IP address management application. It is ajax-"
+"based using jQuery libraries, it uses php scripts and javascript and some "
+"HTML5/CSS3 features, so some modern browser is preferred to be able to "
+"display javascript quickly and correctly."
+msgstr ""

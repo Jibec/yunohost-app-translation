@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/joomla/ADMIN.md:14
+msgid ""
+"# Ldap configuration (For now you have to configure it yourself)  Enable "
+"ldap Extension<br> Enter the following feilds:<br> **Host:** localhost<br> "
+"**Port**:389<br> **LdapV3:** Yes<br> **Authorisation Method:** Bind and "
+"search<br> **Base DN:** dc=yunohost,dc=org<br> **uid:** uid=[search]<br> "
+"**User's DN:** ou=users,dc=yunohost,dc=org<br> **Map Full Name:** "
+"displayname<br> **Map Email:** mail<br> **Map User ID:** uid<br>"
+msgstr ""
+
+#. type: Plain text
+#: src/joomla/ADMIN.md:16
+msgid "# UPDATE TO 4.1.0 REQUIRES MANUAL FIX WITH PHPMYADMIN"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: src/joomla/ADMIN.md:18
+msgid "Run phpmyadmin after applying the update"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: src/joomla/ADMIN.md:20
+msgid "Select 'joomla' database in the left panel"
+msgstr ""
+
+#. type: Plain text
+#: src/joomla/ADMIN.md:22
+msgid "![step 1](./doc/dbprefix/fix1.jpg)"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: src/joomla/ADMIN.md:24
+msgid "Select all tables in the right panel"
+msgstr ""
+
+#. type: Plain text
+#: src/joomla/ADMIN.md:26
+msgid "![step 2](./doc/dbprefix/fix2.jpg)"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: src/joomla/ADMIN.md:28
+msgid "Clic on the action menu"
+msgstr ""
+
+#. type: Plain text
+#: src/joomla/ADMIN.md:30
+msgid "![step 3](./doc/dbprefix/fix2.5.jpg)"
+msgstr ""
+
+#. type: Bullet: '5. '
+#: src/joomla/ADMIN.md:32
+msgid "Clic add prefix to table"
+msgstr ""
+
+#. type: Plain text
+#: src/joomla/ADMIN.md:34
+msgid "![step 4](./doc/dbprefix/fix3.jpg)"
+msgstr ""
+
+#. type: Plain text
+#: src/joomla/ADMIN.md:40
+#, no-wrap
+msgid ""
+"6. Enter the database prefix you see in the error message of joomla :\n"
+"```\n"
+"Table 'joomla.JuzW_menu' doesn't exist\n"
+"```\n"
+"it looks like 'JuzW_' in the prefix box and validate\n"
+msgstr ""
+
+#. type: Plain text
+#: src/joomla/ADMIN.md:42
+msgid "![step 5](./doc/dbprefix/fix4.jpg)"
+msgstr ""
+
+#. type: Bullet: '7. '
+#: src/joomla/ADMIN.md:44
+msgid "You're done, all tables are prefixed with your prefix"
+msgstr ""
+
+#. type: Plain text
+#: src/joomla/ADMIN.md:45
+msgid "![step 6](./doc/dbprefix/fix5.jpg)"
+msgstr ""
+
+#. type: Plain text
+#: src/joomla/DESCRIPTION.md:1
+msgid ""
+"Joomla! is a free and open-source content management system (CMS) for "
+"publishing web content. Over the years Joomla! has won several awards. It is "
+"built on a model–view–controller web application framework that can be used "
+"independently of the CMS that allows you to build powerful online "
+"applications."
+msgstr ""
