@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/archivist/ADMIN.md:7 src/audiobookshelf/ADMIN.md:2
+#: src/dendrite/ADMIN.md:8 src/domoticz/ADMIN.md:100 src/kresus/ADMIN.md:2
+#: src/mailman3/DESCRIPTION.md:5 src/mautrix_facebook/ADMIN.md:55
+#: src/mautrix_signal/ADMIN.md:76 src/nullboard/ADMIN.md:2
+#: src/pihole/ADMIN.md:6
+msgid "## Limitations"
+msgstr ""
+
+#. type: Plain text
+#: src/dokuwiki/DESCRIPTION.md:4 src/grafana/DESCRIPTION.md:4
+#: src/mattermost/DESCRIPTION.md:10 src/mautrix_facebook/ADMIN.md:40
+#: src/mautrix_signal/ADMIN.md:61 src/minidlna/DESCRIPTION.md:6
+msgid "## YunoHost specific features"
+msgstr ""
+
+#. type: Plain text
+#: src/gitlab-runner/ADMIN.md:10 src/lionwiki-t2t/ADMIN.md:20
+#: src/mautrix_facebook/ADMIN.md:59 src/streama/ADMIN.md:8 src/strut/ADMIN.md:5
+msgid "## Additional information"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:2 src/mautrix_signal/ADMIN.md:2
+msgid "## List of known public services"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:4
+msgid ""
+"Ask on one of the following rooms: #mautrix_yunohost:matrix.fdn.fr or "
+"#facebook:maunium.net"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:6 src/mautrix_signal/ADMIN.md:6
+msgid "## Bridging usage"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:8
+#, no-wrap
+msgid "**Note that several Facebook and Matrix users can be bridged, each Facebook account has its own bot administration room. If they are in a same Facebook group, only one matrix room will be created.**\n"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:10
+msgid "### Bridge a Facebook user and a Matrix user"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:20 src/mautrix_signal/ADMIN.md:16
+msgid ""
+"First your Matrix user or Synapse Server has to be authorized in the "
+"Configuration of the bridge (see below)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:20
+msgid "Then, invite the bot (default @facebookbot:yoursynapse.domain)"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/mautrix_facebook/ADMIN.md:20 src/mautrix_signal/ADMIN.md:16
+msgid ""
+"If the Bot does bot accept, see the [troubleshooting page](https://docs.mau."
+"fi/bridges/general/troubleshooting.html)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:20
+msgid ""
+"Type ``!fb login <email> <password>``, where ``<email>`` and ``<password>`` "
+"are your Facebook email and password, e.g. ``!fb login gafam@evil.com "
+"facebookpwd``"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:20
+msgid "If you have 2FA enabled, the bot will ask you to send the 2FA token."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:20 src/mautrix_signal/ADMIN.md:24
+msgid ""
+"By defaults, only conversations with very recent messages will be bridged"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:20 src/mautrix_signal/ADMIN.md:24
+msgid "Accept invitations to the bridged chat rooms"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:20
+#, no-wrap
+msgid ""
+"* Send ``!fb help`` to the bot in this new Mautrix-Facebook bot administration room to know how to control the bot.\n"
+"See also [upstream wiki Authentication page](https://docs.mau.fi/bridges/python/facebook/authentication.html)\n"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:22 src/mautrix_signal/ADMIN.md:32
+msgid "### Double puppeting"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:27
+msgid "First login as described in the previous section"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:27
+msgid ""
+"Connect to the Matrix-Synapse Server to get an access token, for example "
+"with the command ``curl -XPOST -d '{\"type\":\"m.login.password\","
+"\"identifier\":{\"type\": \"m.id.user\", \"user\": \"matrixusername\"},"
+"\"password\":\"matrixpassword\",\"initial_device_display_name\":\"mautrix-"
+"facebook\"}' https://yoursynapse.domain/_matrix/client/r0/login``"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:27
+msgid ""
+"Send ``login-matrix <access token>``, where ``<access token>`` is the token "
+"received from the Server."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:27
+msgid ""
+"After logging in, the default Matrix puppet of your Facebook account should "
+"leave rooms and your account should join all rooms the puppet was in "
+"automatically."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:29
+msgid ""
+"### Relaybot: Bridge a group for several Matrix and several Facebook users "
+"to chat together"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:31
+msgid "Not yet available"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:33 src/mautrix_signal/ADMIN.md:45
+#: src/mautrix_telegram/ADMIN.md:2
+msgid "## Configuration of the bridge"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:38
+msgid ""
+"The bridge is [roughly configured at installation](https://github.com/"
+"YunoHost-Apps/mautrix_facebook_ynh/blob/master/conf/config.yaml), e.g. "
+"allowed admin and user of the bot. Finer configuration can be done by "
+"modifying the following configuration file with SSH: ```/opt/yunohost/"
+"mautrix_facebook/config.yaml``` and then restarting the mautrix_facebook "
+"service."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:42 src/mautrix_signal/ADMIN.md:63
+msgid "### Multi-user support"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:48 src/mautrix_signal/ADMIN.md:69
+msgid ""
+"Bot users are not related to Yunohost users. Any Matrix account or Synapse "
+"server autorized in the configuration of the bridge can invite/use the bot."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:48
+msgid ""
+"The Facebook bot is a local Matrix-Synapse user, but accessible through "
+"federation (synapse public or private)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:48
+msgid ""
+"Several Facebook and Matrix users can be bridged with one bridge, each user "
+"has its own bot administration room."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:48
+msgid ""
+"If several bot users are in a same Facebook group, only one Matrix room will "
+"be created by the bridge."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:48 src/mautrix_signal/ADMIN.md:69
+msgid "See <https://github.com/YunoHost-Apps/synapse_ynh#multi-users-support>"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:50 src/mautrix_signal/ADMIN.md:71
+msgid "### Multi-instance support"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:53
+msgid ""
+"Multi-instance installation should work. Several bridge instances could be "
+"installed for one Matrix-Synapse instance so that one Matrix user can bridge "
+"several Facebook accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:53 src/mautrix_signal/ADMIN.md:74
+msgid ""
+"Several bridge instances could be installed for each Matrix-Synapse instance "
+"to benefit from it. But one bridge can be used by users from several Matrix-"
+"Synapse instances."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:57 src/mautrix_signal/ADMIN.md:78
+msgid "It looks like media are not bridged."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_facebook/ADMIN.md:61
+msgid "Other info you would like to add about this app."
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/ADMIN.md:63
+#, no-wrap
+msgid ""
+"**More info on the documentation page:**  \n"
+"<https://docs.mau.fi/bridges/python/facebook/index.html>\n"
+msgstr ""
+
+#. type: Plain text
+#: src/mautrix_facebook/DESCRIPTION.md:1
+msgid ""
+"A puppeting bridge between Matrix and Facebook packaged as a YunoHost "
+"service. Messages, notifications (and sometimes media) are bridged between a "
+"Facebook user and a Matrix user. Currently the Matrix user can NOT invite "
+"other Matrix user in a bridged Facebook room, so only someone with a "
+"Facebook account can participate to Facebook group conversations. The "
+"[\"Mautrix-Facebook\"](https://docs.mau.fi/bridges/python/facebook/index."
+"html) bridge consists in a Synapse App Service and relies on postgresql "
+"(mysql also possible). Therefore, [Synapse for YunoHost](https://github.com/"
+"YunoHost-Apps/synapse_ynh) should be installed beforehand."
+msgstr ""

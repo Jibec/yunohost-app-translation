@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/beehive/DESCRIPTION.md:4 src/glpi/DESCRIPTION.md:4
+#: src/invidious/DESCRIPTION.md:5 src/kiwiirc/DESCRIPTION.md:4
+#: src/moncycle/DESCRIPTION.md:4 src/psitransfer/DESCRIPTION.md:4
+#: src/slingcode/DESCRIPTION.md:4 src/thelounge/DESCRIPTION.md:4
+msgid "### Features:"
+msgstr ""
+
+#. type: Plain text
+#: src/moncycle/DESCRIPTION.md:2
+msgid ""
+"Make it easy to monitor menstrual cycles and apply natural methods. "
+"Billings. Symptothermy. FertilityCare"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "a menstrual cycle tracking chart"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "dedicated to natural methods"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "monitoring the evolution of cervical mucus"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "body temperature tracking (optional)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "FertilityCare rating (optional)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "simple on phone as on PC"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "aesthetic visual with dark mode"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "open source code"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "no pseudo predictive intelligence"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "PDF/CSV export for your instructors"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "finished Excel or Google Sheets"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "the same account on several devices"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "automatic sending of cycles by email"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/moncycle/DESCRIPTION.md:18
+msgid "no data sales/no advertising"
+msgstr ""

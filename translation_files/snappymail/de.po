@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/snappymail/ADMIN.md:2
+msgid "The password-file is created after first opening the admin UI!"
+msgstr ""
+
+#. type: Plain text
+#: src/snappymail/ADMIN.md:4
+msgid "Be sure to immediately change the default password!"
+msgstr ""
+
+#. type: Plain text
+#: src/snappymail/ADMIN.md:6
+msgid ""
+"Open Snappy's admin UI `https://__DOMAIN____PATH__/app/?admin` to configure "
+"your mail server settings. Login with user \"admin\" and password from the "
+"file `__INSTALL_DIR__/app/data/_data_/_default_/admin_password.txt`."
+msgstr ""
+
+#. type: Plain text
+#: src/snappymail/ADMIN.md:9
+msgid ""
+"In particular, to be able to send emails, you need to go to Snappy's admin "
+"UI, in \"Domains\" tab.  Click on \"+ Add Domain\", add your domain name "
+"__DOMAIN__, click on \"autoconfig\", go in \"SMTP\" tab, check \"Use "
+"authentication\"."
+msgstr ""
+
+#. type: Plain text
+#: src/snappymail/ADMIN.md:11
+msgid "## Migration from RainLoop"
+msgstr ""
+
+#. type: Plain text
+#: src/snappymail/ADMIN.md:13
+msgid "### Contacts"
+msgstr ""
+
+#. type: Plain text
+#: src/snappymail/ADMIN.md:16
+msgid ""
+"In the case you are not using a contact synchronization service and wish to "
+"regain your RainLoop contacts in SnappyMail, follow following procedure.  In "
+"RainLoop, export your contacts in csv or vCard format. Then, import them in "
+"SnappyMail."
+msgstr ""
+
+#. type: Plain text
+#: src/snappymail/ADMIN.md:18
+msgid "### Filters, Sieve"
+msgstr ""
+
+#. type: Plain text
+#: src/snappymail/ADMIN.md:22
+msgid ""
+"If you used to use filters (Sieve) with RainLoop and wish to regain this "
+"feature, go into the admin UI, in \"Domains\" tab.  Click on __DOMAIN__, "
+"\"SIEVE\" tab, check \"Allow sieve scripts\".  \"Filters\" tab should appear "
+"in the configuration of the user interface. To display your filters it is "
+"subtle, click on \"Simple\" :)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/snappymail/ADMIN.md:24
+msgid ""
+"[FAQ: Enable filters](https://github.com/the-djmaze/snappymail/wiki/"
+"FAQ#enable-filters)"
+msgstr ""
+
+#. type: Plain text
+#: src/snappymail/ADMIN.md:25
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/snappymail/ADMIN.md:27
+msgid ""
+"[Migration/Upgrade from RainLoop](https://github.com/the-djmaze/snappymail/"
+"wiki/Installation-instructions#migrationupgrade-from-rainloop)"
+msgstr ""
+
+#. type: Plain text
+#: src/snappymail/DESCRIPTION.md:1
+msgid ""
+"Simple, modern, lightweight & fast web-based email client. The drastically "
+"upgraded & secured fork of RainLoop Webmail Community edition."
+msgstr ""

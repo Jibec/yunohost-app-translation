@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:2 src/mastodon/ADMIN.md:2
+msgid "## Administrate with tooctl"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:4
+msgid ""
+"`$ (cd __INSTALL_DIR__/live && sudo -u __APP__ RAILS_ENV=production PATH=/"
+"opt/rbenv/versions/glitchsoc/bin bin/tootctl --help)`"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:6 src/mastodon/ADMIN.md:6
+msgid "## Update"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:9
+#, no-wrap
+msgid ""
+"**`screen` (or `tmux`) can be used to make sure your session is not interrupted in case of connection problems.**\n"
+"See [tutorial](https://www.howtogeek.com/662422/how-to-use-linuxs-screen-command/) for more background information.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:14
+msgid "``` $ screen $ sudo yunohost app upgrade __APP__ ```"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:16 src/mastodon/ADMIN.md:23
+msgid "## Backups"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:19
+msgid ""
+"First of all: Glitch-Soc uses a local cache to save media (such as posted "
+"images, videos etc.). This cache can grow huge.  You could consider cleaning "
+"up your local cache first as otherwise your backup will be very big and you "
+"might run out of disk space:"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:21 src/mastodon/ADMIN.md:28
+msgid "To check your space usage, on a command line run:"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:23
+msgid ""
+"`$ sudo cd __INSTALL_DIR__/live && sudo -u __APP__ RAILS_ENV=production "
+"PATH=/opt/rbenv/versions/glitchsoc/bin bin/tootctl media usage`"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:25
+msgid ""
+"If your cache is too big to backup, you can run the following command to "
+"clean up Attachments (the first line). Substitute X by the number of days "
+"you want to keep, e.g. 1 day. All older images will be deleted but will be "
+"refetched from the original server if necessary."
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:27 src/mastodon/ADMIN.md:38
+msgid ""
+"First dry-run to see how much space is freed up (without actually removing):"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:29
+msgid ""
+"`$ sudo cd __INSTALL_DIR__/live && sudo -u __APP__ RAILS_ENV=production "
+"PATH=/opt/rbenv/versions/glitchsoc/bin bin/tootctl media remove --days=X --"
+"dry-run`"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:31 src/mastodon/ADMIN.md:44
+msgid "If all looks good commit the cleanup:"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:33
+msgid ""
+"`$ sudo cd /var/www/mastodon/live && sudo -u mastodon RAILS_ENV=production "
+"PATH=/opt/rbenv/versions/mastodon/bin bin/tootctl media remove --days=X `"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/ADMIN.md:35 src/mastodon/ADMIN.md:85
+msgid "## Known Bugs"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/ADMIN.md:36
+msgid ""
+"Log-out from YunoHost's portal doesn't log out from Mastodon. See https://"
+"github.com/YunoHost/issues/issues/501"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/DESCRIPTION.md:2
+msgid ""
+"`glitch-soc` is a friendly [fork](https://en.wikipedia.org/wiki/"
+"Fork_(software_development)) of the open-source social media software "
+"[Mastodon](https://joinmastodon.org/), with the aim of providing additional "
+"features at the risk of potentially less stable software."
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/DESCRIPTION.md:4
+msgid ""
+"⚠️ `glitch-soc` is beta software, and under active development. Use at your "
+"own risk!"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/DESCRIPTION.md:6
+msgid "### What's different from Mastodon?"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/DESCRIPTION.md:8
+msgid ""
+"`glitch-soc` adds a number of experimental features to Mastodon, such as:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Media improvements"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Images inside the CW spoiler"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "fullwidth images"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "scaling options"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Formatted toots"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Reply selection in lists"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Filter improvements"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Highlighting of misleading links"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Hiding follower count"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "An app settings modal"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Collapsible toots"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Toot visibility icons"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Local-only toots"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Threaded mode"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "`data-*` attributes on statuses"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Advanced theming via flavours+skins"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/glitchsoc/DESCRIPTION.md:26
+msgid "Doodle"
+msgstr ""
+
+#. type: Plain text
+#: src/glitchsoc/DESCRIPTION.md:27
+msgid "See more [on the documentation](https://glitch-soc.github.io/docs/)."
+msgstr ""

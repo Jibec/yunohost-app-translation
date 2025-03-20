@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:2
+msgid "# Pleroma and Yunohost"
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:4
+msgid ""
+"Some information, for all intents and purposes, on the differences between a "
+"direct installation of Pleroma (from the _releases_) and installation with "
+"the Yunohost application package."
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:11
+#, no-wrap
+msgid ""
+"|                             | Official Package           | With Yunohost                           |\n"
+"| --------------------------- | -------------------------- | --------------------------------------- |\n"
+"| Install directory           | `/opt/pleroma`              | `/var/www/pleroma/live/`                 |\n"
+"| Static directory            | `/var/lib/pleroma/static`   | `/etc/pleroma/config.exs`                |\n"
+"| Configuration file          | `/etc/pleroma/config.exs`   | `/etc/pleroma/config.exs`                |\n"
+"| Command line path           | `/bin/pleroma_ctl`         | `/var/www/pleroma/live/bin/pleroma_ctl`  |\n"
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:13
+msgid "## Things to remember"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/pleroma/ADMIN.md:15
+msgid ""
+"The installation of Pleroma with Yunohost is a so-called OTP installation "
+"(and not MIX, i.e. from the sources). Have this in mind, as the "
+"administration _commands_ are not the same in either case."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/pleroma/ADMIN.md:17
+msgid ""
+"All commands must be run as the `pleroma` user, who is _not_ part of "
+"Yunohost `admin` group, it’s not possible to invoque these commands directly "
+"with `sudo`."
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:19
+msgid "Connect with SSH to your Yunohost server as YNH admin user."
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:21
+msgid ""
+"For the commands syntax, have in mind the specificities of [Yunohost Pleroma "
+"install](./doc/yunohost.md)."
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:23
+msgid "## Administration tasks"
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:25
+msgid "### Adding users"
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:29
+msgid ""
+"```bash sudo su pleroma -s $SHELL -lc \"/var/www/pleroma/live/bin/"
+"pleroma_ctl user new <userName> <userEmail>\" ```"
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:31
+msgid "### Password reset"
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:35
+msgid ""
+"```bash sudo su pleroma -s $SHELL -lc \"/var/www/pleroma/live/bin/"
+"pleroma_ctl user reset_password <userName>\" ```"
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:37
+msgid ""
+"This will generate a **password reset link** that you can then send to the "
+"user."
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:39
+msgid "### Moderators"
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:41
+msgid ""
+"You can make users **moderators**. They will then be able to _delete any "
+"post_."
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:45
+msgid ""
+"```bash sudo su pleroma -s $SHELL -lc \"/var/www/pleroma/live/bin/"
+"pleroma_ctl user set <userName> --admin\" ```"
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/ADMIN.md:46
+msgid ""
+"Note: `--admin` option will _make the user moderator_ and `--no-admin` will "
+"_take away_ the moderator privileges from the user."
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/DESCRIPTION.md:2
+msgid ""
+"Pleroma is a microblogging server software that can federate (= exchange "
+"messages with) other servers that support ActivityPub. What that means is "
+"that you can host a server for yourself or your friends and stay in control "
+"of your online identity, but still exchange messages with people on larger "
+"servers. Pleroma will federate with all servers that implement ActivityPub, "
+"like Friendica, GNU Social, Hubzilla, Mastodon, Misskey, Peertube, and "
+"Pixelfed."
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/DESCRIPTION.md:4
+msgid ""
+"For user friendly details about Pleroma: [see here](https://blog.soykaf.com/"
+"post/what-is-pleroma/)"
+msgstr ""
+
+#. type: Plain text
+#: src/pleroma/DESCRIPTION.md:5
+#, no-wrap
+msgid "**Mastodon web front-end for Pleroma:** Add **/web** in front of your Pleroma domain, eg. pleroma.domain.tld/web\n"
+msgstr ""

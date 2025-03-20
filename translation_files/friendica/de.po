@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/friendica/ADMIN.md:2
+msgid "## User with LDAP admin rights"
+msgstr ""
+
+#. type: Plain text
+#: src/friendica/ADMIN.md:3
+#, no-wrap
+msgid "**For admin rights**: When installation is complete, you will need to visit your domain page and login with the **admin account username and password** which was entered at the time of installation process. You can then create your profile and access the admin panel.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/friendica/DESCRIPTION.md:2
+msgid ""
+"Friendica is a decentralised communications platform that integrates social "
+"communication. The platform links to independent social projects and "
+"corporate services.  Friendica connects you effortlessly to a federated "
+"communications network of several thousand servers, with more than half a "
+"million user registrations. You can directly connect to anyone on Friendica, "
+"Mastodon, Diaspora, GnuSocial, Pleroma, or Hubzilla, regardless where each "
+"user profile is hosted."
+msgstr ""
