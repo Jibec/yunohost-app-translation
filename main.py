@@ -9,7 +9,10 @@ URL_APPS_JSON = "https://apps.yunohost.org/default/v3/apps.json"
 LOCAL_SRC = "src"
 local_filename = "apps.json"
 
-PO4A_CONFIG = "[po4a_langs] fr \n[po4a_paths] translation_files/$master/$master.pot $lang:translation_files/$master/$lang.po\n"
+PO4A_CONFIG = """[po4a_alias:markdown] text opt:\"--option markdown\"
+[po4a_langs] fr
+[po4a_paths] translation_files/$master/$master.pot $lang:translation_files/$master/$lang.po
+"""
 
 def download_file(url, local_filename):
     response = requests.get(url)
@@ -20,7 +23,7 @@ def download_file(url, local_filename):
 
 def add_to_po4a_config(post_upgrade_md_file, app):
     global PO4A_CONFIG
-    PO4A_CONFIG += f"[type: text] {post_upgrade_md_file} $lang:translated/$lang/{post_upgrade_md_file} opt:\"--keep 0\" pot={app} \n"
+    PO4A_CONFIG += f"[type: markdown] {post_upgrade_md_file} $lang:translated/$lang/{post_upgrade_md_file} opt:\"--keep 0\" pot={app} \n"
 
 
 def parse_and_clone_apps(local_filename):
