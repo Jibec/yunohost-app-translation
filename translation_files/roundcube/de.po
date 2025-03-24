@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/roundcube/ADMIN.md:2
+msgid ""
+"You can manually extend - or even override - the Roundcube configuration "
+"which is coming with this package in the file `__INSTALL_DIR__/conf/local."
+"inc.php`. Do not edit the file `__INSTALL_DIR__/conf/config.inc.php` as "
+"future upgrades will overwrite it."
+msgstr ""
+
+#. type: Plain text
+#: src/roundcube/ADMIN.md:4
+msgid "### Plugins"
+msgstr ""
+
+#. type: Plain text
+#: src/roundcube/ADMIN.md:6
+msgid ""
+"You can install plugins - which will not be removed with upgrades. To do so, "
+"you can use the official [Plugin Repository](https://plugins.roundcube.net/)."
+msgstr ""
+
+#. type: Plain text
+#: src/roundcube/ADMIN.md:8
+msgid "#### From the Plugin Repository"
+msgstr ""
+
+#. type: Plain text
+#: src/roundcube/ADMIN.md:10
+msgid ""
+"Let's say for example that we want to install the [html5_notifier](https://"
+"packagist.org/packages/kitist/html5_notifier) plugin."
+msgstr ""
+
+#. type: Bullet: '1. '
+#: src/roundcube/ADMIN.md:16
+msgid ""
+"Connect to your server as root using SSH: ``` $ ssh admin@1.2.3.4 $ sudo -i "
+"```"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: src/roundcube/ADMIN.md:22
+msgid ""
+"Log in as the `roundcube` user - which owns the roundcube directory - and "
+"navigate in it: ``` # su -s /bin/bash - roundcube $ cd /var/www/roundcube ```"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: src/roundcube/ADMIN.md:27
+msgid ""
+"Install the plugin you want using composer - note that you have to specify "
+"*kitist/html5_notifier* and not only *html5_notifier*: ``` $ "
+"COMPOSER_HOME=./.composer php composer.phar require \"kitist/"
+"html5_notifier\" ```"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: src/roundcube/ADMIN.md:33
+msgid ""
+"Enable it in the local configuration file `config/config.inc.php` using your "
+"favorite text editor by adding: ``` <?php $config['plugins'][] = "
+"'html5_notifier'; ```"
+msgstr ""
+
+#. type: Plain text
+#: src/roundcube/ADMIN.md:35
+msgid ""
+"Note that you should also check the plugin homepage for additional "
+"installation steps as needed."
+msgstr ""
+
+#. type: Plain text
+#: src/roundcube/ADMIN.md:37
+msgid "#### Manual installation"
+msgstr ""
+
+#. type: Plain text
+#: src/roundcube/ADMIN.md:38
+msgid ""
+"You can also download the plugin and put it under the `plugins/` directory. "
+"In this case, do not forget to change ownerships of this folder to "
+"`roundcube`."
+msgstr ""
+
+#. type: Plain text
+#: src/roundcube/DESCRIPTION.md:2
+msgid ""
+"Roundcube is a web-based e-mail client. It offers all the features you'd "
+"expect from a mail client, including multilingual support, address book "
+"management, folder manipulation, message search and spell checking."
+msgstr ""
+
+#. type: Plain text
+#: src/roundcube/DESCRIPTION.md:4
+msgid "### YunoHost specific features"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/roundcube/DESCRIPTION.md:8
+msgid "Synchronize your email aliases as identities in Roundcube"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/roundcube/DESCRIPTION.md:8
+msgid ""
+"Install the [contextmenu](https://packagist.org/packages/johndoh/"
+"contextmenu) and [automatic addressbook](https://packagist.org/packages/"
+"projectmyst/automatic_addressbook) plugins by default"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/roundcube/DESCRIPTION.md:8
+msgid ""
+"Allow to install the [CardDAV](https://packagist.org/packages/roundcube/"
+"carddav) (address book) synchronization plugin at the installation - note "
+"that if you have installed Nextcloud or Baïkal, it will automatically add "
+"the corresponding and existing address book."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/roundcube/DESCRIPTION.md:8
+msgid "Support for PGP encryption with Enigma plugin by default."
+msgstr ""

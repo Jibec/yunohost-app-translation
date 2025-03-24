@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/cheky/DESCRIPTION.md:2 src/crabfit/DESCRIPTION.md:6
+#: src/dendrite/ADMIN.md:4 src/influxdb_v2/DESCRIPTION.md:4
+#: src/netdata/ADMIN.md:57 src/olivetin/DESCRIPTION.md:16
+msgid "## Features"
+msgstr ""
+
+#. type: Plain text
+#: src/crabfit/DESCRIPTION.md:4
+msgid ""
+"Crab Fit helps you fit your event around everyone's schedules.  Simply "
+"create an event above and send the link to everyone that is participating.  "
+"Results update live and you will be able to see a heat-map of when everyone "
+"is free."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/crabfit/DESCRIPTION.md:8
+msgid "Click and slide to select multiple time slots at once."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/crabfit/DESCRIPTION.md:8
+msgid "Editable using a one-time password"
+msgstr ""

@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/firefly-iii/DESCRIPTION.md:1
+msgid ""
+"Firefly III is a manager for your personal finances. It can help you keep "
+"track of your expenses and income, so you can spend less and save more. "
+"Firefly III supports the use of budgets, categories and tags. Using external "
+"tools, ie [Firefly III Importer](https://github.com/YunoHost-Apps/firefly-"
+"iii-di_ynh), you can import data. It also has many neat financial reports "
+"available."
+msgstr ""

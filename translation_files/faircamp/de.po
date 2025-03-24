@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Bullet: '- '
+#: src/faircamp/ADMIN.md:5
+msgid "Your Faircamp is installed in `__INSTALL_DIR__`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/faircamp/ADMIN.md:5 src/zola/ADMIN.md:5
+msgid "Your content should be in `__INSTALL_DIR__/content`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/faircamp/ADMIN.md:5
+msgid ""
+"Your config file is `__INSTALL_DIR__/content/catalog.eno` (see [docs]"
+"(https://simonrepp.com/faircamp/manual/manifests.html))"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/faircamp/ADMIN.md:5
+msgid ""
+"The website will be automatically updated each time you modify something "
+"inside the `content` folder!"
+msgstr ""
+
+#. type: Plain text
+#: src/faircamp/ADMIN.md:7
+msgid "If you need to run the build by hand:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/faircamp/ADMIN.md:9
+msgid ""
+"`sudo -u __APP__ \"__INSTALL_DIR__/faircamp\" --build-dir \"__INSTALL_DIR__/"
+"www\" --catalog-dir \"__INSTALL_DIR__/content\"`"
+msgstr ""
+
+#. type: Plain text
+#: src/faircamp/ADMIN.md:11 src/neutrinet/ADMIN.md:43
+msgid "or"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/faircamp/ADMIN.md:13
+msgid "`sudo yunohost app shell __APP__`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/faircamp/ADMIN.md:13
+msgid "`./faircamp --build-dir ./www --catalog-dir ./content`"
+msgstr ""
+
+#. type: Plain text
+#: src/faircamp/DESCRIPTION.md:2
+msgid ""
+"Faircamp is a [Static Site Generator](https://en.wikipedia.org/wiki/"
+"Static_site_generator) dedicated to music producers."
+msgstr ""
+
+#. type: Plain text
+#: src/faircamp/DESCRIPTION.md:4
+msgid ""
+"With this package, Faircamp will automatically regenerate ([using Systemd "
+"Path Units](https://www.putorius.net/systemd-path-units.html)) your website "
+"if any change is made to your sources."
+msgstr ""
+
+#. type: Plain text
+#: src/faircamp/DESCRIPTION.md:5
+msgid ""
+"Alternatively to this package, you can [install Faircamp on your computer]"
+"(https://simonrepp.com/faircamp/manual/installation.html) and use its rsync "
+"feature (ith the `--deploy` or `--deploy-destination` options) to send the "
+"builded website to a [My Webapp](https://apps.yunohost.org/app/my_webapp) "
+"folder on your YunoHost server."
+msgstr ""

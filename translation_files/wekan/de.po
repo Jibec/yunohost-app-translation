@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Bullet: '* '
+#: src/wekan/ADMIN.md:4
+msgid ""
+"There is currently **no SSO integration** though it might be integrated at "
+"some point in the app, now that it's supported in Meteor/Wekan. In the "
+"meantime, users can create accounts (in fact, they can create infinite "
+"number of accounts) manually, and need to login manually specifically in "
+"Wekan."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/wekan/ADMIN.md:4
+msgid ""
+"This app **only works on x86, 64bits architecture**! In particular, it won't "
+"work on 32 bit machines or ARM. See the discussion [here](https://github.com/"
+"YunoHost-Apps/wekan_ynh/issues/1#issuecomment-401612500)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/wekan/ADMIN.md:4
+msgid ""
+"YunoHost users with more than one email address can't login to wekan using "
+"ldap. For example first YunoHost user has severals email addresses: "
+"root@domain; admin@domain; webmaster@domain; postmaster@domain, etc... "
+"Workaround: remove all mail aliases of the user you want to connect, connect "
+"one time on wekan, recreate the aliases of the YunoHost user."
+msgstr ""
+
+#. type: Plain text
+#: src/wekan/ADMIN.md:8
+msgid ""
+"## Configuration: As LDAP authentification is enabled by default, Wekan "
+"admins correspond to the permission `Wekan Admin`. The user you choose "
+"during installation is member of this group.  To add an admin account, you "
+"can:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/wekan/ADMIN.md:11
+msgid ""
+"[with the webadmin] go to Users > Groups and permissions > Add the user to "
+"the permission `Wekan Admin`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/wekan/ADMIN.md:11
+msgid ""
+"[or with the command line] `yunohost user permission update wekan.admin -a "
+"the_user_to_add`"
+msgstr ""
+
+#. type: Plain text
+#: src/wekan/ADMIN.md:13
+msgid "All others YunhoHost user can access with LDAP authentication."
+msgstr ""
+
+#. type: Plain text
+#: src/wekan/ADMIN.md:14
+msgid ""
+"If you have disable ldap authentication, first registered user will be "
+"admin, and next ones normal users. If you want other admins too, you can "
+"change their permission to admin at Wekan Admin Panel."
+msgstr ""
+
+#. type: Plain text
+#: src/wekan/DESCRIPTION.md:1
+msgid ""
+"WeKan is an completely Open Source and Free software collaborative kanban "
+"board application."
+msgstr ""

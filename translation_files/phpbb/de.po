@@ -1,0 +1,26 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/phpbb/DESCRIPTION.md:1
+msgid ""
+"phpBB is a free flat-forum bulletin board software solution that can be used "
+"to stay in touch with a group of people or can power your entire website. "
+"With an extensive database of user-created extensions and styles database "
+"containing hundreds of style and image packages to customise your board, you "
+"can create a very unique forum in minutes."
+msgstr ""

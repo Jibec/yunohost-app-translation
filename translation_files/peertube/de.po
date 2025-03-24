@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/peertube/ADMIN.md:1
+msgid ""
+"Do not modify the `__INSTALL_DIR__/config/production.yaml` file, because it "
+"will be overridden in the next upgrade. Please instead either change them "
+"though the web interface, which stores specific local settings in a separate "
+"configuration file."
+msgstr ""
+
+#. type: Plain text
+#: src/peertube/DESCRIPTION.md:1
+msgid ""
+"PeerTube is a decentralized and federated video hosting software. To publish "
+"videos, the user must register with a host (called an instance). Each host "
+"has its own conditions of use (storage space per user, moderation rules, "
+"themes, etc.). Thanks to WebTorrent, if several people view the same video, "
+"fragments of it are exchanged between people so as not to overload the "
+"instance. Decentralized: Each instance can follow one or more other PeerTube "
+"instances in order to allow its users to view their videos. Federated: Via "
+"the ActivityPub protocol, Peertube can interact with other software that is "
+"part of the Fediverse, such as Mastodon for example."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/peertube/POST_UPGRADE.md:3
+msgid "Peertube can now be accessed at <https://__DOMAIN____PATH__>"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/peertube/POST_UPGRADE.md:3
+msgid "The admin username is: `root`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/peertube/POST_UPGRADE.md:3
+msgid "The admin password is: `__ADMIN_PASS__`"
+msgstr ""

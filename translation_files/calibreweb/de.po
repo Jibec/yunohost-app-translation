@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:2
+msgid "### Library management"
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:8
+#, no-wrap
+msgid ""
+"* By default, Yunohost backup process **will backup** Calibreweb library.\n"
+"You may deactivate backup of the library with \n"
+"```\n"
+"yunohost app setting calibreweb do_not_backup_data -v 1\n"
+"```\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/calibreweb/ADMIN.md:10
+msgid "By default, removing the app will **never** delete the library."
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:18
+#, no-wrap
+msgid ""
+"* Authorization access to library to be done manually after install if Calibre library was already existing (except in yunohost.multimedia directory), for example :\n"
+"```\n"
+"chown -R calibreweb: path/to/library\n"
+"or\n"
+"chmod o+rw path/to/library\n"
+"``` \n"
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:20
+msgid "### Kobo Sync"
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:23
+msgid ""
+"Calibre-web comes with a [synching feature with a kobo device](https://"
+"github.com/janeczku/calibre-web/wiki/Kobo-Integration). You can activate "
+"this feature from inside the app in the administration menu. You need to set "
+"port 443 as the external server port.  A dedicated permission \"Kobo sync\" "
+"is created by default by the app so that you don't need to expose the whole "
+"app for synching."
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:25
+msgid ""
+"[Kepubify](https://pgaskin.net/kepubify/) is also set up as the default "
+"kepub converter during installation : This means that your whole library "
+"will be converted to kepub when creating the sync token for the first time "
+"(this will not affect the existing epubs). This can take a long time : For "
+"reference, I have around 10K ebooks on my calibre library and the conversion "
+"lasted around 3-4hours on a raspberry Pi 4."
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:27
+msgid "### OPDS"
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:30
+msgid ""
+"For **OPDS** to work, most OPDS-readers will require the app must be set in "
+"public mode.  Also, you may have to activate the \"anonym browsing\" for "
+"some reader to access book covers or download books ([source](https://github."
+"com/janeczku/calibre-web/wiki/FAQ#which-opds-readers-work-with-calibre-web))."
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:32
+msgid "### Versionning"
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:34
+msgid ""
+"Version number in Yunohost is different from the upstream Calibre-web app : "
+"version 0.X.Y becomes 0.9.X.Y in Yunohost. This is due to the fact that "
+"Calibre-web was not versionned when first packages were built."
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/ADMIN.md:36
+msgid "### Known Limitations"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/calibreweb/ADMIN.md:39
+msgid ""
+"Do not use a Nextcloud folder. It's all right if the folder is an external "
+"storage in Nextcloud but not if it's an internal one : Changing the data in "
+"the library will cause trouble with the sync"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/calibreweb/ADMIN.md:39
+msgid ""
+"Change to library made outside Calibreweb are not automatically updated in "
+"Calibreweb. It is required to disconnect and reconnect to see the changes : "
+"Do not open a database both in Calibre & Calibreweb!"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/calibreweb/ADMIN.md:39
+msgid ""
+"Kobo Sync doesn’t work when Calibreweb is installed on a subdomain. This "
+"issue is caused by nginx. However, it works great when installed on a path e."
+"g. `https://domain.tld/calibreweb`"
+msgstr ""
+
+#. type: Plain text
+#: src/calibreweb/DESCRIPTION.md:1
+msgid "Browsing, reading and downloading eBooks using a Calibre database"
+msgstr ""

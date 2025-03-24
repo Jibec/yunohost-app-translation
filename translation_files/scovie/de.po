@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/scovie/ADMIN.md:2
+msgid ""
+"The App project will be stored under `__INSTALL_DIR__` that's Django's "
+"`settings.FINALPATH` \"static\" / \"media\" files to serve via nginx are "
+"under `__INSTALL_DIR__` (e.g.: `/var/www/$app`) that's `settings.PUBLIC_PATH`"
+msgstr ""
+
+#. type: Plain text
+#: src/scovie/DESCRIPTION.md:3
+msgid ""
+"[Scovie](https://github.com/eldertek/scovie) is an open-source digital "
+"signage system for high schools, built using Python and Django.  It provides "
+"an easy-to-use interface for administrators to upload and manage multimedia "
+"content, which is then displayed on screens throughout the school."
+msgstr ""
+
+#. type: Plain text
+#: src/scovie/DESCRIPTION.md:5
+msgid "## Links"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/scovie/DESCRIPTION.md:7
+msgid ""
+"Report a bug about this package: <https://github.com/eldertek/scovie/issues>"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/scovie/DESCRIPTION.md:7
+msgid "PyPi package: <https://pypi.org/project/scovie/>"
+msgstr ""

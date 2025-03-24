@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/cryptpad/ADMIN.md:2
+msgid ""
+"We have added the mandatory sandbox domain for you but you still need to "
+"configure your DNS and generate Let's Encrypt Certificates for it !!"
+msgstr ""
+
+#. type: Plain text
+#: src/cryptpad/ADMIN.md:4
+msgid ""
+"Once CryptPad is installed, create an account via the Register button on the "
+"home page. To make this account an instance administrator:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: src/cryptpad/ADMIN.md:12
+msgid ""
+"Copy the public key found in User Menu (avatar at the top right) > Settings "
+"> Account > Public Signing Key"
+msgstr ""
+
+#. type: Plain text
+#: src/cryptpad/ADMIN.md:12
+#, no-wrap
+msgid ""
+"2. Paste this key in `__INSTALL_DIR__/config/config.js` in the following array (uncomment and replace the placeholder):\n"
+"``` \n"
+"adminKeys: [\n"
+"        \"[cryptpad-user1@my.awesome.website/YZgXQxKR0Rcb6r6CmxHPdAGLVludrAF2lEnkbx1vVOo=]\",\n"
+"],\n"
+"```\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: src/cryptpad/ADMIN.md:13
+msgid ""
+"Restart CryptPad service (In YunoHost webadmin -> Services -> cryptpad -> "
+"Restart)"
+msgstr ""
+
+#. type: Plain text
+#: src/cryptpad/DESCRIPTION.md:1
+msgid ""
+"CryptPad is a collaboration suite that is end-to-end-encrypted and open-"
+"source. It is built to enable collaboration, synchronizing changes to "
+"documents in real time. Because all data is encrypted, the service and its "
+"administrators have no way of seeing the content being edited and stored."
+msgstr ""
+
+#. type: Plain text
+#: src/cryptpad/POST_UPGRADE.md:3
+msgid ""
+"We have added a sandbox domain for you but you still need to configure your "
+"DNS and generate Let's Encrypt Certificates for it !! If not already done, "
+"then you can please open CryptPad domain: https://__DOMAIN__"
+msgstr ""
+
+#. type: Plain text
+#: src/cryptpad/POST_UPGRADE.md:10
+#, no-wrap
+msgid ""
+"Create an account via the Register button on the home page. To make this account an instance administrator:\n"
+"1. Copy the public key found in User Menu (avatar at the top right) > Settings > Account > Public Signing Key\n"
+"2. Paste this key in __INSTALL_DIR__/config/config.js in the following array (uncomment and replace the placeholder):\n"
+"adminKeys: [\n"
+"        \"[cryptpad-user1@my.awesome.website/YZgXQxKR0Rcb6r6CmxHPdAGLVludrAF2lEnkbx1vVOo=]\",\n"
+"],\n"
+"If you are facing an issue or want to improve this app, please open a new issue in this project: https://github.com/YunoHost-Apps/cryptpad_ynh\"\n"
+msgstr ""
