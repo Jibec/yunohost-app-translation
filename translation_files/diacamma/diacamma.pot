@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/diacamma/DESCRIPTION.md:2
-msgid "# Diacamma Introduction"
+#. type: Title #
+#: src/diacamma/DESCRIPTION.md:1
+#, no-wrap
+msgid "Diacamma Introduction"
 msgstr ""
 
 #. type: Plain text
@@ -28,9 +29,10 @@ msgid ""
 "management software designed and developed for volunteers."
 msgstr ""
 
-#. type: Plain text
-#: src/diacamma/DESCRIPTION.md:6
-msgid "## Diacamma Asso"
+#. type: Title ##
+#: src/diacamma/DESCRIPTION.md:5
+#, no-wrap
+msgid "Diacamma Asso"
 msgstr ""
 
 #. type: Plain text
@@ -71,9 +73,10 @@ msgstr ""
 msgid "Link an invoice to your dues and events."
 msgstr ""
 
-#. type: Plain text
-#: src/diacamma/DESCRIPTION.md:18
-msgid "## Diacamma Syndic"
+#. type: Title ##
+#: src/diacamma/DESCRIPTION.md:17
+#, no-wrap
+msgid "Diacamma Syndic"
 msgstr ""
 
 #. type: Plain text

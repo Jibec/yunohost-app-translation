@@ -17,25 +17,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: src/couchdb/DESCRIPTION.md:2
-msgid ""
-"Couchdb is a database system, where entries are json objects (allowing "
-"attachments), and that you can access and synchronize via simple http "
-"requests."
+#: src/webhook/ADMIN.md:2
+msgid "The Webhook server configuration file is `__INSTALL_DIR__/hooks.yaml`."
 msgstr ""
 
 #. type: Plain text
-#: src/couchdb/DESCRIPTION.md:5
-#, no-wrap
-msgid ""
-"As explained in wikipedia:\n"
-"> Apache CouchDB is an open-source document-oriented NoSQL database, implemented in Erlang.\n"
+#: src/webhook/ADMIN.md:3
+msgid "Docs: <https://github.com/adnanh/webhook/tree/master/docs>"
 msgstr ""
 
 #. type: Plain text
-#: src/couchdb/DESCRIPTION.md:7
-#, no-wrap
+#: src/webhook/DESCRIPTION.md:1
 msgid ""
-"And as described in the couchdb official website:\n"
-"> Seamless multi-master sync, that scales from Big Data to Mobile, with an Intuitive HTTP/JSON API and designed for Reliability.\n"
+"Webhook is a lightweight configurable tool written in Go, that allows you to "
+"easily create HTTP endpoints (hooks) on your server, which you can use to "
+"execute configured commands. You can also pass data from the HTTP request "
+"(such as headers, payload or query variables) to your commands. Webhook also "
+"allows you to specify rules which have to be satisfied in order for the hook "
+"to be triggered."
 msgstr ""

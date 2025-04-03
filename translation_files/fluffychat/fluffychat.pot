@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
+#: src/fluffychat/DESCRIPTION.md:1
+#, no-wrap
+msgid "FluffyChat is an open source, nonprofit and cute [[matrix](https://matrix.org)] client written in [Flutter](https://flutter.dev).  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/fluffychat/DESCRIPTION.md:2
 msgid ""
-"FluffyChat is an open source, nonprofit and cute [[matrix](https://matrix."
-"org)] client written in [Flutter](https://flutter.dev).  The goal of the app "
-"is to create an easy to use instant messenger which is open source and "
-"accessible for everyone."
+"The goal of the app is to create an easy to use instant messenger which is "
+"open source and accessible for everyone."
 msgstr ""

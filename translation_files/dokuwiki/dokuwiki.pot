@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,11 +28,13 @@ msgid ""
 "broad range of use cases beyond a traditional wiki."
 msgstr ""
 
-#. type: Plain text
-#: src/dokuwiki/DESCRIPTION.md:4 src/grafana/DESCRIPTION.md:4
-#: src/mattermost/DESCRIPTION.md:10 src/mautrix_facebook/ADMIN.md:40
-#: src/mautrix_signal/ADMIN.md:61 src/minidlna/DESCRIPTION.md:6
-msgid "## YunoHost specific features"
+#. type: Title ###
+#: src/dokuwiki/DESCRIPTION.md:3 src/grafana/DESCRIPTION.md:3
+#: src/mattermost/DESCRIPTION.md:9 src/mautrix_facebook/ADMIN.md:39
+#: src/mautrix_signal/ADMIN.md:60 src/minidlna/DESCRIPTION.md:5
+#: src/roundcube/DESCRIPTION.md:3
+#, no-wrap
+msgid "YunoHost specific features"
 msgstr ""
 
 #. type: Bullet: '* '

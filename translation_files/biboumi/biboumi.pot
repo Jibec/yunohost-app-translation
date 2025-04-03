@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-03-19 19:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
+#: src/biboumi/ADMIN.md:1
+#, no-wrap
+msgid "Once Biboumi is installed you can use any XMPP client software to join IRC channels. Any IRC channel is seen as a standard XMPP chatroom (aka MUC) with a special name.  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/biboumi/ADMIN.md:3
 msgid ""
-"Once Biboumi is installed you can use any XMPP client software to join IRC "
-"channels. Any IRC channel is seen as a standard XMPP chatroom (aka MUC) with "
-"a special name.  The the name is formatted like this: "
-"`#channelname%ircservername@biboumi.yourdomain.tld`."
+"The the name is formatted like this: `#channelname%ircservername@biboumi."
+"yourdomain.tld`."
 msgstr ""
 
 #. type: Plain text

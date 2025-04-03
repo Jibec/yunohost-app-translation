@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/flohmarkt/ADMIN.md:2
-msgid "## support"
+#. type: Title ##
+#: src/flohmarkt/ADMIN.md:1
+#, no-wrap
+msgid "support"
 msgstr ""
 
 #. type: Plain text
@@ -40,9 +41,10 @@ msgid ""
 "chat](https://libera.chat/)."
 msgstr ""
 
-#. type: Plain text
-#: src/flohmarkt/ADMIN.md:8
-msgid "## bugs, requesting features"
+#. type: Title ##
+#: src/flohmarkt/ADMIN.md:7
+#, no-wrap
+msgid "bugs, requesting features"
 msgstr ""
 
 #. type: Plain text
@@ -52,9 +54,10 @@ msgid ""
 "issues"
 msgstr ""
 
-#. type: Plain text
-#: src/flohmarkt/ADMIN.md:12
-msgid "## upstream repository"
+#. type: Title ##
+#: src/flohmarkt/ADMIN.md:11
+#, no-wrap
+msgid "upstream repository"
 msgstr ""
 
 #. type: Plain text
@@ -78,9 +81,10 @@ msgid ""
 "in [DEVELOPMENT.md](DEVELOPMENT.md)"
 msgstr ""
 
-#. type: Plain text
-#: src/flohmarkt/ADMIN.md:20
-msgid "## removing this app"
+#. type: Title ##
+#: src/flohmarkt/ADMIN.md:19
+#, no-wrap
+msgid "removing this app"
 msgstr ""
 
 #. type: Plain text
@@ -93,9 +97,10 @@ msgid ""
 "flohmarkt again on the same domain generating a new key."
 msgstr ""
 
-#. type: Plain text
-#: src/flohmarkt/DESCRIPTION.md:2
-msgid "## A decentral federated small advertisement platform"
+#. type: Title ##
+#: src/flohmarkt/DESCRIPTION.md:1
+#, no-wrap
+msgid "A decentral federated small advertisement platform"
 msgstr ""
 
 #. type: Plain text
@@ -127,9 +132,10 @@ msgid ""
 "small ads can be looked at by anybody who is able to reach the website."
 msgstr ""
 
-#. type: Plain text
-#: src/flohmarkt/DESCRIPTION.md:12
-msgid "## Federation"
+#. type: Title ##
+#: src/flohmarkt/DESCRIPTION.md:11
+#, no-wrap
+msgid "Federation"
 msgstr ""
 
 #. type: Plain text
@@ -165,9 +171,10 @@ msgid ""
 "your timeline."
 msgstr ""
 
-#. type: Plain text
-#: src/flohmarkt/DESCRIPTION.md:22
-msgid "## Federation between flohmarkts"
+#. type: Title ##
+#: src/flohmarkt/DESCRIPTION.md:21
+#, no-wrap
+msgid "Federation between flohmarkts"
 msgstr ""
 
 #. type: Plain text
@@ -193,9 +200,10 @@ msgid ""
 "other more, because trades face-to-face could be more common."
 msgstr ""
 
-#. type: Plain text
-#: src/flohmarkt/DESCRIPTION.md:30
-msgid "## More information"
+#. type: Title ##
+#: src/flohmarkt/DESCRIPTION.md:29
+#, no-wrap
+msgid "More information"
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,11 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/django-fmd/ADMIN.md:2 src/django-for-runners/ADMIN.md:2
-#: src/django-fritzconnection/ADMIN.md:2 src/django_example/ADMIN.md:2
-#: src/pyinventory/ADMIN.md:2 src/weblate/ADMIN.md:9
-msgid "## Settings and upgrades"
+#. type: Title ##
+#: src/django-fmd/ADMIN.md:1 src/django-for-runners/ADMIN.md:1
+#: src/django-fritzconnection/ADMIN.md:1 src/django_example/ADMIN.md:1
+#: src/pyinventory/ADMIN.md:20 src/weblate/ADMIN.md:8
+#, no-wrap
+msgid "Settings and upgrades"
 msgstr ""
 
 #. type: Plain text
@@ -36,13 +37,14 @@ msgstr ""
 msgid "Test sending emails:"
 msgstr ""
 
-#. type: Plain text
-#: src/django-fmd/ADMIN.md:14
+#. type: Fenced code block (bash)
+#: src/django-fmd/ADMIN.md:8
+#, no-wrap
 msgid ""
-"```bash ssh admin@yourdomain.tld root@yunohost:~# cd /opt/yunohost/django-"
-"fmd/ root@yunohost:/opt/yunohost/django-fmd# source venv/bin/activate (venv) "
-"root@yunohost:/opt/yunohost/django-fmd# ./manage.py sendtestemail --admins "
-"```"
+"ssh admin@yourdomain.tld\n"
+"root@yunohost:~# cd /opt/yunohost/django-fmd/\n"
+"root@yunohost:/opt/yunohost/django-fmd# source venv/bin/activate\n"
+"(venv) root@yunohost:/opt/yunohost/django-fmd# ./manage.py sendtestemail --admins\n"
 msgstr ""
 
 #. type: Plain text
@@ -53,11 +55,10 @@ msgid ""
 "YunoHost admin is inserted here.  To check current ADMINS run:"
 msgstr ""
 
-#. type: Plain text
-#: src/django-fmd/ADMIN.md:21
-msgid ""
-"```bash (venv) root@yunohost:/opt/yunohost/django-fmd# ./manage.py "
-"sendtestemail --admins ```"
+#. type: Fenced code block (bash)
+#: src/django-fmd/ADMIN.md:18
+#, no-wrap
+msgid "(venv) root@yunohost:/opt/yunohost/django-fmd# ./manage.py sendtestemail --admins\n"
 msgstr ""
 
 #. type: Plain text
@@ -67,11 +68,10 @@ msgid ""
 "something like this:"
 msgstr ""
 
-#. type: Plain text
-#: src/django-fmd/ADMIN.md:27
-msgid ""
-"```bash echo \"ADMINS = (('Your Name', 'example@domain.tld'),)\" >> /opt/"
-"yunohost/django-fmd/local_settings.py ```"
+#. type: Fenced code block (bash)
+#: src/django-fmd/ADMIN.md:24
+#, no-wrap
+msgid "echo \"ADMINS = (('Your Name', 'example@domain.tld'),)\" >> /opt/yunohost/django-fmd/local_settings.py\n"
 msgstr ""
 
 #. type: Plain text
@@ -79,36 +79,39 @@ msgstr ""
 msgid "To check the effective settings, run this:"
 msgstr ""
 
-#. type: Plain text
-#: src/django-fmd/ADMIN.md:33
-msgid ""
-"```bash (venv) root@yunohost:/opt/yunohost/django-fmd# ./manage.py "
-"diffsettings ```"
+#. type: Fenced code block (bash)
+#: src/django-fmd/ADMIN.md:30
+#, no-wrap
+msgid "(venv) root@yunohost:/opt/yunohost/django-fmd# ./manage.py diffsettings\n"
+msgstr ""
+
+#. type: Title ##
+#: src/django-fmd/ADMIN.md:35
+#, no-wrap
+msgid "Development CLI"
 msgstr ""
 
 #. type: Plain text
-#: src/django-fmd/ADMIN.md:36
-msgid "## Development CLI"
-msgstr ""
-
-#. type: Plain text
-#: src/django-fmd/ADMIN.md:38
+#: src/django-fmd/ADMIN.md:38 src/django-for-runners/ADMIN.md:24
+#: src/django-fritzconnection/ADMIN.md:24 src/django_example/ADMIN.md:24
+#: src/pyinventory/ADMIN.md:43
 msgid "e.g.:"
 msgstr ""
 
-#. type: Plain text
-#: src/django-fmd/ADMIN.md:42 src/django-for-runners/ADMIN.md:36
-#: src/django-fritzconnection/ADMIN.md:36 src/django_example/ADMIN.md:36
-#: src/pyinventory/ADMIN.md:36
-msgid ""
-"[comment]: <> (✂✂✂ auto generated help start ✂✂✂)  ``` Usage: ./dev-cli.py "
-"[OPTIONS] COMMAND [ARGS]..."
+#. type: Link reference
+#: src/django-fmd/ADMIN.md:39 src/django-for-runners/ADMIN.md:33
+#: src/django-fritzconnection/ADMIN.md:33 src/django_example/ADMIN.md:33
+#: src/pyinventory/ADMIN.md:52
+#, no-wrap
+msgid "[comment]: <> (✂✂✂ auto generated help start ✂✂✂)"
 msgstr ""
 
-#. type: Plain text
-#: src/django-fmd/ADMIN.md:66
+#. type: Fenced code block
+#: src/django-fmd/ADMIN.md:40
 #, no-wrap
 msgid ""
+"Usage: ./dev-cli.py [OPTIONS] COMMAND [ARGS]...\n"
+"\n"
 "╭─ Options ────────────────────────────────────────────────────────────────────────────────────────╮\n"
 "│ --help      Show this message and exit.                                                          │\n"
 "╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n"
@@ -131,8 +134,14 @@ msgid ""
 "│                             files)                                                               │\n"
 "│ version                     Print version and exit                                               │\n"
 "╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n"
-"```\n"
-"[comment]: <> (✂✂✂ auto generated help end ✂✂✂)\n"
+msgstr ""
+
+#. type: Link reference
+#: src/django-fmd/ADMIN.md:66 src/django-for-runners/ADMIN.md:64
+#: src/django-fritzconnection/ADMIN.md:64 src/django_example/ADMIN.md:60
+#: src/pyinventory/ADMIN.md:83
+#, no-wrap
+msgid "[comment]: <> (✂✂✂ auto generated help end ✂✂✂)"
 msgstr ""
 
 #. type: Plain text
@@ -145,10 +154,8 @@ msgstr ""
 
 #. type: Plain text
 #: src/django-fmd/DESCRIPTION.md:5
-msgid ""
-"[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get "
-"FindMyDevice on F-Droid\" height=\"80\">](https://f-droid.org/packages/de."
-"nulide.findmydevice/)"
+#, no-wrap
+msgid "[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get FindMyDevice on F-Droid\" height=\"80\">](https://f-droid.org/packages/de.nulide.findmydevice/)\n"
 msgstr ""
 
 #. type: Plain text

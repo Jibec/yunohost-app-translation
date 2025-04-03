@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-03-19 19:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,11 +16,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/cheky/DESCRIPTION.md:2 src/crabfit/DESCRIPTION.md:6
-#: src/dendrite/ADMIN.md:4 src/influxdb_v2/DESCRIPTION.md:4
-#: src/netdata/ADMIN.md:57 src/olivetin/DESCRIPTION.md:16
-msgid "## Features"
+#. type: Title ###
+#: src/13ft/DESCRIPTION.md:3 src/2fauth/DESCRIPTION.md:4
+#: src/agorakit/DESCRIPTION.md:3 src/ampache/DESCRIPTION.md:3
+#: src/audiobookshelf/DESCRIPTION.md:3 src/bazarr/DESCRIPTION.md:3
+#: src/blogotext/DESCRIPTION.md:3 src/bookstack/DESCRIPTION.md:3
+#: src/borg/DESCRIPTION.md:5 src/cac-proxy/DESCRIPTION.md:6
+#: src/castopod/DESCRIPTION.md:5 src/chatgpt-web/DESCRIPTION.md:3
+#: src/cheky/DESCRIPTION.md:1 src/chitchatter/DESCRIPTION.md:3
+#: src/cinny/DESCRIPTION.md:3 src/coin/DESCRIPTION.md:3
+#: src/collabora/DESCRIPTION.md:3 src/commento/DESCRIPTION.md:3
+#: src/commet/DESCRIPTION.md:3
+#, no-wrap
+msgid "Features"
 msgstr ""
 
 #. type: Bullet: '* '

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 17:51+0100\n"
+"POT-Creation-Date: 2025-03-19 19:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/adguardhome/ADMIN.md:2
-msgid "# Admin notebook of YunoHost's AdGuard Home"
+#. type: Title #
+#: src/adguardhome/ADMIN.md:1
+#, no-wrap
+msgid "Admin notebook of YunoHost's AdGuard Home"
 msgstr ""
 
 #. type: Plain text
@@ -28,9 +29,10 @@ msgid ""
 "place! ^w^"
 msgstr ""
 
-#. type: Plain text
-#: src/adguardhome/ADMIN.md:6
-msgid "## Bind to public IP addresses?"
+#. type: Title ##
+#: src/adguardhome/ADMIN.md:5
+#, no-wrap
+msgid "Bind to public IP addresses?"
 msgstr ""
 
 #. type: Plain text
@@ -84,14 +86,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: src/adguardhome/ADMIN.md:20
+#, no-wrap
+msgid "You need to know that if you expose your DNS server to Internet, anyone who knows your server's IP can make a DNS request to it. It *may be used* to perform [amplification attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack#Amplification)!  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/ADMIN.md:21
+#, no-wrap
+msgid "This risk is greatly minimized by the rate limiting setting, which is set to 20 requests per second per client by default:  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/adguardhome/ADMIN.md:23
-msgid ""
-"You need to know that if you expose your DNS server to Internet, anyone who "
-"knows your server's IP can make a DNS request to it. It *may be used* to "
-"perform [amplification attacks](https://en.wikipedia.org/wiki/Denial-of-"
-"service_attack#Amplification)! This risk is greatly minimized by the rate "
-"limiting setting, which is set to 20 requests per second per client by "
-"default: `Settings → DNS settings → DNS server configuration → Rate limit`"
+msgid "`Settings → DNS settings → DNS server configuration → Rate limit`"
 msgstr ""
 
 #. type: Plain text
@@ -103,13 +111,22 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: src/adguardhome/ADMIN.md:26
+#, no-wrap
+msgid "To use AdGuard Home in your home network if your self-hosting at home, you **don't need** to activate this setting.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/ADMIN.md:27
+#, no-wrap
+msgid "You simply have to use the private IP adress of your server (like `192.168.0.1` or so) as DNS IP for your IT devices at home.  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/adguardhome/ADMIN.md:29
 msgid ""
-"To use AdGuard Home in your home network if your self-hosting at home, you "
-"**don't need** to activate this setting.  You simply have to use the private "
-"IP adress of your server (like `192.168.0.1` or so) as DNS IP for your IT "
-"devices at home.  The right IP addresses to use are shown at the top of the "
-"\"Setup Guide\" page of your AdGuard Home instance."
+"The right IP addresses to use are shown at the top of the \"Setup Guide\" "
+"page of your AdGuard Home instance."
 msgstr ""
 
 #. type: Plain text
@@ -121,13 +138,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: src/adguardhome/ADMIN.md:36
+#: src/adguardhome/ADMIN.md:32
 #, no-wrap
-msgid ""
-"**Warning:** you should not have public IPs in the config file if the port 53 is **not exposed** on Internet (else: AGH crashes)  \n"
-"**Please note:** they should be automatically removed when upgrading this package or when modifiying this port 53 exposure setting, but it's in the docs just in case.  \n"
-"You can remove them in your config file `/var/www/adguardhome/AdGuardHome.yaml` in the `dns: bind_hosts:` section.  \n"
-"Any IP **that doesn't start** with the folowing are public ones:\n"
+msgid "**Warning:** you should not have public IPs in the config file if the port 53 is **not exposed** on Internet (else: AGH crashes)  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/ADMIN.md:33
+#, no-wrap
+msgid "**Please note:** they should be automatically removed when upgrading this package or when modifiying this port 53 exposure setting, but it's in the docs just in case.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/ADMIN.md:34
+#, no-wrap
+msgid "You can remove them in your config file `/var/www/adguardhome/AdGuardHome.yaml` in the `dns: bind_hosts:` section.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/ADMIN.md:36
+msgid "Any IP **that doesn't start** with the folowing are public ones:"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -178,9 +208,10 @@ msgid ""
 "restart adguardhome`"
 msgstr ""
 
-#. type: Plain text
-#: src/adguardhome/ADMIN.md:51
-msgid "## Enable DNS over HTTP, DNS over TLS and DNS over QUIC?"
+#. type: Title ##
+#: src/adguardhome/ADMIN.md:50
+#, no-wrap
+msgid "Enable DNS over HTTP, DNS over TLS and DNS over QUIC?"
 msgstr ""
 
 #. type: Plain text
@@ -193,14 +224,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: src/adguardhome/ADMIN.md:56
+#, no-wrap
+msgid "It's really important to use the configuration panel included in the YunoHost Webadmin interface to activate or deactivate this setting, and **NOT** the built-in setting in the AdGuardHome interface.  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/adguardhome/ADMIN.md:58
 msgid ""
-"It's really important to use the configuration panel included in the "
-"YunoHost Webadmin interface to activate or deactivate this setting, and "
-"**NOT** the built-in setting in the AdGuardHome interface.  This is because "
-"YunoHost needs to perform actions such as automatically opening or closing "
-"the server's ports and refresh the IP to provide to AdGuard Home, which "
-"cannot be done without going through the configuration panel."
+"This is because YunoHost needs to perform actions such as automatically "
+"opening or closing the server's ports and refresh the IP to provide to "
+"AdGuard Home, which cannot be done without going through the configuration "
+"panel."
 msgstr ""
 
 #. type: Plain text
@@ -245,9 +280,10 @@ msgstr ""
 msgid "DNS over QUIC: `quic://__DOMAIN__:__PORT_DNS_OVER_QUIC__`"
 msgstr ""
 
-#. type: Plain text
-#: src/adguardhome/ADMIN.md:71
-msgid "## Allowlist"
+#. type: Title ##
+#: src/adguardhome/ADMIN.md:70
+#, no-wrap
+msgid "Allowlist"
 msgstr ""
 
 #. type: Plain text
@@ -266,27 +302,35 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: src/adguardhome/ADMIN.md:76
+#, no-wrap
+msgid "In this allowlist, you can put [ClientID](https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid)s in place of IP addresses for the devices that uses DNS over HTTP.  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/adguardhome/ADMIN.md:79
 msgid ""
-"In this allowlist, you can put [ClientID](https://github.com/AdguardTeam/"
-"AdGuardHome/wiki/Clients#clientid)s in place of IP addresses for the devices "
-"that uses DNS over HTTP.  But since since YunoHost can't handle wildcard "
-"domain names, you can't use this ClientID functionnality with DNS over TLS "
-"and DNS over QUIC, sorry about that.  **Note:** to use DNS over HTTP with a "
-"ClientID, you have to use the following URL: `https://__DOMAIN__/dns-query/"
-"your-client-id`"
+"But since since YunoHost can't handle wildcard domain names, you can't use "
+"this ClientID functionnality with DNS over TLS and DNS over QUIC, sorry "
+"about that.  **Note:** to use DNS over HTTP with a ClientID, you have to use "
+"the following URL: `https://__DOMAIN__/dns-query/your-client-id`"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/ADMIN.md:80
+#, no-wrap
+msgid "The allowlist setting is located in your AdGuard Home interface:  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/adguardhome/ADMIN.md:82
-msgid ""
-"The allowlist setting is located in your AdGuard Home interface: `Settings → "
-"DNS settings → Access settings → Allowed clients`"
+msgid "`Settings → DNS settings → Access settings → Allowed clients`"
 msgstr ""
 
-#. type: Plain text
-#: src/adguardhome/ADMIN.md:84
-msgid "### Local network"
+#. type: Title ###
+#: src/adguardhome/ADMIN.md:83
+#, no-wrap
+msgid "Local network"
 msgstr ""
 
 #. type: Plain text
@@ -296,9 +340,15 @@ msgid ""
 "will allow any kind of private IP):"
 msgstr ""
 
-#. type: Plain text
-#: src/adguardhome/ADMIN.md:94
-msgid "```text 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 fc00::/7 fe80::/16 ```"
+#. type: Fenced code block (text)
+#: src/adguardhome/ADMIN.md:87
+#, no-wrap
+msgid ""
+"10.0.0.0/8\n"
+"172.16.0.0/12\n"
+"192.168.0.0/16\n"
+"fc00::/7\n"
+"fe80::/16\n"
 msgstr ""
 
 #. type: Plain text
@@ -307,9 +357,10 @@ msgstr ""
 msgid "**Note:** the slash `/` and the following number after the IP adresses represents the network mask, it's called the CIDR notation. If you want to learn about the CIDR notation, [you can read this article](https://whatismyipaddress.com/cidr).\n"
 msgstr ""
 
-#. type: Plain text
-#: src/adguardhome/ADMIN.md:98
-msgid "### Authorize some public IP addresses"
+#. type: Title ###
+#: src/adguardhome/ADMIN.md:97
+#, no-wrap
+msgid "Authorize some public IP addresses"
 msgstr ""
 
 #. type: Plain text
@@ -338,30 +389,44 @@ msgid "You can add any public IP you know you'll use."
 msgstr ""
 
 #. type: Plain text
+#: src/adguardhome/ADMIN.md:107
+#, no-wrap
+msgid "If you want to use your AGH instance on your smartphone without using the [ClientID](https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid) feature (only availabe with DoH, check the 'Apps' documentation to find out how to use it on your phone), it gets more complex: you have to allow the IP ranges of your mobile operator.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/ADMIN.md:108
+#, no-wrap
+msgid "It's not perfect but it still drastically reduces the chances of unauthorized use, while allowing you to use it with your smartphone.  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/adguardhome/ADMIN.md:110
-msgid ""
-"If you want to use your AGH instance on your smartphone without using the "
-"[ClientID](https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid) "
-"feature (only availabe with DoH, check the 'Apps' documentation to find out "
-"how to use it on your phone), it gets more complex: you have to allow the IP "
-"ranges of your mobile operator.  It's not perfect but it still drastically "
-"reduces the chances of unauthorized use, while allowing you to use it with "
-"your smartphone.  **Note:** in case of connection on non authorized wifi "
-"networks with your smartphone, you will not be able to use your AdGuard Home "
-"instance."
+#, no-wrap
+msgid "**Note:** in case of connection on non authorized wifi networks with your smartphone, you will not be able to use your AdGuard Home instance.\n"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/ADMIN.md:111
+#, no-wrap
+msgid "Using the connexion to allow, go to <https://ip.guide/> and click on \"Autonomous Systems\".  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/ADMIN.md:112
+#, no-wrap
+msgid "**Note:** if you're using an iPhone, make sure that the [\"Limit IP tracking\" or \"iCloud private relay\" settings](https://support.apple.com/guide/iphone/iph499d287c2/ios) are disabled (otherwise you must authorize Akamai IP addresses using the same method).  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/ADMIN.md:113
+#, no-wrap
+msgid "You can now copy all the IP adresses in the \"routes\" section, remove all quotation marks, commas and spaces, but keep one IP per line, then paste the result into your allowlist.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/adguardhome/ADMIN.md:115
-msgid ""
-"Using the connexion to allow, go to <https://ip.guide/> and click on "
-"\"Autonomous Systems\".  **Note:** if you're using an iPhone, make sure that "
-"the [\"Limit IP tracking\" or \"iCloud private relay\" settings](https://"
-"support.apple.com/guide/iphone/iph499d287c2/ios) are disabled (otherwise you "
-"must authorize Akamai IP addresses using the same method).  You can now copy "
-"all the IP adresses in the \"routes\" section, remove all quotation marks, "
-"commas and spaces, but keep one IP per line, then paste the result into your "
-"allowlist.  It should look like the list in the previous section."
+msgid "It should look like the list in the previous section."
 msgstr ""
 
 #. type: Plain text
@@ -371,12 +436,10 @@ msgid ""
 "list:"
 msgstr ""
 
-#. type: Plain text
-#: src/adguardhome/ADMIN.md:121
-msgid ""
-"```bash curl -sL ip.guide/AS\"$(curl -sL ip.guide | jq -s \".[].network."
-"autonomous_system.asn\")\" | jq -s \".[].routes\" | sed \"/v.*:/d;/\\],/d\" "
-"| tr -d \" {]\\\",}\" ```"
+#. type: Fenced code block (bash)
+#: src/adguardhome/ADMIN.md:118
+#, no-wrap
+msgid "curl -sL ip.guide/AS\"$(curl -sL ip.guide | jq -s \".[].network.autonomous_system.asn\")\" | jq -s \".[].routes\" | sed \"/v.*:/d;/\\],/d\" | tr -d \" {]\\\",}\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -411,9 +474,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: src/adguardhome/DESCRIPTION.md:6
+#: src/adguardhome/DESCRIPTION.md:5
 #, no-wrap
+msgid "**Important note**: This AdGuard Home package needs to disable Dnsmasq on the main network interface to allow AdGuard Home to listen DNS resquest using it.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/adguardhome/DESCRIPTION.md:6
 msgid ""
-"**Important note**: This AdGuard Home package needs to disable Dnsmasq on the main network interface to allow AdGuard Home to listen DNS resquest using it.  \n"
-"However, Dnsmasq is not disabled and will continue to function as the *localhost DNS server*.\n"
+"However, Dnsmasq is not disabled and will continue to function as the "
+"*localhost DNS server*."
 msgstr ""

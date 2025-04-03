@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-04 00:06+0200\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,75 +87,56 @@ msgid "Features"
 msgstr ""
 
 #. type: Plain text
-#: src/dumbwhois/DESCRIPTION.md:2
+#: src/mydrive/DESCRIPTION.md:2
 msgid ""
-"A simple web application for looking up WHOIS, IP, and ASN information using "
-"free APIs. The application automatically detects the type of query and "
-"provides formatted results with a clean, modern UI that supports both light "
-"and dark modes."
+"Open Source cloud file storage server (similar to Google Drive). Host "
+"myDrive on your own trusted server or platform, then access myDrive via your "
+"web browser. MyDrive uses mongoDB to store file/folder metadata and supports "
+"multiple databases to store file chunks, such as Amazon S3 or the File "
+"System."
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "Automatic detection of query type (Domain, IP, or ASN)"
+#: src/mydrive/DESCRIPTION.md:13
+msgid "File upload"
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "Direct WHOIS domain lookup with support for all TLDs"
+#: src/mydrive/DESCRIPTION.md:13
+msgid "Folder upload (automatic conversion to zip)"
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "IP geolocation with multiple fallback services"
+#: src/mydrive/DESCRIPTION.md:13
+msgid "Support for multiple databases (Amazon S3, file system)"
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "ASN (Autonomous System Number) details"
+#: src/mydrive/DESCRIPTION.md:13
+msgid "Photo and video viewer and media gallery"
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "Clean and modern UI with dark mode support"
+#: src/mydrive/DESCRIPTION.md:13
+msgid "Generated thumbnails of photos and videos"
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "Responsive design for mobile and desktop"
+#: src/mydrive/DESCRIPTION.md:13
+msgid "File sharing"
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "No authentication required"
+#: src/mydrive/DESCRIPTION.md:13
+msgid "AES256 encryption"
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "Environment variable configuration"
+#: src/mydrive/DESCRIPTION.md:13
+msgid "Mobile support"
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "Automatic service fallback for IP lookups"
-msgstr ""
-
-#. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "Full IPv6 support"
-msgstr ""
-
-#. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "Clear source attribution for all lookups"
-msgstr ""
-
-#. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "DNS resolution for domain IP addresses"
-msgstr ""
-
-#. type: Bullet: '- '
-#: src/dumbwhois/DESCRIPTION.md:17
-msgid "URL query parameter support for direct lookups"
+#: src/mydrive/DESCRIPTION.md:13
+msgid "Email verification"
 msgstr ""

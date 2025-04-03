@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-03-19 19:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,20 +16,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/calibreweb/ADMIN.md:2
-msgid "### Library management"
+#. type: Title ###
+#: src/calibreweb/ADMIN.md:1
+#, no-wrap
+msgid "Library management"
 msgstr ""
 
 #. type: Plain text
-#: src/calibreweb/ADMIN.md:8
+#: src/calibreweb/ADMIN.md:5
 #, no-wrap
 msgid ""
 "* By default, Yunohost backup process **will backup** Calibreweb library.\n"
 "You may deactivate backup of the library with \n"
-"```\n"
-"yunohost app setting calibreweb do_not_backup_data -v 1\n"
-"```\n"
+msgstr ""
+
+#. type: Fenced code block
+#: src/calibreweb/ADMIN.md:5
+#, no-wrap
+msgid "yunohost app setting calibreweb do_not_backup_data -v 1\n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -37,21 +41,27 @@ msgstr ""
 msgid "By default, removing the app will **never** delete the library."
 msgstr ""
 
-#. type: Plain text
-#: src/calibreweb/ADMIN.md:18
+#. type: Bullet: '* '
+#: src/calibreweb/ADMIN.md:13
+msgid ""
+"Authorization access to library to be done manually after install if Calibre "
+"library was already existing (except in yunohost.multimedia directory), for "
+"example :"
+msgstr ""
+
+#. type: Fenced code block
+#: src/calibreweb/ADMIN.md:13
 #, no-wrap
 msgid ""
-"* Authorization access to library to be done manually after install if Calibre library was already existing (except in yunohost.multimedia directory), for example :\n"
-"```\n"
 "chown -R calibreweb: path/to/library\n"
 "or\n"
 "chmod o+rw path/to/library\n"
-"``` \n"
 msgstr ""
 
-#. type: Plain text
-#: src/calibreweb/ADMIN.md:20
-msgid "### Kobo Sync"
+#. type: Title ###
+#: src/calibreweb/ADMIN.md:19
+#, no-wrap
+msgid "Kobo Sync"
 msgstr ""
 
 #. type: Plain text
@@ -76,9 +86,10 @@ msgid ""
 "lasted around 3-4hours on a raspberry Pi 4."
 msgstr ""
 
-#. type: Plain text
-#: src/calibreweb/ADMIN.md:27
-msgid "### OPDS"
+#. type: Title ###
+#: src/calibreweb/ADMIN.md:26
+#, no-wrap
+msgid "OPDS"
 msgstr ""
 
 #. type: Plain text
@@ -90,9 +101,10 @@ msgid ""
 "com/janeczku/calibre-web/wiki/FAQ#which-opds-readers-work-with-calibre-web))."
 msgstr ""
 
-#. type: Plain text
-#: src/calibreweb/ADMIN.md:32
-msgid "### Versionning"
+#. type: Title ###
+#: src/calibreweb/ADMIN.md:31
+#, no-wrap
+msgid "Versionning"
 msgstr ""
 
 #. type: Plain text
@@ -103,9 +115,10 @@ msgid ""
 "Calibre-web was not versionned when first packages were built."
 msgstr ""
 
-#. type: Plain text
-#: src/calibreweb/ADMIN.md:36
-msgid "### Known Limitations"
+#. type: Title ###
+#: src/calibreweb/ADMIN.md:35
+#, no-wrap
+msgid "Known Limitations"
 msgstr ""
 
 #. type: Bullet: '* '

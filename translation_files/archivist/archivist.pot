@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,54 +16,90 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Title ###
+#: src/adminer/ADMIN.md:1 src/adminerevo/ADMIN.md:1 src/aeneria/ADMIN.md:1
+#: src/alltube/ADMIN.md:1 src/archivist/ADMIN.md:1 src/blogotext/ADMIN.md:1
+#: src/collabora/ADMIN.md:1 src/dato/ADMIN.md:2 src/discourse/ADMIN.md:18
+#: src/domoticz/ADMIN.md:54 src/duniter/ADMIN.md:16 src/framaforms/ADMIN.md:1
+#: src/freshrss/ADMIN.md:1 src/gitlab/ADMIN.md:1 src/gitlab-runner/ADMIN.md:1
+#: src/gotosocial/ADMIN.md:16 src/hedgedoc/ADMIN.md:1
+#: src/languagetool/ADMIN.md:1 src/lionwiki-t2t/ADMIN.md:1 src/lxd/ADMIN.md:1
+#: src/matterbridge/ADMIN.md:1 src/minetest/ADMIN.md:1 src/minidlna/ADMIN.md:1
+#: src/opentracker/ADMIN.md:1 src/peertube-search-index/ADMIN.md:1
+#: src/phpsysinfo/ADMIN.md:1 src/pihole/ADMIN.md:1
+#: src/question2answer/ADMIN.md:1 src/ums/ADMIN.md:1
+#: src/unattended_upgrades/ADMIN.md:1 src/wetty/ADMIN.md:1
+#, no-wrap
+msgid "Configuration"
+msgstr ""
+
 #. type: Plain text
-#: src/adminer/ADMIN.md:2 src/adminerevo/ADMIN.md:2 src/aeneria/ADMIN.md:2
-#: src/alltube/ADMIN.md:2 src/archivist/ADMIN.md:2 src/blogotext/ADMIN.md:2
-#: src/collabora/ADMIN.md:2 src/dato/ADMIN.md:3 src/discourse/ADMIN.md:19
-#: src/domoticz/ADMIN.md:55 src/duniter/ADMIN.md:17 src/framaforms/ADMIN.md:2
-#: src/freshrss/ADMIN.md:2 src/gitlab-runner/ADMIN.md:2
-#: src/gotosocial/ADMIN.md:17 src/hedgedoc/ADMIN.md:2
-#: src/languagetool/ADMIN.md:2 src/lionwiki-t2t/ADMIN.md:2 src/lxd/ADMIN.md:2
-#: src/matterbridge/ADMIN.md:2 src/minetest/ADMIN.md:2 src/minidlna/ADMIN.md:2
-#: src/opentracker/ADMIN.md:2 src/peertube-search-index/ADMIN.md:2
-#: src/phpsysinfo/ADMIN.md:2 src/pihole/ADMIN.md:2
-#: src/question2answer/ADMIN.md:2 src/unattended_upgrades/ADMIN.md:2
-msgid "## Configuration"
+#: src/archivist/ADMIN.md:3
+#, no-wrap
+msgid "The configuration of archivist can be changed in the file /opt/yunohost/archivist/Backup_list.conf  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/archivist/ADMIN.md:5
 msgid ""
-"The configuration of archivist can be changed in the file /opt/yunohost/"
-"archivist/Backup_list.conf Please read the [documentation](https://github."
-"com/maniackcrudelis/archivist/blob/master/Configuration.md) about the "
-"configuration of archivist for more informations."
+"Please read the [documentation](https://github.com/maniackcrudelis/archivist/"
+"blob/master/Configuration.md) about the configuration of archivist for more "
+"informations."
 msgstr ""
 
-#. type: Plain text
-#: src/archivist/ADMIN.md:7 src/audiobookshelf/ADMIN.md:2
-#: src/dendrite/ADMIN.md:8 src/domoticz/ADMIN.md:100 src/kresus/ADMIN.md:2
-#: src/mailman3/DESCRIPTION.md:5 src/mautrix_facebook/ADMIN.md:55
-#: src/mautrix_signal/ADMIN.md:76 src/nullboard/ADMIN.md:2
-#: src/pihole/ADMIN.md:6
-msgid "## Limitations"
+#. type: Title ###
+#: src/archivist/ADMIN.md:6 src/audiobookshelf/ADMIN.md:1
+#: src/code-server/ADMIN.md:5 src/dendrite/ADMIN.md:7 src/domoticz/ADMIN.md:99
+#: src/elasticsearch7/ADMIN.md:1 src/elasticsearch8/ADMIN.md:1
+#: src/garage/ADMIN.md:1 src/grist/DESCRIPTION.md:12 src/kresus/ADMIN.md:1
+#: src/mailman3/DESCRIPTION.md:4 src/mautrix_facebook/ADMIN.md:54
+#: src/mautrix_signal/ADMIN.md:75 src/nullboard/ADMIN.md:1
+#: src/opensearch/DESCRIPTION.md:7 src/pihole/ADMIN.md:5
+#: src/retroarch/ADMIN.md:8 src/strut/ADMIN.md:1 src/ums/ADMIN.md:10
+#: src/wallabag2/ADMIN.md:1
+#, no-wrap
+msgid "Limitations"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/archivist/ADMIN.md:8
+msgid "Encfs, which be used to encrypt the data, is not fully secured."
 msgstr ""
 
 #. type: Plain text
 #: src/archivist/ADMIN.md:9
-#, no-wrap
 msgid ""
-"* Encfs, which be used to encrypt the data, is not fully secured.  \n"
-"Have a look to the [security audit](https://defuse.ca/audits/encfs.htm) to have more informations.\n"
+"Have a look to the [security audit](https://defuse.ca/audits/encfs.htm) to "
+"have more informations."
+msgstr ""
+
+#. type: Plain text
+#: src/archivist/DESCRIPTION.md:1
+#, no-wrap
+msgid "Archivist is an automatic backup system for your server.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/archivist/DESCRIPTION.md:2
+#, no-wrap
+msgid "It able to makes backups of your YunoHost core and your apps by using the YunoHost backup command.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/archivist/DESCRIPTION.md:3
+#, no-wrap
+msgid "It can also makes backups of specified directories.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/archivist/DESCRIPTION.md:4
+#, no-wrap
+msgid "Your backups can be send to many other places, local or distant.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/archivist/DESCRIPTION.md:6
 msgid ""
-"Archivist is an automatic backup system for your server.  It able to makes "
-"backups of your YunoHost core and your apps by using the YunoHost backup "
-"command.  It can also makes backups of specified directories.  Your backups "
-"can be send to many other places, local or distant.  Archivist is "
-"automatically launched periodicaly to update your backups and send the "
-"modifications to the other places."
+"Archivist is automatically launched periodicaly to update your backups and "
+"send the modifications to the other places."
 msgstr ""

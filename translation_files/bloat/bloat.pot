@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ###
+#: src/beehive/DESCRIPTION.md:3 src/bloat/DESCRIPTION.md:4
+#: src/glpi/DESCRIPTION.md:3 src/invidious/DESCRIPTION.md:4
+#: src/kiwiirc/DESCRIPTION.md:3 src/moncycle/DESCRIPTION.md:3
+#: src/piped/DESCRIPTION.md:7 src/psitransfer/DESCRIPTION.md:3
+#: src/slingcode/DESCRIPTION.md:3 src/thelounge/DESCRIPTION.md:3
+#, no-wrap
+msgid "Features:"
+msgstr ""
 
 #. type: Plain text
 #: src/bloat/ADMIN.md:1 src/chatonsinfos/ADMIN.md:10 src/influxdb_v2/ADMIN.md:1
@@ -25,11 +35,6 @@ msgstr ""
 #. type: Plain text
 #: src/bloat/DESCRIPTION.md:2
 msgid "bloat - A web client for Mastadon Network[1]"
-msgstr ""
-
-#. type: Plain text
-#: src/bloat/DESCRIPTION.md:4
-msgid "Features:"
 msgstr ""
 
 #. type: Bullet: '- '

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,22 +31,26 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '1. '
-#: src/cryptpad/ADMIN.md:12
+#: src/cryptpad/ADMIN.md:7
 msgid ""
 "Copy the public key found in User Menu (avatar at the top right) > Settings "
 "> Account > Public Signing Key"
 msgstr ""
 
-#. type: Plain text
-#: src/cryptpad/ADMIN.md:12
+#. type: Bullet: '2. '
+#: src/cryptpad/ADMIN.md:7
+msgid ""
+"Paste this key in `__INSTALL_DIR__/config/config.js` in the following array "
+"(uncomment and replace the placeholder):"
+msgstr ""
+
+#. type: Fenced code block
+#: src/cryptpad/ADMIN.md:7
 #, no-wrap
 msgid ""
-"2. Paste this key in `__INSTALL_DIR__/config/config.js` in the following array (uncomment and replace the placeholder):\n"
-"``` \n"
 "adminKeys: [\n"
 "        \"[cryptpad-user1@my.awesome.website/YZgXQxKR0Rcb6r6CmxHPdAGLVludrAF2lEnkbx1vVOo=]\",\n"
 "],\n"
-"```\n"
 msgstr ""
 
 #. type: Bullet: '3. '

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,9 +81,15 @@ msgid ""
 "the stocks, - your documents, - your budget (Bank Account)."
 msgstr ""
 
-#. type: Plain text
+#. type: Title ###
+#: src/cultivons/DESCRIPTION.md:21
+#, no-wrap
+msgid "Articles"
+msgstr ""
+
+#. type: Bullet: '- '
 #: src/cultivons/DESCRIPTION.md:22
 msgid ""
-"### Articles - https://linuxfr.org/users/xulops/journaux/cultivons-logiciel-"
-"de-gestion-de-bad"
+"https://linuxfr.org/users/xulops/journaux/cultivons-logiciel-de-gestion-de-"
+"bad"
 msgstr ""

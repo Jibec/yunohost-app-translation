@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/conduit/ADMIN.md:2
-msgid "### Login to Conduit"
+#. type: Title ###
+#: src/conduit/ADMIN.md:1
+#, no-wrap
+msgid "Login to Conduit"
 msgstr ""
 
 #. type: Plain text
@@ -36,9 +37,10 @@ msgstr ""
 msgid "Using the newly created account you should be able to login."
 msgstr ""
 
-#. type: Plain text
-#: src/conduit/ADMIN.md:8
-msgid "### Coturn configuration"
+#. type: Title ###
+#: src/conduit/ADMIN.md:7
+#, no-wrap
+msgid "Coturn configuration"
 msgstr ""
 
 #. type: Plain text
@@ -51,15 +53,28 @@ msgid ""
 "Coturn server in the file 'conduit.toml' such as:"
 msgstr ""
 
-#. type: Plain text
-#: src/conduit/ADMIN.md:20
+#. type: Fenced code block
+#: src/conduit/ADMIN.md:12
+#, no-wrap
 msgid ""
-"``` turn_uris = [\"turns:your.turn.url:5349?transport=udp\", \"turns:your."
-"turn.url:5349?transport=tcp\"] turn_username = \"<YOUR_USERNAME>\" "
-"turn_password = \"<YOUR_PASSWORD>\" ``` If your Coturn (not YunoHost's one) "
-"does not use TLS, you might need to change a little bit like: ``` turn_uris "
-"= [\"turn:your.turn.url:5349?transport=udp\", \"turn:your.turn.url:5349?"
-"transport=tcp\"] ``"
+"turn_uris = [\"turns:your.turn.url:5349?transport=udp\", \"turns:your.turn.url:5349?transport=tcp\"]\n"
+"turn_username = \"<YOUR_USERNAME>\"\n"
+"turn_password = \"<YOUR_PASSWORD>\"\n"
+msgstr ""
+
+#. type: Plain text
+#: src/conduit/ADMIN.md:18
+msgid ""
+"If your Coturn (not YunoHost's one) does not use TLS, you might need to "
+"change a little bit like:"
+msgstr ""
+
+#. type: Fenced code block
+#: src/conduit/ADMIN.md:18
+#, no-wrap
+msgid ""
+"turn_uris = [\"turn:your.turn.url:5349?transport=udp\", \"turn:your.turn.url:5349?transport=tcp\"]\n"
+"``\n"
 msgstr ""
 
 #. type: Plain text

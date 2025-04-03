@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-03-19 19:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,72 +16,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/2fauth/DESCRIPTION.md:5 src/agorakit/DESCRIPTION.md:4
-#: src/ampache/DESCRIPTION.md:4 src/audiobookshelf/DESCRIPTION.md:4
-#: src/bazarr/DESCRIPTION.md:4 src/blogotext/DESCRIPTION.md:4
-#: src/bookstack/DESCRIPTION.md:4 src/borg/DESCRIPTION.md:6
-#: src/castopod/DESCRIPTION.md:6 src/chatgpt-web/DESCRIPTION.md:4
-#: src/chitchatter/DESCRIPTION.md:4 src/cinny/DESCRIPTION.md:4
-#: src/coin/DESCRIPTION.md:4 src/collabora/DESCRIPTION.md:4
-#: src/commento/DESCRIPTION.md:4 src/commet/DESCRIPTION.md:4
-#: src/concrete5/DESCRIPTION.md:4 src/converse/DESCRIPTION.md:5
-#: src/deluge/DESCRIPTION.md:4 src/dendrite/DESCRIPTION.md:4
-#: src/dex/DESCRIPTION.md:5 src/directorylister/DESCRIPTION.md:4
-#: src/docsify/DESCRIPTION.md:4 src/documize/DESCRIPTION.md:4
-#: src/dont-code/DESCRIPTION.md:7 src/dumbbudget/DESCRIPTION.md:4
-#: src/dumbdo/DESCRIPTION.md:4 src/dumbdrop/DESCRIPTION.md:4
-#: src/dumbpad/DESCRIPTION.md:4 src/dumbwhois/DESCRIPTION.md:4
-#: src/ergo/DESCRIPTION.md:4 src/faceprivacy/DESCRIPTION.md:4
-#: src/feber/DESCRIPTION.md:4 src/fider/DESCRIPTION.md:4
-#: src/forgejo/DESCRIPTION.md:6 src/galette/DESCRIPTION.md:4
-#: src/garage/DESCRIPTION.md:6 src/gemserv/DESCRIPTION.md:4
-#: src/getsimple/DESCRIPTION.md:4 src/gitlist/DESCRIPTION.md:4
-#: src/gogs/DESCRIPTION.md:4 src/gossa/DESCRIPTION.md:4
-#: src/grist/DESCRIPTION.md:4 src/h5ai/DESCRIPTION.md:4
-#: src/headscale/DESCRIPTION.md:33 src/hedgedoc/DESCRIPTION.md:5
-#: src/homarr/DESCRIPTION.md:5 src/homeassistant/DESCRIPTION.md:4
-#: src/hydrogen/DESCRIPTION.md:4 src/immich/DESCRIPTION.md:4
-#: src/isso/DESCRIPTION.md:5 src/kanboard/DESCRIPTION.md:4
-#: src/kavita/DESCRIPTION.md:4 src/kiwix/DESCRIPTION.md:4
-#: src/komga/DESCRIPTION.md:4 src/librarian/DESCRIPTION.md:4
-#: src/libremdb/DESCRIPTION.md:4 src/librespeed/DESCRIPTION.md:4
-#: src/librex/DESCRIPTION.md:4 src/matrix-appservice-irc/DESCRIPTION.md:7
-#: src/mattermost/DESCRIPTION.md:16 src/mediatracker/DESCRIPTION.md:4
-#: src/minchat/DESCRIPTION.md:4 src/mostlymatter/DESCRIPTION.md:7
-#: src/mstream/DESCRIPTION.md:4 src/my_webdav/DESCRIPTION.md:4
-#: src/mytinytodo/DESCRIPTION.md:4 src/navidrome/DESCRIPTION.md:5
-#: src/nitter/DESCRIPTION.md:5 src/nodered/DESCRIPTION.md:6
-#: src/omeka-s/DESCRIPTION.md:4 src/opencloud/DESCRIPTION.md:4
-#: src/openproject/DESCRIPTION.md:4 src/opensearch/DESCRIPTION.md:4
-#: src/outline/DESCRIPTION.md:4 src/pairdrop/DESCRIPTION.md:4
-#: src/paperless-ngx/DESCRIPTION.md:4 src/pgweb/DESCRIPTION.md:4
-#: src/phanpy/DESCRIPTION.md:15 src/photoprism/DESCRIPTION.md:4
-#: src/phplicensewatcher/DESCRIPTION.md:4 src/planka/DESCRIPTION.md:4
-#: src/plateau/DESCRIPTION.md:4 src/pmwiki/DESCRIPTION.md:4
-#: src/pytition/DESCRIPTION.md:4 src/redlib/DESCRIPTION.md:4
-#: src/restic/DESCRIPTION.md:4 src/rocketchat/DESCRIPTION.md:4
-#: src/samba/DESCRIPTION.md:4 src/screego/DESCRIPTION.md:4
-#: src/scrutiny/DESCRIPTION.md:6 src/shaarli/DESCRIPTION.md:4
-#: src/shiori/DESCRIPTION.md:4 src/ssbroom/DESCRIPTION.md:8
-#: src/statpingng/DESCRIPTION.md:4 src/stirling-pdf/DESCRIPTION.md:4
-#: src/tableaunoir/DESCRIPTION.md:4 src/technitium-dns/DESCRIPTION.md:4
-#: src/teddit/DESCRIPTION.md:4 src/timemachine/DESCRIPTION.md:4
-#: src/tinyfilemanager/DESCRIPTION.md:6 src/tldraw/DESCRIPTION.md:4
-#: src/tooljet/DESCRIPTION.md:4 src/traccar/DESCRIPTION.md:4
-#: src/traggo/DESCRIPTION.md:4 src/transfersh/DESCRIPTION.md:5
-#: src/ttrss/DESCRIPTION.md:4 src/tube/DESCRIPTION.md:4
-#: src/turtl/DESCRIPTION.md:4 src/umami/DESCRIPTION.md:4
-#: src/uptime-kuma/DESCRIPTION.md:4 src/vikunja/DESCRIPTION.md:4
-#: src/watchyourlan/DESCRIPTION.md:4 src/whoogle/DESCRIPTION.md:4
-#: src/yourls/DESCRIPTION.md:5 src/zusam/DESCRIPTION.md:5
-#: src/zwiicms/DESCRIPTION.md:4
-msgid "### Features"
+#. type: Title ###
+#: src/13ft/DESCRIPTION.md:3 src/2fauth/DESCRIPTION.md:4
+#: src/agorakit/DESCRIPTION.md:3 src/ampache/DESCRIPTION.md:3
+#: src/audiobookshelf/DESCRIPTION.md:3 src/bazarr/DESCRIPTION.md:3
+#: src/blogotext/DESCRIPTION.md:3 src/bookstack/DESCRIPTION.md:3
+#: src/borg/DESCRIPTION.md:5 src/cac-proxy/DESCRIPTION.md:6
+#: src/castopod/DESCRIPTION.md:5 src/chatgpt-web/DESCRIPTION.md:3
+#: src/cheky/DESCRIPTION.md:1 src/chitchatter/DESCRIPTION.md:3
+#: src/cinny/DESCRIPTION.md:3 src/coin/DESCRIPTION.md:3
+#: src/collabora/DESCRIPTION.md:3 src/commento/DESCRIPTION.md:3
+#: src/commet/DESCRIPTION.md:3
+#, no-wrap
+msgid "Features"
 msgstr ""
 
-#. type: Plain text
-#: src/borg/ADMIN.md:2
-msgid "## Reminder regarding the passphrase"
+#. type: Title ##
+#: src/borg/ADMIN.md:1
+#, no-wrap
+msgid "Reminder regarding the passphrase"
 msgstr ""
 
 #. type: Plain text
@@ -92,9 +45,10 @@ msgid ""
 "where your server is destroyed for some reason."
 msgstr ""
 
-#. type: Plain text
-#: src/borg/ADMIN.md:6
-msgid "## Testing that backup work as expected"
+#. type: Title ##
+#: src/borg/ADMIN.md:5
+#, no-wrap
+msgid "Testing that backup work as expected"
 msgstr ""
 
 #. type: Plain text
@@ -113,21 +67,22 @@ msgid ""
 "start a backup manually from the command line:"
 msgstr ""
 
-#. type: Plain text
-#: src/borg/ADMIN.md:14
-msgid "```bash systemctl start borg ```"
+#. type: Fenced code block (bash)
+#: src/borg/ADMIN.md:11
+#, no-wrap
+msgid "systemctl start borg\n"
 msgstr ""
 
 #. type: Plain text
 #: src/borg/ADMIN.md:16
-msgid ""
-"Once the backup completes, you can check that a backup is listed in the "
-"webadmin > Applications > Borg > 'Last backups list'."
+#, no-wrap
+msgid "Once the backup completes, you can check that a backup is listed in the webadmin > Applications > Borg > 'Last backups list'.\n"
 msgstr ""
 
-#. type: Plain text
-#: src/borg/ADMIN.md:18
-msgid "## Manually running `borg` commands"
+#. type: Title ##
+#: src/borg/ADMIN.md:17
+#, no-wrap
+msgid "Manually running `borg` commands"
 msgstr ""
 
 #. type: Plain text
@@ -150,13 +105,15 @@ msgid ""
 "First, prepare the environment with the appropriate borg variables, etc:"
 msgstr ""
 
-#. type: Plain text
-#: src/borg/ADMIN.md:32
+#. type: Fenced code block (bash)
+#: src/borg/ADMIN.md:25
+#, no-wrap
 msgid ""
-"```bash app=borg PATH=\"/var/www/$app/venv/bin/:$PATH\" export "
-"BORG_PASSPHRASE=\"$(sudo yunohost app setting $app passphrase)\" export "
-"BORG_RSH=\"ssh -i /root/.ssh/id_${app}_ed25519 -oStrictHostKeyChecking=yes\" "
-"repository=\"$(sudo yunohost app setting $app repository)\" ```"
+"app=borg\n"
+"PATH=\"/var/www/$app/venv/bin/:$PATH\"\n"
+"export BORG_PASSPHRASE=\"$(sudo yunohost app setting $app passphrase)\" \n"
+"export BORG_RSH=\"ssh -i /root/.ssh/id_${app}_ed25519 -oStrictHostKeyChecking=yes\"\n"
+"repository=\"$(sudo yunohost app setting $app repository)\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -188,9 +145,10 @@ msgid ""
 "data`"
 msgstr ""
 
-#. type: Plain text
-#: src/borg/ADMIN.md:41
-msgid "## Restoring archives from Borg"
+#. type: Title ##
+#: src/borg/ADMIN.md:40
+#, no-wrap
+msgid "Restoring archives from Borg"
 msgstr ""
 
 #. type: Plain text
@@ -206,23 +164,25 @@ msgstr ""
 msgid "**NB: this command assumes that you prepared the environment just like in the previous section**\n"
 msgstr ""
 
-#. type: Plain text
-#: src/borg/ADMIN.md:49
-msgid ""
-"```bash borg export-tar \"$repository::ARCHIVE_NAME\" /home/yunohost/"
-"archives/ARCHIVE_NAME.tar ```"
+#. type: Fenced code block (bash)
+#: src/borg/ADMIN.md:46
+#, no-wrap
+msgid "borg export-tar \"$repository::ARCHIVE_NAME\" /home/yunohost/archives/ARCHIVE_NAME.tar\n"
 msgstr ""
 
 #. type: Plain text
 #: src/borg/ADMIN.md:53
+#, no-wrap
 msgid ""
-"Then restore using the classic workflow: - from the command line: `yunohost "
-"backup restore ARCHIVE_NAME` - or in the webadmin > Backups"
+"Then restore using the classic workflow: \n"
+"- from the command line: `yunohost backup restore ARCHIVE_NAME`\n"
+"- or in the webadmin > Backups\n"
 msgstr ""
 
-#. type: Plain text
-#: src/borg/ADMIN.md:55
-msgid "### Restoring the \"source+config\" of the app, and its data separately"
+#. type: Title ###
+#: src/borg/ADMIN.md:54
+#, no-wrap
+msgid "Restoring the \"source+config\" of the app, and its data separately"
 msgstr ""
 
 #. type: Plain text
@@ -242,12 +202,12 @@ msgid ""
 "without its data:"
 msgstr ""
 
-#. type: Plain text
-#: src/borg/ADMIN.md:64
+#. type: Fenced code block (bash)
+#: src/borg/ADMIN.md:60
+#, no-wrap
 msgid ""
-"```bash borg export-tar --exclude apps/nextcloud/backup/home/yunohost.app "
-"\"$repository::ARCHIVE_NAME\" /home/yunohost.backup/archives/ARCHIVE_NAME."
-"tar yunohost backup restore ARCHIVE_NAME ```"
+"borg export-tar --exclude apps/nextcloud/backup/home/yunohost.app \"$repository::ARCHIVE_NAME\" /home/yunohost.backup/archives/ARCHIVE_NAME.tar\n"
+"yunohost backup restore ARCHIVE_NAME\n"
 msgstr ""
 
 #. type: Plain text
@@ -257,12 +217,14 @@ msgid ""
 "going through the classic YunoHost backup restore process:"
 msgstr ""
 
-#. type: Plain text
-#: src/borg/ADMIN.md:72
+#. type: Fenced code block (bash)
+#: src/borg/ADMIN.md:67
+#, no-wrap
 msgid ""
-"```bash cd /home/yunohost.app/ borg extract \"$repository::ARCHIVE_NAME\" "
-"apps/nextcloud/backup/home/yunohost.app/ mv apps/nextcloud/backup/home/"
-"yunohost.app/nextcloud ./ rm -r apps ```"
+"cd /home/yunohost.app/\n"
+"borg extract \"$repository::ARCHIVE_NAME\" apps/nextcloud/backup/home/yunohost.app/\n"
+"mv apps/nextcloud/backup/home/yunohost.app/nextcloud ./\n"
+"rm -r apps\n"
 msgstr ""
 
 #. type: Plain text
@@ -322,9 +284,10 @@ msgid ""
 "an email to your friend otherwise)"
 msgstr ""
 
-#. type: Plain text
-#: src/borg/DESCRIPTION.md:15
-msgid "### Install procedure"
+#. type: Title ###
+#: src/borg/DESCRIPTION.md:14
+#, no-wrap
+msgid "Install procedure"
 msgstr ""
 
 #. type: Plain text

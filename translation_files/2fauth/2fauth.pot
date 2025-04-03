@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 17:51+0100\n"
+"POT-Creation-Date: 2025-03-19 19:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ###
+#: src/13ft/DESCRIPTION.md:3 src/2fauth/DESCRIPTION.md:4
+#, no-wrap
+msgid "Features"
+msgstr ""
 
 #. type: Plain text
 #: src/2fauth/ADMIN.md:3
@@ -38,11 +44,6 @@ msgid ""
 "generators like Google Authenticator, designed for both mobile and desktop.  "
 "2FAuth aims to ease you perform your 2FA authentication steps whatever the "
 "device you handle, with a clean and suitable interface."
-msgstr ""
-
-#. type: Plain text
-#: src/2fauth/DESCRIPTION.md:5
-msgid "### Features"
 msgstr ""
 
 #. type: Bullet: '- '

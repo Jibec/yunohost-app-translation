@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,9 +30,12 @@ msgid ""
 "io/FitTrackee/cli.html), you can go like this:"
 msgstr ""
 
-#. type: Plain text
-#: src/fittrackee/ADMIN.md:9
-msgid "``` yunohost app shell __APP__ ftcli [OPTIONS] COMMAND [ARGS]...  ```"
+#. type: Fenced code block
+#: src/fittrackee/ADMIN.md:5
+#, no-wrap
+msgid ""
+"yunohost app shell __APP__\n"
+"ftcli [OPTIONS] COMMAND [ARGS]...\n"
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,45 +16,59 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/adminer/ADMIN.md:2 src/adminerevo/ADMIN.md:2 src/aeneria/ADMIN.md:2
-#: src/alltube/ADMIN.md:2 src/archivist/ADMIN.md:2 src/blogotext/ADMIN.md:2
-#: src/collabora/ADMIN.md:2 src/dato/ADMIN.md:3 src/discourse/ADMIN.md:19
-#: src/domoticz/ADMIN.md:55 src/duniter/ADMIN.md:17 src/framaforms/ADMIN.md:2
-#: src/freshrss/ADMIN.md:2 src/gitlab-runner/ADMIN.md:2
-#: src/gotosocial/ADMIN.md:17 src/hedgedoc/ADMIN.md:2
-#: src/languagetool/ADMIN.md:2 src/lionwiki-t2t/ADMIN.md:2 src/lxd/ADMIN.md:2
-#: src/matterbridge/ADMIN.md:2 src/minetest/ADMIN.md:2 src/minidlna/ADMIN.md:2
-#: src/opentracker/ADMIN.md:2 src/peertube-search-index/ADMIN.md:2
-#: src/phpsysinfo/ADMIN.md:2 src/pihole/ADMIN.md:2
-#: src/question2answer/ADMIN.md:2 src/unattended_upgrades/ADMIN.md:2
-msgid "## Configuration"
+#. type: Title ###
+#: src/adminer/ADMIN.md:1 src/adminerevo/ADMIN.md:1 src/aeneria/ADMIN.md:1
+#: src/alltube/ADMIN.md:1 src/archivist/ADMIN.md:1 src/blogotext/ADMIN.md:1
+#: src/collabora/ADMIN.md:1 src/dato/ADMIN.md:2 src/discourse/ADMIN.md:18
+#: src/domoticz/ADMIN.md:54 src/duniter/ADMIN.md:16 src/framaforms/ADMIN.md:1
+#: src/freshrss/ADMIN.md:1 src/gitlab/ADMIN.md:1 src/gitlab-runner/ADMIN.md:1
+#: src/gotosocial/ADMIN.md:16 src/hedgedoc/ADMIN.md:1
+#: src/languagetool/ADMIN.md:1 src/lionwiki-t2t/ADMIN.md:1 src/lxd/ADMIN.md:1
+#: src/matterbridge/ADMIN.md:1 src/minetest/ADMIN.md:1 src/minidlna/ADMIN.md:1
+#: src/opentracker/ADMIN.md:1 src/peertube-search-index/ADMIN.md:1
+#: src/phpsysinfo/ADMIN.md:1 src/pihole/ADMIN.md:1
+#: src/question2answer/ADMIN.md:1 src/ums/ADMIN.md:1
+#: src/unattended_upgrades/ADMIN.md:1 src/wetty/ADMIN.md:1
+#, no-wrap
+msgid "Configuration"
 msgstr ""
 
-#. type: Plain text
-#: src/archivist/ADMIN.md:7 src/audiobookshelf/ADMIN.md:2
-#: src/dendrite/ADMIN.md:8 src/domoticz/ADMIN.md:100 src/kresus/ADMIN.md:2
-#: src/mailman3/DESCRIPTION.md:5 src/mautrix_facebook/ADMIN.md:55
-#: src/mautrix_signal/ADMIN.md:76 src/nullboard/ADMIN.md:2
-#: src/pihole/ADMIN.md:6
-msgid "## Limitations"
+#. type: Title ###
+#: src/archivist/ADMIN.md:6 src/audiobookshelf/ADMIN.md:1
+#: src/code-server/ADMIN.md:5 src/dendrite/ADMIN.md:7 src/domoticz/ADMIN.md:99
+#: src/elasticsearch7/ADMIN.md:1 src/elasticsearch8/ADMIN.md:1
+#: src/garage/ADMIN.md:1 src/grist/DESCRIPTION.md:12 src/kresus/ADMIN.md:1
+#: src/mailman3/DESCRIPTION.md:4 src/mautrix_facebook/ADMIN.md:54
+#: src/mautrix_signal/ADMIN.md:75 src/nullboard/ADMIN.md:1
+#: src/opensearch/DESCRIPTION.md:7 src/pihole/ADMIN.md:5
+#: src/retroarch/ADMIN.md:8 src/strut/ADMIN.md:1 src/ums/ADMIN.md:10
+#: src/wallabag2/ADMIN.md:1
+#, no-wrap
+msgid "Limitations"
+msgstr ""
+
+#. type: Title ##
+#: src/domoticz/ADMIN.md:1
+#, no-wrap
+msgid "Libssl1.1"
 msgstr ""
 
 #. type: Plain text
 #: src/domoticz/ADMIN.md:4
 msgid ""
-"## Libssl1.1 [Domoticz currently requires libssl1.1 to work](https://github."
-"com/domoticz/domoticz/issues/6042). However, Debian 12 does not ship "
-"libssl1.1 anymore. In order to circumvent this limitation, this package will "
-"install libssl1.1 package from bullseye repository on your bookworm install. "
-"This may cause unexpected trouble (even if not very liekly). If you are not "
-"confortable with that, please do not install.  We will remove the libssl1.1 "
-"as soon as domoticz will be compatible with libssl3."
+"[Domoticz currently requires libssl1.1 to work](https://github.com/domoticz/"
+"domoticz/issues/6042). However, Debian 12 does not ship libssl1.1 anymore. "
+"In order to circumvent this limitation, this package will install libssl1.1 "
+"package from bullseye repository on your bookworm install. This may cause "
+"unexpected trouble (even if not very liekly). If you are not confortable "
+"with that, please do not install.  We will remove the libssl1.1 as soon as "
+"domoticz will be compatible with libssl3."
 msgstr ""
 
-#. type: Plain text
-#: src/domoticz/ADMIN.md:6
-msgid "## Broker Mosquitto"
+#. type: Title ##
+#: src/domoticz/ADMIN.md:5
+#, no-wrap
+msgid "Broker Mosquitto"
 msgstr ""
 
 #. type: Plain text
@@ -68,25 +82,34 @@ msgid ""
 "YunoHost-Apps/mosquitto_ynh) without using the one provided by domoticz_ynh."
 msgstr ""
 
-#. type: Plain text
-#: src/domoticz/ADMIN.md:12
-msgid "#### Adding in Domoticz"
+#. type: Title ####
+#: src/domoticz/ADMIN.md:11
+#, no-wrap
+msgid "Adding in Domoticz"
 msgstr ""
 
 #. type: Plain text
-#: src/domoticz/ADMIN.md:19
+#: src/domoticz/ADMIN.md:15
 msgid ""
 "To use Mosquitto, you need to customize the communication between Domoticz "
 "and the broker by following the [domoticz documentation](https://www."
 "domoticz.com/wiki/MQTT#Installing_Mosquitto), part *Add hardware \"MQTT "
 "Client Gateway\"*.  User and password are automatically generated during "
-"installation, you may retrieve them with ```` sudo yunohost app setting "
-"__APP__ mqtt_user sudo yunohost app setting __APP__ mqtt_pwd ````"
+"installation, you may retrieve them with"
 msgstr ""
 
-#. type: Plain text
-#: src/domoticz/ADMIN.md:21
-msgid "#### Publish/Subscribe"
+#. type: Fenced code block
+#: src/domoticz/ADMIN.md:15
+#, no-wrap
+msgid ""
+"sudo yunohost app setting __APP__ mqtt_user\n"
+"sudo yunohost app setting __APP__ mqtt_pwd\n"
+msgstr ""
+
+#. type: Title ####
+#: src/domoticz/ADMIN.md:20
+#, no-wrap
+msgid "Publish/Subscribe"
 msgstr ""
 
 #. type: Plain text
@@ -104,21 +127,35 @@ msgid ""
 "software supporting websocket protocol (ex : paho Python library)."
 msgstr ""
 
-#. type: Plain text
-#: src/domoticz/ADMIN.md:29
-msgid "#### Mosquitto_pub et mosquitto_sub"
+#. type: Title ####
+#: src/domoticz/ADMIN.md:28
+#, no-wrap
+msgid "Mosquitto_pub et mosquitto_sub"
 msgstr ""
 
 #. type: Plain text
-#: src/domoticz/ADMIN.md:39
+#: src/domoticz/ADMIN.md:32
 msgid ""
 "These 2 tools do not support websocket protocol, only direct mqtt: base "
 "settings will not allow communication from an outside device.  If you're "
-"using them directly from your server, this kind of syntax should work: ```` "
-"mosquitto_pub -u *user* -P *password* -h mqtt.your.domain.tld -p 1883 -t "
-"'domoticz/in' -m '{ \"idx\" : 1, \"nvalue\" : 0, \"svalue\" : \"25.0\" }' "
-"```` In the same way: ```` mosquitto_sub -u *user* -P *password* -h mqtt."
-"your.domain.tld -p 1883 -t 'domoticz/out' ````"
+"using them directly from your server, this kind of syntax should work:"
+msgstr ""
+
+#. type: Fenced code block
+#: src/domoticz/ADMIN.md:32
+#, no-wrap
+msgid "mosquitto_pub -u *user* -P *password* -h mqtt.your.domain.tld -p 1883 -t 'domoticz/in' -m '{ \"idx\" : 1, \"nvalue\" : 0, \"svalue\" : \"25.0\" }'\n"
+msgstr ""
+
+#. type: Plain text
+#: src/domoticz/ADMIN.md:36
+msgid "In the same way:"
+msgstr ""
+
+#. type: Fenced code block
+#: src/domoticz/ADMIN.md:36
+#, no-wrap
+msgid "mosquitto_sub -u *user* -P *password* -h mqtt.your.domain.tld -p 1883 -t 'domoticz/out'\n"
 msgstr ""
 
 #. type: Plain text
@@ -132,86 +169,142 @@ msgid ""
 "variables. **This is mandatory to ensure a secure connection.**"
 msgstr ""
 
+#. type: Title ####
+#: src/domoticz/ADMIN.md:45
+#, no-wrap
+msgid "Upgrade from version without Mosquitto"
+msgstr ""
+
 #. type: Plain text
 #: src/domoticz/ADMIN.md:53
 msgid ""
-"#### Upgrade from version without Mosquitto If you have package 2020.2~ynh3 "
-"or below or if you have chosen to not set a domain during initial "
-"installation, Mosquitto is not installed by default.  If you need to "
-"activate mosquitto in retrospect, do following actions: 1. Create a domain "
-"or a subdomain (for example: 'mqtt.your.domain.tld')  2. Connect to your "
-"server in command line 3. Type following command : `yunohost app setting "
-"__APP__ mqtt_domain -v mqtt.your.domain.tld` 4. Upgrade Domoticz to last "
-"package.  If you're already on the last package version, use the following "
-"command: `yunohost app upgrade __APP__ --force`"
+"If you have package 2020.2~ynh3 or below or if you have chosen to not set a "
+"domain during initial installation, Mosquitto is not installed by default.  "
+"If you need to activate mosquitto in retrospect, do following actions: 1. "
+"Create a domain or a subdomain (for example: 'mqtt.your.domain.tld')  2. "
+"Connect to your server in command line 3. Type following command : `yunohost "
+"app setting __APP__ mqtt_domain -v mqtt.your.domain.tld` 4. Upgrade Domoticz "
+"to last package.  If you're already on the last package version, use the "
+"following command: `yunohost app upgrade __APP__ --force`"
+msgstr ""
+
+#. type: Title ###
+#: src/domoticz/ADMIN.md:56
+#, no-wrap
+msgid "Sensors, language and this kind of stuff"
 msgstr ""
 
 #. type: Plain text
 #: src/domoticz/ADMIN.md:58
-msgid ""
-"### Sensors, language and this kind of stuff Main configuration of the app "
-"take place inside the app itself."
+msgid "Main configuration of the app take place inside the app itself."
+msgstr ""
+
+#. type: Title ###
+#: src/domoticz/ADMIN.md:59
+#, no-wrap
+msgid "Zwave management"
 msgstr ""
 
 #. type: Plain text
 #: src/domoticz/ADMIN.md:62
 msgid ""
-"### Zwave management If you're using Zwave devices, install Mosquitto along "
-"Domoticz and give a try to [zwave-JS-UI package](https://github.com/YunoHost-"
-"Apps/zwave-js-ui_ynh).  Once installed, just follow instructions from the "
-"[wiki](https://www.domoticz.com/wiki/Zwave-JS-UI)"
+"If you're using Zwave devices, install Mosquitto along Domoticz and give a "
+"try to [zwave-JS-UI package](https://github.com/YunoHost-Apps/zwave-js-"
+"ui_ynh).  Once installed, just follow instructions from the [wiki](https://"
+"www.domoticz.com/wiki/Zwave-JS-UI)"
+msgstr ""
+
+#. type: Title ###
+#: src/domoticz/ADMIN.md:63
+#, no-wrap
+msgid "Access and API"
 msgstr ""
 
 #. type: Plain text
 #: src/domoticz/ADMIN.md:66
 msgid ""
-"### Access and API By default, access for the [JSON API](https://www."
-"domoticz.com/wiki/Domoticz_API/JSON_URL's) is allowed on following path `/"
-"yourdomain.tld/api_/domoticzpath`.  So if you access Domoticz via https://"
-"mydomainname.tld/domoticz, use the following webpath for the API: `/"
-"mydomainname.tld/api_/domoticz/json.htm?yourapicommand`"
+"By default, access for the [JSON API](https://www.domoticz.com/wiki/"
+"Domoticz_API/JSON_URL's) is allowed on following path `/yourdomain.tld/api_/"
+"domoticzpath`.  So if you access Domoticz via https://mydomainname.tld/"
+"domoticz, use the following webpath for the API: `/mydomainname.tld/api_/"
+"domoticz/json.htm?yourapicommand`"
 msgstr ""
 
 #. type: Plain text
-#: src/domoticz/ADMIN.md:86
+#: src/domoticz/ADMIN.md:68
+msgid ""
+"By default, only sensor updates and switch toogle are authorized. To "
+"authorized a new command, you have to manually update the NGINX config file:"
+msgstr ""
+
+#. type: Fenced code block
+#: src/domoticz/ADMIN.md:68
+#, no-wrap
+msgid "sudo nano /etc/nginx/conf.d/yourdomain.tld.d/api___APP__.conf\n"
+msgstr ""
+
+#. type: Plain text
+#: src/domoticz/ADMIN.md:72
+msgid ""
+"Then edit the following block by adding the regex of the command you want to "
+"allow:"
+msgstr ""
+
+#. type: Fenced code block
+#: src/domoticz/ADMIN.md:72
 #, no-wrap
 msgid ""
-"By default, only sensor updates and switch toogle are authorized. To authorized a new command, you have to manually update the NGINX config file:\n"
-"````\n"
-"sudo nano /etc/nginx/conf.d/yourdomain.tld.d/api___APP__.conf\n"
-"````\n"
-"Then edit the following block by adding the regex of the command you want to allow:\n"
-"````\n"
 "  #set the list of authorized json command here in regex format\n"
 "  #you may retrieve the command from https://www.domoticz.com/wiki/Domoticz_API/JSON_URL's\n"
 "  #By default, sensors updates and toggle switch are authorized\n"
 "  if ( $args ~* type=command&param=udevice&idx=[0-9]*&nvalue=[0-9]*&svalue=.*$|type=command&param=switchlight&idx=[0-9]*&switchcmd=Toggle$) {\n"
 "    set $api \"1\";\n"
 "    }\n"
-"````\n"
-"For example, to add the JSON command to retrieve the status of a device (/json.htm?type=devices&rid=IDX),modify the line as this:\n"
-"````\n"
-"  if ( $args ~* type=command&param=udevice&idx=[0-9]*&nvalue=[0-9]*&svalue=.*$|type=command&param=switchlight&idx=[0-9]*&switchcmd=Toggle$|type=devices&rid=[0-9]* ) {\n"
-"    set $api \"1\";\n"
-"    }\n"
-"````\n"
 msgstr ""
 
 #. type: Plain text
-#: src/domoticz/ADMIN.md:94
+#: src/domoticz/ADMIN.md:81
+msgid ""
+"For example, to add the JSON command to retrieve the status of a device (/"
+"json.htm?type=devices&rid=IDX),modify the line as this:"
+msgstr ""
+
+#. type: Fenced code block
+#: src/domoticz/ADMIN.md:81
+#, no-wrap
+msgid ""
+"  if ( $args ~* type=command&param=udevice&idx=[0-9]*&nvalue=[0-9]*&svalue=.*$|type=command&param=switchlight&idx=[0-9]*&switchcmd=Toggle$|type=devices&rid=[0-9]* ) {\n"
+"    set $api \"1\";\n"
+"    }\n"
+msgstr ""
+
+#. type: Plain text
+#: src/domoticz/ADMIN.md:89
 msgid ""
 "All IPv4 addresses within the local network (192.168.0.0/24) and *all IPv6* "
 "addresses are authorized as API.  As far as I know, there is no way to "
 "filter for IPv6 address on local network: You may remove the authorization "
 "by removing or commenting this line in `/etc/nginx/conf.d/yourdomain.tld.d/"
-"domoticz.conf`: ```` allow ::/1; ```` This will authorized only IPv4 within "
-"local network to access your Domoticz API.  You may add individual IPv6 "
-"address in the same way."
+"domoticz.conf`:"
+msgstr ""
+
+#. type: Fenced code block
+#: src/domoticz/ADMIN.md:89
+#, no-wrap
+msgid "allow ::/1;\n"
 msgstr ""
 
 #. type: Plain text
-#: src/domoticz/ADMIN.md:96
-msgid "## Upgrades"
+#: src/domoticz/ADMIN.md:94
+msgid ""
+"This will authorized only IPv4 within local network to access your Domoticz "
+"API.  You may add individual IPv6 address in the same way."
+msgstr ""
+
+#. type: Title ##
+#: src/domoticz/ADMIN.md:95
+#, no-wrap
+msgid "Upgrades"
 msgstr ""
 
 #. type: Plain text

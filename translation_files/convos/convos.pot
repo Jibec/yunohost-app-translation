@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,19 +30,27 @@ msgid ""
 "line:"
 msgstr ""
 
+#. type: Fenced code block (bash)
+#: src/convos/ADMIN.md:5
+#, no-wrap
+msgid "sudo -u convos ./script/convos recover <user_email> --secret __CONVOS_LOCAL_SECRET__\n"
+msgstr ""
+
 #. type: Plain text
-#: src/convos/ADMIN.md:7
-msgid ""
-"```bash sudo -u convos ./script/convos recover <user_email> --secret "
-"__CONVOS_LOCAL_SECRET__ ```"
+#: src/convos/DESCRIPTION.md:1
+#, no-wrap
+msgid "Convos is an IRC client that runs in your browser and brings the IRC experience into the 21st century.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/convos/DESCRIPTION.md:2
+#, no-wrap
+msgid "It features a persistent bouncer on the server side that will keep you online even after you close your browser window.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/convos/DESCRIPTION.md:3
 msgid ""
-"Convos is an IRC client that runs in your browser and brings the IRC "
-"experience into the 21st century.  It features a persistent bouncer on the "
-"server side that will keep you online even after you close your browser "
-"window.  Want to use Convos on your phone? No problem! Convos is fully "
-"responsive and fits any screen."
+"Want to use Convos on your phone? No problem! Convos is fully responsive and "
+"fits any screen."
 msgstr ""

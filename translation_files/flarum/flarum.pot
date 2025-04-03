@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/flarum/ADMIN.md:2
-msgid "## Login"
+#. type: Title ##
+#: src/bicbucstriim/ADMIN.md:1 src/flarum/ADMIN.md:24
+#: src/mautrix_telegram/ADMIN.md:25
+#, no-wrap
+msgid "Troubleshooting"
+msgstr ""
+
+#. type: Title ##
+#: src/flarum/ADMIN.md:1
+#, no-wrap
+msgid "Login"
 msgstr ""
 
 #. type: Plain text
@@ -30,9 +38,10 @@ msgid ""
 "in, tune the LDAP extension setting in Flarum's admin panel."
 msgstr ""
 
-#. type: Plain text
-#: src/flarum/ADMIN.md:7
-msgid "### Upgrading"
+#. type: Title ###
+#: src/flarum/ADMIN.md:6
+#, no-wrap
+msgid "Upgrading"
 msgstr ""
 
 #. type: Plain text
@@ -43,9 +52,10 @@ msgid ""
 "require to be reinstalled."
 msgstr ""
 
-#. type: Plain text
-#: src/flarum/ADMIN.md:12
-msgid "### Adding extensions"
+#. type: Title ###
+#: src/flarum/ADMIN.md:11
+#, no-wrap
+msgid "Adding extensions"
 msgstr ""
 
 #. type: Plain text
@@ -62,24 +72,28 @@ msgid ""
 "documentation if it requires additional steps."
 msgstr ""
 
-#. type: Plain text
-#: src/flarum/ADMIN.md:23
+#. type: Fenced code block (bash)
+#: src/flarum/ADMIN.md:17
+#, no-wrap
 msgid ""
-"```bash sudo su app=__ID__ cd /var/www/$app sudo -u $app php__PHPVERSION__ "
-"composer.phar require vendor/extension ```"
+"sudo su\n"
+"app=__ID__\n"
+"cd /var/www/$app\n"
+"sudo -u $app php__PHPVERSION__ composer.phar require vendor/extension\n"
 msgstr ""
 
-#. type: Plain text
-#: src/flarum/ADMIN.md:25
-msgid "#### Troubleshooting"
+#. type: Title #####
+#: src/flarum/ADMIN.md:26
+#, no-wrap
+msgid "`Timeout` errors"
 msgstr ""
 
 #. type: Plain text
 #: src/flarum/ADMIN.md:28
 msgid ""
-"##### `Timeout` errors Some users have reported a successful installation, "
-"but get a blank page due to a `timeout` on a PHP script that prepares the "
-"forum assests (`Minify.php`, notably)."
+"Some users have reported a successful installation, but get a blank page due "
+"to a `timeout` on a PHP script that prepares the forum assests (`Minify."
+"php`, notably)."
 msgstr ""
 
 #. type: Plain text
@@ -95,11 +109,17 @@ msgstr ""
 msgid "Reload PHP-FPM with `sudo service php__PHPVERSION__-fpm reload`."
 msgstr ""
 
+#. type: Title #####
+#: src/flarum/ADMIN.md:33
+#, no-wrap
+msgid "Upload limit"
+msgstr ""
+
 #. type: Plain text
 #: src/flarum/ADMIN.md:35
 msgid ""
-"##### Upload limit If you are facing an error while uploading large files "
-"into the forum, PHP may be limiting file upload."
+"If you are facing an error while uploading large files into the forum, PHP "
+"may be limiting file upload."
 msgstr ""
 
 #. type: Plain text

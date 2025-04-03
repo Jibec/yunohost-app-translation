@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-03-19 19:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,18 +16,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/armadietto/ADMIN.md:3
-msgid ""
-"### :warning: WARNING The Armadietto_ynh package is still under development, "
-"so you should expect some undocumented changes before it is labeled stable."
+#. type: Title ###
+#: src/armadietto/ADMIN.md:1
+#, no-wrap
+msgid ":warning: WARNING"
 msgstr ""
 
 #. type: Plain text
-#: src/armadietto/ADMIN.md:5
+#: src/armadietto/ADMIN.md:3
 msgid ""
-"### :information_source: Security considerations from [Armadietto](https://"
-"github.com/remotestorage/armadietto/) :"
+"The Armadietto_ynh package is still under development, so you should expect "
+"some undocumented changes before it is labeled stable."
+msgstr ""
+
+#. type: Title ###
+#: src/armadietto/ADMIN.md:4
+#, no-wrap
+msgid ":information_source: Security considerations from [Armadietto](https://github.com/remotestorage/armadietto/) :"
 msgstr ""
 
 #. type: Plain text
@@ -53,12 +58,14 @@ msgstr ""
 
 #. type: Plain text
 #: src/armadietto/ADMIN.md:23
-msgid "<br />"
+#, no-wrap
+msgid "<br />\n"
 msgstr ""
 
-#. type: Plain text
-#: src/armadietto/ADMIN.md:25
-msgid "### **Important Notes**"
+#. type: Title ###
+#: src/armadietto/ADMIN.md:24
+#, no-wrap
+msgid "**Important Notes**"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -104,17 +111,20 @@ msgstr ""
 
 #. type: Plain text
 #: src/armadietto/DESCRIPTION.md:11
+#, no-wrap
 msgid ""
-"> ### :warning: WARNING > Please do not consider `armadietto` production "
-"ready, this project is still > considered experimental.  As with any alpha-"
-"stage storage technology, you > MUST expect that it will eat your data and "
-"take precautions against this. You > SHOULD expect that its APIs and storage "
-"schemas will change before it is > labelled stable."
+"> ### :warning: WARNING\n"
+"> Please do not consider `armadietto` production ready, this project is still\n"
+"> considered experimental.  As with any alpha-stage storage technology, you\n"
+"> MUST expect that it will eat your data and take precautions against this. You\n"
+"> SHOULD expect that its APIs and storage schemas will change before it is\n"
+"> labelled stable.\n"
 msgstr ""
 
-#. type: Plain text
-#: src/armadietto/DESCRIPTION.md:13
-msgid "### Installation option"
+#. type: Title ###
+#: src/armadietto/DESCRIPTION.md:12
+#, no-wrap
+msgid "Installation option "
 msgstr ""
 
 #. type: Plain text
@@ -124,9 +134,10 @@ msgid ""
 "in the configuration panel."
 msgstr ""
 
-#. type: Plain text
-#: src/armadietto/DESCRIPTION.md:18
-msgid "### Application for remoteStorage"
+#. type: Title ###
+#: src/armadietto/DESCRIPTION.md:17
+#, no-wrap
+msgid "Application for remoteStorage"
 msgstr ""
 
 #. type: Plain text
