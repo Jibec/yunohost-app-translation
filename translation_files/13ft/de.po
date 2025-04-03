@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 17:51+0100\n"
+"POT-Creation-Date: 2025-03-19 19:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,9 +22,13 @@ msgid ""
 "you to bypass some paywalls and read the article content anyway."
 msgstr ""
 
-#. type: Plain text
+#. type: Title ###
+#: src/13ft/DESCRIPTION.md:3
+#, no-wrap
+msgid "Features"
+msgstr ""
+
+#. type: Bullet: '- '
 #: src/13ft/DESCRIPTION.md:4
-msgid ""
-"### Features - Provide *some* web articles that are normally protected by "
-"paywalls."
+msgid "Provide *some* web articles that are normally protected by paywalls."
 msgstr ""
