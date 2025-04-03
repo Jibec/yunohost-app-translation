@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Bullet: '* '
+#: src/lidarr/ADMIN.md:3 src/prowlarr/ADMIN.md:2 src/radarr/ADMIN.md:3
+#: src/sonarr/ADMIN.md:4
+msgid "Access control is done with YunoHost's permissions system."
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/lidarr/ADMIN.md:3 src/radarr/ADMIN.md:3 src/sonarr/ADMIN.md:4
+msgid ""
+"The app uses YunoHost's multimedia directories, hence it has write access to "
+"users' and shared directories in `/home/yunohost.multimedia`. After "
+"installation, you can choose these directories to store your media."
+msgstr ""
+
+#. type: Bullet: '  * '
+#: src/radarr/ADMIN.md:3
+msgid ""
+"API (`domain.tld/path/api`) can be accessed by visitors to allow control by "
+"remote clients."
+msgstr ""
+
+#. type: Plain text
+#: src/radarr/DESCRIPTION.md:1
+msgid "Movie collection manager for Usenet and BitTorrent users"
+msgstr ""

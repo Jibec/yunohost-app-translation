@@ -1,0 +1,26 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/syncthing/DESCRIPTION.md:1
+msgid ""
+"Syncthing is a continuous file synchronization program. It synchronizes "
+"files between two or more computers in real time, safely protected from "
+"prying eyes. Your data is your data alone and you deserve to choose where it "
+"is stored, whether it is shared with some third party, and how it's "
+"transmitted over the internet."
+msgstr ""

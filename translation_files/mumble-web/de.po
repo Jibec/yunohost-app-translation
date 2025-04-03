@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/mumble-web/ADMIN.md:3
+msgid ""
+"Various configuration options are available for Mumble web on this "
+"configuration file `__INSTALL_DIR__/dist/config.local.js`"
+msgstr ""
+
+#. type: Plain text
+#: src/mumble-web/ADMIN.md:6
+msgid ""
+"Here are online documentations: - Murmur documentation: <https://wiki.mumble."
+"info/wiki/Murmurguide> - Framasoft documentation: <https://docs.framasoft."
+"org/fr/jitsimeet/mumble.html>"
+msgstr ""
+
+#. type: Plain text
+#: src/mumble-web/DESCRIPTION.md:2
+msgid ""
+"mumble-web is an HTML5 Mumble client for use in modern browsers.  The Mumble "
+"protocol uses TCP for control and UDP for voice. Running in a browser, both "
+"are unavailable to this client. Instead Websockets are used for control and "
+"WebRTC is used for voice (using Websockets as fallback if the server does "
+"not support WebRTC)."
+msgstr ""

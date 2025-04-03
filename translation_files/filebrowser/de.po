@@ -1,0 +1,34 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/filebrowser/ADMIN.md:1
+msgid ""
+"By default, the root path is set to `__DATA_DIR__`. You can choose a "
+"different root path in filebrowser configuration file: `__INSTALL_DIR__/"
+"settings.json` and modify **root** entry as desired. (you may need to set "
+"the correct permissions for the new path)."
+msgstr ""
+
+#. type: Plain text
+#: src/filebrowser/DESCRIPTION.md:1
+msgid ""
+"FileBrowser provides a file managing interface within a specified directory "
+"and it can be used to upload, delete, preview, rename and edit your files. "
+"It allows the creation of multiple users and each user can have its own "
+"directory. It can be used as a standalone app or as a middleware."
+msgstr ""

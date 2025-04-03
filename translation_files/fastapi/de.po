@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/fastapi/ADMIN.md:2
+msgid ""
+"To customize the FastAPI app, you have to put your code in `__DATA_DIR__`/"
+"FastAPIAppFolder/"
+msgstr ""
+
+#. type: Plain text
+#: src/fastapi/ADMIN.md:3
+msgid ""
+"Your code must have a '__init__'.py file and the FastAPI object must be "
+"named 'app'"
+msgstr ""
+
+#. type: Plain text
+#: src/fastapi/DESCRIPTION.md:1
+msgid ""
+"This Application install a FastAPI application \"Hello Word\" ready to be "
+"customized by your own code"
+msgstr ""

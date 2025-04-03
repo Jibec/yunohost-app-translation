@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/simple-hash-generator/ADMIN.md:1
+msgid ""
+"All hashing is done directly in the browser. Your data is not sent to any "
+"server, ever. If you are skeptical, which I respect, I recommend "
+"[downloading the latest release here](https://github.com/pRizz/Simple-Hash-"
+"Generator/releases), turning off your internet, unzip the release, open "
+"index.html, check out the network debugger, and see that hashing still "
+"works. Or if you are a developer, you can audit the [source code here]"
+"(https://github.com/pRizz/Simple-Hash-Generator)."
+msgstr ""
+
+#. type: Plain text
+#: src/simple-hash-generator/DESCRIPTION.md:1
+msgid ""
+"A simple hash generator utilizing a collection of popular and useful hash "
+"functions"
+msgstr ""

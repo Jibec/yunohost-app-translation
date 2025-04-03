@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/redirect/ADMIN.md:1
+msgid ""
+"The nginx configuration can be further tweaked in `/etc/nginx/conf.d/"
+"__DOMAIN__.d/__APP__.conf`"
+msgstr ""
+
+#. type: Plain text
+#: src/redirect/DESCRIPTION.md:2
+msgid ""
+"This application allows to integrate a custom tile in YunoHost's user portal."
+msgstr ""
+
+#. type: Plain text
+#: src/redirect/DESCRIPTION.md:5
+msgid ""
+"There two typical use cases are covered: - **basic, explicit redirection** : "
+"this is a \"virtual\" app tile that just redirects to another url or "
+"external website using HTTP code 302 - **reverse-proxy** : create an app "
+"tile to expose an app listening on a specific port, typically something that "
+"you manually installed (with or without Docker) locally or on another "
+"machine."
+msgstr ""
