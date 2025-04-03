@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,20 +16,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/django-fmd/ADMIN.md:2 src/django-for-runners/ADMIN.md:2
-#: src/django-fritzconnection/ADMIN.md:2 src/django_example/ADMIN.md:2
-#: src/pyinventory/ADMIN.md:2 src/weblate/ADMIN.md:9
-msgid "## Settings and upgrades"
+#. type: Title ##
+#: src/django-fmd/ADMIN.md:1 src/django-for-runners/ADMIN.md:1
+#: src/django-fritzconnection/ADMIN.md:1 src/django_example/ADMIN.md:1
+#: src/pyinventory/ADMIN.md:20 src/weblate/ADMIN.md:8
+#, no-wrap
+msgid "Settings and upgrades"
 msgstr ""
 
 #. type: Plain text
-#: src/django-fmd/ADMIN.md:42 src/django-for-runners/ADMIN.md:36
-#: src/django-fritzconnection/ADMIN.md:36 src/django_example/ADMIN.md:36
-#: src/pyinventory/ADMIN.md:36
-msgid ""
-"[comment]: <> (✂✂✂ auto generated help start ✂✂✂)  ``` Usage: ./dev-cli.py "
-"[OPTIONS] COMMAND [ARGS]..."
+#: src/django-fmd/ADMIN.md:38 src/django-for-runners/ADMIN.md:24
+#: src/django-fritzconnection/ADMIN.md:24 src/django_example/ADMIN.md:24
+#: src/pyinventory/ADMIN.md:43
+msgid "e.g.:"
+msgstr ""
+
+#. type: Link reference
+#: src/django-fmd/ADMIN.md:39 src/django-for-runners/ADMIN.md:33
+#: src/django-fritzconnection/ADMIN.md:33 src/django_example/ADMIN.md:33
+#: src/pyinventory/ADMIN.md:52
+#, no-wrap
+msgid "[comment]: <> (✂✂✂ auto generated help start ✂✂✂)"
+msgstr ""
+
+#. type: Link reference
+#: src/django-fmd/ADMIN.md:66 src/django-for-runners/ADMIN.md:64
+#: src/django-fritzconnection/ADMIN.md:64 src/django_example/ADMIN.md:60
+#: src/pyinventory/ADMIN.md:83
+#, no-wrap
+msgid "[comment]: <> (✂✂✂ auto generated help end ✂✂✂)"
 msgstr ""
 
 #. type: Plain text
@@ -50,91 +65,160 @@ msgstr ""
 
 #. type: Plain text
 #: src/django-for-runners/ADMIN.md:7 src/django-fritzconnection/ADMIN.md:7
-#: src/django_example/ADMIN.md:7 src/pyinventory/ADMIN.md:7
+#: src/django_example/ADMIN.md:7 src/pyinventory/ADMIN.md:26
 msgid "Test sending emails, e.g.:"
 msgstr ""
 
 #. type: Plain text
 #: src/django-for-runners/ADMIN.md:14 src/django-fritzconnection/ADMIN.md:14
-#: src/django_example/ADMIN.md:14 src/pyinventory/ADMIN.md:14
+#: src/django_example/ADMIN.md:14 src/pyinventory/ADMIN.md:33
 msgid "How to debug a django YunoHost app, take a look into:"
 msgstr ""
 
-#. type: Plain text
-#: src/django-for-runners/ADMIN.md:18 src/django-fritzconnection/ADMIN.md:18
-#: src/django_example/ADMIN.md:18 src/pyinventory/ADMIN.md:18
-msgid "## local test"
+#. type: Title ##
+#: src/django-for-runners/ADMIN.md:17 src/django-fritzconnection/ADMIN.md:17
+#: src/django_example/ADMIN.md:17 src/pyinventory/ADMIN.md:36
+#, no-wrap
+msgid "local test"
 msgstr ""
 
 #. type: Plain text
 #: src/django-for-runners/ADMIN.md:32 src/django-fritzconnection/ADMIN.md:32
-#: src/django_example/ADMIN.md:32 src/pyinventory/ADMIN.md:32
+#: src/django_example/ADMIN.md:32 src/pyinventory/ADMIN.md:51
 msgid "The output will looks like:"
+msgstr ""
+
+#. type: Title ##
+#: src/pyinventory/ADMIN.md:1
+#, no-wrap
+msgid "Setup Python Interpreter"
 msgstr ""
 
 #. type: Plain text
 #: src/pyinventory/ADMIN.md:5
 msgid ""
-"Almost everything related to PyInventory's configuration is handled in a "
-"`\"../conf/settings.py\"` file.  You can edit the file `/home/yunohost.app/"
-"django_example/local_settings.py` to enable or disable features."
-msgstr ""
-
-#. type: Plain text
-#: src/pyinventory/ADMIN.md:12
-msgid ""
-"```bash ssh admin@yourdomain.tld root@yunohost:~# /home/yunohost.app/"
-"pyinventory/manage.py sendtestemail --admins ```"
+"To use a more recent Python version than the current debian stable release, "
+"we use two ways:"
 msgstr ""
 
 #. type: Bullet: '* '
-#: src/pyinventory/ADMIN.md:16
+#: src/pyinventory/ADMIN.md:8
+msgid ""
+"[\"install_python.py\" will compile and install Python from source, if "
+"needed](https://github.com/jedie/manageprojects/blob/main/docs/"
+"install_python.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/pyinventory/ADMIN.md:8
+msgid ""
+"[\"setup_python.py\" will download and setup redistributable Python from [1] "
+"if needed.](https://github.com/jedie/manageprojects/blob/main/docs/"
+"setup_python.md) (default)"
+msgstr ""
+
+#. type: Plain text
+#: src/pyinventory/ADMIN.md:10
+msgid "[1] https://github.com/indygreg/python-build-standalone/"
+msgstr ""
+
+#. type: Plain text
+#: src/pyinventory/ADMIN.md:13
+msgid ""
+"Both variants will use the OS version of Python, if it's already the "
+"requested major version.  And both will install the needed Python version "
+"only one time."
+msgstr ""
+
+#. type: Plain text
+#: src/pyinventory/ADMIN.md:15
+msgid ""
+"Compile from source will take significantly longer than the redistributable "
+"version."
+msgstr ""
+
+#. type: Plain text
+#: src/pyinventory/ADMIN.md:17
+msgid "It's possible to switch between the two variants on installation."
+msgstr ""
+
+#. type: Plain text
+#: src/pyinventory/ADMIN.md:19
+msgid ""
+"Discuss this here: https://forum.yunohost.org/t/use-newer-python-"
+"than-3-9/22568/17"
+msgstr ""
+
+#. type: Plain text
+#: src/pyinventory/ADMIN.md:24
+msgid ""
+"Almost everything related to PyInventory's configuration is handled in a "
+"`\"../conf/settings.py\"` file.  You can edit the file `/home/yunohost.app/"
+"pyinventory/local_settings.py` to enable or disable features."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: src/pyinventory/ADMIN.md:27
+#, no-wrap
+msgid ""
+"ssh admin@yourdomain.tld\n"
+"root@yunohost:~# /home/yunohost.app/pyinventory/manage.py sendtestemail --admins\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/pyinventory/ADMIN.md:35
 msgid "https://github.com/YunoHost-Apps/pyinventory_ynh#developer-info"
 msgstr ""
 
 #. type: Plain text
-#: src/pyinventory/ADMIN.md:22
+#: src/pyinventory/ADMIN.md:41
 msgid ""
 "For quicker developing of pyinventory_ynh in the context of YunoHost app, "
 "it's possible to run the Django developer server with the settings and urls "
 "made for YunoHost installation."
 msgstr ""
 
-#. type: Plain text
-#: src/pyinventory/ADMIN.md:29
-msgid ""
-"e.g.: ```bash ~$ git clone https://github.com/YunoHost-Apps/django_example."
-"git ~$ cd pyinventory_ynh/ ~/django_example$ ./dev-cli.py --help ```"
-msgstr ""
-
-#. type: Plain text
-#: src/pyinventory/ADMIN.md:60
+#. type: Fenced code block (bash)
+#: src/pyinventory/ADMIN.md:43
 #, no-wrap
 msgid ""
-"╭─ Options ────────────────────────────────────────────────────────────────────────────────────────╮\n"
-"│ --help      Show this message and exit.                                                          │\n"
-"╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n"
-"╭─ Commands ───────────────────────────────────────────────────────────────────────────────────────╮\n"
-"│ check-code-style            Check code style by calling darker + flake8                          │\n"
-"│ coverage                    Run tests and show coverage report.                                  │\n"
-"│ diffsettings                Run \"diffsettings\" manage command against a \"local_test\" YunoHost    │\n"
-"│                             installation.                                                        │\n"
-"│ fix-code-style              Fix code style of all pyinventory_ynh source code files via darker   │\n"
-"│ install                     Run pip-sync and install 'pyinventory_ynh' via pip as editable.      │\n"
-"│ local-test                  Build a \"local_test\" YunoHost installation and start the Django dev. │\n"
-"│                             server against it.                                                   │\n"
-"│ mypy                        Run Mypy (configured in pyproject.toml)                              │\n"
-"│ pip-audit                   Run pip-audit check against current requirements files               │\n"
-"│ publish                     Build and upload this project to PyPi                                │\n"
-"│ test                        Compile YunoHost files and run Django unittests                      │\n"
-"│ tox                         Run tox                                                              │\n"
-"│ update                      Update \"requirements*.txt\" dependencies files                        │\n"
-"│ update-test-snapshot-files  Update all test snapshot files (by remove and recreate all snapshot  │\n"
-"│                             files)                                                               │\n"
-"│ version                     Print version and exit                                               │\n"
-"╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n"
-"```\n"
-"[comment]: <> (✂✂✂ auto generated help end ✂✂✂)\n"
+"~$ git clone https://github.com/YunoHost-Apps/pyinventory.git\n"
+"~$ cd pyinventory_ynh/\n"
+"~/pyinventory$ ./dev-cli.py --help\n"
+msgstr ""
+
+#. type: Fenced code block
+#: src/pyinventory/ADMIN.md:53
+#, no-wrap
+msgid ""
+"usage: ./dev-cli.py [-h]\n"
+"                    {check-code-style,coverage,fix-code-style,install,mypy,nox,pip-audit,publish,test,update,update-te\n"
+"st-snapshot-files,version}\n"
+"\n"
+"\n"
+"\n"
+"╭─ options ──────────────────────────────────────────────────────────────────────────────────────────────────────────╮\n"
+"│ -h, --help        show this help message and exit                                                                  │\n"
+"╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯\n"
+"╭─ subcommands ──────────────────────────────────────────────────────────────────────────────────────────────────────╮\n"
+"│ {check-code-style,coverage,fix-code-style,install,mypy,nox,pip-audit,publish,test,update,update-test-snapshot-file │\n"
+"│ s,version}                                                                                                         │\n"
+"│     check-code-style                                                                                               │\n"
+"│                   Check code style by calling darker + flake8                                                      │\n"
+"│     coverage      Run tests and show coverage report.                                                              │\n"
+"│     fix-code-style                                                                                                 │\n"
+"│                   Fix code style of all pyinventory_ynh source code files via darker                               │\n"
+"│     install       Install requirements and 'pyinventory_ynh' via pip as editable.                                  │\n"
+"│     mypy          Run Mypy (configured in pyproject.toml)                                                          │\n"
+"│     nox           Run nox                                                                                          │\n"
+"│     pip-audit     Run pip-audit check against current requirements files                                           │\n"
+"│     publish       Build and upload this project to PyPi                                                            │\n"
+"│     test          Run unittests                                                                                    │\n"
+"│     update        Update \"requirements*.txt\" dependencies files                                                    │\n"
+"│     update-test-snapshot-files                                                                                     │\n"
+"│                   Update all test snapshot files (by remove and recreate all snapshot files)                       │\n"
+"│     version       Print version and exit                                                                           │\n"
+"╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯\n"
 msgstr ""
 
 #. type: Plain text

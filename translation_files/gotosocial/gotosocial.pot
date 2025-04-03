@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,35 +16,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/adminer/ADMIN.md:2 src/adminerevo/ADMIN.md:2 src/aeneria/ADMIN.md:2
-#: src/alltube/ADMIN.md:2 src/archivist/ADMIN.md:2 src/blogotext/ADMIN.md:2
-#: src/collabora/ADMIN.md:2 src/dato/ADMIN.md:3 src/discourse/ADMIN.md:19
-#: src/domoticz/ADMIN.md:55 src/duniter/ADMIN.md:17 src/framaforms/ADMIN.md:2
-#: src/freshrss/ADMIN.md:2 src/gitlab-runner/ADMIN.md:2
-#: src/gotosocial/ADMIN.md:17 src/hedgedoc/ADMIN.md:2
-#: src/languagetool/ADMIN.md:2 src/lionwiki-t2t/ADMIN.md:2 src/lxd/ADMIN.md:2
-#: src/matterbridge/ADMIN.md:2 src/minetest/ADMIN.md:2 src/minidlna/ADMIN.md:2
-#: src/opentracker/ADMIN.md:2 src/peertube-search-index/ADMIN.md:2
-#: src/phpsysinfo/ADMIN.md:2 src/pihole/ADMIN.md:2
-#: src/question2answer/ADMIN.md:2 src/unattended_upgrades/ADMIN.md:2
-msgid "## Configuration"
+#. type: Title ###
+#: src/adminer/ADMIN.md:1 src/adminerevo/ADMIN.md:1 src/aeneria/ADMIN.md:1
+#: src/alltube/ADMIN.md:1 src/archivist/ADMIN.md:1 src/blogotext/ADMIN.md:1
+#: src/collabora/ADMIN.md:1 src/dato/ADMIN.md:2 src/discourse/ADMIN.md:18
+#: src/domoticz/ADMIN.md:54 src/duniter/ADMIN.md:16 src/framaforms/ADMIN.md:1
+#: src/freshrss/ADMIN.md:1 src/gitlab/ADMIN.md:1 src/gitlab-runner/ADMIN.md:1
+#: src/gotosocial/ADMIN.md:16 src/hedgedoc/ADMIN.md:1
+#: src/languagetool/ADMIN.md:1 src/lionwiki-t2t/ADMIN.md:1 src/lxd/ADMIN.md:1
+#: src/matterbridge/ADMIN.md:1 src/minetest/ADMIN.md:1 src/minidlna/ADMIN.md:1
+#: src/opentracker/ADMIN.md:1 src/peertube-search-index/ADMIN.md:1
+#: src/phpsysinfo/ADMIN.md:1 src/pihole/ADMIN.md:1
+#: src/question2answer/ADMIN.md:1 src/ums/ADMIN.md:1
+#: src/unattended_upgrades/ADMIN.md:1 src/wetty/ADMIN.md:1
+#, no-wrap
+msgid "Configuration"
+msgstr ""
+
+#. type: Title ###
+#: src/gotosocial/ADMIN.md:1 src/jirafeau/ADMIN.md:5
+#, no-wrap
+msgid "Administration"
 msgstr ""
 
 #. type: Plain text
-#: src/gotosocial/ADMIN.md:2
-msgid "## Administration"
+#: src/gotosocial/ADMIN.md:3
+#, no-wrap
+msgid "You can login with the email address and password you provided during installation to your-instance.com/**admin** to administrate your GoToSocial instance.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:4
+#, no-wrap
+msgid "[The source code of this administration panel](https://github.com/superseriousbusiness/gotosocial-admin) is available on github.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/gotosocial/ADMIN.md:6
 msgid ""
-"You can login with the email address and password you provided during "
-"installation to your-instance.com/**admin** to administrate your GoToSocial "
-"instance.  [The source code of this administration panel](https://github.com/"
-"superseriousbusiness/gotosocial-admin) is available on github.  [The GTS "
-"admin panel documentation](https://docs.gotosocial.org/en/latest/admin/"
-"settings/)."
+"[The GTS admin panel documentation](https://docs.gotosocial.org/en/latest/"
+"admin/settings/)."
 msgstr ""
 
 #. type: Plain text
@@ -86,11 +97,15 @@ msgid "Moderation reports"
 msgstr ""
 
 #. type: Plain text
+#: src/gotosocial/ADMIN.md:18
+#, no-wrap
+msgid "You can configure your instance using the config panel integrated in Yunohost, you will find it in the web admin interface of your Yunohost by following these steps:  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/gotosocial/ADMIN.md:20
-msgid ""
-"You can configure your instance using the config panel integrated in "
-"Yunohost, you will find it in the web admin interface of your Yunohost by "
-"following these steps: `Applications > GoToSocial > Config Panel`"
+#, no-wrap
+msgid "`Applications > GoToSocial > Config Panel`\n"
 msgstr ""
 
 #. type: Plain text
@@ -243,25 +258,35 @@ msgid ""
 "panel instead. Otherwise your changes will be deleted at each update!"
 msgstr ""
 
+#. type: Title ##
+#: src/gotosocial/ADMIN.md:53
+#, no-wrap
+msgid "Command line (CLI)"
+msgstr ""
+
 #. type: Plain text
-#: src/gotosocial/ADMIN.md:54
-msgid "## Command line (CLI)"
+#: src/gotosocial/ADMIN.md:55
+#, no-wrap
+msgid "To use the GoToSocial command line, you first need to place yourself in the folder of your instance:  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/gotosocial/ADMIN.md:56
+#, no-wrap
+msgid "`cd /var/www/gotosocial/` or `cd /var/www/gotosocial__x/` (where `x` is the installation number of your instance, in the case of multi-installation).  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/gotosocial/ADMIN.md:58
 msgid ""
-"To use the GoToSocial command line, you first need to place yourself in the "
-"folder of your instance: `cd /var/www/gotosocial/` or `cd /var/www/"
-"gotosocial__x/` (where `x` is the installation number of your instance, in "
-"the case of multi-installation).  Feel free to refer to the [GoToSocial "
-"command line documentation](https://docs.gotosocial.org/en/latest/admin/"
-"cli/)."
+"Feel free to refer to the [GoToSocial command line documentation](https://"
+"docs.gotosocial.org/en/latest/admin/cli/)."
 msgstr ""
 
-#. type: Plain text
-#: src/gotosocial/ADMIN.md:60
-msgid "## User creation"
+#. type: Title ##
+#: src/gotosocial/ADMIN.md:59
+#, no-wrap
+msgid "User creation"
 msgstr ""
 
 #. type: Plain text
@@ -269,12 +294,10 @@ msgstr ""
 msgid "To create a new user, proceed as follows:"
 msgstr ""
 
-#. type: Plain text
-#: src/gotosocial/ADMIN.md:66
-msgid ""
-"```bash ./gotosocial --config-path config.yaml admin account create --"
-"username some_username --email someuser@example.com --password "
-"'SomeLongAndComplicatedPassword' ```"
+#. type: Fenced code block (bash)
+#: src/gotosocial/ADMIN.md:63
+#, no-wrap
+msgid "./gotosocial --config-path config.yaml admin account create --username some_username --email someuser@example.com --password 'SomeLongAndComplicatedPassword'\n"
 msgstr ""
 
 #. type: Plain text
@@ -282,25 +305,30 @@ msgstr ""
 msgid "And to promote them as an administrator of your instance:"
 msgstr ""
 
-#. type: Plain text
-#: src/gotosocial/ADMIN.md:72
-msgid ""
-"```bash ./gotosocial --config-path config.yaml admin account promote --"
-"username some_username ```"
+#. type: Fenced code block (bash)
+#: src/gotosocial/ADMIN.md:69
+#, no-wrap
+msgid "./gotosocial --config-path config.yaml admin account promote --username some_username\n"
+msgstr ""
+
+#. type: Title ##
+#: src/gotosocial/ADMIN.md:73
+#, no-wrap
+msgid "OpenID Connect"
 msgstr ""
 
 #. type: Plain text
-#: src/gotosocial/ADMIN.md:74
-msgid "## OpenID Connect"
+#: src/gotosocial/ADMIN.md:75
+#, no-wrap
+msgid "This package is not-working with the SSO (single-sign on) or LDAP integration.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/gotosocial/ADMIN.md:77
 msgid ""
-"This package is not-working with the SSO (single-sign on) or LDAP "
-"integration.  However, it can be configured to use the OpenID Connect "
-"protocol and Dex (a program that links LDAP and OpenID Connect) to enable "
-"connection with your YunoHost users."
+"However, it can be configured to use the OpenID Connect protocol and Dex (a "
+"program that links LDAP and OpenID Connect) to enable connection with your "
+"YunoHost users."
 msgstr ""
 
 #. type: Plain text
@@ -437,19 +465,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: src/gotosocial/DESCRIPTION.md:6
-msgid ""
-"The official documentation is at [docs.gotosocial.org](https://docs."
-"gotosocial.org)."
+#: src/gotosocial/DESCRIPTION.md:5
+#, no-wrap
+msgid "The official documentation is at [docs.gotosocial.org](https://docs.gotosocial.org).  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/gotosocial/DESCRIPTION.md:8
-msgid ""
-"Admins are **strongly encouraged to read the documentation** of this package "
-"after installing it. It is available in the webadmin under Applications > "
-"gotosocial (at the bottom) or [here on the package's repository](https://"
-"github.com/YunoHost-Apps/gotosocial_ynh/blob/master/doc/ADMIN.md)!"
+#, no-wrap
+msgid "Admins are **strongly encouraged to read the documentation** of this package after installing it. It is available in the webadmin under Applications > gotosocial (at the bottom) or [here on the package's repository](https://github.com/YunoHost-Apps/gotosocial_ynh/blob/master/doc/ADMIN.md)!\n"
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,72 +16,88 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/2fauth/DESCRIPTION.md:5 src/agorakit/DESCRIPTION.md:4
-#: src/ampache/DESCRIPTION.md:4 src/audiobookshelf/DESCRIPTION.md:4
-#: src/bazarr/DESCRIPTION.md:4 src/blogotext/DESCRIPTION.md:4
-#: src/bookstack/DESCRIPTION.md:4 src/borg/DESCRIPTION.md:6
-#: src/castopod/DESCRIPTION.md:6 src/chatgpt-web/DESCRIPTION.md:4
-#: src/chitchatter/DESCRIPTION.md:4 src/cinny/DESCRIPTION.md:4
-#: src/coin/DESCRIPTION.md:4 src/collabora/DESCRIPTION.md:4
-#: src/commento/DESCRIPTION.md:4 src/commet/DESCRIPTION.md:4
-#: src/concrete5/DESCRIPTION.md:4 src/converse/DESCRIPTION.md:5
-#: src/deluge/DESCRIPTION.md:4 src/dendrite/DESCRIPTION.md:4
-#: src/dex/DESCRIPTION.md:5 src/directorylister/DESCRIPTION.md:4
-#: src/docsify/DESCRIPTION.md:4 src/documize/DESCRIPTION.md:4
-#: src/dont-code/DESCRIPTION.md:7 src/dumbbudget/DESCRIPTION.md:4
-#: src/dumbdo/DESCRIPTION.md:4 src/dumbdrop/DESCRIPTION.md:4
-#: src/dumbpad/DESCRIPTION.md:4 src/dumbwhois/DESCRIPTION.md:4
-#: src/ergo/DESCRIPTION.md:4 src/faceprivacy/DESCRIPTION.md:4
-#: src/feber/DESCRIPTION.md:4 src/fider/DESCRIPTION.md:4
-#: src/forgejo/DESCRIPTION.md:6 src/galette/DESCRIPTION.md:4
-#: src/garage/DESCRIPTION.md:6 src/gemserv/DESCRIPTION.md:4
-#: src/getsimple/DESCRIPTION.md:4 src/gitlist/DESCRIPTION.md:4
-#: src/gogs/DESCRIPTION.md:4 src/gossa/DESCRIPTION.md:4
-#: src/grist/DESCRIPTION.md:4 src/h5ai/DESCRIPTION.md:4
-#: src/headscale/DESCRIPTION.md:33 src/hedgedoc/DESCRIPTION.md:5
-#: src/homarr/DESCRIPTION.md:5 src/homeassistant/DESCRIPTION.md:4
-#: src/hydrogen/DESCRIPTION.md:4 src/immich/DESCRIPTION.md:4
-#: src/isso/DESCRIPTION.md:5 src/kanboard/DESCRIPTION.md:4
-#: src/kavita/DESCRIPTION.md:4 src/kiwix/DESCRIPTION.md:4
-#: src/komga/DESCRIPTION.md:4 src/librarian/DESCRIPTION.md:4
-#: src/libremdb/DESCRIPTION.md:4 src/librespeed/DESCRIPTION.md:4
-#: src/librex/DESCRIPTION.md:4 src/matrix-appservice-irc/DESCRIPTION.md:7
-#: src/mattermost/DESCRIPTION.md:16 src/mediatracker/DESCRIPTION.md:4
-#: src/minchat/DESCRIPTION.md:4 src/mostlymatter/DESCRIPTION.md:7
-#: src/mstream/DESCRIPTION.md:4 src/my_webdav/DESCRIPTION.md:4
-#: src/mytinytodo/DESCRIPTION.md:4 src/navidrome/DESCRIPTION.md:5
-#: src/nitter/DESCRIPTION.md:5 src/nodered/DESCRIPTION.md:6
-#: src/omeka-s/DESCRIPTION.md:4 src/opencloud/DESCRIPTION.md:4
-#: src/openproject/DESCRIPTION.md:4 src/opensearch/DESCRIPTION.md:4
-#: src/outline/DESCRIPTION.md:4 src/pairdrop/DESCRIPTION.md:4
-#: src/paperless-ngx/DESCRIPTION.md:4 src/pgweb/DESCRIPTION.md:4
-#: src/phanpy/DESCRIPTION.md:15 src/photoprism/DESCRIPTION.md:4
-#: src/phplicensewatcher/DESCRIPTION.md:4 src/planka/DESCRIPTION.md:4
-#: src/plateau/DESCRIPTION.md:4 src/pmwiki/DESCRIPTION.md:4
-#: src/pytition/DESCRIPTION.md:4 src/redlib/DESCRIPTION.md:4
-#: src/restic/DESCRIPTION.md:4 src/rocketchat/DESCRIPTION.md:4
-#: src/samba/DESCRIPTION.md:4 src/screego/DESCRIPTION.md:4
-#: src/scrutiny/DESCRIPTION.md:6 src/shaarli/DESCRIPTION.md:4
-#: src/shiori/DESCRIPTION.md:4 src/ssbroom/DESCRIPTION.md:8
-#: src/statpingng/DESCRIPTION.md:4 src/stirling-pdf/DESCRIPTION.md:4
-#: src/tableaunoir/DESCRIPTION.md:4 src/technitium-dns/DESCRIPTION.md:4
-#: src/teddit/DESCRIPTION.md:4 src/timemachine/DESCRIPTION.md:4
-#: src/tinyfilemanager/DESCRIPTION.md:6 src/tldraw/DESCRIPTION.md:4
-#: src/tooljet/DESCRIPTION.md:4 src/traccar/DESCRIPTION.md:4
-#: src/traggo/DESCRIPTION.md:4 src/transfersh/DESCRIPTION.md:5
-#: src/ttrss/DESCRIPTION.md:4 src/tube/DESCRIPTION.md:4
-#: src/turtl/DESCRIPTION.md:4 src/umami/DESCRIPTION.md:4
-#: src/uptime-kuma/DESCRIPTION.md:4 src/vikunja/DESCRIPTION.md:4
-#: src/watchyourlan/DESCRIPTION.md:4 src/whoogle/DESCRIPTION.md:4
-#: src/yourls/DESCRIPTION.md:5 src/zusam/DESCRIPTION.md:5
-#: src/zwiicms/DESCRIPTION.md:4
-msgid "### Features"
+#. type: Title ###
+#: src/13ft/DESCRIPTION.md:3 src/2fauth/DESCRIPTION.md:4
+#: src/agorakit/DESCRIPTION.md:3 src/ampache/DESCRIPTION.md:3
+#: src/audiobookshelf/DESCRIPTION.md:3 src/bazarr/DESCRIPTION.md:3
+#: src/blogotext/DESCRIPTION.md:3 src/bookstack/DESCRIPTION.md:3
+#: src/borg/DESCRIPTION.md:5 src/cac-proxy/DESCRIPTION.md:6
+#: src/castopod/DESCRIPTION.md:5 src/chatgpt-web/DESCRIPTION.md:3
+#: src/cheky/DESCRIPTION.md:1 src/chitchatter/DESCRIPTION.md:3
+#: src/cinny/DESCRIPTION.md:3 src/coin/DESCRIPTION.md:3
+#: src/collabora/DESCRIPTION.md:3 src/commento/DESCRIPTION.md:3
+#: src/commet/DESCRIPTION.md:3 src/concrete5/DESCRIPTION.md:3
+#: src/converse/DESCRIPTION.md:4 src/crabfit/DESCRIPTION.md:5
+#: src/deluge/DESCRIPTION.md:3 src/dendrite/ADMIN.md:3
+#: src/dendrite/DESCRIPTION.md:3 src/dex/DESCRIPTION.md:4
+#: src/directorylister/DESCRIPTION.md:3 src/docsify/DESCRIPTION.md:3
+#: src/documize/DESCRIPTION.md:3 src/dont-code/DESCRIPTION.md:6
+#: src/dumbbudget/DESCRIPTION.md:3 src/dumbdo/DESCRIPTION.md:3
+#: src/dumbdrop/DESCRIPTION.md:3 src/dumbpad/DESCRIPTION.md:3
+#: src/dumbwhois/DESCRIPTION.md:3 src/easyappointments/DESCRIPTION.md:3
+#: src/ergo/DESCRIPTION.md:3 src/faceprivacy/DESCRIPTION.md:3
+#: src/feber/DESCRIPTION.md:3 src/fider/DESCRIPTION.md:3
+#: src/forgejo/DESCRIPTION.md:5 src/galette/DESCRIPTION.md:3
+#: src/garage/DESCRIPTION.md:5 src/gemserv/DESCRIPTION.md:3
+#: src/getsimple/DESCRIPTION.md:3 src/gitlist/DESCRIPTION.md:3
+#: src/gogs/DESCRIPTION.md:3 src/gossa/DESCRIPTION.md:3
+#: src/grist/DESCRIPTION.md:3 src/h5ai/DESCRIPTION.md:3
+#: src/headscale/DESCRIPTION.md:32 src/hedgedoc/DESCRIPTION.md:4
+#: src/homarr/DESCRIPTION.md:4 src/homeassistant/DESCRIPTION.md:3
+#: src/hydrogen/DESCRIPTION.md:3 src/immich/DESCRIPTION.md:3
+#: src/influxdb_v2/DESCRIPTION.md:3 src/isso/DESCRIPTION.md:4
+#: src/kanboard/DESCRIPTION.md:3 src/kavita/DESCRIPTION.md:3
+#: src/kiwix/DESCRIPTION.md:3 src/komga/DESCRIPTION.md:3
+#: src/librarian/DESCRIPTION.md:3 src/libremdb/DESCRIPTION.md:3
+#: src/librespeed/DESCRIPTION.md:3 src/librex/DESCRIPTION.md:3
+#: src/matrix-appservice-irc/DESCRIPTION.md:6 src/mattermost/DESCRIPTION.md:15
+#: src/mediatracker/DESCRIPTION.md:3 src/minchat/DESCRIPTION.md:3
+#: src/mongo-express/DESCRIPTION.md:4 src/mostlymatter/DESCRIPTION.md:6
+#: src/mstream/DESCRIPTION.md:3 src/my_webdav/DESCRIPTION.md:3
+#: src/mydrive/DESCRIPTION.md:3 src/mytinytodo/DESCRIPTION.md:3
+#: src/navidrome/DESCRIPTION.md:4 src/netdata/ADMIN.md:56
+#: src/nitter/DESCRIPTION.md:4 src/nodered/DESCRIPTION.md:5
+#: src/olivetin/DESCRIPTION.md:15 src/omeka-s/DESCRIPTION.md:3
+#: src/opencloud/DESCRIPTION.md:3 src/openproject/DESCRIPTION.md:3
+#: src/opensearch/DESCRIPTION.md:3 src/outline/DESCRIPTION.md:3
+#: src/pairdrop/DESCRIPTION.md:3 src/paperless-ngx/DESCRIPTION.md:3
+#: src/pgweb/DESCRIPTION.md:3 src/phanpy/DESCRIPTION.md:14
+#: src/photoprism/DESCRIPTION.md:3 src/phplicensewatcher/DESCRIPTION.md:3
+#: src/planka/DESCRIPTION.md:3 src/plateau/DESCRIPTION.md:3
+#: src/pmwiki/DESCRIPTION.md:3 src/pytition/DESCRIPTION.md:3
+#: src/redlib/DESCRIPTION.md:3 src/restic/DESCRIPTION.md:3
+#: src/rocketchat/DESCRIPTION.md:3 src/samba/DESCRIPTION.md:3
+#: src/screego/DESCRIPTION.md:3 src/scrutiny/DESCRIPTION.md:5
+#: src/shaarli/DESCRIPTION.md:3 src/shiori/DESCRIPTION.md:3
+#: src/silverbullet/DESCRIPTION.md:5 src/ssbroom/DESCRIPTION.md:7
+#: src/statpingng/DESCRIPTION.md:3 src/stirling-pdf/DESCRIPTION.md:3
+#: src/tableaunoir/DESCRIPTION.md:3 src/technitium-dns/DESCRIPTION.md:3
+#: src/teddit/DESCRIPTION.md:3 src/timemachine/DESCRIPTION.md:3
+#: src/tinyfilemanager/DESCRIPTION.md:5 src/tldraw/DESCRIPTION.md:3
+#: src/tooljet/DESCRIPTION.md:3 src/traccar/DESCRIPTION.md:3
+#: src/traggo/DESCRIPTION.md:3 src/transfersh/DESCRIPTION.md:4
+#: src/ttrss/DESCRIPTION.md:3 src/tube/DESCRIPTION.md:3
+#: src/turtl/DESCRIPTION.md:3 src/umami/DESCRIPTION.md:3
+#: src/uptime-kuma/DESCRIPTION.md:3 src/vikunja/DESCRIPTION.md:3
+#: src/watchyourlan/DESCRIPTION.md:3 src/whoogle/DESCRIPTION.md:3
+#: src/yourls/DESCRIPTION.md:4 src/zusam/DESCRIPTION.md:4
+#: src/zwiicms/DESCRIPTION.md:3
+#, no-wrap
+msgid "Features"
 msgstr ""
 
-#. type: Plain text
-#: src/garage/ADMIN.md:2
-msgid "# Limitations"
+#. type: Title ###
+#: src/archivist/ADMIN.md:6 src/audiobookshelf/ADMIN.md:1
+#: src/code-server/ADMIN.md:5 src/dendrite/ADMIN.md:7 src/domoticz/ADMIN.md:99
+#: src/elasticsearch7/ADMIN.md:1 src/elasticsearch8/ADMIN.md:1
+#: src/garage/ADMIN.md:1 src/grist/DESCRIPTION.md:12 src/kresus/ADMIN.md:1
+#: src/mailman3/DESCRIPTION.md:4 src/mautrix_facebook/ADMIN.md:54
+#: src/mautrix_signal/ADMIN.md:75 src/nullboard/ADMIN.md:1
+#: src/opensearch/DESCRIPTION.md:7 src/pihole/ADMIN.md:5
+#: src/retroarch/ADMIN.md:8 src/strut/ADMIN.md:1 src/ums/ADMIN.md:10
+#: src/wallabag2/ADMIN.md:1
+#, no-wrap
+msgid "Limitations"
 msgstr ""
 
 #. type: Bullet: ' * '
@@ -99,9 +115,10 @@ msgid ""
 "create a permanent redirection in your router/box"
 msgstr ""
 
-#. type: Plain text
-#: src/garage/ADMIN.md:7
-msgid "# Informations you should be aware of:"
+#. type: Title #
+#: src/garage/ADMIN.md:6
+#, no-wrap
+msgid "Informations you should be aware of:"
 msgstr ""
 
 #. type: Bullet: ' * '
@@ -144,9 +161,10 @@ msgid ""
 "objects."
 msgstr ""
 
-#. type: Plain text
-#: src/garage/ADMIN.md:15
-msgid "## How to use the S3 API from other softwares"
+#. type: Title ##
+#: src/garage/ADMIN.md:14
+#, no-wrap
+msgid "How to use the S3 API from other softwares"
 msgstr ""
 
 #. type: Plain text
@@ -166,9 +184,10 @@ msgid ""
 "documentation/connect/cli/) you can use `localhost:S3API_PORT`."
 msgstr ""
 
-#. type: Plain text
-#: src/garage/ADMIN.md:22 src/tinyfilemanager/ADMIN.md:2
-msgid "## How to use"
+#. type: Title ##
+#: src/garage/ADMIN.md:21 src/tinyfilemanager/ADMIN.md:1
+#, no-wrap
+msgid "How to use"
 msgstr ""
 
 #. type: Plain text
@@ -181,14 +200,25 @@ msgid ""
 "`bucketname.DOMAIN`."
 msgstr ""
 
-#. type: Plain text
+#. type: Title ##
+#: src/garage/ADMIN.md:25
+#, no-wrap
+msgid "How to run commands for Garage"
+msgstr ""
+
+#. type: Bullet: '1. '
 #: src/garage/ADMIN.md:27
 msgid ""
-"## How to run commands for Garage 1. Use `yunohost app shell garage` to use "
-"the command line in Garage own environnement (don't forget to `exit` at the "
-"end). You will be located in `__INSTALL_DIR__` own directory.  2. Then for "
-"each use of the `garage` command, you need to specify the config file as a "
-"parameter `garage -c garage.toml [the actions you wish to run]`."
+"Use `yunohost app shell garage` to use the command line in Garage own "
+"environnement (don't forget to `exit` at the end). You will be located in "
+"`__INSTALL_DIR__` own directory."
+msgstr ""
+
+#. type: Bullet: '2. '
+#: src/garage/ADMIN.md:27
+msgid ""
+"Then for each use of the `garage` command, you need to specify the config "
+"file as a parameter `garage -c garage.toml [the actions you wish to run]`."
 msgstr ""
 
 #. type: Plain text

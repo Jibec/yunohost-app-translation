@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/jirafeau/ADMIN.md:2
-msgid "### Changing the conditions of use of the service"
+#. type: Title ###
+#: src/gotosocial/ADMIN.md:1 src/jirafeau/ADMIN.md:5
+#, no-wrap
+msgid "Administration"
+msgstr ""
+
+#. type: Title ###
+#: src/jirafeau/ADMIN.md:1
+#, no-wrap
+msgid "Changing the conditions of use of the service"
 msgstr ""
 
 #. type: Plain text
@@ -30,11 +37,6 @@ msgid ""
 "rename it to `/lib/tos.local.txt` and adapt it to your own needs. If you "
 "update the installation, then only the `tos.original.txt` file may change "
 "eventually, not your `tos.local.txt file`."
-msgstr ""
-
-#. type: Plain text
-#: src/jirafeau/ADMIN.md:6
-msgid "### Administration"
 msgstr ""
 
 #. type: Plain text

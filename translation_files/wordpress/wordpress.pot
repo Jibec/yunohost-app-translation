@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/wordpress/ADMIN.md:2
-msgid "### Updating WordPress"
+#. type: Title ###
+#: src/wordpress/ADMIN.md:1
+#, no-wrap
+msgid "Updating WordPress"
 msgstr ""
 
 #. type: Plain text
@@ -31,9 +32,10 @@ msgid ""
 "YunoHost admin panel."
 msgstr ""
 
-#. type: Plain text
-#: src/wordpress/ADMIN.md:6
-msgid "### Security"
+#. type: Title ###
+#: src/wordpress/ADMIN.md:5
+#, no-wrap
+msgid "Security"
 msgstr ""
 
 #. type: Plain text
@@ -64,9 +66,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: src/wordpress/DESCRIPTION.md:1
+#, no-wrap
+msgid "WordPress is open source software you can use to create a beautiful website, blog, or app.  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/wordpress/DESCRIPTION.md:2
 msgid ""
-"WordPress is open source software you can use to create a beautiful website, "
-"blog, or app.  With this package, you can even activate the [multisite]"
-"(https://wordpress.org/support/article/glossary/#multisite) option."
+"With this package, you can even activate the [multisite](https://wordpress."
+"org/support/article/glossary/#multisite) option."
 msgstr ""

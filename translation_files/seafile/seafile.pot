@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/seafile/ADMIN.md:2
-msgid "### Multi-users support"
+#. type: Title ##
+#: src/gitea/ADMIN.md:82 src/seafile/ADMIN.md:13 src/synapse/ADMIN.md:100
+#, no-wrap
+msgid "Backup"
+msgstr ""
+
+#. type: Title ###
+#: src/lionwiki-t2t/ADMIN.md:11 src/seafile/ADMIN.md:1
+#, no-wrap
+msgid "Multi-users support"
 msgstr ""
 
 #. type: Plain text
@@ -27,20 +34,26 @@ msgid "This app support LDAP and the SSO authentification."
 msgstr ""
 
 #. type: Plain text
-#: src/seafile/ADMIN.md:12
+#: src/seafile/ADMIN.md:7
 msgid ""
 "If you have Seafile installed before 7.x and you have more than one domain "
 "for users in Yunohost or Seafile app is installed on a different domain, you "
 "need to migrate your accounts.  You can use the provided action at https://"
 "domain.tld/yunohost/admin/#/apps/seafile/actions. You can also use this "
-"following command to migrate all of your accounts: ``` yunohost app action "
-"run seafile migrate_user_email_to_mail_email ``` See [issue#44](https://"
-"github.com/YunoHost-Apps/seafile_ynh/issues/44)  for more information."
+"following command to migrate all of your accounts:"
+msgstr ""
+
+#. type: Fenced code block
+#: src/seafile/ADMIN.md:7
+#, no-wrap
+msgid "yunohost app action run seafile migrate_user_email_to_mail_email\n"
 msgstr ""
 
 #. type: Plain text
-#: src/seafile/ADMIN.md:14
-msgid "### Backup"
+#: src/seafile/ADMIN.md:12
+msgid ""
+"See [issue#44](https://github.com/YunoHost-Apps/seafile_ynh/issues/44)  for "
+"more information."
 msgstr ""
 
 #. type: Plain text

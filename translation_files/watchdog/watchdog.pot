@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
+#: src/watchdog/DESCRIPTION.md:1
+#, no-wrap
+msgid "A watchdog service makes sure your server is still running and reboots it if necessary.  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/watchdog/DESCRIPTION.md:3
 msgid ""
-"A watchdog service makes sure your server is still running and reboots it if "
-"necessary.  It better (only?) works if your server has a [hardware watchdog "
-"device](https://en.wikipedia.org/wiki/Watchdog_timer)."
+"It better (only?) works if your server has a [hardware watchdog device]"
+"(https://en.wikipedia.org/wiki/Watchdog_timer)."
 msgstr ""
 
 #. type: Plain text

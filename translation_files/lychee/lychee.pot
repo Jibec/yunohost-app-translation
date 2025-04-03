@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,18 +23,42 @@ msgid ""
 "configuration (custom js) without the leading :"
 msgstr ""
 
-#. type: Plain text
-#: src/lychee/ADMIN.md:11
+#. type: Fenced code block
+#: src/lychee/ADMIN.md:3
+#, no-wrap
 msgid ""
-"``` <!-- Matomo --> <script> ``` or ending : ``` </script> <!-- End Matomo "
-"Code --> ```"
+"<!-- Matomo -->\n"
+"<script>\n"
+msgstr ""
+
+#. type: Plain text
+#: src/lychee/ADMIN.md:8
+msgid "or ending :"
+msgstr ""
+
+#. type: Fenced code block
+#: src/lychee/ADMIN.md:8
+#, no-wrap
+msgid ""
+"</script>\n"
+"<!-- End Matomo Code -->\n"
+msgstr ""
+
+#. type: Plain text
+#: src/lychee/DESCRIPTION.md:1
+#, no-wrap
+msgid "Lychee is a free photo-management tool, which runs on your server or web-space.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/lychee/DESCRIPTION.md:2
+#, no-wrap
+msgid "Upload, manage and share photos like from a native application.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/lychee/DESCRIPTION.md:3
 msgid ""
-"Lychee is a free photo-management tool, which runs on your server or web-"
-"space.  Upload, manage and share photos like from a native application.  "
 "Lychee comes with everything you need and all your photos are stored "
 "securely."
 msgstr ""

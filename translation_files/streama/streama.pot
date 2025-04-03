@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/gitlab-runner/ADMIN.md:10 src/lionwiki-t2t/ADMIN.md:20
-#: src/mautrix_facebook/ADMIN.md:59 src/streama/ADMIN.md:8 src/strut/ADMIN.md:5
-msgid "## Additional information"
+#. type: Title ##
+#: src/gitlab-runner/ADMIN.md:9 src/lionwiki-t2t/ADMIN.md:19
+#: src/mautrix_facebook/ADMIN.md:58 src/streama/ADMIN.md:7 src/strut/ADMIN.md:4
+#, no-wrap
+msgid "Additional information"
 msgstr ""
 
-#. type: Plain text
-#: src/streama/ADMIN.md:2
-msgid "## Installation guide"
+#. type: Title ##
+#: src/streama/ADMIN.md:1
+#, no-wrap
+msgid "Installation guide"
 msgstr ""
 
 #. type: Plain text
@@ -61,9 +63,10 @@ msgstr ""
 msgid "This can be changed in settings."
 msgstr ""
 
-#. type: Plain text
-#: src/streama/ADMIN.md:16
-msgid "### Convert video:"
+#. type: Title ###
+#: src/streama/ADMIN.md:15
+#, no-wrap
+msgid "Convert video:"
 msgstr ""
 
 #. type: Plain text
@@ -76,9 +79,10 @@ msgid ""
 "        $ convert_movies -avconv\n"
 msgstr ""
 
-#. type: Plain text
-#: src/streama/ADMIN.md:23
-msgid "### Avidemux compilation:"
+#. type: Title ###
+#: src/streama/ADMIN.md:22
+#, no-wrap
+msgid "Avidemux compilation:"
 msgstr ""
 
 #. type: Plain text

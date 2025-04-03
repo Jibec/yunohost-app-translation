@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/pixelfed/ADMIN.md:2 src/pixelfedglitch/ADMIN.md:2
-msgid "### Administrator"
+#. type: Title ###
+#: src/pixelfed/ADMIN.md:1 src/pixelfedglitch/ADMIN.md:1
+#, no-wrap
+msgid "Administrator"
 msgstr ""
 
 #. type: Plain text
@@ -52,9 +53,10 @@ msgstr ""
 msgid "`sudo php__PHP_VERSION__ __INSTALL_DIR__/artisan user:create`"
 msgstr ""
 
-#. type: Plain text
-#: src/pixelfed/ADMIN.md:14 src/pixelfedglitch/ADMIN.md:14
-msgid "### Allow/Close registrations"
+#. type: Title ###
+#: src/pixelfed/ADMIN.md:13 src/pixelfedglitch/ADMIN.md:13
+#, no-wrap
+msgid "Allow/Close registrations"
 msgstr ""
 
 #. type: Plain text
@@ -66,9 +68,10 @@ msgid ""
 "the settings."
 msgstr ""
 
-#. type: Plain text
-#: src/pixelfed/ADMIN.md:20 src/pixelfedglitch/ADMIN.md:20
-msgid "### Manually verifying emails"
+#. type: Title ###
+#: src/pixelfed/ADMIN.md:19 src/pixelfedglitch/ADMIN.md:19
+#, no-wrap
+msgid "Manually verifying emails"
 msgstr ""
 
 #. type: Plain text
@@ -80,9 +83,10 @@ msgid ""
 "`php__PHP_VERSION__ __INSTALL_DIR__/artisan user:verify UserName`."
 msgstr ""
 
-#. type: Plain text
-#: src/pixelfed/ADMIN.md:24 src/pixelfedglitch/ADMIN.md:24
-msgid "### Disable search engine indexing"
+#. type: Title ###
+#: src/pixelfed/ADMIN.md:23 src/pixelfedglitch/ADMIN.md:23
+#, no-wrap
+msgid "Disable search engine indexing"
 msgstr ""
 
 #. type: Plain text
@@ -92,9 +96,12 @@ msgid ""
 "so on), edit `__INSTALL_DIR__/public/robots.txt` like this:"
 msgstr ""
 
-#. type: Plain text
-#: src/pixelfed/ADMIN.md:31 src/pixelfedglitch/ADMIN.md:31
-msgid "```text User-agent: * Disallow: / ```"
+#. type: Fenced code block (text)
+#: src/pixelfed/ADMIN.md:27 src/pixelfedglitch/ADMIN.md:27
+#, no-wrap
+msgid ""
+"User-agent: *\n"
+"Disallow: /\n"
 msgstr ""
 
 #. type: Plain text
@@ -111,9 +118,10 @@ msgid ""
 "are present in that file."
 msgstr ""
 
-#. type: Plain text
-#: src/pixelfed/ADMIN.md:37 src/pixelfedglitch/ADMIN.md:37
-msgid "### Applying changes from the `.env` config file"
+#. type: Title ###
+#: src/pixelfed/ADMIN.md:36 src/pixelfedglitch/ADMIN.md:36
+#, no-wrap
+msgid "Applying changes from the `.env` config file"
 msgstr ""
 
 #. type: Plain text
@@ -125,9 +133,10 @@ msgid ""
 "in account (including from the admin web UI)."
 msgstr ""
 
-#. type: Plain text
-#: src/pixelfed/ADMIN.md:42 src/pixelfedglitch/ADMIN.md:42
-msgid "### Removing avatar cache to save space"
+#. type: Title ###
+#: src/pixelfed/ADMIN.md:41 src/pixelfedglitch/ADMIN.md:41
+#, no-wrap
+msgid "Removing avatar cache to save space"
 msgstr ""
 
 #. type: Plain text
@@ -142,9 +151,10 @@ msgid ""
 "save some disk space."
 msgstr ""
 
-#. type: Plain text
-#: src/pixelfed/ADMIN.md:48 src/pixelfedglitch/ADMIN.md:48
-msgid "### Fix missing avatars or refetch them"
+#. type: Title ###
+#: src/pixelfed/ADMIN.md:47 src/pixelfedglitch/ADMIN.md:47
+#, no-wrap
+msgid "Fix missing avatars or refetch them"
 msgstr ""
 
 #. type: Plain text
@@ -169,9 +179,10 @@ msgid ""
 "and CPU)."
 msgstr ""
 
-#. type: Plain text
-#: src/pixelfed/ADMIN.md:57 src/pixelfedglitch/ADMIN.md:57
-msgid "### When using S3"
+#. type: Title ###
+#: src/pixelfed/ADMIN.md:56 src/pixelfedglitch/ADMIN.md:56
+#, no-wrap
+msgid "When using S3"
 msgstr ""
 
 #. type: Bullet: '- '

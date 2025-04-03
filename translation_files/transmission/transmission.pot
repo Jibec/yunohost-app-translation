@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/transmission/ADMIN.md:2
-msgid "## General tips"
+#. type: Title ##
+#: src/transmission/ADMIN.md:1
+#, no-wrap
+msgid "General tips"
 msgstr ""
 
 #. type: Plain text
@@ -36,9 +37,10 @@ msgid ""
 "these files."
 msgstr ""
 
-#. type: Plain text
-#: src/transmission/ADMIN.md:8
-msgid "## Alternative to the web ui"
+#. type: Title ##
+#: src/transmission/ADMIN.md:7
+#, no-wrap
+msgid "Alternative to the web ui"
 msgstr ""
 
 #. type: Plain text

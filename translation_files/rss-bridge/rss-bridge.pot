@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/rss-bridge/ADMIN.md:2
-msgid "### Enabling/disabling bridges"
+#. type: Title ###
+#: src/rss-bridge/ADMIN.md:1
+#, no-wrap
+msgid "Enabling/disabling bridges"
 msgstr ""
 
 #. type: Plain text
@@ -28,27 +29,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: src/rss-bridge/ADMIN.md:7
+#: src/rss-bridge/ADMIN.md:6
 msgid ""
 "If you dont want all bridges enabled do like this in `__INSTALL_DIR__/config."
-"ini.php`: ```"
+"ini.php`:"
 msgstr ""
 
-#. type: Plain text
-#: src/rss-bridge/ADMIN.md:9
-msgid "[system]"
-msgstr ""
-
-#. type: Plain text
-#: src/rss-bridge/ADMIN.md:14
+#. type: Fenced code block
+#: src/rss-bridge/ADMIN.md:6
+#, no-wrap
 msgid ""
-"; Only these 3 bridges are enabled enabled_bridges[] = CssSelectorBridge "
-"enabled_bridges[] = FeedMerge enabled_bridges[] = FeedReducerBridge"
-msgstr ""
-
-#. type: Plain text
-#: src/rss-bridge/ADMIN.md:16
-msgid ";enabled_bridges[] = * ```"
+"\n"
+"[system]\n"
+"\n"
+"; Only these 3 bridges are enabled\n"
+"enabled_bridges[] = CssSelectorBridge\n"
+"enabled_bridges[] = FeedMerge\n"
+"enabled_bridges[] = FeedReducerBridge\n"
+"\n"
+";enabled_bridges[] = *\n"
 msgstr ""
 
 #. type: Plain text
@@ -67,9 +66,10 @@ msgid ""
 "a list of feed aggregators on Wikipedia."
 msgstr ""
 
-#. type: Plain text
-#: src/rss-bridge/DESCRIPTION.md:6
-msgid "### Supported sites/pages (main)"
+#. type: Title ###
+#: src/rss-bridge/DESCRIPTION.md:5
+#, no-wrap
+msgid "Supported sites/pages (main)"
 msgstr ""
 
 #. type: Bullet: ' * '
@@ -184,9 +184,10 @@ msgstr ""
 msgid "Plus [many other bridges](bridges/) to enable, thanks to the community"
 msgstr ""
 
-#. type: Plain text
-#: src/rss-bridge/DESCRIPTION.md:28
-msgid "### Output format"
+#. type: Title ###
+#: src/rss-bridge/DESCRIPTION.md:27
+#, no-wrap
+msgid "Output format"
 msgstr ""
 
 #. type: Plain text

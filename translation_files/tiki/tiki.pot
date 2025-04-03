@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/tiki/ADMIN.md:2
-msgid "### Storing your uploaded files"
+#. type: Title ###
+#: src/olivetin/DESCRIPTION.md:3 src/tiki/DESCRIPTION.md:3
+#, no-wrap
+msgid "Use cases"
+msgstr ""
+
+#. type: Title ###
+#: src/tiki/ADMIN.md:1
+#, no-wrap
+msgid "Storing your uploaded files"
 msgstr ""
 
 #. type: Plain text
@@ -45,11 +52,6 @@ msgstr ""
 msgid ""
 "Tiki Wiki CMS Groupware is the Free / Libre / Open Source Web Application "
 "with the most built-in features."
-msgstr ""
-
-#. type: Plain text
-#: src/tiki/DESCRIPTION.md:4
-msgid "### Use cases"
 msgstr ""
 
 #. type: Bullet: '- '

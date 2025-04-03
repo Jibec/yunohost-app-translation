@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/reverseproxy/ADMIN.md:2
-msgid "### Backend web path"
+#. type: Title ###
+#: src/reverseproxy/ADMIN.md:1
+#, no-wrap
+msgid "Backend web path"
 msgstr ""
 
 #. type: Plain text
@@ -33,12 +34,8 @@ msgstr ""
 
 #. type: Plain text
 #: src/reverseproxy/ADMIN.md:6
-msgid ""
-"To support relative URLs from the backend, accessing the application via "
-"`http(s)://__DOMAIN__/proxy` will permanent redirect (302) to `http(s)://"
-"__DOMAIN__/proxy/` (trailing slash). Otherwise, a relative link like `<link "
-"rel=\"stylesheet\" href=\"style.css\">` would try to load `http(s)://"
-"__DOMAIN__/style.css` which would fail."
+#, no-wrap
+msgid "To support relative URLs from the backend, accessing the application via `http(s)://__DOMAIN__/proxy` will permanent redirect (302) to `http(s)://__DOMAIN__/proxy/` (trailing slash). Otherwise, a relative link like `<link rel=\"stylesheet\" href=\"style.css\">` would try to load `http(s)://__DOMAIN__/style.css` which would fail.\n"
 msgstr ""
 
 #. type: Plain text
@@ -49,9 +46,10 @@ msgid ""
 "application on a dedicated (sub)domain."
 msgstr ""
 
-#. type: Plain text
-#: src/reverseproxy/ADMIN.md:10
-msgid "### Plaintext localhost backend"
+#. type: Title ###
+#: src/reverseproxy/ADMIN.md:9
+#, no-wrap
+msgid "Plaintext localhost backend"
 msgstr ""
 
 #. type: Plain text

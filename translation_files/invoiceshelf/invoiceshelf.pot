@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
+#: src/invoiceshelf/ADMIN.md:1
+#, no-wrap
+msgid "Unfortunately, for now, we can't automatically configure the app for you.  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/invoiceshelf/ADMIN.md:3
-msgid ""
-"Unfortunately, for now, we can't automatically configure the app for you.  "
-"So bear with us and:"
+msgid "So bear with us and:"
 msgstr ""
 
 #. type: Bullet: '- '

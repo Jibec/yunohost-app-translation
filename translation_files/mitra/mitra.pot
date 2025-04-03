@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/forte/ADMIN.md:2 src/mitra/ADMIN.md:2 src/streams/ADMIN.md:2
-msgid "### Register a new domain and add it to YunoHost"
+#. type: Title ###
+#: src/forte/ADMIN.md:1 src/hubzilla/ADMIN.md:4 src/mitra/ADMIN.md:1
+#: src/streams/ADMIN.md:1
+#, no-wrap
+msgid "Register a new domain and add it to YunoHost"
 msgstr ""
 
 #. type: Bullet: '- '

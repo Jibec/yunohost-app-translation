@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/piped/DESCRIPTION.md:2
-msgid "# The Problem"
+#. type: Title ###
+#: src/beehive/DESCRIPTION.md:3 src/bloat/DESCRIPTION.md:4
+#: src/glpi/DESCRIPTION.md:3 src/invidious/DESCRIPTION.md:4
+#: src/kiwiirc/DESCRIPTION.md:3 src/moncycle/DESCRIPTION.md:3
+#: src/piped/DESCRIPTION.md:7 src/psitransfer/DESCRIPTION.md:3
+#: src/slingcode/DESCRIPTION.md:3 src/thelounge/DESCRIPTION.md:3
+#, no-wrap
+msgid "Features:"
+msgstr ""
+
+#. type: Title #
+#: src/piped/DESCRIPTION.md:1
+#, no-wrap
+msgid "The Problem"
 msgstr ""
 
 #. type: Plain text
@@ -34,11 +45,6 @@ msgstr ""
 msgid ""
 "By using Piped, you can freely watch and listen to content without the fear "
 "of prying eyes watching everything you are doing."
-msgstr ""
-
-#. type: Plain text
-#: src/piped/DESCRIPTION.md:8
-msgid "## Features:"
 msgstr ""
 
 #. type: Plain text

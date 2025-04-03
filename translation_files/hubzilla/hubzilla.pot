@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,27 +16,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Title ##
+#: src/code-server/ADMIN.md:1 src/hubzilla/ADMIN.md:1
+#, no-wrap
+msgid "Installation"
+msgstr ""
+
+#. type: Title ###
+#: src/forte/ADMIN.md:1 src/hubzilla/ADMIN.md:4 src/mitra/ADMIN.md:1
+#: src/streams/ADMIN.md:1
+#, no-wrap
+msgid "Register a new domain and add it to YunoHost"
+msgstr ""
+
 #. type: Plain text
 #: src/hubzilla/ADMIN.md:3
 msgid ""
-"## Installation Before installing, read the [Hubzilla installation "
-"instructions](https://framagit.org/hubzilla/core/blob/master/install/INSTALL."
-"txt) for important information about:"
+"Before installing, read the [Hubzilla installation instructions](https://"
+"framagit.org/hubzilla/core/blob/master/install/INSTALL.txt) for important "
+"information about:"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: src/hubzilla/ADMIN.md:6
 msgid ""
-"### Register a new domain and add it to YunoHost - Hubzilla requires a "
-"dedicated domain, so obtain one and add it using the YunoHost admin panel. "
-"**Domains -> Add domain**. As Hubzilla uses the full domain and is installed "
-"on the root, you can create a subdomain such as hubzilla.domain.tld. Don't "
-"forget to update your DNS if you manage them manually."
+"Hubzilla requires a dedicated domain, so obtain one and add it using the "
+"YunoHost admin panel. **Domains -> Add domain**. As Hubzilla uses the full "
+"domain and is installed on the root, you can create a subdomain such as "
+"hubzilla.domain.tld. Don't forget to update your DNS if you manage them "
+"manually."
 msgstr ""
 
-#. type: Plain text
-#: src/hubzilla/ADMIN.md:8
-msgid "## Ldap Admin user rights, logs and failed database updates"
+#. type: Title ##
+#: src/hubzilla/ADMIN.md:7
+#, no-wrap
+msgid "Ldap Admin user rights, logs and failed database updates"
 msgstr ""
 
 #. type: Bullet: '- '

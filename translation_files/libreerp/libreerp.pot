@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/libreerp/ADMIN.md:3
-msgid "### To connect on your LibreERP"
+#. type: Title ###
+#: src/libreerp/ADMIN.md:2
+#, no-wrap
+msgid "To connect on your LibreERP"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -55,10 +56,16 @@ msgid ""
 "install several Apps."
 msgstr ""
 
+#. type: Title ###
+#: src/libreerp/DESCRIPTION.md:7
+#, no-wrap
+msgid "About licences"
+msgstr ""
+
 #. type: Plain text
 #: src/libreerp/DESCRIPTION.md:10
 msgid ""
-"### About licences LibreERP 8.0 is under AGPL-3.0 Next version are under "
-"LGPL-3.0 LibreERP is forked from Odoo Community Edition. The name is change "
-"due to Odoo trademark policy."
+"LibreERP 8.0 is under AGPL-3.0 Next version are under LGPL-3.0 LibreERP is "
+"forked from Odoo Community Edition. The name is change due to Odoo trademark "
+"policy."
 msgstr ""

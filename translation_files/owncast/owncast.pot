@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/owncast/ADMIN.md:2
-msgid "## Streaming app"
+#. type: Title ##
+#: src/owncast/ADMIN.md:1
+#, no-wrap
+msgid "Streaming app"
 msgstr ""
 
 #. type: Plain text
@@ -58,9 +59,10 @@ msgstr ""
 msgid "Press **Start Streaming** (OBS) or **Go Live** (Streamlabs) on OBS."
 msgstr ""
 
-#. type: Plain text
-#: src/owncast/ADMIN.md:13
-msgid "## Standalone chat mode"
+#. type: Title ##
+#: src/owncast/ADMIN.md:12
+#, no-wrap
+msgid "Standalone chat mode"
 msgstr ""
 
 #. type: Plain text

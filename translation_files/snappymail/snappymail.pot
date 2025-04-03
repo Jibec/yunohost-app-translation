@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,14 +43,16 @@ msgid ""
 "authentication\"."
 msgstr ""
 
-#. type: Plain text
-#: src/snappymail/ADMIN.md:11
-msgid "## Migration from RainLoop"
+#. type: Title ##
+#: src/snappymail/ADMIN.md:10
+#, no-wrap
+msgid "Migration from RainLoop"
 msgstr ""
 
-#. type: Plain text
-#: src/snappymail/ADMIN.md:13
-msgid "### Contacts"
+#. type: Title ###
+#: src/snappymail/ADMIN.md:12
+#, no-wrap
+msgid "Contacts"
 msgstr ""
 
 #. type: Plain text
@@ -62,9 +64,10 @@ msgid ""
 "SnappyMail."
 msgstr ""
 
-#. type: Plain text
-#: src/snappymail/ADMIN.md:18
-msgid "### Filters, Sieve"
+#. type: Title ###
+#: src/snappymail/ADMIN.md:17
+#, no-wrap
+msgid "Filters, Sieve"
 msgstr ""
 
 #. type: Plain text
@@ -82,12 +85,6 @@ msgstr ""
 msgid ""
 "[FAQ: Enable filters](https://github.com/the-djmaze/snappymail/wiki/"
 "FAQ#enable-filters)"
-msgstr ""
-
-#. type: Plain text
-#: src/snappymail/ADMIN.md:25
-#, no-wrap
-msgid "---\n"
 msgstr ""
 
 #. type: Bullet: '- '

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/horde/ADMIN.md:2
-msgid "### Customisation"
+#. type: Title ###
+#: src/horde/ADMIN.md:1
+#, no-wrap
+msgid "Customisation"
 msgstr ""
 
-#. type: Plain text
-#: src/horde/ADMIN.md:4
-msgid "#### Install others app."
+#. type: Title ####
+#: src/horde/ADMIN.md:3
+#, no-wrap
+msgid "Install others app."
 msgstr ""
 
 #. type: Plain text
@@ -35,11 +37,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: src/horde/ADMIN.md:12
+#: src/horde/ADMIN.md:8
+msgid "Before any change it's recommended to make a backup :"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: src/horde/ADMIN.md:8
+#, no-wrap
 msgid ""
-"Before any change it's recommended to make a backup : ```bash # In case of "
-"multiple instance adapt \"horde\" by the horde instance sudo yunohost backup "
-"create --verbose --ignore-system --apps horde ```"
+"# In case of multiple instance adapt \"horde\" by the horde instance\n"
+"sudo yunohost backup create --verbose --ignore-system --apps horde\n"
 msgstr ""
 
 #. type: Plain text
@@ -47,52 +54,33 @@ msgstr ""
 msgid "Install horde apps with pear :"
 msgstr ""
 
-#. type: Plain text
-#: src/horde/ADMIN.md:19
+#. type: Fenced code block (bash)
+#: src/horde/ADMIN.md:15
+#, no-wrap
 msgid ""
-"```bash # Get the horde final_path # In case of multiple instance adapt "
-"\"horde\" by the horde instance final_path=$(yunohost app setting horde "
-"final_path)"
-msgstr ""
-
-#. type: Plain text
-#: src/horde/ADMIN.md:22
-msgid ""
-"# Set the pear command to call to stay in the horde environnement (not in "
-"the global system environnement)  pear_cmd=\"$final_path/pear/pear -c "
-"$final_path/pear.conf\""
-msgstr ""
-
-#. type: Plain text
-#: src/horde/ADMIN.md:25
-msgid "# Update the pear channel $pear_cmd channel-update pear.horde.org"
-msgstr ""
-
-#. type: Plain text
-#: src/horde/ADMIN.md:28
-msgid ""
-"# Install the app that you want $pear_cmd install -a -B horde/APP_TO_INSTALL"
-msgstr ""
-
-#. type: Plain text
-#: src/horde/ADMIN.md:32
-msgid ""
-"# Set the final permission # In case of multiple instance adapt \"horde\" by "
-"the horde instance chown -R www-data:horde $final_path"
-msgstr ""
-
-#. type: Plain text
-#: src/horde/ADMIN.md:34
-msgid "```"
+"# Get the horde final_path\n"
+"# In case of multiple instance adapt \"horde\" by the horde instance\n"
+"final_path=$(yunohost app setting horde final_path)\n"
+"\n"
+"# Set the pear command to call to stay in the horde environnement (not in the global system environnement)\n"
+"pear_cmd=\"$final_path/pear/pear -c $final_path/pear.conf\"\n"
+"\n"
+"# Update the pear channel\n"
+"$pear_cmd channel-update pear.horde.org\n"
+"\n"
+"# Install the app that you want\n"
+"$pear_cmd install -a -B horde/APP_TO_INSTALL\n"
+"\n"
+"# Set the final permission\n"
+"# In case of multiple instance adapt \"horde\" by the horde instance\n"
+"chown -R www-data:horde $final_path\n"
+"\n"
 msgstr ""
 
 #. type: Plain text
 #: src/horde/ADMIN.md:36
-msgid ""
-"After you need to update the horde database schema and the horde config. So "
-"go on the horde config pannel (in the settings wheel > Preferences > "
-"Administration > Configuration). Click on \"Update all DB schemas\" and then "
-"on \"Update all configurations\"."
+#, no-wrap
+msgid "After you need to update the horde database schema and the horde config. So go on the horde config pannel (in the settings wheel > Preferences > Administration > Configuration). Click on \"Update all DB schemas\" and then on \"Update all configurations\".\n"
 msgstr ""
 
 #. type: Plain text
@@ -100,9 +88,10 @@ msgstr ""
 msgid "Now you should be able to use the new apps."
 msgstr ""
 
-#. type: Plain text
-#: src/horde/ADMIN.md:40
-msgid "### ActiveSync"
+#. type: Title ###
+#: src/horde/ADMIN.md:39
+#, no-wrap
+msgid "ActiveSync"
 msgstr ""
 
 #. type: Plain text
@@ -112,9 +101,10 @@ msgid ""
 "yet tested."
 msgstr ""
 
-#. type: Plain text
-#: src/horde/ADMIN.md:44
-msgid "### Troubleshotting"
+#. type: Title ###
+#: src/horde/ADMIN.md:43
+#, no-wrap
+msgid "Troubleshotting"
 msgstr ""
 
 #. type: Plain text

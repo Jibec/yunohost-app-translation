@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,16 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/django-fmd/ADMIN.md:2 src/django-for-runners/ADMIN.md:2
-#: src/django-fritzconnection/ADMIN.md:2 src/django_example/ADMIN.md:2
-#: src/pyinventory/ADMIN.md:2 src/weblate/ADMIN.md:9
-msgid "## Settings and upgrades"
+#. type: Title ##
+#: src/django-fmd/ADMIN.md:1 src/django-for-runners/ADMIN.md:1
+#: src/django-fritzconnection/ADMIN.md:1 src/django_example/ADMIN.md:1
+#: src/pyinventory/ADMIN.md:20 src/weblate/ADMIN.md:8
+#, no-wrap
+msgid "Settings and upgrades"
 msgstr ""
 
-#. type: Plain text
-#: src/weblate/ADMIN.md:2
-msgid "## GitHub"
+#. type: Title ##
+#: src/weblate/ADMIN.md:1
+#, no-wrap
+msgid "GitHub"
 msgstr ""
 
 #. type: Plain text
@@ -51,14 +53,16 @@ msgid ""
 "py` to enable or disable features."
 msgstr ""
 
-#. type: Plain text
-#: src/weblate/ADMIN.md:14
-msgid "# Miscellaneous"
+#. type: Title #
+#: src/weblate/ADMIN.md:13
+#, no-wrap
+msgid "Miscellaneous"
 msgstr ""
 
-#. type: Plain text
-#: src/weblate/ADMIN.md:16
-msgid "## LDAP connexion"
+#. type: Title ##
+#: src/weblate/ADMIN.md:15
+#, no-wrap
+msgid "LDAP connexion"
 msgstr ""
 
 #. type: Plain text

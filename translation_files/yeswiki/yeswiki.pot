@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/yeswiki/ADMIN.md:2
-msgid "#### LDAP/SSO integration"
+#. type: Title ####
+#: src/yeswiki/ADMIN.md:1
+#, no-wrap
+msgid "LDAP/SSO integration"
 msgstr ""
 
 #. type: Plain text
@@ -30,10 +31,8 @@ msgstr ""
 
 #. type: Plain text
 #: src/yeswiki/ADMIN.md:5
-msgid ""
-"If you upgraded from YesWiki version < 4.4.4 and want to use the SSO "
-"authentication, you must add `\"enable_yunohost_sso\" => true,` in the "
-"`wakka.config.php` file."
+#, no-wrap
+msgid "If you upgraded from YesWiki version < 4.4.4 and want to use the SSO authentication, you must add `\"enable_yunohost_sso\" => true,` in the `wakka.config.php` file.\n"
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/nextcloud/ADMIN.md:2
-msgid "### Manually running Nextcloud commands"
+#. type: Title ###
+#: src/nextcloud/ADMIN.md:1
+#, no-wrap
+msgid "Manually running Nextcloud commands"
 msgstr ""
 
 #. type: Plain text
@@ -26,11 +27,10 @@ msgstr ""
 msgid "You can run Nextcloud commands from the command line using:"
 msgstr ""
 
-#. type: Plain text
-#: src/nextcloud/ADMIN.md:8
-msgid ""
-"``` sudo -u __APP__ php__PHP_VERSION__ --define apc.enable_cli=1 "
-"__INSTALL_DIR__/occ ...  ```"
+#. type: Fenced code block
+#: src/nextcloud/ADMIN.md:5
+#, no-wrap
+msgid "sudo -u __APP__ php__PHP_VERSION__ --define apc.enable_cli=1 __INSTALL_DIR__/occ ...\n"
 msgstr ""
 
 #. type: Plain text

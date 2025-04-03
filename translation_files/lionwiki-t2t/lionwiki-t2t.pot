@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,25 +16,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/adminer/ADMIN.md:2 src/adminerevo/ADMIN.md:2 src/aeneria/ADMIN.md:2
-#: src/alltube/ADMIN.md:2 src/archivist/ADMIN.md:2 src/blogotext/ADMIN.md:2
-#: src/collabora/ADMIN.md:2 src/dato/ADMIN.md:3 src/discourse/ADMIN.md:19
-#: src/domoticz/ADMIN.md:55 src/duniter/ADMIN.md:17 src/framaforms/ADMIN.md:2
-#: src/freshrss/ADMIN.md:2 src/gitlab-runner/ADMIN.md:2
-#: src/gotosocial/ADMIN.md:17 src/hedgedoc/ADMIN.md:2
-#: src/languagetool/ADMIN.md:2 src/lionwiki-t2t/ADMIN.md:2 src/lxd/ADMIN.md:2
-#: src/matterbridge/ADMIN.md:2 src/minetest/ADMIN.md:2 src/minidlna/ADMIN.md:2
-#: src/opentracker/ADMIN.md:2 src/peertube-search-index/ADMIN.md:2
-#: src/phpsysinfo/ADMIN.md:2 src/pihole/ADMIN.md:2
-#: src/question2answer/ADMIN.md:2 src/unattended_upgrades/ADMIN.md:2
-msgid "## Configuration"
+#. type: Title ###
+#: src/adminer/ADMIN.md:1 src/adminerevo/ADMIN.md:1 src/aeneria/ADMIN.md:1
+#: src/alltube/ADMIN.md:1 src/archivist/ADMIN.md:1 src/blogotext/ADMIN.md:1
+#: src/collabora/ADMIN.md:1 src/dato/ADMIN.md:2 src/discourse/ADMIN.md:18
+#: src/domoticz/ADMIN.md:54 src/duniter/ADMIN.md:16 src/framaforms/ADMIN.md:1
+#: src/freshrss/ADMIN.md:1 src/gitlab/ADMIN.md:1 src/gitlab-runner/ADMIN.md:1
+#: src/gotosocial/ADMIN.md:16 src/hedgedoc/ADMIN.md:1
+#: src/languagetool/ADMIN.md:1 src/lionwiki-t2t/ADMIN.md:1 src/lxd/ADMIN.md:1
+#: src/matterbridge/ADMIN.md:1 src/minetest/ADMIN.md:1 src/minidlna/ADMIN.md:1
+#: src/opentracker/ADMIN.md:1 src/peertube-search-index/ADMIN.md:1
+#: src/phpsysinfo/ADMIN.md:1 src/pihole/ADMIN.md:1
+#: src/question2answer/ADMIN.md:1 src/ums/ADMIN.md:1
+#: src/unattended_upgrades/ADMIN.md:1 src/wetty/ADMIN.md:1
+#, no-wrap
+msgid "Configuration"
 msgstr ""
 
-#. type: Plain text
-#: src/gitlab-runner/ADMIN.md:10 src/lionwiki-t2t/ADMIN.md:20
-#: src/mautrix_facebook/ADMIN.md:59 src/streama/ADMIN.md:8 src/strut/ADMIN.md:5
-msgid "## Additional information"
+#. type: Title ##
+#: src/gitlab-runner/ADMIN.md:9 src/lionwiki-t2t/ADMIN.md:19
+#: src/mautrix_facebook/ADMIN.md:58 src/streama/ADMIN.md:7 src/strut/ADMIN.md:4
+#, no-wrap
+msgid "Additional information"
 msgstr ""
 
 #. type: Plain text
@@ -68,9 +71,10 @@ msgid ""
 "interface. The password is the same as the one defined during installation."
 msgstr ""
 
-#. type: Plain text
-#: src/lionwiki-t2t/ADMIN.md:12
-msgid "#### Multi-users support"
+#. type: Title ###
+#: src/lionwiki-t2t/ADMIN.md:11 src/seafile/ADMIN.md:1
+#, no-wrap
+msgid "Multi-users support"
 msgstr ""
 
 #. type: Plain text
@@ -120,9 +124,12 @@ msgstr ""
 msgid "Search for:"
 msgstr ""
 
-#. type: Plain text
-#: src/lionwiki-t2t/ADMIN.md:33
-msgid "```css /* For YunoHost config */ @MainColor: #D17732; ```"
+#. type: Fenced code block (css)
+#: src/lionwiki-t2t/ADMIN.md:29
+#, no-wrap
+msgid ""
+"/* For YunoHost config */\n"
+"@MainColor: #D17732;\n"
 msgstr ""
 
 #. type: Plain text
@@ -132,9 +139,10 @@ msgid ""
 "second instance you've installed, it will be named /var/www/lionwikit2t__2/):"
 msgstr ""
 
-#. type: Plain text
-#: src/lionwiki-t2t/ADMIN.md:39
-msgid "```bash cd /var/www/lionwikit2t ```"
+#. type: Fenced code block (bash)
+#: src/lionwiki-t2t/ADMIN.md:36
+#, no-wrap
+msgid "cd /var/www/lionwikit2t\n"
 msgstr ""
 
 #. type: Plain text
@@ -142,11 +150,10 @@ msgstr ""
 msgid "Then compile it with:"
 msgstr ""
 
-#. type: Plain text
-#: src/lionwiki-t2t/ADMIN.md:45
-msgid ""
-"```bash lessc templates/minimaxing/minimaxing.less > templates/minimaxing/"
-"minimaxing.css ```"
+#. type: Fenced code block (bash)
+#: src/lionwiki-t2t/ADMIN.md:42
+#, no-wrap
+msgid "lessc templates/minimaxing/minimaxing.less > templates/minimaxing/minimaxing.css\n"
 msgstr ""
 
 #. type: Plain text
@@ -154,11 +161,10 @@ msgstr ""
 msgid "If something goes wrong, you can go back to the original default file:"
 msgstr ""
 
-#. type: Plain text
-#: src/lionwiki-t2t/ADMIN.md:50
-msgid ""
-"```bash cp templates/minimaxing/minimaxing_org.css templates/minimaxing/"
-"minimaxing.css ```"
+#. type: Fenced code block (bash)
+#: src/lionwiki-t2t/ADMIN.md:48
+#, no-wrap
+msgid "cp templates/minimaxing/minimaxing_org.css templates/minimaxing/minimaxing.css\n"
 msgstr ""
 
 #. type: Plain text

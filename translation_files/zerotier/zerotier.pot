@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/zerotier/ADMIN.md:2
-msgid "## Basic networking"
+#. type: Title ##
+#: src/zerotier/ADMIN.md:1
+#, no-wrap
+msgid "Basic networking"
 msgstr ""
 
 #. type: Plain text
@@ -28,9 +29,10 @@ msgid ""
 "from the \"Networks\" configuration panel above."
 msgstr ""
 
-#. type: Plain text
-#: src/zerotier/ADMIN.md:6
-msgid "## Advanced configuration"
+#. type: Title ##
+#: src/zerotier/ADMIN.md:5
+#, no-wrap
+msgid "Advanced configuration"
 msgstr ""
 
 #. type: Plain text
@@ -40,11 +42,17 @@ msgid ""
 "documentation for more information."
 msgstr ""
 
+#. type: Title ##
+#: src/zerotier/ADMIN.md:9
+#, no-wrap
+msgid "Configuring your own network"
+msgstr ""
+
 #. type: Plain text
 #: src/zerotier/ADMIN.md:10
 msgid ""
-"## Configuring your own network If you want to set a network up, use the "
-"[zeroui](https://apps.yunohost.org/app/zeroui) app."
+"If you want to set a network up, use the [zeroui](https://apps.yunohost.org/"
+"app/zeroui) app."
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:2
-msgid "## Some Nomad Job examples"
+#. type: Title ##
+#: src/nomad/ADMIN.md:1
+#, no-wrap
+msgid "Some Nomad Job examples"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:4
-msgid "### Busybox"
+#. type: Title ###
+#: src/nomad/ADMIN.md:3
+#, no-wrap
+msgid "Busybox"
 msgstr ""
 
 #. type: Plain text
@@ -31,41 +33,24 @@ msgstr ""
 msgid "`lxc-create --name=busybox --template=busybox`"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:11
+#. type: Fenced code block
+#: src/nomad/ADMIN.md:7
 #, no-wrap
 msgid ""
-"```\n"
 "job \"job-busybox\" {\n"
 "  datacenters = [\"dc1\"]\n"
 "  type        = \"service\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:15
-#, no-wrap
-msgid ""
+"\n"
 "  group \"group-busybox\" {\n"
 "    task \"task-busybox\" {\n"
 "      driver = \"lxc\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:21
-#, no-wrap
-msgid ""
+"\n"
 "      config {\n"
 "        log_level = \"info\"\n"
 "        verbosity = \"verbose\"\n"
 "        template  = \"/usr/share/lxc/templates/lxc-busybox\"\n"
 "      }\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:30 src/nomad/ADMIN.md:58 src/nomad/ADMIN.md:87
-#: src/nomad/ADMIN.md:116 src/nomad/ADMIN.md:145 src/nomad/ADMIN.md:173
-#, no-wrap
-msgid ""
+"\n"
 "      resources {\n"
 "        cpu    = 500\n"
 "        memory = 256\n"
@@ -73,12 +58,12 @@ msgid ""
 "    }\n"
 "  }\n"
 "}\n"
-"```\n"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:32
-msgid "### Debian"
+#. type: Title ###
+#: src/nomad/ADMIN.md:31
+#, no-wrap
+msgid "Debian"
 msgstr ""
 
 #. type: Plain text
@@ -86,39 +71,37 @@ msgstr ""
 msgid "`lxc-create --name=debian --template=debian`"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:39
+#. type: Fenced code block
+#: src/nomad/ADMIN.md:35
 #, no-wrap
 msgid ""
-"```\n"
 "job \"job-debian\" {\n"
 "  datacenters = [\"dc1\"]\n"
 "  type        = \"service\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:43
-#, no-wrap
-msgid ""
+"\n"
 "  group \"group-debian\" {\n"
 "    task \"task-debian\" {\n"
 "      driver = \"lxc\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:49
-#, no-wrap
-msgid ""
+"\n"
 "      config {\n"
 "        log_level = \"info\"\n"
 "        verbosity = \"verbose\"\n"
 "        template  = \"/usr/share/lxc/templates/lxc-debian\"\n"
 "      }\n"
+"\n"
+"      resources {\n"
+"        cpu    = 500\n"
+"        memory = 256\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"}\n"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:60
-msgid "### Debian Stretch"
+#. type: Title ###
+#: src/nomad/ADMIN.md:59
+#, no-wrap
+msgid "Debian Stretch"
 msgstr ""
 
 #. type: Plain text
@@ -126,40 +109,38 @@ msgstr ""
 msgid "`lxc-create --name=stretch --template=debian -- --release=stretch`"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:67
+#. type: Fenced code block
+#: src/nomad/ADMIN.md:63
 #, no-wrap
 msgid ""
-"```\n"
 "job \"job-stretch\" {\n"
 "  datacenters = [\"dc1\"]\n"
 "  type        = \"service\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:71
-#, no-wrap
-msgid ""
+"\n"
 "  group \"group-stretch\" {\n"
 "    task \"task-stretch\" {\n"
 "      driver = \"lxc\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:78
-#, no-wrap
-msgid ""
+"\n"
 "      config {\n"
 "        log_level = \"info\"\n"
 "        verbosity = \"verbose\"\n"
 "        template  = \"/usr/share/lxc/templates/lxc-debian\"\n"
 "        template_args = [\"--release=stretch\"]\n"
 "      }\n"
+"\n"
+"      resources {\n"
+"        cpu    = 500\n"
+"        memory = 256\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"}\n"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:89
-msgid "### Debian Buster"
+#. type: Title ###
+#: src/nomad/ADMIN.md:88
+#, no-wrap
+msgid "Debian Buster"
 msgstr ""
 
 #. type: Plain text
@@ -167,40 +148,38 @@ msgstr ""
 msgid "`lxc-create --name=buster --template=debian -- --release=buster`"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:96
+#. type: Fenced code block
+#: src/nomad/ADMIN.md:92
 #, no-wrap
 msgid ""
-"```\n"
 "job \"job-buster\" {\n"
 "  datacenters = [\"dc1\"]\n"
 "  type        = \"service\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:100
-#, no-wrap
-msgid ""
+"\n"
 "  group \"group-buster\" {\n"
 "    task \"task-buster\" {\n"
 "      driver = \"lxc\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:107
-#, no-wrap
-msgid ""
+"\n"
 "      config {\n"
 "        log_level = \"info\"\n"
 "        verbosity = \"verbose\"\n"
 "        template  = \"/usr/share/lxc/templates/lxc-debian\"\n"
 "        template_args = [\"--release=buster\"]\n"
 "      }\n"
+"\n"
+"      resources {\n"
+"        cpu    = 500\n"
+"        memory = 256\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"}\n"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:118
-msgid "### Debian Buster from images.linuxcontainers.org"
+#. type: Title ###
+#: src/nomad/ADMIN.md:117
+#, no-wrap
+msgid "Debian Buster from images.linuxcontainers.org"
 msgstr ""
 
 #. type: Plain text
@@ -210,40 +189,38 @@ msgid ""
 "release=buster --arch=amd64 --keyserver=hkp://keyserver.ubuntu.com`"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:125
+#. type: Fenced code block
+#: src/nomad/ADMIN.md:121
 #, no-wrap
 msgid ""
-"```\n"
 "job \"job-download-buster\" {\n"
 "  datacenters = [\"dc1\"]\n"
 "  type        = \"service\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:129
-#, no-wrap
-msgid ""
+"\n"
 "  group \"group-download-buster\" {\n"
 "    task \"task-download-buster\" {\n"
 "      driver = \"lxc\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:136
-#, no-wrap
-msgid ""
+"\n"
 "      config {\n"
 "        log_level = \"info\"\n"
 "        verbosity = \"verbose\"\n"
 "        template  = \"/usr/share/lxc/templates/lxc-download\"\n"
 "        template_args = [\"--dist=debian\",\"--release=buster\",\"--arch=amd64\",\"--keyserver=hkp://keyserver.ubuntu.com\"]\n"
 "      }\n"
+"\n"
+"      resources {\n"
+"        cpu    = 500\n"
+"        memory = 256\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"}\n"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:147
-msgid "### Debian Bullseye from images.linuxcontainers.org"
+#. type: Title ###
+#: src/nomad/ADMIN.md:146
+#, no-wrap
+msgid "Debian Bullseye from images.linuxcontainers.org"
 msgstr ""
 
 #. type: Plain text
@@ -253,35 +230,32 @@ msgid ""
 "release=bullseye --arch=amd64 --keyserver=hkp://keyserver.ubuntu.com`"
 msgstr ""
 
-#. type: Plain text
-#: src/nomad/ADMIN.md:154
+#. type: Fenced code block
+#: src/nomad/ADMIN.md:150
 #, no-wrap
 msgid ""
-"```\n"
 "job \"job-download-bullseye\" {\n"
 "  datacenters = [\"dc1\"]\n"
 "  type        = \"service\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:158
-#, no-wrap
-msgid ""
+"\n"
 "  group \"group-download-bullseye\" {\n"
 "    task \"task-download-bullseye\" {\n"
 "      driver = \"lxc\"\n"
-msgstr ""
-
-#. type: Plain text
-#: src/nomad/ADMIN.md:165
-#, no-wrap
-msgid ""
+"\n"
 "      config {\n"
 "        log_level = \"info\"\n"
 "        verbosity = \"verbose\"\n"
 "        template  = \"/usr/share/lxc/templates/lxc-download\"\n"
 "        template_args = [\"--dist=debian\",\"--release=bullseye\",\"--arch=amd64\",\"--keyserver=hkp://keyserver.ubuntu.com\"]\n"
 "      }\n"
+"\n"
+"      resources {\n"
+"        cpu    = 500\n"
+"        memory = 256\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"}\n"
 msgstr ""
 
 #. type: Plain text

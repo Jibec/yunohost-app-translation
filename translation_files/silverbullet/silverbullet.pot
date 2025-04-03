@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,76 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ###
+#: src/13ft/DESCRIPTION.md:3 src/2fauth/DESCRIPTION.md:4
+#: src/agorakit/DESCRIPTION.md:3 src/ampache/DESCRIPTION.md:3
+#: src/audiobookshelf/DESCRIPTION.md:3 src/bazarr/DESCRIPTION.md:3
+#: src/blogotext/DESCRIPTION.md:3 src/bookstack/DESCRIPTION.md:3
+#: src/borg/DESCRIPTION.md:5 src/cac-proxy/DESCRIPTION.md:6
+#: src/castopod/DESCRIPTION.md:5 src/chatgpt-web/DESCRIPTION.md:3
+#: src/cheky/DESCRIPTION.md:1 src/chitchatter/DESCRIPTION.md:3
+#: src/cinny/DESCRIPTION.md:3 src/coin/DESCRIPTION.md:3
+#: src/collabora/DESCRIPTION.md:3 src/commento/DESCRIPTION.md:3
+#: src/commet/DESCRIPTION.md:3 src/concrete5/DESCRIPTION.md:3
+#: src/converse/DESCRIPTION.md:4 src/crabfit/DESCRIPTION.md:5
+#: src/deluge/DESCRIPTION.md:3 src/dendrite/ADMIN.md:3
+#: src/dendrite/DESCRIPTION.md:3 src/dex/DESCRIPTION.md:4
+#: src/directorylister/DESCRIPTION.md:3 src/docsify/DESCRIPTION.md:3
+#: src/documize/DESCRIPTION.md:3 src/dont-code/DESCRIPTION.md:6
+#: src/dumbbudget/DESCRIPTION.md:3 src/dumbdo/DESCRIPTION.md:3
+#: src/dumbdrop/DESCRIPTION.md:3 src/dumbpad/DESCRIPTION.md:3
+#: src/dumbwhois/DESCRIPTION.md:3 src/easyappointments/DESCRIPTION.md:3
+#: src/ergo/DESCRIPTION.md:3 src/faceprivacy/DESCRIPTION.md:3
+#: src/feber/DESCRIPTION.md:3 src/fider/DESCRIPTION.md:3
+#: src/forgejo/DESCRIPTION.md:5 src/galette/DESCRIPTION.md:3
+#: src/garage/DESCRIPTION.md:5 src/gemserv/DESCRIPTION.md:3
+#: src/getsimple/DESCRIPTION.md:3 src/gitlist/DESCRIPTION.md:3
+#: src/gogs/DESCRIPTION.md:3 src/gossa/DESCRIPTION.md:3
+#: src/grist/DESCRIPTION.md:3 src/h5ai/DESCRIPTION.md:3
+#: src/headscale/DESCRIPTION.md:32 src/hedgedoc/DESCRIPTION.md:4
+#: src/homarr/DESCRIPTION.md:4 src/homeassistant/DESCRIPTION.md:3
+#: src/hydrogen/DESCRIPTION.md:3 src/immich/DESCRIPTION.md:3
+#: src/influxdb_v2/DESCRIPTION.md:3 src/isso/DESCRIPTION.md:4
+#: src/kanboard/DESCRIPTION.md:3 src/kavita/DESCRIPTION.md:3
+#: src/kiwix/DESCRIPTION.md:3 src/komga/DESCRIPTION.md:3
+#: src/librarian/DESCRIPTION.md:3 src/libremdb/DESCRIPTION.md:3
+#: src/librespeed/DESCRIPTION.md:3 src/librex/DESCRIPTION.md:3
+#: src/matrix-appservice-irc/DESCRIPTION.md:6 src/mattermost/DESCRIPTION.md:15
+#: src/mediatracker/DESCRIPTION.md:3 src/minchat/DESCRIPTION.md:3
+#: src/mongo-express/DESCRIPTION.md:4 src/mostlymatter/DESCRIPTION.md:6
+#: src/mstream/DESCRIPTION.md:3 src/my_webdav/DESCRIPTION.md:3
+#: src/mydrive/DESCRIPTION.md:3 src/mytinytodo/DESCRIPTION.md:3
+#: src/navidrome/DESCRIPTION.md:4 src/netdata/ADMIN.md:56
+#: src/nitter/DESCRIPTION.md:4 src/nodered/DESCRIPTION.md:5
+#: src/olivetin/DESCRIPTION.md:15 src/omeka-s/DESCRIPTION.md:3
+#: src/opencloud/DESCRIPTION.md:3 src/openproject/DESCRIPTION.md:3
+#: src/opensearch/DESCRIPTION.md:3 src/outline/DESCRIPTION.md:3
+#: src/pairdrop/DESCRIPTION.md:3 src/paperless-ngx/DESCRIPTION.md:3
+#: src/pgweb/DESCRIPTION.md:3 src/phanpy/DESCRIPTION.md:14
+#: src/photoprism/DESCRIPTION.md:3 src/phplicensewatcher/DESCRIPTION.md:3
+#: src/planka/DESCRIPTION.md:3 src/plateau/DESCRIPTION.md:3
+#: src/pmwiki/DESCRIPTION.md:3 src/pytition/DESCRIPTION.md:3
+#: src/redlib/DESCRIPTION.md:3 src/restic/DESCRIPTION.md:3
+#: src/rocketchat/DESCRIPTION.md:3 src/samba/DESCRIPTION.md:3
+#: src/screego/DESCRIPTION.md:3 src/scrutiny/DESCRIPTION.md:5
+#: src/shaarli/DESCRIPTION.md:3 src/shiori/DESCRIPTION.md:3
+#: src/silverbullet/DESCRIPTION.md:5 src/ssbroom/DESCRIPTION.md:7
+#: src/statpingng/DESCRIPTION.md:3 src/stirling-pdf/DESCRIPTION.md:3
+#: src/tableaunoir/DESCRIPTION.md:3 src/technitium-dns/DESCRIPTION.md:3
+#: src/teddit/DESCRIPTION.md:3 src/timemachine/DESCRIPTION.md:3
+#: src/tinyfilemanager/DESCRIPTION.md:5 src/tldraw/DESCRIPTION.md:3
+#: src/tooljet/DESCRIPTION.md:3 src/traccar/DESCRIPTION.md:3
+#: src/traggo/DESCRIPTION.md:3 src/transfersh/DESCRIPTION.md:4
+#: src/ttrss/DESCRIPTION.md:3 src/tube/DESCRIPTION.md:3
+#: src/turtl/DESCRIPTION.md:3 src/umami/DESCRIPTION.md:3
+#: src/uptime-kuma/DESCRIPTION.md:3 src/vikunja/DESCRIPTION.md:3
+#: src/watchyourlan/DESCRIPTION.md:3 src/whoogle/DESCRIPTION.md:3
+#: src/yourls/DESCRIPTION.md:4 src/zusam/DESCRIPTION.md:4
+#: src/zwiicms/DESCRIPTION.md:3
+#, no-wrap
+msgid "Features"
+msgstr ""
 
 #. type: Plain text
 #: src/silverbullet/DESCRIPTION.md:2
@@ -33,11 +103,6 @@ msgid ""
 "its Objects infrastructure, Live Queries and Live Templates, SilverBullet "
 "becomes a powerful end-user programming tool, enabling you to quickly "
 "develop various types of ad-hoc knowledge applications."
-msgstr ""
-
-#. type: Plain text
-#: src/silverbullet/DESCRIPTION.md:6
-msgid "# Features"
 msgstr ""
 
 #. type: Plain text

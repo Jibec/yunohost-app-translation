@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,9 +21,16 @@ msgstr ""
 msgid "or"
 msgstr ""
 
-#. type: Plain text
-#: src/neutrinet/ADMIN.md:3
-msgid "### For contributers #### Debugging"
+#. type: Title ###
+#: src/neutrinet/ADMIN.md:1
+#, no-wrap
+msgid "For contributers"
+msgstr ""
+
+#. type: Title ####
+#: src/neutrinet/ADMIN.md:2
+#, no-wrap
+msgid "Debugging"
 msgstr ""
 
 #. type: Plain text
@@ -32,9 +39,10 @@ msgid ""
 "You can manually run the cron job that attempts to renew the certificates:"
 msgstr ""
 
-#. type: Plain text
-#: src/neutrinet/ADMIN.md:9
-msgid "```shell sudo /opt/neutrinet/renew_cert/renew_cert.sh ```"
+#. type: Fenced code block (shell)
+#: src/neutrinet/ADMIN.md:6
+#, no-wrap
+msgid "sudo /opt/neutrinet/renew_cert/renew_cert.sh\n"
 msgstr ""
 
 #. type: Plain text
@@ -42,9 +50,10 @@ msgstr ""
 msgid "You can increase the verbosity with the option `-v`:"
 msgstr ""
 
-#. type: Plain text
-#: src/neutrinet/ADMIN.md:15
-msgid "```shell sudo /opt/neutrinet/renew_cert/renew_cert.sh -v ```"
+#. type: Fenced code block (shell)
+#: src/neutrinet/ADMIN.md:12
+#, no-wrap
+msgid "sudo /opt/neutrinet/renew_cert/renew_cert.sh -v\n"
 msgstr ""
 
 #. type: Plain text
@@ -54,9 +63,10 @@ msgid ""
 "PACKAGE_CHECK_EXEC=1`."
 msgstr ""
 
-#. type: Plain text
-#: src/neutrinet/ADMIN.md:19
-msgid "#### Publish a new version of the app"
+#. type: Title ####
+#: src/neutrinet/ADMIN.md:18
+#, no-wrap
+msgid "Publish a new version of the app"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -74,9 +84,10 @@ msgid ""
 "json>"
 msgstr ""
 
-#. type: Plain text
-#: src/neutrinet/ADMIN.md:24
-msgid "## Documentation and resources"
+#. type: Title ##
+#: src/neutrinet/ADMIN.md:23
+#, no-wrap
+msgid "Documentation and resources"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -92,9 +103,10 @@ msgid ""
 "Report a bug: https://gitlab.domainepublic.net/Neutrinet/neutrinet_ynh/issues"
 msgstr ""
 
-#. type: Plain text
-#: src/neutrinet/ADMIN.md:29
-msgid "## Developer info"
+#. type: Title ##
+#: src/neutrinet/ADMIN.md:28
+#, no-wrap
+msgid "Developer info"
 msgstr ""
 
 #. type: Plain text
@@ -109,20 +121,26 @@ msgstr ""
 msgid "To try the unstable branch, please proceed like that."
 msgstr ""
 
-#. type: Plain text
-#: src/neutrinet/ADMIN.md:41
+#. type: Fenced code block (sh)
+#: src/neutrinet/ADMIN.md:34
+#, no-wrap
 msgid ""
-"```sh git clone https://gitlab.domainepublic.net/Neutrinet/neutrinet_ynh/ cd "
-"neutrinet_ynh git checkout unstable cd ..  sudo yunohost app install "
-"neutrinet_ynh --debug ```"
+"git clone https://gitlab.domainepublic.net/Neutrinet/neutrinet_ynh/\n"
+"cd neutrinet_ynh\n"
+"git checkout unstable\n"
+"cd ..\n"
+"sudo yunohost app install neutrinet_ynh --debug\n"
 msgstr ""
 
-#. type: Plain text
-#: src/neutrinet/ADMIN.md:51
+#. type: Fenced code block (sh)
+#: src/neutrinet/ADMIN.md:44
+#, no-wrap
 msgid ""
-"```sh git clone https://gitlab.domainepublic.net/Neutrinet/neutrinet_ynh/ cd "
-"neutrinet_ynh git checkout unstable cd ..  sudo yunohost app upgrade "
-"neutrinet_ynh --debug ```"
+"git clone https://gitlab.domainepublic.net/Neutrinet/neutrinet_ynh/\n"
+"cd neutrinet_ynh\n"
+"git checkout unstable\n"
+"cd ..\n"
+"sudo yunohost app upgrade neutrinet_ynh --debug\n"
 msgstr ""
 
 #. type: Plain text

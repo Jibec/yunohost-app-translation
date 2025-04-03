@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,28 +16,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/adminer/ADMIN.md:2 src/adminerevo/ADMIN.md:2 src/aeneria/ADMIN.md:2
-#: src/alltube/ADMIN.md:2 src/archivist/ADMIN.md:2 src/blogotext/ADMIN.md:2
-#: src/collabora/ADMIN.md:2 src/dato/ADMIN.md:3 src/discourse/ADMIN.md:19
-#: src/domoticz/ADMIN.md:55 src/duniter/ADMIN.md:17 src/framaforms/ADMIN.md:2
-#: src/freshrss/ADMIN.md:2 src/gitlab-runner/ADMIN.md:2
-#: src/gotosocial/ADMIN.md:17 src/hedgedoc/ADMIN.md:2
-#: src/languagetool/ADMIN.md:2 src/lionwiki-t2t/ADMIN.md:2 src/lxd/ADMIN.md:2
-#: src/matterbridge/ADMIN.md:2 src/minetest/ADMIN.md:2 src/minidlna/ADMIN.md:2
-#: src/opentracker/ADMIN.md:2 src/peertube-search-index/ADMIN.md:2
-#: src/phpsysinfo/ADMIN.md:2 src/pihole/ADMIN.md:2
-#: src/question2answer/ADMIN.md:2 src/unattended_upgrades/ADMIN.md:2
-msgid "## Configuration"
+#. type: Title ###
+#: src/adminer/ADMIN.md:1 src/adminerevo/ADMIN.md:1 src/aeneria/ADMIN.md:1
+#: src/alltube/ADMIN.md:1 src/archivist/ADMIN.md:1 src/blogotext/ADMIN.md:1
+#: src/collabora/ADMIN.md:1 src/dato/ADMIN.md:2 src/discourse/ADMIN.md:18
+#: src/domoticz/ADMIN.md:54 src/duniter/ADMIN.md:16 src/framaforms/ADMIN.md:1
+#: src/freshrss/ADMIN.md:1 src/gitlab/ADMIN.md:1 src/gitlab-runner/ADMIN.md:1
+#: src/gotosocial/ADMIN.md:16 src/hedgedoc/ADMIN.md:1
+#: src/languagetool/ADMIN.md:1 src/lionwiki-t2t/ADMIN.md:1 src/lxd/ADMIN.md:1
+#: src/matterbridge/ADMIN.md:1 src/minetest/ADMIN.md:1 src/minidlna/ADMIN.md:1
+#: src/opentracker/ADMIN.md:1 src/peertube-search-index/ADMIN.md:1
+#: src/phpsysinfo/ADMIN.md:1 src/pihole/ADMIN.md:1
+#: src/question2answer/ADMIN.md:1 src/ums/ADMIN.md:1
+#: src/unattended_upgrades/ADMIN.md:1 src/wetty/ADMIN.md:1
+#, no-wrap
+msgid "Configuration"
 msgstr ""
 
-#. type: Plain text
-#: src/archivist/ADMIN.md:7 src/audiobookshelf/ADMIN.md:2
-#: src/dendrite/ADMIN.md:8 src/domoticz/ADMIN.md:100 src/kresus/ADMIN.md:2
-#: src/mailman3/DESCRIPTION.md:5 src/mautrix_facebook/ADMIN.md:55
-#: src/mautrix_signal/ADMIN.md:76 src/nullboard/ADMIN.md:2
-#: src/pihole/ADMIN.md:6
-msgid "## Limitations"
+#. type: Title ###
+#: src/archivist/ADMIN.md:6 src/audiobookshelf/ADMIN.md:1
+#: src/code-server/ADMIN.md:5 src/dendrite/ADMIN.md:7 src/domoticz/ADMIN.md:99
+#: src/elasticsearch7/ADMIN.md:1 src/elasticsearch8/ADMIN.md:1
+#: src/garage/ADMIN.md:1 src/grist/DESCRIPTION.md:12 src/kresus/ADMIN.md:1
+#: src/mailman3/DESCRIPTION.md:4 src/mautrix_facebook/ADMIN.md:54
+#: src/mautrix_signal/ADMIN.md:75 src/nullboard/ADMIN.md:1
+#: src/opensearch/DESCRIPTION.md:7 src/pihole/ADMIN.md:5
+#: src/retroarch/ADMIN.md:8 src/strut/ADMIN.md:1 src/ums/ADMIN.md:10
+#: src/wallabag2/ADMIN.md:1
+#, no-wrap
+msgid "Limitations"
 msgstr ""
 
 #. type: Plain text
@@ -53,25 +60,37 @@ msgstr ""
 msgid "Activate DHCP with Pi-hole needs manual configuration of your router."
 msgstr ""
 
+#. type: Title ##
+#: src/pihole/ADMIN.md:9
+#, no-wrap
+msgid "Using Pi-hole as your DHCP server"
+msgstr ""
+
 #. type: Plain text
-#: src/pihole/ADMIN.md:10
-msgid "## Using Pi-hole as your DHCP server"
+#: src/pihole/ADMIN.md:11
+#, no-wrap
+msgid "> **Be careful, you should considering that playing with your DHCP may break your network.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:12
+#, no-wrap
+msgid "> In case your server is down, you will lose your dns resolution and ip address.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/pihole/ADMIN.md:16
+#, no-wrap
 msgid ""
-"> **Be careful, you should considering that playing with your DHCP may break "
-"your network.  > In case your server is down, you will lose your dns "
-"resolution and ip address.  > So, you will lose any internet connection and "
-"even the connection to your router.** > > **If you encounter this kind of "
-"problem, please see \"How to restore my network\" at the end of this "
-"document.**"
+"> So, you will lose any internet connection and even the connection to your router.**\n"
+">\n"
+"> **If you encounter this kind of problem, please see \"How to restore my network\" at the end of this document.**\n"
 msgstr ""
 
-#. type: Plain text
-#: src/pihole/ADMIN.md:18
-msgid "### How to configure Pi-hole"
+#. type: Title ###
+#: src/pihole/ADMIN.md:17
+#, no-wrap
+msgid "How to configure Pi-hole"
 msgstr ""
 
 #. type: Plain text
@@ -80,12 +99,12 @@ msgid "There're two ways to configure Pi-hole to be used as your DHCP server."
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/pihole/ADMIN.md:23
+#: src/pihole/ADMIN.md:22
 msgid "Either you can choose to use it when you install the app."
 msgstr ""
 
 #. type: Bullet: '- '
-#: src/pihole/ADMIN.md:23
+#: src/pihole/ADMIN.md:22
 msgid ""
 "Or you can activate the DHCP server afterwards in the \"Settings\" tab, \"Pi-"
 "hole DHCP Server\" part."
@@ -98,24 +117,41 @@ msgid ""
 "static address"
 msgstr ""
 
+#. type: Title ###
+#: src/pihole/ADMIN.md:26
+#, no-wrap
+msgid "How to configure my router"
+msgstr ""
+
 #. type: Plain text
-#: src/pihole/ADMIN.md:27
-msgid "### How to configure my router"
+#: src/pihole/ADMIN.md:28
+#, no-wrap
+msgid "Your personal router or ISP's router has a DHCP server enabled by default.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:29
+#, no-wrap
+msgid "If you keep this DHCP, along with Pi-hole's one, you will have transparent conflicts between them.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:30
+#, no-wrap
+msgid "The first DHCP to respond will distribute its own ip and settings.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/pihole/ADMIN.md:32
 msgid ""
-"Your personal router or ISP's router has a DHCP server enabled by default.  "
-"If you keep this DHCP, along with Pi-hole's one, you will have transparent "
-"conflicts between them.  The first DHCP to respond will distribute its own "
-"ip and settings.  So you have to turn off the DHCP of your router to let Pi-"
-"hole managed your network."
+"So you have to turn off the DHCP of your router to let Pi-hole managed your "
+"network."
 msgstr ""
 
-#. type: Plain text
-#: src/pihole/ADMIN.md:34
-msgid "#### Why should I use only the DHCP of Pi-hole ?"
+#. type: Title ####
+#: src/pihole/ADMIN.md:33
+#, no-wrap
+msgid "Why should I use only the DHCP of Pi-hole ?"
 msgstr ""
 
 #. type: Plain text
@@ -127,36 +163,56 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: src/pihole/ADMIN.md:39
-msgid ""
-"Another use case of using Pi-hole's DHCP is if you have hairpinning problems "
-"(You can't connect to your server because its IP is your public IP, and your "
-"router doesn't allow that).  In this case, using Pi-hole's dns will allow "
-"you to connect to your server by its local address instead of its public one."
+#: src/pihole/ADMIN.md:37
+#, no-wrap
+msgid "Another use case of using Pi-hole's DHCP is if you have hairpinning problems (You can't connect to your server because its IP is your public IP, and your router doesn't allow that).  \n"
 msgstr ""
 
 #. type: Plain text
-#: src/pihole/ADMIN.md:41
-msgid "### How to restore my network"
+#: src/pihole/ADMIN.md:39
+msgid ""
+"In this case, using Pi-hole's dns will allow you to connect to your server "
+"by its local address instead of its public one."
+msgstr ""
+
+#. type: Title ###
+#: src/pihole/ADMIN.md:40
+#, no-wrap
+msgid "How to restore my network"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:42
+#, no-wrap
+msgid "> Oh crap !  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:43
+#, no-wrap
+msgid "Your Pi-hole server is down, and you don't have a DHCP anymore.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/pihole/ADMIN.md:45
-msgid ""
-"> Oh crap ! Your Pi-hole server is down, and you don't have a DHCP anymore.  "
-"Don't panic, We'll get through it. \\o/"
+msgid "Don't panic, We'll get through it. \\o/"
+msgstr ""
+
+#. type: Plain text
+#: src/pihole/ADMIN.md:46
+#, no-wrap
+msgid "Use your favorite terminal on your desktop computer.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/pihole/ADMIN.md:48
-msgid ""
-"Use your favorite terminal on your desktop computer.  And first, get your "
-"main interface (usually `eth0`)."
+msgid "And first, get your main interface (usually `eth0`)."
 msgstr ""
 
-#. type: Plain text
-#: src/pihole/ADMIN.md:52
-msgid "``` bash sudo ifconfig ```"
+#. type: Fenced code block (bash)
+#: src/pihole/ADMIN.md:49
+#, no-wrap
+msgid "sudo ifconfig\n"
 msgstr ""
 
 #. type: Plain text
@@ -164,28 +220,33 @@ msgstr ""
 msgid "Then, set your ip as a static ip."
 msgstr ""
 
+#. type: Fenced code block (bash)
+#: src/pihole/ADMIN.md:55
+#, no-wrap
+msgid "sudo ifconfig eth0 192.168.1.100\n"
+msgstr ""
+
 #. type: Plain text
-#: src/pihole/ADMIN.md:58
-msgid "``` bash sudo ifconfig eth0 192.168.1.100 ```"
+#: src/pihole/ADMIN.md:59
+#, no-wrap
+msgid "Now, you can connect to your router and turn on its DHCP server to use it again.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/pihole/ADMIN.md:61
-msgid ""
-"Now, you can connect to your router and turn on its DHCP server to use it "
-"again.  You can now reset your ip and get a dynamic address."
+msgid "You can now reset your ip and get a dynamic address."
 msgstr ""
 
-#. type: Plain text
-#: src/pihole/ADMIN.md:65
-msgid "``` bash sudo ifconfig eth0 0.0.0.0 && sudo dhclient eth0 ```"
+#. type: Fenced code block (bash)
+#: src/pihole/ADMIN.md:62
+#, no-wrap
+msgid "sudo ifconfig eth0 0.0.0.0 && sudo dhclient eth0\n"
 msgstr ""
 
 #. type: Plain text
 #: src/pihole/ADMIN.md:66
-msgid ""
-"> Don't forget to turn off the DHCP of your router if your server is working "
-"again."
+#, no-wrap
+msgid "> Don't forget to turn off the DHCP of your router if your server is working again.\n"
 msgstr ""
 
 #. type: Plain text

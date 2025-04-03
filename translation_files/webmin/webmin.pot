@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,16 +44,21 @@ msgid ""
 "**run upgrade script** once installed."
 msgstr ""
 
-#. type: Plain text
-#: src/webmin/ADMIN.md:7
-msgid "### Fix username and password"
+#. type: Title ###
+#: src/webmin/ADMIN.md:6
+#, no-wrap
+msgid "Fix username and password"
 msgstr ""
 
 #. type: Plain text
-#: src/webmin/ADMIN.md:11
-msgid ""
-"If you can't connect you can fix the password of the user running: ``` /usr/"
-"share/webmin/changepass.pl /etc/webmin root newpassword ```"
+#: src/webmin/ADMIN.md:9
+msgid "If you can't connect you can fix the password of the user running:"
+msgstr ""
+
+#. type: Fenced code block
+#: src/webmin/ADMIN.md:9
+#, no-wrap
+msgid "/usr/share/webmin/changepass.pl /etc/webmin root newpassword\n"
 msgstr ""
 
 #. type: Plain text

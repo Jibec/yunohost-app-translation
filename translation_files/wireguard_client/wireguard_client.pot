@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,12 +22,17 @@ msgid "Use the app's configuration panel to configure VPN connections."
 msgstr ""
 
 #. type: Plain text
+#: src/wireguard_client/DESCRIPTION.md:1
+#, no-wrap
+msgid "WireGuard® is fast and modern VPN that utilizes state-of-the-art cryptography.  \n"
+msgstr ""
+
+#. type: Plain text
 #: src/wireguard_client/DESCRIPTION.md:3
 msgid ""
-"WireGuard® is fast and modern VPN that utilizes state-of-the-art "
-"cryptography.  It aims to be faster, simpler, leaner, and more useful than "
-"IPsec. It intends to be considerably more performant than OpenVPN. WireGuard "
-"is designed as a general purpose VPN."
+"It aims to be faster, simpler, leaner, and more useful than IPsec. It "
+"intends to be considerably more performant than OpenVPN. WireGuard is "
+"designed as a general purpose VPN."
 msgstr ""
 
 #. type: Plain text

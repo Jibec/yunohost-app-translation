@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,16 +16,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Bullet: '- '
+#: src/discourse/ADMIN.md:1 src/kimai2/ADMIN.md:3
+#: src/mautrix_facebook/ADMIN.md:41 src/mautrix_signal/ADMIN.md:62
+#: src/thelounge/DESCRIPTION.md:7
+#, no-wrap
+msgid "Multi-user support"
+msgstr ""
+
 #. type: Plain text
 #: src/kimai2/ADMIN.md:2
 msgid ""
 "As sqlite support ended on version 1.14, if you choosed an sqlite database "
 "during installation, Kimai2 upgrade is blocked to version 1.13."
-msgstr ""
-
-#. type: Plain text
-#: src/kimai2/ADMIN.md:4
-msgid "#### Multi-user support"
 msgstr ""
 
 #. type: Plain text

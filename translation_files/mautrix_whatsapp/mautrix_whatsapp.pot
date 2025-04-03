@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,42 +16,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/mautrix_whatsapp/ADMIN.md:7
-msgid ""
-"## Configuration of the bridge The bridge is [roughly configured at "
-"installation](https://github.com/YunoHost-Apps/mautrix_whatsapp_ynh/blob/"
-"master/conf/config.yaml), e.g. allowed admin and user of the bot.  Finer "
-"configuration can be done by using the existing config panel in the Yunohost "
-"admin panel or by modifying the following configuration file with SSH: ```/"
-"opt/yunohost/mautrix_whatsapp/config.yaml``` and then restarting the "
-"mautrix_whatsapp service."
+#. type: Title ##
+#: src/mautrix_facebook/ADMIN.md:32 src/mautrix_signal/ADMIN.md:44
+#: src/mautrix_telegram/ADMIN.md:1 src/mautrix_whatsapp/ADMIN.md:1
+#, no-wrap
+msgid "Configuration of the bridge"
+msgstr ""
+
+#. type: Title ####
+#: src/mautrix_telegram/ADMIN.md:8 src/mautrix_whatsapp/ADMIN.md:11
+#, no-wrap
+msgid "End-to-bridge encryption"
 msgstr ""
 
 #. type: Plain text
-#: src/mautrix_whatsapp/ADMIN.md:9
-msgid "#### User permissions"
+#: src/mautrix_whatsapp/ADMIN.md:7
+msgid ""
+"The bridge is [roughly configured at installation](https://github.com/"
+"YunoHost-Apps/mautrix_whatsapp_ynh/blob/master/conf/config.yaml), e.g. "
+"allowed admin and user of the bot.  Finer configuration can be done by using "
+"the existing config panel in the Yunohost admin panel or by modifying the "
+"following configuration file with SSH: ```/opt/yunohost/mautrix_whatsapp/"
+"config.yaml``` and then restarting the mautrix_whatsapp service."
+msgstr ""
+
+#. type: Title ####
+#: src/mautrix_whatsapp/ADMIN.md:8
+#, no-wrap
+msgid "User permissions"
 msgstr ""
 
 #. type: Plain text
 #: src/mautrix_whatsapp/ADMIN.md:13
 msgid ""
-"#### End-to-bridge encryption The bridge can optionally encrypt messages "
-"between Matrix users and the bridge to hide messages from the homeserver. "
-"Using Postgres is strongly recommended when using end-to-bridge encryption."
+"The bridge can optionally encrypt messages between Matrix users and the "
+"bridge to hide messages from the homeserver. Using Postgres is strongly "
+"recommended when using end-to-bridge encryption."
 msgstr ""
 
 #. type: Plain text
 #: src/mautrix_whatsapp/ADMIN.md:16
+#, no-wrap
 msgid ""
-"If you want to enable it, go to the config panel section `Privacy -> Portal "
-"Rooms & Encryption Settings`. If you enable `Allow Encryption between Matrix "
-"Client and Bridge Server?`, the bridge won't enable encryption on its own, "
-"but will work in encrypted rooms.  Alternatively two more options will "
-"appear, `Force-enable Encryption in all Portal Rooms the Bridge creates?` "
-"which will automatically enable encryption in new portals and `Require "
-"encryption?` which will enforce encryption on any of the messages that you "
-"send (this will make the bridge drop any future unencrypted messages)."
+"If you want to enable it, go to the config panel section `Privacy -> Portal Rooms & Encryption Settings`. If you enable `Allow Encryption between Matrix Client and Bridge Server?`, the bridge won't enable encryption on its own, but will work in encrypted rooms.\n"
+"Alternatively two more options will appear, `Force-enable Encryption in all Portal Rooms the Bridge creates?` which will automatically enable encryption in new portals and `Require encryption?` which will enforce encryption on any of the messages that you send (this will make the bridge drop any future unencrypted messages).\n"
 msgstr ""
 
 #. type: Plain text

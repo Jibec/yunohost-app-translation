@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/haste/ADMIN.md:2
-msgid "## `haste` command"
+#. type: Title ##
+#: src/haste/ADMIN.md:1
+#, no-wrap
+msgid "`haste` command"
 msgstr ""
 
 #. type: Plain text
@@ -29,11 +30,18 @@ msgid ""
 "share content from terminal:"
 msgstr ""
 
+#. type: Fenced code block (bash)
+#: src/haste/ADMIN.md:5
+#, no-wrap
+msgid ""
+"cat something | haste\n"
+"https://haste.example.com/zuyejeduzu\n"
+msgstr ""
+
 #. type: Plain text
 #: src/haste/ADMIN.md:9
 msgid ""
-"```bash cat something | haste https://haste.example.com/zuyejeduzu ``` The "
-"[Haste-client](https://github.com/seejohnrun/haste-client) is a simple "
+"The [Haste-client](https://github.com/seejohnrun/haste-client) is a simple "
 "client for uploading data to you Haste server."
 msgstr ""
 

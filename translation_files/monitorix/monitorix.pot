@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/forgejo/ADMIN.md:35 src/monitorix/ADMIN.md:2
-msgid "### Remove"
+#. type: Title ###
+#: src/forgejo/ADMIN.md:34 src/gitea/ADMIN.md:105 src/monitorix/ADMIN.md:1
+#, no-wrap
+msgid "Remove"
 msgstr ""
 
 #. type: Plain text
@@ -29,9 +30,10 @@ msgid ""
 "manually deleted to purge user data from the app."
 msgstr ""
 
-#. type: Plain text
-#: src/monitorix/ADMIN.md:6
-msgid "### More sensor"
+#. type: Title ###
+#: src/monitorix/ADMIN.md:5
+#, no-wrap
+msgid "More sensor"
 msgstr ""
 
 #. type: Plain text
@@ -41,9 +43,10 @@ msgid ""
 "sensor` package. For disk temperature you can install the `hddtemp` package."
 msgstr ""
 
-#. type: Plain text
-#: src/monitorix/ADMIN.md:10
-msgid "### Custom config"
+#. type: Title ###
+#: src/monitorix/ADMIN.md:9
+#, no-wrap
+msgid "Custom config"
 msgstr ""
 
 #. type: Plain text
@@ -66,22 +69,16 @@ msgstr ""
 msgid "For example you can extend the basic config by this :"
 msgstr ""
 
-#. type: Plain text
-#: src/monitorix/ADMIN.md:23
+#. type: Fenced code block (xml)
+#: src/monitorix/ADMIN.md:17
 #, no-wrap
 msgid ""
-"```xml\n"
 "<graph_enable>\n"
 "        disk            = y\n"
 "        lmsens          = y\n"
 "        gensens         = y\n"
 "</graph_enable>\n"
-msgstr ""
-
-#. type: Plain text
-#: src/monitorix/ADMIN.md:45
-#, no-wrap
-msgid ""
+"\n"
 "# LMSENS graph\n"
 "# -----------------------------------------------------------------------------\n"
 "<lmsens>\n"
@@ -103,12 +100,7 @@ msgid ""
 "                volt7   =\n"
 "        </list>\n"
 "</lmsns>\n"
-msgstr ""
-
-#. type: Plain text
-#: src/monitorix/ADMIN.md:78
-#, no-wrap
-msgid ""
+"\n"
 "# GENSENS graph\n"
 "# -----------------------------------------------------------------------------\n"
 "<gensens>\n"
@@ -141,12 +133,7 @@ msgid ""
 "            cpu_temp = 300, 65, /etc/monitorix/monitorix_alerts_scripts/cpu_temp.sh\n"
 "        </alerts>\n"
 "</gensens>\n"
-msgstr ""
-
-#. type: Plain text
-#: src/monitorix/ADMIN.md:97
-#, no-wrap
-msgid ""
+"\n"
 "# DISK graph\n"
 "# -----------------------------------------------------------------------------\n"
 "<disk>\n"
@@ -164,7 +151,6 @@ msgid ""
 "                pendsect_script = /etc/monitorix/monitorix_alerts_scripts/disk_pendsect.sh\n"
 "        </alerts>\n"
 "</disk>\n"
-"```\n"
 msgstr ""
 
 #. type: Plain text

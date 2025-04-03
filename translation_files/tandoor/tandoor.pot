@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,9 +25,10 @@ msgid ""
 "be run as a public page."
 msgstr ""
 
-#. type: Plain text
-#: src/tandoor/DESCRIPTION.md:6
-msgid "### Core Features"
+#. type: Title ###
+#: src/tandoor/DESCRIPTION.md:5
+#, no-wrap
+msgid "Core Features"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -55,9 +56,10 @@ msgstr ""
 msgid "👪 **Share and collaborate** on recipes with friends and family"
 msgstr ""
 
-#. type: Plain text
-#: src/tandoor/DESCRIPTION.md:14
-msgid "### Made by and for power users"
+#. type: Title ###
+#: src/tandoor/DESCRIPTION.md:13
+#, no-wrap
+msgid "Made by and for power users"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -102,9 +104,10 @@ msgstr ""
 msgid "📦 **Sync** files with Dropbox and Nextcloud"
 msgstr ""
 
-#. type: Plain text
-#: src/tandoor/DESCRIPTION.md:24
-msgid "### All the must haves"
+#. type: Title ###
+#: src/tandoor/DESCRIPTION.md:23
+#, no-wrap
+msgid "All the must haves"
 msgstr ""
 
 #. type: Bullet: '- '

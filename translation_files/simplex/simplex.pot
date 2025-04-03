@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,12 @@ msgstr ""
 msgid "Your SMP server address:"
 msgstr ""
 
-#. type: Plain text
-#: src/simplex/ADMIN.md:7
+#. type: Fenced code block
+#: src/simplex/ADMIN.md:3
+#, no-wrap
 msgid ""
-"``` smp://__FINGERPRINT__@__PUBLIC_IP4__:__PORT__ xftp://"
-"__XFTP_FINGERPRINT__@__PUBLIC_IP4__:__PORT_XFTP__ ```"
+"smp://__FINGERPRINT__@__PUBLIC_IP4__:__PORT__\n"
+"xftp://__XFTP_FINGERPRINT__@__PUBLIC_IP4__:__PORT_XFTP__\n"
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,30 +16,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/archivist/ADMIN.md:7 src/audiobookshelf/ADMIN.md:2
-#: src/dendrite/ADMIN.md:8 src/domoticz/ADMIN.md:100 src/kresus/ADMIN.md:2
-#: src/mailman3/DESCRIPTION.md:5 src/mautrix_facebook/ADMIN.md:55
-#: src/mautrix_signal/ADMIN.md:76 src/nullboard/ADMIN.md:2
-#: src/pihole/ADMIN.md:6
-msgid "## Limitations"
+#. type: Title ###
+#: src/archivist/ADMIN.md:6 src/audiobookshelf/ADMIN.md:1
+#: src/code-server/ADMIN.md:5 src/dendrite/ADMIN.md:7 src/domoticz/ADMIN.md:99
+#: src/elasticsearch7/ADMIN.md:1 src/elasticsearch8/ADMIN.md:1
+#: src/garage/ADMIN.md:1 src/grist/DESCRIPTION.md:12 src/kresus/ADMIN.md:1
+#: src/mailman3/DESCRIPTION.md:4 src/mautrix_facebook/ADMIN.md:54
+#: src/mautrix_signal/ADMIN.md:75 src/nullboard/ADMIN.md:1
+#: src/opensearch/DESCRIPTION.md:7 src/pihole/ADMIN.md:5
+#: src/retroarch/ADMIN.md:8 src/strut/ADMIN.md:1 src/ums/ADMIN.md:10
+#: src/wallabag2/ADMIN.md:1
+#, no-wrap
+msgid "Limitations"
 msgstr ""
 
-#. type: Plain text
-#: src/dokuwiki/DESCRIPTION.md:4 src/grafana/DESCRIPTION.md:4
-#: src/mattermost/DESCRIPTION.md:10 src/mautrix_facebook/ADMIN.md:40
-#: src/mautrix_signal/ADMIN.md:61 src/minidlna/DESCRIPTION.md:6
-msgid "## YunoHost specific features"
+#. type: Bullet: '- '
+#: src/discourse/ADMIN.md:1 src/kimai2/ADMIN.md:3
+#: src/mautrix_facebook/ADMIN.md:41 src/mautrix_signal/ADMIN.md:62
+#: src/thelounge/DESCRIPTION.md:7
+#, no-wrap
+msgid "Multi-user support"
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_facebook/ADMIN.md:2 src/mautrix_signal/ADMIN.md:2
-msgid "## List of known public services"
+#. type: Title ###
+#: src/dokuwiki/DESCRIPTION.md:3 src/grafana/DESCRIPTION.md:3
+#: src/mattermost/DESCRIPTION.md:9 src/mautrix_facebook/ADMIN.md:39
+#: src/mautrix_signal/ADMIN.md:60 src/minidlna/DESCRIPTION.md:5
+#: src/roundcube/DESCRIPTION.md:3
+#, no-wrap
+msgid "YunoHost specific features"
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_facebook/ADMIN.md:6 src/mautrix_signal/ADMIN.md:6
-msgid "## Bridging usage"
+#. type: Title ##
+#: src/mautrix_facebook/ADMIN.md:1 src/mautrix_signal/ADMIN.md:1
+#, no-wrap
+msgid "List of known public services"
+msgstr ""
+
+#. type: Title ##
+#: src/mautrix_facebook/ADMIN.md:5 src/mautrix_signal/ADMIN.md:5
+#, no-wrap
+msgid "Bridging usage"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -67,20 +84,17 @@ msgstr ""
 msgid "Accept invitations to the bridged chat rooms"
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_facebook/ADMIN.md:22 src/mautrix_signal/ADMIN.md:32
-msgid "### Double puppeting"
+#. type: Title ###
+#: src/mautrix_facebook/ADMIN.md:21 src/mautrix_signal/ADMIN.md:31
+#, no-wrap
+msgid "Double puppeting"
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_facebook/ADMIN.md:33 src/mautrix_signal/ADMIN.md:45
-#: src/mautrix_telegram/ADMIN.md:2
-msgid "## Configuration of the bridge"
-msgstr ""
-
-#. type: Plain text
-#: src/mautrix_facebook/ADMIN.md:42 src/mautrix_signal/ADMIN.md:63
-msgid "### Multi-user support"
+#. type: Title ##
+#: src/mautrix_facebook/ADMIN.md:32 src/mautrix_signal/ADMIN.md:44
+#: src/mautrix_telegram/ADMIN.md:1 src/mautrix_whatsapp/ADMIN.md:1
+#, no-wrap
+msgid "Configuration of the bridge"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -95,9 +109,10 @@ msgstr ""
 msgid "See <https://github.com/YunoHost-Apps/synapse_ynh#multi-users-support>"
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_facebook/ADMIN.md:50 src/mautrix_signal/ADMIN.md:71
-msgid "### Multi-instance support"
+#. type: Title ###
+#: src/mautrix_facebook/ADMIN.md:49 src/mautrix_signal/ADMIN.md:70
+#, no-wrap
+msgid "Multi-instance support"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -126,9 +141,10 @@ msgstr ""
 msgid "**Note that several Signal and Matrix users can be bridged, each Signal account has its own bot administration room. If they are in a same Signal group, only one matrix room will be created.**\n"
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_signal/ADMIN.md:10
-msgid "### Bridge a Signal user and a Matrix user"
+#. type: Title ###
+#: src/mautrix_signal/ADMIN.md:9
+#, no-wrap
+msgid "Bridge a Signal user and a Matrix user"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -146,9 +162,10 @@ msgid ""
 "See also [upstream wiki Authentication page](https://docs.mau.fi/bridges/go/signal/authentication.html)\n"
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_signal/ADMIN.md:18
-msgid "#### Linking the Bridge as a secondary device"
+#. type: Title ####
+#: src/mautrix_signal/ADMIN.md:17
+#, no-wrap
+msgid "Linking the Bridge as a secondary device"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -167,9 +184,10 @@ msgid ""
 "Open Settings => Linked Devices => + => Capture the QR code with the camera"
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_signal/ADMIN.md:26
-msgid "#### Registering the Bridge as a primary device"
+#. type: Title ####
+#: src/mautrix_signal/ADMIN.md:25
+#, no-wrap
+msgid "Registering the Bridge as a primary device"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -204,11 +222,10 @@ msgid ""
 "automatically."
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_signal/ADMIN.md:37
-msgid ""
-"### Relaybot: Bridge a group for several Matrix and several Signal users to "
-"chat together"
+#. type: Title ###
+#: src/mautrix_signal/ADMIN.md:36
+#, no-wrap
+msgid "Relaybot: Bridge a group for several Matrix and several Signal users to chat together"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -246,9 +263,10 @@ msgid ""
 "config.yaml``` and then restarting the mautrix_signal service."
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_signal/ADMIN.md:52 src/mautrix_telegram/ADMIN.md:16
-msgid "## Documentation"
+#. type: Title ##
+#: src/mautrix_signal/ADMIN.md:51 src/mautrix_telegram/ADMIN.md:15
+#, no-wrap
+msgid "Documentation"
 msgstr ""
 
 #. type: Bullet: '* '

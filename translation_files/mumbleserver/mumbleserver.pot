@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/mumbleserver/ADMIN.md:2
-msgid "## Setup"
+#. type: Title ##
+#: src/minchat/ADMIN.md:1 src/mumbleserver/ADMIN.md:1
+#, no-wrap
+msgid "Setup"
 msgstr ""
 
 #. type: Plain text
@@ -36,10 +37,16 @@ msgid ""
 "Murmurguide#Connecting_to_Murmur_Server)"
 msgstr ""
 
+#. type: Title ##
+#: src/mumbleserver/ADMIN.md:7
+#, no-wrap
+msgid "Config"
+msgstr ""
+
 #. type: Plain text
 #: src/mumbleserver/ADMIN.md:11
 msgid ""
-"## Config If you need to change password of the server/superuser 1- edit "
+"If you need to change password of the server/superuser 1- edit "
 "`__INSTALL_DIR__/mumble-server.ini` 2- remove (or change) the password for "
 "serverpassword= 3- restart mumbleserver"
 msgstr ""

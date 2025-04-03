@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/glitchsoc/ADMIN.md:2 src/mastodon/ADMIN.md:2
-msgid "## Administrate with tooctl"
+#. type: Title ##
+#: src/glitchsoc/ADMIN.md:1 src/mastodon/ADMIN.md:1
+#, no-wrap
+msgid "Administrate with tooctl"
 msgstr ""
 
 #. type: Plain text
@@ -28,9 +29,10 @@ msgid ""
 "opt/rbenv/versions/glitchsoc/bin bin/tootctl --help)`"
 msgstr ""
 
-#. type: Plain text
-#: src/glitchsoc/ADMIN.md:6 src/mastodon/ADMIN.md:6
-msgid "## Update"
+#. type: Title ##
+#: src/glitchsoc/ADMIN.md:5 src/mastodon/ADMIN.md:5
+#, no-wrap
+msgid "Update"
 msgstr ""
 
 #. type: Plain text
@@ -41,14 +43,18 @@ msgid ""
 "See [tutorial](https://www.howtogeek.com/662422/how-to-use-linuxs-screen-command/) for more background information.\n"
 msgstr ""
 
-#. type: Plain text
-#: src/glitchsoc/ADMIN.md:14
-msgid "``` $ screen $ sudo yunohost app upgrade __APP__ ```"
+#. type: Fenced code block
+#: src/glitchsoc/ADMIN.md:10
+#, no-wrap
+msgid ""
+"$ screen\n"
+"$ sudo yunohost app upgrade __APP__\n"
 msgstr ""
 
-#. type: Plain text
-#: src/glitchsoc/ADMIN.md:16 src/mastodon/ADMIN.md:23
-msgid "## Backups"
+#. type: Title ##
+#: src/glitchsoc/ADMIN.md:15 src/mastodon/ADMIN.md:22
+#, no-wrap
+msgid "Backups"
 msgstr ""
 
 #. type: Plain text
@@ -107,9 +113,10 @@ msgid ""
 "PATH=/opt/rbenv/versions/mastodon/bin bin/tootctl media remove --days=X `"
 msgstr ""
 
-#. type: Plain text
-#: src/glitchsoc/ADMIN.md:35 src/mastodon/ADMIN.md:85
-msgid "## Known Bugs"
+#. type: Title ##
+#: src/glitchsoc/ADMIN.md:34 src/mastodon/ADMIN.md:84
+#, no-wrap
+msgid "Known Bugs"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -135,9 +142,10 @@ msgid ""
 "own risk!"
 msgstr ""
 
-#. type: Plain text
-#: src/glitchsoc/DESCRIPTION.md:6
-msgid "### What's different from Mastodon?"
+#. type: Title ###
+#: src/glitchsoc/DESCRIPTION.md:5
+#, no-wrap
+msgid "What's different from Mastodon?"
 msgstr ""
 
 #. type: Plain text

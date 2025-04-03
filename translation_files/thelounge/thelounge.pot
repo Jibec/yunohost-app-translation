@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/beehive/DESCRIPTION.md:4 src/glpi/DESCRIPTION.md:4
-#: src/invidious/DESCRIPTION.md:5 src/kiwiirc/DESCRIPTION.md:4
-#: src/moncycle/DESCRIPTION.md:4 src/psitransfer/DESCRIPTION.md:4
-#: src/slingcode/DESCRIPTION.md:4 src/thelounge/DESCRIPTION.md:4
-msgid "### Features:"
+#. type: Title ###
+#: src/beehive/DESCRIPTION.md:3 src/bloat/DESCRIPTION.md:4
+#: src/glpi/DESCRIPTION.md:3 src/invidious/DESCRIPTION.md:4
+#: src/kiwiirc/DESCRIPTION.md:3 src/moncycle/DESCRIPTION.md:3
+#: src/piped/DESCRIPTION.md:7 src/psitransfer/DESCRIPTION.md:3
+#: src/slingcode/DESCRIPTION.md:3 src/thelounge/DESCRIPTION.md:3
+#, no-wrap
+msgid "Features:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/discourse/ADMIN.md:1 src/kimai2/ADMIN.md:3
+#: src/mautrix_facebook/ADMIN.md:41 src/mautrix_signal/ADMIN.md:62
+#: src/thelounge/DESCRIPTION.md:7
+#, no-wrap
+msgid "Multi-user support"
 msgstr ""
 
 #. type: Plain text
@@ -37,9 +47,4 @@ msgstr ""
 #. type: Bullet: '- '
 #: src/thelounge/DESCRIPTION.md:7
 msgid "Responsive interface"
-msgstr ""
-
-#. type: Bullet: '- '
-#: src/thelounge/DESCRIPTION.md:7
-msgid "Multi-user support"
 msgstr ""

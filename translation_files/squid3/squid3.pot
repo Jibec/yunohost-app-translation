@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/squid3/ADMIN.md:2
-msgid "## Configure Squid3 for Firefox"
+#. type: Title ##
+#: src/squid3/ADMIN.md:1
+#, no-wrap
+msgid "Configure Squid3 for Firefox"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -60,9 +61,10 @@ msgid ""
 "issue so that I can add it to the readme"
 msgstr ""
 
-#. type: Plain text
-#: src/squid3/DESCRIPTION.md:2
-msgid "## Squid: Proxy with Optimising Web Delivery"
+#. type: Title ##
+#: src/squid3/DESCRIPTION.md:1
+#, no-wrap
+msgid "Squid: Proxy with Optimising Web Delivery"
 msgstr ""
 
 #. type: Plain text
@@ -74,9 +76,10 @@ msgid ""
 "makes a great server accelerator."
 msgstr ""
 
-#. type: Plain text
-#: src/squid3/DESCRIPTION.md:6
-msgid "## Special Thanks"
+#. type: Title ##
+#: src/squid3/DESCRIPTION.md:5
+#, no-wrap
+msgid "Special Thanks"
 msgstr ""
 
 #. type: Plain text

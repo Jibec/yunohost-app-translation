@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,9 +33,10 @@ msgid ""
 "content, which is then displayed on screens throughout the school."
 msgstr ""
 
-#. type: Plain text
-#: src/scovie/DESCRIPTION.md:5
-msgid "## Links"
+#. type: Bullet: '- '
+#: src/scovie/DESCRIPTION.md:4 src/vikunja/DESCRIPTION.md:10
+#, no-wrap
+msgid "Links"
 msgstr ""
 
 #. type: Bullet: '* '

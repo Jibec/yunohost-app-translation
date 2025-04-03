@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/pleroma/ADMIN.md:2
-msgid "# Pleroma and Yunohost"
+#. type: Title ###
+#: src/dato/ADMIN.md:15 src/pleroma/ADMIN.md:24
+#, no-wrap
+msgid "Adding users"
+msgstr ""
+
+#. type: Title #
+#: src/pleroma/ADMIN.md:1
+#, no-wrap
+msgid "Pleroma and Yunohost"
 msgstr ""
 
 #. type: Plain text
@@ -41,9 +48,10 @@ msgid ""
 "| Command line path           | `/bin/pleroma_ctl`         | `/var/www/pleroma/live/bin/pleroma_ctl`  |\n"
 msgstr ""
 
-#. type: Plain text
-#: src/pleroma/ADMIN.md:13
-msgid "## Things to remember"
+#. type: Title ##
+#: src/pleroma/ADMIN.md:12
+#, no-wrap
+msgid "Things to remember"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -74,33 +82,28 @@ msgid ""
 "install](./doc/yunohost.md)."
 msgstr ""
 
-#. type: Plain text
-#: src/pleroma/ADMIN.md:23
-msgid "## Administration tasks"
+#. type: Title ##
+#: src/pleroma/ADMIN.md:22
+#, no-wrap
+msgid "Administration tasks"
 msgstr ""
 
-#. type: Plain text
-#: src/pleroma/ADMIN.md:25
-msgid "### Adding users"
+#. type: Fenced code block (bash)
+#: src/pleroma/ADMIN.md:26
+#, no-wrap
+msgid "sudo su pleroma -s $SHELL -lc \"/var/www/pleroma/live/bin/pleroma_ctl user new <userName> <userEmail>\"\n"
 msgstr ""
 
-#. type: Plain text
-#: src/pleroma/ADMIN.md:29
-msgid ""
-"```bash sudo su pleroma -s $SHELL -lc \"/var/www/pleroma/live/bin/"
-"pleroma_ctl user new <userName> <userEmail>\" ```"
+#. type: Title ###
+#: src/pleroma/ADMIN.md:30
+#, no-wrap
+msgid "Password reset"
 msgstr ""
 
-#. type: Plain text
-#: src/pleroma/ADMIN.md:31
-msgid "### Password reset"
-msgstr ""
-
-#. type: Plain text
-#: src/pleroma/ADMIN.md:35
-msgid ""
-"```bash sudo su pleroma -s $SHELL -lc \"/var/www/pleroma/live/bin/"
-"pleroma_ctl user reset_password <userName>\" ```"
+#. type: Fenced code block (bash)
+#: src/pleroma/ADMIN.md:32
+#, no-wrap
+msgid "sudo su pleroma -s $SHELL -lc \"/var/www/pleroma/live/bin/pleroma_ctl user reset_password <userName>\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -110,9 +113,10 @@ msgid ""
 "user."
 msgstr ""
 
-#. type: Plain text
-#: src/pleroma/ADMIN.md:39
-msgid "### Moderators"
+#. type: Title ###
+#: src/pleroma/ADMIN.md:38
+#, no-wrap
+msgid "Moderators"
 msgstr ""
 
 #. type: Plain text
@@ -122,11 +126,10 @@ msgid ""
 "post_."
 msgstr ""
 
-#. type: Plain text
-#: src/pleroma/ADMIN.md:45
-msgid ""
-"```bash sudo su pleroma -s $SHELL -lc \"/var/www/pleroma/live/bin/"
-"pleroma_ctl user set <userName> --admin\" ```"
+#. type: Fenced code block (bash)
+#: src/pleroma/ADMIN.md:42
+#, no-wrap
+msgid "sudo su pleroma -s $SHELL -lc \"/var/www/pleroma/live/bin/pleroma_ctl user set <userName> --admin\"\n"
 msgstr ""
 
 #. type: Plain text

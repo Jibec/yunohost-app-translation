@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,20 +16,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/bicbucstriim/ADMIN.md:2 src/mautrix_telegram/ADMIN.md:26
-msgid "## Troubleshooting"
+#. type: Title ##
+#: src/bicbucstriim/ADMIN.md:1 src/flarum/ADMIN.md:24
+#: src/mautrix_telegram/ADMIN.md:25
+#, no-wrap
+msgid "Troubleshooting"
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_facebook/ADMIN.md:33 src/mautrix_signal/ADMIN.md:45
-#: src/mautrix_telegram/ADMIN.md:2
-msgid "## Configuration of the bridge"
+#. type: Title ##
+#: src/mautrix_facebook/ADMIN.md:32 src/mautrix_signal/ADMIN.md:44
+#: src/mautrix_telegram/ADMIN.md:1 src/mautrix_whatsapp/ADMIN.md:1
+#, no-wrap
+msgid "Configuration of the bridge"
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_signal/ADMIN.md:52 src/mautrix_telegram/ADMIN.md:16
-msgid "## Documentation"
+#. type: Title ##
+#: src/mautrix_signal/ADMIN.md:51 src/mautrix_telegram/ADMIN.md:15
+#, no-wrap
+msgid "Documentation"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -49,9 +53,10 @@ msgid ""
 "service."
 msgstr ""
 
-#. type: Plain text
-#: src/mautrix_telegram/ADMIN.md:9
-msgid "#### End-to-bridge encryption"
+#. type: Title ####
+#: src/mautrix_telegram/ADMIN.md:8 src/mautrix_whatsapp/ADMIN.md:11
+#, no-wrap
+msgid "End-to-bridge encryption"
 msgstr ""
 
 #. type: Plain text
@@ -104,21 +109,32 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: src/mautrix_telegram/ADMIN.md:34
+#: src/mautrix_telegram/ADMIN.md:29
 msgid "Check the spelling of the bot name!"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/mautrix_telegram/ADMIN.md:29
+msgid ""
+"For slow servers it might be necessary to run ``systemctl edit "
+"mautrix_telegram.service`` (also for `coturn.service` and `coturn-synapse."
+"service`) and insert"
+msgstr ""
+
+#. type: Fenced code block
+#: src/mautrix_telegram/ADMIN.md:29
+#, no-wrap
+msgid ""
+"[Service]\n"
+"ExecStartPre=/bin/sleep 90\n"
 msgstr ""
 
 #. type: Plain text
 #: src/mautrix_telegram/ADMIN.md:34
-#, no-wrap
 msgid ""
-"* For slow servers it might be necessary to run ``systemctl edit mautrix_telegram.service`` (also for `coturn.service` and `coturn-synapse.service`) and insert\n"
-"```\n"
-"[Service]\n"
-"ExecStartPre=/bin/sleep 90\n"
-"```\n"
-"such that it is ensured that synapse is running before the bridge tries to connect.\n"
-"(If it worked after installation but broke after a restart this probably is it.)\n"
+"such that it is ensured that synapse is running before the bridge tries to "
+"connect.  (If it worked after installation but broke after a restart this "
+"probably is it.)"
 msgstr ""
 
 #. type: Plain text

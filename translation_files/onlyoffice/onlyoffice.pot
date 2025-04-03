@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/onlyoffice/ADMIN.md:2
-msgid "## Demo"
+#. type: Title ##
+#: src/onlyoffice/ADMIN.md:1
+#, no-wrap
+msgid "Demo"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -52,9 +53,10 @@ msgid ""
 "onlyoffice.com/fr/download-desktop.aspx)."
 msgstr ""
 
-#. type: Plain text
-#: src/onlyoffice/ADMIN.md:10
-msgid "## Prerequisite"
+#. type: Title ##
+#: src/onlyoffice/ADMIN.md:9
+#, no-wrap
+msgid "Prerequisite"
 msgstr ""
 
 #. type: Plain text
@@ -91,9 +93,10 @@ msgstr ""
 msgid "Add a Let's Encrypt certificate for this domain."
 msgstr ""
 
-#. type: Plain text
-#: src/onlyoffice/ADMIN.md:20
-msgid "## Configuration of ONLYOFFICE Server"
+#. type: Title ##
+#: src/onlyoffice/ADMIN.md:19
+#, no-wrap
+msgid "Configuration of ONLYOFFICE Server"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -154,14 +157,16 @@ msgid ""
 "ONLYOFFICE should be public**: then select `visitors``."
 msgstr ""
 
-#. type: Plain text
-#: src/onlyoffice/ADMIN.md:32
-msgid "## How to edit ONLYOFFICE documents?"
+#. type: Title ##
+#: src/onlyoffice/ADMIN.md:31
+#, no-wrap
+msgid "How to edit ONLYOFFICE documents?"
 msgstr ""
 
-#. type: Plain text
-#: src/onlyoffice/ADMIN.md:34
-msgid "### Web Edition in Nextcloud"
+#. type: Title ###
+#: src/onlyoffice/ADMIN.md:33
+#, no-wrap
+msgid "Web Edition in Nextcloud"
 msgstr ""
 
 #. type: Plain text
@@ -208,9 +213,10 @@ msgstr ""
 msgid "Create a new document and enjoy!"
 msgstr ""
 
-#. type: Plain text
-#: src/onlyoffice/ADMIN.md:45
-msgid "### Desktop Edition on PC"
+#. type: Title ###
+#: src/onlyoffice/ADMIN.md:44
+#, no-wrap
+msgid "Desktop Edition on PC"
 msgstr ""
 
 #. type: Bullet: '* '

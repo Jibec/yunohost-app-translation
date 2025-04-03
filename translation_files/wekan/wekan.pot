@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,13 +44,18 @@ msgid ""
 "one time on wekan, recreate the aliases of the YunoHost user."
 msgstr ""
 
+#. type: Title ##
+#: src/wekan/ADMIN.md:5
+#, no-wrap
+msgid "Configuration:"
+msgstr ""
+
 #. type: Plain text
 #: src/wekan/ADMIN.md:8
 msgid ""
-"## Configuration: As LDAP authentification is enabled by default, Wekan "
-"admins correspond to the permission `Wekan Admin`. The user you choose "
-"during installation is member of this group.  To add an admin account, you "
-"can:"
+"As LDAP authentification is enabled by default, Wekan admins correspond to "
+"the permission `Wekan Admin`. The user you choose during installation is "
+"member of this group.  To add an admin account, you can:"
 msgstr ""
 
 #. type: Bullet: '- '

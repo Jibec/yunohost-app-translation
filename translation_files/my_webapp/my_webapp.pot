@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,9 +24,10 @@ msgid ""
 "do so is by using SFTP."
 msgstr ""
 
-#. type: Plain text
-#: src/my_webapp/ADMIN.md:4
-msgid "### Login using SFTP"
+#. type: Title ###
+#: src/my_webapp/ADMIN.md:3
+#, no-wrap
+msgid "Login using SFTP"
 msgstr ""
 
 #. type: Plain text
@@ -65,22 +66,24 @@ msgid ""
 "computers-servers-mchlp1140/mac) or Linux."
 msgstr ""
 
-#. type: Plain text
-#: src/my_webapp/ADMIN.md:15
-msgid "#### Forgot your SFTP password?"
+#. type: Title ####
+#: src/my_webapp/ADMIN.md:14
+#, no-wrap
+msgid "Forgot your SFTP password?"
 msgstr ""
 
 #. type: Plain text
 #: src/my_webapp/ADMIN.md:18
+#, no-wrap
 msgid ""
-"If you forgot your SFTP password, you can change it in YunoHost's webadmin "
-"interface in `Apps > My webapp > My Webapp configuration`.  You can also "
-"check there that SFTP is enabled."
+"If you forgot your SFTP password, you can change it in YunoHost's webadmin interface in `Apps > My webapp > My Webapp configuration`.\n"
+"You can also check there that SFTP is enabled.\n"
 msgstr ""
 
-#. type: Plain text
-#: src/my_webapp/ADMIN.md:20
-msgid "### Login using the command line"
+#. type: Title ###
+#: src/my_webapp/ADMIN.md:19
+#, no-wrap
+msgid "Login using the command line"
 msgstr ""
 
 #. type: Plain text
@@ -95,9 +98,10 @@ msgstr ""
 msgid "The `php` command will point to the PHP version installed for the app."
 msgstr ""
 
-#. type: Plain text
-#: src/my_webapp/ADMIN.md:26
-msgid "### Adding or editing files"
+#. type: Title ###
+#: src/my_webapp/ADMIN.md:25
+#, no-wrap
+msgid "Adding or editing files"
 msgstr ""
 
 #. type: Plain text
@@ -108,9 +112,10 @@ msgid ""
 "your custom Web application inside."
 msgstr ""
 
-#. type: Plain text
-#: src/my_webapp/ADMIN.md:30
-msgid "### 403 and 404 error handling"
+#. type: Title ###
+#: src/my_webapp/ADMIN.md:29
+#, no-wrap
+msgid "403 and 404 error handling"
 msgstr ""
 
 #. type: Plain text
@@ -122,9 +127,10 @@ msgid ""
 "there."
 msgstr ""
 
-#. type: Plain text
-#: src/my_webapp/ADMIN.md:34
-msgid "### Customizing the nginx configuration"
+#. type: Title ###
+#: src/my_webapp/ADMIN.md:33
+#, no-wrap
+msgid "Customizing the nginx configuration"
 msgstr ""
 
 #. type: Plain text

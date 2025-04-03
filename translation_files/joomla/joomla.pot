@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,20 +16,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/joomla/ADMIN.md:14
-msgid ""
-"# Ldap configuration (For now you have to configure it yourself)  Enable "
-"ldap Extension<br> Enter the following feilds:<br> **Host:** localhost<br> "
-"**Port**:389<br> **LdapV3:** Yes<br> **Authorisation Method:** Bind and "
-"search<br> **Base DN:** dc=yunohost,dc=org<br> **uid:** uid=[search]<br> "
-"**User's DN:** ou=users,dc=yunohost,dc=org<br> **Map Full Name:** "
-"displayname<br> **Map Email:** mail<br> **Map User ID:** uid<br>"
+#. type: Title #
+#: src/joomla/ADMIN.md:1
+#, no-wrap
+msgid "Ldap configuration (For now you have to configure it yourself)"
 msgstr ""
 
 #. type: Plain text
-#: src/joomla/ADMIN.md:16
-msgid "# UPDATE TO 4.1.0 REQUIRES MANUAL FIX WITH PHPMYADMIN"
+#: src/joomla/ADMIN.md:14
+#, no-wrap
+msgid ""
+"Enable ldap Extension<br>\n"
+"Enter the following feilds:<br>\n"
+"**Host:** localhost<br>\n"
+"**Port**:389<br>\n"
+"**LdapV3:** Yes<br>\n"
+"**Authorisation Method:** Bind and search<br>\n"
+"**Base DN:** dc=yunohost,dc=org<br>\n"
+"**uid:** uid=[search]<br>\n"
+"**User's DN:** ou=users,dc=yunohost,dc=org<br>\n"
+"**Map Full Name:** displayname<br>\n"
+"**Map Email:** mail<br>\n"
+"**Map User ID:** uid<br>\n"
+msgstr ""
+
+#. type: Title #
+#: src/joomla/ADMIN.md:15
+#, no-wrap
+msgid "UPDATE TO 4.1.0 REQUIRES MANUAL FIX WITH PHPMYADMIN"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -77,15 +91,20 @@ msgstr ""
 msgid "![step 4](./doc/dbprefix/fix3.jpg)"
 msgstr ""
 
+#. type: Bullet: '6. '
+#: src/joomla/ADMIN.md:36
+msgid "Enter the database prefix you see in the error message of joomla :"
+msgstr ""
+
+#. type: Fenced code block
+#: src/joomla/ADMIN.md:36
+#, no-wrap
+msgid "Table 'joomla.JuzW_menu' doesn't exist\n"
+msgstr ""
+
 #. type: Plain text
 #: src/joomla/ADMIN.md:40
-#, no-wrap
-msgid ""
-"6. Enter the database prefix you see in the error message of joomla :\n"
-"```\n"
-"Table 'joomla.JuzW_menu' doesn't exist\n"
-"```\n"
-"it looks like 'JuzW_' in the prefix box and validate\n"
+msgid "it looks like 'JuzW_' in the prefix box and validate"
 msgstr ""
 
 #. type: Plain text

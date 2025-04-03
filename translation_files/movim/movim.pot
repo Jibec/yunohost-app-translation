@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: src/movim/ADMIN.md:5
+#: src/movim/ADMIN.md:2
 msgid ""
 "A Jabber user can be set as admin by running this command (they need to "
-"login once before): ``` sudo -u __APP__ php__PHPVERSION__ __INSTALL_DIR__/"
-"daemon.php setAdmin <your jabber id> ```"
+"login once before):"
+msgstr ""
+
+#. type: Fenced code block
+#: src/movim/ADMIN.md:2
+#, no-wrap
+msgid "sudo -u __APP__ php__PHPVERSION__ __INSTALL_DIR__/daemon.php setAdmin <your jabber id>\n"
 msgstr ""
 
 #. type: Plain text

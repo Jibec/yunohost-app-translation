@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,18 +16,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/archivist/ADMIN.md:7 src/audiobookshelf/ADMIN.md:2
-#: src/dendrite/ADMIN.md:8 src/domoticz/ADMIN.md:100 src/kresus/ADMIN.md:2
-#: src/mailman3/DESCRIPTION.md:5 src/mautrix_facebook/ADMIN.md:55
-#: src/mautrix_signal/ADMIN.md:76 src/nullboard/ADMIN.md:2
-#: src/pihole/ADMIN.md:6
-msgid "## Limitations"
+#. type: Title ###
+#: src/archivist/ADMIN.md:6 src/audiobookshelf/ADMIN.md:1
+#: src/code-server/ADMIN.md:5 src/dendrite/ADMIN.md:7 src/domoticz/ADMIN.md:99
+#: src/elasticsearch7/ADMIN.md:1 src/elasticsearch8/ADMIN.md:1
+#: src/garage/ADMIN.md:1 src/grist/DESCRIPTION.md:12 src/kresus/ADMIN.md:1
+#: src/mailman3/DESCRIPTION.md:4 src/mautrix_facebook/ADMIN.md:54
+#: src/mautrix_signal/ADMIN.md:75 src/nullboard/ADMIN.md:1
+#: src/opensearch/DESCRIPTION.md:7 src/pihole/ADMIN.md:5
+#: src/retroarch/ADMIN.md:8 src/strut/ADMIN.md:1 src/ums/ADMIN.md:10
+#: src/wallabag2/ADMIN.md:1
+#, no-wrap
+msgid "Limitations"
 msgstr ""
 
-#. type: Plain text
-#: src/mailman3/ADMIN.md:2
-msgid "## Mailman admin panels"
+#. type: Title ##
+#: src/mailman3/ADMIN.md:1
+#, no-wrap
+msgid "Mailman admin panels"
 msgstr ""
 
 #. type: Plain text
@@ -40,9 +46,10 @@ msgstr ""
 msgid "Django admin on: <https://__DOMAIN__/admin/>"
 msgstr ""
 
-#. type: Plain text
-#: src/mailman3/ADMIN.md:8
-msgid "## General Configuration"
+#. type: Title ##
+#: src/mailman3/ADMIN.md:7
+#, no-wrap
+msgid "General Configuration"
 msgstr ""
 
 #. type: Plain text
@@ -54,7 +61,8 @@ msgstr ""
 
 #. type: Plain text
 #: src/mailman3/ADMIN.md:12
-msgid "> http://docs.mailman3.org/en/latest/index.html#the-mailman-suite"
+#, no-wrap
+msgid "> http://docs.mailman3.org/en/latest/index.html#the-mailman-suite\n"
 msgstr ""
 
 #. type: Plain text

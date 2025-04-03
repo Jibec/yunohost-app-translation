@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,8 +25,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: src/marl/DESCRIPTION.md:3 src/pinkarrows/DESCRIPTION.md:3
+#: src/marl/DESCRIPTION.md:4
 msgid ""
-"It runs in-browser and does not store any user data on the server (apart "
-"from the access log as per your YNH configuration)."
+"It runs by default in Local Mode, i.e. in-browser and does not store any "
+"user data on the server (apart from the access log as per your YNH "
+"configuration).  However you can also set it in Server Mode via the app "
+"configuration options, in order to display permanently one or several "
+"Mastodon archives stored online."
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: src/jupyterlab/ADMIN.md:2
-msgid "## Updating configuration files"
+#. type: Title ##
+#: src/jupyterlab/ADMIN.md:1
+#, no-wrap
+msgid "Updating configuration files"
 msgstr ""
 
 #. type: Plain text
@@ -26,11 +27,10 @@ msgstr ""
 msgid "Install the new version of the app with:"
 msgstr ""
 
-#. type: Plain text
-#: src/jupyterlab/ADMIN.md:8
-msgid ""
-"```bash sudo yunohost app install https://github.com/YunoHost-Apps/"
-"jupyterlab_ynh/tree/testing ```"
+#. type: Fenced code block (bash)
+#: src/jupyterlab/ADMIN.md:5
+#, no-wrap
+msgid "sudo yunohost app install https://github.com/YunoHost-Apps/jupyterlab_ynh/tree/testing  \n"
 msgstr ""
 
 #. type: Plain text
@@ -39,9 +39,10 @@ msgid ""
 "Navigate to the installation path (`/opt/jupyterlab` by default), and run :"
 msgstr ""
 
-#. type: Plain text
-#: src/jupyterlab/ADMIN.md:14
-msgid "```bash pipenv shell ```"
+#. type: Fenced code block (bash)
+#: src/jupyterlab/ADMIN.md:11
+#, no-wrap
+msgid "pipenv shell\n"
 msgstr ""
 
 #. type: Plain text
@@ -56,9 +57,10 @@ msgstr ""
 msgid "To generate the `jupyterhub_config.py` file:"
 msgstr ""
 
-#. type: Plain text
-#: src/jupyterlab/ADMIN.md:22
-msgid "```bash jupyterhub --generate-config ```"
+#. type: Fenced code block (bash)
+#: src/jupyterlab/ADMIN.md:19
+#, no-wrap
+msgid "jupyterhub --generate-config\n"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -66,11 +68,12 @@ msgstr ""
 msgid "To generate the `jupyter_notebook_config.py` file:"
 msgstr ""
 
-#. type: Plain text
-#: src/jupyterlab/ADMIN.md:29
+#. type: Fenced code block (bash)
+#: src/jupyterlab/ADMIN.md:25
+#, no-wrap
 msgid ""
-"```bash jupyter notebook --generate-config cp $HOME/.jupyter/"
-"jupyter_notebook_config.py ./ ```"
+"jupyter notebook --generate-config\n"
+"cp $HOME/.jupyter/jupyter_notebook_config.py ./\n"
 msgstr ""
 
 #. type: Plain text

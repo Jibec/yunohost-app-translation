@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"POT-Creation-Date: 2025-04-04 00:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,46 +16,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Title ##
+#: src/paheko/ADMIN.md:1
+#, no-wrap
+msgid "Custom configurations*"
+msgstr ""
+
 #. type: Plain text
-#: src/paheko/ADMIN.md:2
-msgid "## Custom configurations*"
+#: src/paheko/ADMIN.md:3
+#, no-wrap
+msgid "If needed, in the Custom SMTP Panel you can edit the SMTP user with a third party hosted SMTP server that will send emails on behalf of your own SMTP server.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/paheko/ADMIN.md:5
 msgid ""
-"If needed, in the Custom SMTP Panel you can edit the SMTP user with a third "
-"party hosted SMTP server that will send emails on behalf of your own SMTP "
-"server.  If you want, you can add custom configurations by editing the file "
+"If you want, you can add custom configurations by editing the file "
 "`__DATA_DIR__/data/config.local.user.php`."
 msgstr ""
 
+#. type: Title ##
+#: src/paheko/ADMIN.md:6
+#, no-wrap
+msgid "About file storage"
+msgstr ""
+
 #. type: Plain text
-#: src/paheko/ADMIN.md:7
-msgid "## About file storage"
+#: src/paheko/ADMIN.md:8
+#, no-wrap
+msgid "Use the `__DATA_DIR__/data` folder if you want to store documents elsewhere than in the database (recommanded).  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/paheko/ADMIN.md:10
+msgid "Example in file `__DATA_DIR__/data/config.local.user.php`:"
+msgstr ""
+
+#. type: Fenced code block (php)
+#: src/paheko/ADMIN.md:11
+#, no-wrap
 msgid ""
-"Use the `__DATA_DIR__/data` folder if you want to store documents elsewhere "
-"than in the database (recommanded).  Example in file `__DATA_DIR__/data/"
-"config.local.user.php`:"
+"const FILE_STORAGE_BACKEND = 'FileSystem';\n"
+"\n"
+"const FILE_STORAGE_CONFIG = DATA_ROOT . /files';\n"
 msgstr ""
 
-#. type: Plain text
-#: src/paheko/ADMIN.md:13
-msgid "```php const FILE_STORAGE_BACKEND = 'FileSystem';"
-msgstr ""
-
-#. type: Plain text
-#: src/paheko/ADMIN.md:16
-msgid "const FILE_STORAGE_CONFIG = DATA_ROOT . /files'; ```"
-msgstr ""
-
-#. type: Plain text
-#: src/paheko/ADMIN.md:18
-msgid "## Postal address search configuration"
+#. type: Title ##
+#: src/paheko/ADMIN.md:17
+#, no-wrap
+msgid "Postal address search configuration"
 msgstr ""
 
 #. type: Plain text
@@ -66,11 +75,13 @@ msgid ""
 "Adresses_postales)), here's how: Logged as root:"
 msgstr ""
 
-#. type: Plain text
-#: src/paheko/ADMIN.md:27
+#. type: Fenced code block (bash)
+#: src/paheko/ADMIN.md:22
+#, no-wrap
 msgid ""
-"```bash cd __DATA_DIR__/data/local_addresses/ wget https://paheko.cloud/"
-"addresses/fr.sqlite chown -R __APP__:www-data en.sqlite ```"
+"cd __DATA_DIR__/data/local_addresses/\n"
+"wget https://paheko.cloud/addresses/fr.sqlite\n"
+"chown -R __APP__:www-data en.sqlite\n"
 msgstr ""
 
 #. type: Plain text
@@ -80,28 +91,46 @@ msgid ""
 "need to delete the `fr.sqlite` file and repeat this procedure."
 msgstr ""
 
+#. type: Title ##
+#: src/paheko/ADMIN.md:30
+#, no-wrap
+msgid "Enable PDF generation"
+msgstr ""
+
 #. type: Plain text
-#: src/paheko/ADMIN.md:31
-msgid "## Enable PDF generation"
+#: src/paheko/ADMIN.md:32
+#, no-wrap
+msgid "To allow Paheko to generate PDF documents, you need to install the “DomPDF” extension.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/paheko/ADMIN.md:33
+#, no-wrap
+msgid "To do this, go to your Paheko, then Configuration, Extensions, Inactives, DomPDF and click on “Activate”.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/paheko/ADMIN.md:34
 msgid ""
-"To allow Paheko to generate PDF documents, you need to install the “DomPDF” "
-"extension.  To do this, go to your Paheko, then Configuration, Extensions, "
-"Inactives, DomPDF and click on “Activate”.  Or click [on this link](https://"
-"__DOMAIN____PATH__admin/config/ext/details.php?type=plugin&name=dompdf) to "
-"access it directly then click on “Activate”."
+"Or click [on this link](https://__DOMAIN____PATH__admin/config/ext/details."
+"php?type=plugin&name=dompdf) to access it directly then click on “Activate”."
+msgstr ""
+
+#. type: Plain text
+#: src/paheko/DESCRIPTION.md:1
+#, no-wrap
+msgid "Paheko (a word from the Māori language meaning \"to cooperate\", illustrating the purpose of the software: to improve together the daily management of an association) is software for associative management.  \n"
+msgstr ""
+
+#. type: Plain text
+#: src/paheko/DESCRIPTION.md:2
+#, no-wrap
+msgid "It is the tool of choice for managing an association, a sports club, an NGO, etc.  \n"
 msgstr ""
 
 #. type: Plain text
 #: src/paheko/DESCRIPTION.md:4
 msgid ""
-"Paheko (a word from the Māori language meaning \"to cooperate\", "
-"illustrating the purpose of the software: to improve together the daily "
-"management of an association) is software for associative management.  It is "
-"the tool of choice for managing an association, a sports club, an NGO, etc.  "
 "It is designed to meet the needs of a small to medium-sized structure: "
 "management of members, accounting, website, note-taking in meetings, "
 "archiving and sharing of the association's operating documents, discussion "
