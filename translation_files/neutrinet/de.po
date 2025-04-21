@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/faircamp/ADMIN.md:11 src/neutrinet/ADMIN.md:43
+msgid "or"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:3
+msgid "### For contributers #### Debugging"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:5
+msgid ""
+"You can manually run the cron job that attempts to renew the certificates:"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:9
+msgid "```shell sudo /opt/neutrinet/renew_cert/renew_cert.sh ```"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:11
+msgid "You can increase the verbosity with the option `-v`:"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:15
+msgid "```shell sudo /opt/neutrinet/renew_cert/renew_cert.sh -v ```"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:17
+msgid ""
+"To install the app without checking for certificates, run `export "
+"PACKAGE_CHECK_EXEC=1`."
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:19
+msgid "#### Publish a new version of the app"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/neutrinet/ADMIN.md:22
+msgid ""
+"Make sure the app passes the package check <https://github.com/YunoHost/"
+"package_check>"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/neutrinet/ADMIN.md:22
+msgid ""
+"Merging to stable will automatically make it available for updating since we "
+"used the ref `stable` in <https://github.com/YunoHost/apps/blob/master/apps."
+"json>"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:24
+msgid "## Documentation and resources"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/neutrinet/ADMIN.md:27
+msgid ""
+"Upstream app code repository: https://gitlab.domainepublic.net/Neutrinet/"
+"renew_cert"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/neutrinet/ADMIN.md:27
+msgid ""
+"Report a bug: https://gitlab.domainepublic.net/Neutrinet/neutrinet_ynh/issues"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:29
+msgid "## Developer info"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:31
+msgid ""
+"Please send your pull request to the [unstable branch](https://gitlab."
+"domainepublic.net/Neutrinet/neutrinet_ynh/-/tree/unstable)."
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:33
+msgid "To try the unstable branch, please proceed like that."
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:41
+msgid ""
+"```sh git clone https://gitlab.domainepublic.net/Neutrinet/neutrinet_ynh/ cd "
+"neutrinet_ynh git checkout unstable cd ..  sudo yunohost app install "
+"neutrinet_ynh --debug ```"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:51
+msgid ""
+"```sh git clone https://gitlab.domainepublic.net/Neutrinet/neutrinet_ynh/ cd "
+"neutrinet_ynh git checkout unstable cd ..  sudo yunohost app upgrade "
+"neutrinet_ynh --debug ```"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/ADMIN.md:52
+#, no-wrap
+msgid "**More info regarding app packaging:** https://yunohost.org/packaging_apps\n"
+msgstr ""
+
+#. type: Plain text
+#: src/neutrinet/DESCRIPTION.md:1
+msgid ""
+"The Neutrinet application is for Neutrinet members that have a Neutrinet "
+"VPN. It automatically checks and renews the VPN certificates. This package "
+"also contains a web page with contact information and other useful links."
+msgstr ""

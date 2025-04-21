@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/cultivons/DESCRIPTION.md:2
+msgid ""
+"__Cultivons!__ is a software in the form of an internal site aiming at "
+"helping the management of a BAD (Sustainable Autonomous Base)."
+msgstr ""
+
+#. type: Plain text
+#: src/cultivons/DESCRIPTION.md:4
+msgid ""
+"A BAD is a place where one or more people can (over)live a disaster "
+"(natural, plague, war, economic collapse ... put here the reason that "
+"pleases you or scares you the most), for a more or less long period of time, "
+"without needing the outside: supermarkets, hospitals, and other services "
+"present in a modern society."
+msgstr ""
+
+#. type: Plain text
+#: src/cultivons/DESCRIPTION.md:6
+msgid ""
+"This definition is a little broad, in fact a BAD will often materialize by a "
+"place in the countryside where one will try to be as autonomous as possible "
+"on the most important aspects of survival:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/cultivons/DESCRIPTION.md:13
+msgid ""
+"food (vegetable garden, orchard, animals... everything that is culture and "
+"breeding);"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/cultivons/DESCRIPTION.md:13
+msgid "electricity;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/cultivons/DESCRIPTION.md:13
+msgid "water (including potabilization);"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/cultivons/DESCRIPTION.md:13
+msgid "heating;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/cultivons/DESCRIPTION.md:13
+msgid "first aid;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: src/cultivons/DESCRIPTION.md:13
+msgid "storage of recipes, guides and other documentation..."
+msgstr ""
+
+#. type: Plain text
+#: src/cultivons/DESCRIPTION.md:20
+msgid ""
+"With __cultivons!__, you can manage - your crops, your garden and the "
+"associated tasks (semi, harvest) as well as garden plan.  - the weather, - "
+"the stocks, - your documents, - your budget (Bank Account)."
+msgstr ""
+
+#. type: Plain text
+#: src/cultivons/DESCRIPTION.md:22
+msgid ""
+"### Articles - https://linuxfr.org/users/xulops/journaux/cultivons-logiciel-"
+"de-gestion-de-bad"
+msgstr ""

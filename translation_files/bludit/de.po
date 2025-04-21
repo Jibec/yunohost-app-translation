@@ -1,0 +1,26 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/bludit/DESCRIPTION.md:1
+msgid ""
+"Bludit is a web application to build your own website or blog in seconds, "
+"it's completely free and open source. Bludit uses files in JSON format to "
+"store the content, you don't need to install or configure a database. You "
+"only need a web server with PHP support. Bludit is a Flat-File CMS. Bludit "
+"supports Markdown and HTML code for the content."
+msgstr ""

@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/simplex/ADMIN.md:2 src/simplex/POST_UPGRADE.md:2
+msgid "Your SMP server address:"
+msgstr ""
+
+#. type: Plain text
+#: src/simplex/ADMIN.md:7
+msgid ""
+"``` smp://__FINGERPRINT__@__PUBLIC_IP4__:__PORT__ xftp://"
+"__XFTP_FINGERPRINT__@__PUBLIC_IP4__:__PORT_XFTP__ ```"
+msgstr ""
+
+#. type: Plain text
+#: src/simplex/ADMIN.md:9
+msgid ""
+"Mobile clients are available for [iOS](https://apps.apple.com/us/app/simplex-"
+"chat/id1605771084), [Android](https://play.google.com/store/apps/details?"
+"id=chat.simplex.app) and [f-droid](https://app.simplex.chat).  To configure "
+"mobile clients, open Settings, find an option \"SMP servers\", toggle "
+"\"Configure SMP Servers\" to on, then enter the SMP Servers Address for all "
+"servers you want the client to use."
+msgstr ""
+
+#. type: Plain text
+#: src/simplex/DESCRIPTION.md:1
+msgid ""
+"SimpleX - the first messaging platform operating without user identifiers of "
+"any kind - 100% private by design! iOS and Android apps are released."
+msgstr ""
+
+#. type: Plain text
+#: src/simplex/POST_UPGRADE.md:4
+msgid ""
+"smp://__FINGERPRINT__@__PUBLIC_IP4__:__PORT__ xftp://"
+"__XFTP_FINGERPRINT__@__PUBLIC_IP4__:__PORT_XFTP__"
+msgstr ""

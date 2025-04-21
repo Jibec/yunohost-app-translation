@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/indico/ADMIN.md:2
+msgid "After installation, open the app to create admin user"
+msgstr ""
+
+#. type: Plain text
+#: src/indico/DESCRIPTION.md:2
+msgid "# Indico"
+msgstr ""
+
+#. type: Plain text
+#: src/indico/DESCRIPTION.md:7
+#, no-wrap
+msgid ""
+"<img src=\"https://github.com/indico/indico/raw/master/indico/web/static/images/logo_indico.png\"\n"
+"     align=\"right\"\n"
+"     width=\"300\"\n"
+"     style=\"width: 300px; float: right; margin-right: 50px;\">\n"
+msgstr ""
+
+#. type: Plain text
+#: src/indico/DESCRIPTION.md:14
+#, no-wrap
+msgid ""
+"**Indico** is:\n"
+" * 🗓 a general-purpose **event management** tool;\n"
+" * 🌍 fully **web-based**;\n"
+" * 🧩 **feature-rich** but also **extensible** through the use of [plugins](https://docs.getindico.io/en/stable/plugins/);\n"
+" * ⚖️ **Open-Source** Software under the MIT License;\n"
+" * <img src=\"https://raw.githubusercontent.com/indico/assets/master/cern_badge.png\" width=\"20\"> **made at CERN**, [the place where the web was born](https://home.cern/science/computing/birth-web)!\n"
+msgstr ""
+
+#. type: Plain text
+#: src/indico/DESCRIPTION.md:28
+#, no-wrap
+msgid ""
+"## What does it do?\n"
+"Indico's **main features** are:\n"
+" * a powerful and flexible **hierarchical content management** system for events;\n"
+" * a full-blown **conference organization workflow** with:\n"
+"   - 📢 **Call for Abstracts** and **abstract reviewing** modules;\n"
+"   - 📝 flexible **registration form** creation and configuration;\n"
+"   - 💰 integration with existing **payment systems**;\n"
+"   - ✅ a **paper reviewing** workflow;\n"
+"   - 🗓 a **drag and drop timetable management interface**;\n"
+"   - 🎫 a simple **badge editor** with the possibility to print badges and tickets for participants;\n"
+" * tools for **meeting management** and archival of presentation materials;\n"
+" * a powerful **room booking** interface;\n"
+" * integration with existing **video conferencing solutions**;\n"
+msgstr ""
+
+#. type: Plain text
+#: src/indico/DESCRIPTION.md:29
+msgid ""
+"A more detailed list [can be found here](https://getindico.io/features/). "
+"There is also a [video](https://www.youtube.com/watch?v=yo8rgg9dOcc)!"
+msgstr ""

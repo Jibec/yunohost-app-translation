@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/superset/ADMIN.md:3
+msgid ""
+"The package ships with the following permissions for YunoHost users, "
+"corresponding to the user roles as defined in Superset's documentation: "
+"Public (default YunoHost permission), Alpha, Gamma, Admin."
+msgstr ""
+
+#. type: Plain text
+#: src/superset/ADMIN.md:5
+msgid ""
+"You can add your first connected database to Superset with the following "
+"settings:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/ADMIN.md:10
+msgid "Host: `127.0.0.1`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/ADMIN.md:10
+msgid "Port: `5432`"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/ADMIN.md:10
+msgid "Database name: __USERDATA_DB_NAME__"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/ADMIN.md:10
+msgid "Username: __USERDATA_DB_USER__"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/ADMIN.md:10
+msgid "Password: __USERDATA_DB_PWD__"
+msgstr ""
+
+#. type: Plain text
+#: src/superset/DESCRIPTION.md:2
+msgid ""
+"Superset is a modern data exploration and data visualization platform. "
+"Superset can replace or augment proprietary business intelligence tools for "
+"many teams. Superset integrates well with a variety of data sources."
+msgstr ""
+
+#. type: Plain text
+#: src/superset/DESCRIPTION.md:4
+msgid "Superset provides:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/DESCRIPTION.md:14
+msgid "A no-code interface for building charts quickly"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/DESCRIPTION.md:14
+msgid "A powerful, web-based SQL Editor for advanced querying"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/DESCRIPTION.md:14
+msgid ""
+"A lightweight semantic layer for quickly defining custom dimensions and "
+"metrics"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/DESCRIPTION.md:14
+msgid "Out of the box support for nearly any SQL database or data engine"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/DESCRIPTION.md:14
+msgid ""
+"A wide array of beautiful visualizations to showcase your data, ranging from "
+"simple bar charts to geospatial visualizations"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/DESCRIPTION.md:14
+msgid "Lightweight, configurable caching layer to help ease database load"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/DESCRIPTION.md:14
+msgid "Highly extensible security roles and authentication options"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/DESCRIPTION.md:14
+msgid "An API for programmatic customization"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/superset/DESCRIPTION.md:14
+msgid "A cloud-native architecture designed from the ground up for scale"
+msgstr ""
+
+#. type: Plain text
+#: src/superset/DESCRIPTION.md:15
+#, no-wrap
+msgid "*-- Superset's Github repository*\n"
+msgstr ""

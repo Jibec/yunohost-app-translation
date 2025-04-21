@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/horde/ADMIN.md:2
+msgid "### Customisation"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:4
+msgid "#### Install others app."
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:6
+msgid ""
+"The package provide some apps, but it's could be possible to install some "
+"others apps. The list of all availabe apps are listed here : https://www."
+"horde.org/apps"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:12
+msgid ""
+"Before any change it's recommended to make a backup : ```bash # In case of "
+"multiple instance adapt \"horde\" by the horde instance sudo yunohost backup "
+"create --verbose --ignore-system --apps horde ```"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:14
+msgid "Install horde apps with pear :"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:19
+msgid ""
+"```bash # Get the horde final_path # In case of multiple instance adapt "
+"\"horde\" by the horde instance final_path=$(yunohost app setting horde "
+"final_path)"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:22
+msgid ""
+"# Set the pear command to call to stay in the horde environnement (not in "
+"the global system environnement)  pear_cmd=\"$final_path/pear/pear -c "
+"$final_path/pear.conf\""
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:25
+msgid "# Update the pear channel $pear_cmd channel-update pear.horde.org"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:28
+msgid ""
+"# Install the app that you want $pear_cmd install -a -B horde/APP_TO_INSTALL"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:32
+msgid ""
+"# Set the final permission # In case of multiple instance adapt \"horde\" by "
+"the horde instance chown -R www-data:horde $final_path"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:34
+msgid "```"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:36
+msgid ""
+"After you need to update the horde database schema and the horde config. So "
+"go on the horde config pannel (in the settings wheel > Preferences > "
+"Administration > Configuration). Click on \"Update all DB schemas\" and then "
+"on \"Update all configurations\"."
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:38
+msgid "Now you should be able to use the new apps."
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:40
+msgid "### ActiveSync"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:42
+msgid ""
+"For calendar, task and addressbook activeSync has been configured but not "
+"yet tested."
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:44
+msgid "### Troubleshotting"
+msgstr ""
+
+#. type: Plain text
+#: src/horde/ADMIN.md:46
+#, no-wrap
+msgid "**Get Address is missing domain while to try to send an email.**\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/horde/ADMIN.md:50
+msgid "You need to create an identity before send an email."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/horde/ADMIN.md:50
+msgid ""
+"To create this, go in the settings wheel > Preferences > Global Preferences "
+"> Personal Information."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/horde/ADMIN.md:50
+msgid "Complete the form and save it."
+msgstr ""
+
+#. type: Bullet: '- '
+#: src/horde/ADMIN.md:50
+msgid "You should be able to send an email now."
+msgstr ""
+
+#. type: Plain text
+#: src/horde/DESCRIPTION.md:1
+msgid ""
+"Horde Groupware Webmail Edition is a free, enterprise ready, browser based "
+"communication suite. Users can read, send and organize email messages and "
+"manage and share calendars, contacts, tasks and notes with the standards "
+"compliant components from the Horde Project."
+msgstr ""

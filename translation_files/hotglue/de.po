@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/hotglue/ADMIN.md:2
+msgid "Default editor's credentials: admin/changeme"
+msgstr ""
+
+#. type: Plain text
+#: src/hotglue/ADMIN.md:3
+msgid ""
+"In order to start editing you need to add `__DOMAIN____PATH__/edit` to the "
+"end of the URL, eg https://hotglue.me/demo/edit"
+msgstr ""
+
+#. type: Plain text
+#: src/hotglue/DESCRIPTION.md:2
+msgid ""
+"Hotglue is a Content Manipulation Software that allows visual consistency "
+"between editing and viewing."
+msgstr ""
+
+#. type: Plain text
+#: src/hotglue/DESCRIPTION.md:4
+msgid "Checkout other Hotglue sites: https://hotglue.me/latest"
+msgstr ""

@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 18:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: src/bookwyrm/ADMIN.md:2
+msgid ""
+"This project is still young and isn't, at the moment, very stable, so please "
+"proceed with caution when running in production."
+msgstr ""
+
+#. type: Plain text
+#: src/bookwyrm/ADMIN.md:4
+msgid ""
+"Generate the admin code with ``` sudo -u bookwyrm /var/www/bookwyrm/venv/bin/"
+"python3 /var/www/bookwyrm/manage.py admin_code```, and copy the admin code "
+"to use when you create your admin account. You can get your code at any time "
+"by re-running that command. Here's an example output:"
+msgstr ""
+
+#. type: Plain text
+#: src/bookwyrm/ADMIN.md:10
+msgid ""
+"``` bash ******************************************* Use this code to create "
+"your admin account: c6c35779-af3a-4091-b330-c026610920d6 "
+"******************************************* ```"
+msgstr ""
+
+#. type: Plain text
+#: src/bookwyrm/DESCRIPTION.md:1
+msgid ""
+"BookWyrm is a social network for tracking your reading, talking about books, "
+"writing reviews, and discovering what to read next."
+msgstr ""
